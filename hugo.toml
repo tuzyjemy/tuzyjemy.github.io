@@ -29,9 +29,21 @@ summaryLength = 30
     noClasses = false
     style = "github"
 
+# Dodatkowy format „plain": uproszczona wersja dokumentu zawierająca
+# wyłącznie treść do przetłumaczenia — bez nawigacji, filtrów i stopki.
+# To na nią kierują odnośniki do Tłumacza Google: pełna strona tłumaczy
+# się źle, bo tłumacz gubi układ, a elementy interfejsu tylko przeszkadzają.
+[outputFormats]
+  [outputFormats.plain]
+    mediaType = "text/html"
+    baseName = "plain"
+    isHTML = true
+    permalinkable = true
+
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
+  page = ["HTML", "plain"]
 
 # ---------------------------------------------------------------------------
 # Parametry globalne

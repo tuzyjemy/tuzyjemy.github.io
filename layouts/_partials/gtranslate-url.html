@@ -1,10 +1,20 @@
-{{- /*  Link do darmowego tłumaczenia strony przez Google Translate —
+{{- /*  Link do darmowego tłumaczenia strony przez Tłumacz Google —
     dokładnie to samo, co wklejenie adresu na translate.google.com, więc
     nie wymaga klucza API ani konta.
+
+    Kierujemy na uproszczoną wersję dokumentu (format wyjściowy „plain",
+    patrz single.plain.html): zawiera samą treść, bez nawigacji, filtrów
+    i panelu bocznego. Tłumaczenie pełnej strony psuło układ i było
+    przez to trudne w użyciu. Gdyby uproszczona wersja nie istniała,
+    wracamy do adresu strony właściwej.
 
     Wywołanie: {{ partial "gtranslate-url.html" (dict "page" .page "tl" "en") }}
     "page" — strona do przetłumaczenia; "tl" — kod języka docelowego.    */ -}}
 {{- $p := .page -}}
 {{- $tl := .tl -}}
 {{- $sl := $p.Language.Lang -}}
-{{- return (printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($p.Permalink | urlquery)) -}}
+{{- $target := $p.Permalink -}}
+{{- with $p.OutputFormats.Get "plain" -}}
+  {{- $target = .Permalink -}}
+{{- end -}}
+{{- return (printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($target | urlquery)) -}}

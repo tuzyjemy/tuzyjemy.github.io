@@ -1,0 +1,33 @@
+{{ define "main" }}
+  {{- /*  Wersja dokumentu wyłącznie z treścią do przetłumaczenia.
+      Świadomie pomijamy nawigację, filtry, tagi, panel boczny i skrypty —
+      Tłumacz Google radzi sobie tym lepiej, im prostsza jest strona.   */ -}}
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+
+  {{- /* Z metadanych zostawiamy tylko to, co niesie treść. Daty
+         i sygnatury są zrozumiałe bez tłumaczenia. */ -}}
+  {{ $meta := slice }}
+  {{ with .Params.sad }}{{ $meta = $meta | append (printf "%s: %s" (i18n "meta_sad") .) }}{{ end }}
+  {{ with .Params.wynik }}{{ $meta = $meta | append (printf "%s: %s" (i18n "meta_wynik") .) }}{{ end }}
+  {{ with .Params.sygnatura }}{{ $meta = $meta | append (printf "%s: %s" (i18n "meta_sygnatura") .) }}{{ end }}
+  {{ with $meta }}<p class="meta">{{ delimit . " · " }}</p>{{ end }}
+
+  {{ if .Params.uwaga_prawna }}
+    <p class="meta">{{ i18n "legal_note" }}</p>
+  {{ end }}
+
+  {{- /* Ta wersja nie ładuje skryptów, więc przyciski „kopiuj treść"
+         z krótkiego kodu „wzor" i tak by nie działały — usuwamy je,
+         żeby nie myliły i nie zaśmiecały tłumaczenia. */ -}}
+  {{ replaceRE `(?s)<button[^>]*class="[^"]*copy-btn[^"]*".*?</button>` "" .Content | safeHTML }}
+
+  <hr>
+  {{- /* Odnośnik do pełnej wersji — .Permalink wskazywałby tu na samą
+         siebie, bo format „plain" jest permalinkable. */ -}}
+  <p class="back">
+    {{ with .OutputFormats.Get "html" }}<a href="{{ .Permalink }}">{{ $.Title }}</a>{{ end }}
+    — {{ .Site.Title }}
+  </p>
+{{ end }}
