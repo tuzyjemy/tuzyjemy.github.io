@@ -13,15 +13,16 @@ odpowiedziały instytucje, jakie orzeczenia warto cytować i ile realnie trwają
 
 ### Wymagania
 
-Hugo **extended** w wersji 0.148 lub nowszej.
+Hugo **extended** w wersji 0.156 lub nowszej (szablony używają `hugo.Data`
+i `hugo.Sites`, dostępnych od 0.156).
 
 ```bash
 # macOS
 brew install hugo
 
 # Linux (Debian/Ubuntu)
-wget https://github.com/gohugoio/hugo/releases/download/v0.148.2/hugo_extended_0.148.2_linux-amd64.deb
-sudo dpkg -i hugo_extended_0.148.2_linux-amd64.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.165.0_linux-amd64.deb
 
 # Windows
 winget install Hugo.Hugo.Extended
