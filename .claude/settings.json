@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://beta.framadate.org/polls/99e97171d61e825bed82\" -o /tmp/poll.html)",
+      "Bash(HUGO_SECURITY_HTTP_URLS='.*' hugo --ignoreCache --destination /tmp/c)",
+      "Bash(python3 -)"
+    ]
+  }
+}

@@ -3,6 +3,12 @@ name: Publikacja na GitHub Pages
 on:
   push:
     branches: [main]
+  # Co 6 godzin przebudowujemy stronę, żeby odświeżyć wyniki ankiety
+  # pobierane z Framadate przy budowaniu (patrz poll-results.html).
+  # Strona jest statyczna, więc bez tego wyniki zostałyby zamrożone
+  # na chwili ostatniego wypchnięcia zmian.
+  schedule:
+    - cron: "0 */6 * * *"
   # Pozwala uruchomić publikację ręcznie z zakładki Actions
   workflow_dispatch:
 

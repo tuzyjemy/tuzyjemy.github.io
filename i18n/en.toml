@@ -130,3 +130,9 @@ vote_note = "Voting happens on Framadate and requires a name. Results are visibl
 vote_no_form = "The form has not been set up yet. Write to us:"
 
 meta_typ = "Case type"
+
+# Vote counts. Keep this table last: in TOML everything after a table
+# header belongs to that table.
+[vote_count]
+one = "{{ .Count }} vote"
+other = "{{ .Count }} votes"

@@ -13,7 +13,6 @@ kampania:
   meta:
     - "● Gdańsk"
     - "◷ Głosowanie do 31 sierpnia"
-    - "✓ 286 osób już odpowiedziało"
   glosowanie:
     naglowek: "Kiedy możesz przyjść?"
     opis: "Sprawdź, które terminy są najpopularniejsze, i zagłosuj na Framadate."

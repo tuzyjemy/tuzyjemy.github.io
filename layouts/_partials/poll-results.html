@@ -1,0 +1,89 @@
+{{- /*  Pobiera wyniki ankiety Framadate i zwraca najpopularniejsze terminy.
+
+    Framadate udostępnia publiczny eksport CSV pod adresem ankiety
+    z końcówką „.csv". Pobieramy go w trakcie budowania strony (nie
+    w przeglądarce — Framadate nie wysyła nagłówków CORS, więc
+    JavaScript u odwiedzającego i tak nie mógłby go odczytać).
+
+    Układ CSV (sprawdzony na żywej ankiecie):
+        wiersz 1:  ,2026-08-30,2026-08-30,2026-08-31,…   ← daty
+        wiersz 2:  ,Day,19:00,Day,19:00,…                ← pory dnia
+        wiersz 3+: imię,Yes,No,If needed,…               ← po jednym na głosującego
+
+    PRYWATNOŚĆ: pierwsza kolumna każdego wiersza to imię głosującego.
+    Celowo jej nie czytamy i nigdzie nie pokazujemy — liczymy wyłącznie
+    zbiorczą liczbę głosów.
+
+    Zwraca listę terminów w formacie zgodnym z ręczną listą „terminy"
+    z front matter, posortowaną od najpopularniejszego. Gdy pobranie
+    się nie uda albo nikt jeszcze nie zagłosował — zwraca pustą listę,
+    a strona pokazuje wtedy ręcznie wpisane terminy.
+
+    Wywołanie:
+      {{ partial "poll-results.html" (dict "url" $url "top" 3 "ctx" .) }}   */ -}}
+
+{{- $url := .url -}}
+{{- $top := .top | default 3 -}}
+{{- $ctx := .ctx -}}
+{{- $lang := $ctx.Site.Language.Lang -}}
+{{- $out := slice -}}
+
+{{- if $url -}}
+  {{- $csvURL := printf "%s.csv" (strings.TrimSuffix "/" $url) -}}
+  {{- /* `try` zamiast dawnego .Err — Hugo 0.141+ */ -}}
+  {{- with try (resources.GetRemote $csvURL) -}}
+    {{- with .Err -}}
+      {{- warnf "Framadate: nie udało się pobrać wyników (%s). Pokazuję ręczną listę terminów." . -}}
+    {{- else with .Value -}}
+      {{- $rows := transform.Unmarshal . -}}
+      {{- /* Mniej niż 3 wiersze = same nagłówki, czyli brak głosów. */ -}}
+      {{- if ge (len $rows) 3 -}}
+        {{- $dates := index $rows 0 -}}
+        {{- $slots := index $rows 1 -}}
+        {{- $voteRows := after 2 $rows -}}
+        {{- /* Framadate zwraca etykiety w języku żądania; akceptujemy
+               kilka wariantów „tak", żeby zmiana lokalizacji po ich
+               stronie nie wyzerowała wyników po cichu. */ -}}
+        {{- $yes := slice "yes" "oui" "tak" "да" "так" -}}
+        {{- $items := slice -}}
+        {{- range $i, $date := $dates -}}
+          {{- if gt $i 0 -}}
+            {{- $n := 0 -}}
+            {{- range $voteRows -}}
+              {{- if gt (len .) $i -}}
+                {{- if in $yes (lower (trim (index . $i) " ")) -}}
+                  {{- $n = add $n 1 -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+            {{- $items = $items | append (dict "date" $date "slot" (index $slots $i) "glosy" $n) -}}
+          {{- end -}}
+        {{- end -}}
+
+        {{- /* Tylko terminy, na które ktoś faktycznie zagłosował. */ -}}
+        {{- $ranked := first $top (where (sort $items "glosy" "desc") "glosy" ">" 0) -}}
+        {{- $months := index hugo.Data.dates.months $lang -}}
+        {{- $weekdays := index hugo.Data.dates.weekdays $lang -}}
+        {{- range $idx, $it := $ranked -}}
+          {{- $t := time.AsTime $it.date -}}
+          {{- $slot := $it.slot -}}
+          {{- if in (slice "day" "jour" "journée") (lower $slot) -}}
+            {{- $slot = i18n "slot_day" -}}
+          {{- end -}}
+          {{- $weekday := index $weekdays (int $t.Weekday) -}}
+          {{- $out = $out | append (dict
+              "dzien"    (printf "%d" $t.Day)
+              "miesiac"  (index $months (sub (int $t.Month) 1))
+              "tytul"    (printf "%s, %s" (strings.FirstUpper $weekday) $slot)
+              "opis"     (i18n "vote_count" $it.glosy)
+              "domyslny" (eq $idx 0)
+            ) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- warnf "Framadate: brak odpowiedzi spod %s. Pokazuję ręczną listę terminów." $csvURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $out -}}

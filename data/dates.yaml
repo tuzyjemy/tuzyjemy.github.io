@@ -1,0 +1,16 @@
+# Nazwy miesięcy i dni tygodnia używane przy wyświetlaniu terminów
+# pobranych automatycznie z Framadate (CSV podaje surowe daty ISO,
+# np. 2026-08-30). Kolejność miesięcy: styczeń → grudzień.
+# Kolejność dni tygodnia: niedziela → sobota (jak w Go time.Weekday).
+months:
+  pl: [sty, lut, mar, kwi, maj, cze, lip, sie, wrz, paź, lis, gru]
+  en: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  ru: [янв, фев, мар, апр, мая, июн, июл, авг, сен, окт, ноя, дек]
+  uk: [січ, лют, бер, кві, тра, чер, лип, сер, вер, жов, лис, гру]
+  be: [сту, лют, сак, кра, тра, чэр, ліп, жні, вер, кас, ліс, сне]
+weekdays:
+  pl: [niedziela, poniedziałek, wtorek, środa, czwartek, piątek, sobota]
+  en: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+  ru: [воскресенье, понедельник, вторник, среда, четверг, пятница, суббота]
+  uk: [неділя, понеділок, вівторок, середа, четвер, п'ятниця, субота]
+  be: [нядзеля, панядзелак, аўторак, серада, чацвер, пятніца, субота]

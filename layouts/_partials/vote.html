@@ -1,15 +1,22 @@
 {{- /*  Panel głosowania na termin. Samo głosowanie dzieje się na zewnętrznym
-    serwisie (np. Framadate) — tu pokazujemy tylko najpopularniejsze
-    propozycje (ręcznie aktualizowane w front matter) i link, który
-    prowadzi do pełnej listy terminów i właściwego głosowania.        */ -}}
+    serwisie (Framadate) — tu pokazujemy tylko najpopularniejsze propozycje
+    i link, który prowadzi do pełnej listy terminów i właściwego głosowania.
+
+    Terminy bierzemy w pierwszej kolejności z wyników ankiety pobranych
+    przy budowaniu strony (patrz poll-results.html). Jeśli pobranie się
+    nie uda albo nikt jeszcze nie zagłosował, wracamy do listy wpisanej
+    ręcznie w front matter.                                            */ -}}
 {{ $g := .g }}
 {{ $ctx := .ctx }}
 {{ $formUrl := $g.formularz | default $ctx.Site.Params.formularzGlosowania }}
+{{ $live := partial "poll-results.html" (dict "url" $formUrl "top" 3 "ctx" $ctx) }}
+{{ $terminy := $g.terminy }}
+{{ if $live }}{{ $terminy = $live }}{{ end }}
 <div class="vote">
   <h2>{{ $g.naglowek | default (i18n "vote_heading") }}</h2>
   <p class="vote-intro">{{ $g.opis | default (i18n "vote_intro") }}</p>
 
-  {{ with $g.terminy }}
+  {{ with $terminy }}
     <div class="date-list" role="list" aria-label="{{ $g.naglowek | default (i18n "vote_heading") }}">
       {{ range . }}
         <div class="date-option{{ if .domyslny }} is-leading{{ end }}" role="listitem">
@@ -19,7 +26,7 @@
         </div>
       {{ end }}
     </div>
-    <p class="vote-more">{{ i18n "vote_top_note" }}</p>
+    <p class="vote-more">{{ if $live }}{{ i18n "vote_live_note" }}{{ else }}{{ i18n "vote_top_note" }}{{ end }}</p>
   {{ end }}
 
   {{ if $formUrl }}

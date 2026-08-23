@@ -42,12 +42,12 @@ summaryLength = 30
   testMode = true
   # Zmień na własne dane przed publikacją.
   telegram = "https://t.me/tu_zyjemy"
-  email = "kontakt@tuzyjemy.example"
+  email = "contact@tuzyjemy.pl"
   # Adres ankiety terminów na Framadate (framadate.org) — blok głosowania
   # na stronie głównej tylko pokazuje najpopularniejsze propozycje
   # (ręcznie aktualizowane w content/*/_index.md) i linkuje tutaj, gdzie
   # dzieje się właściwe głosowanie (wymaga podania imienia).
-  formularzGlosowania = ""
+  formularzGlosowania = "https://beta.framadate.org/polls/99e97171d61e825bed82"
   # Adres zewnętrznego formularza (np. Framaforms / CryptPad / Google Forms).
   formularzHistorii = ""
   formularzOrganizacji = ""

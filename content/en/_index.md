@@ -8,7 +8,6 @@ kampania:
   meta:
     - "● Gdańsk"
     - "◷ Voting until 31 August"
-    - "✓ 286 people have already replied"
   glosowanie:
     naglowek: "When can you come?"
     opis: "See which dates are most popular, then cast your vote on Framadate."
