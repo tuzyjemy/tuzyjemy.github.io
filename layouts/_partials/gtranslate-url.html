@@ -1,0 +1,10 @@
+{{- /*  Link do darmowego tłumaczenia strony przez Google Translate —
+    dokładnie to samo, co wklejenie adresu na translate.google.com, więc
+    nie wymaga klucza API ani konta.
+
+    Wywołanie: {{ partial "gtranslate-url.html" (dict "page" .page "tl" "en") }}
+    "page" — strona do przetłumaczenia; "tl" — kod języka docelowego.    */ -}}
+{{- $p := .page -}}
+{{- $tl := .tl -}}
+{{- $sl := $p.Language.Lang -}}
+{{- return (printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($p.Permalink | urlquery)) -}}

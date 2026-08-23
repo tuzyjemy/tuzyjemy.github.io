@@ -1,0 +1,222 @@
+baseURL = "https://tuzyjemy.pl/"
+title = "Tu Żyjemy"
+defaultContentLanguage = "pl"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+removePathAccents = true
+capitalizeListTitles = false
+enableGitInfo = false
+timeZone = "Europe/Warsaw"
+summaryLength = 30
+
+# Wyłącz sekcję taksonomii, jeśli nie jest potrzebna. Na razie wszystko włączone.
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  instytucja = "instytucje"
+  temat = "tematy"
+  status = "statusy"
+  rok = "lata"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  [markup.highlight]
+    noClasses = false
+    style = "github"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# ---------------------------------------------------------------------------
+# Parametry globalne
+# ---------------------------------------------------------------------------
+[params]
+  # Pasek na górze każdej strony ostrzegający, że to wersja testowa.
+  # Wyłącz (false), gdy testy się skończą i treść będzie ostateczna.
+  testMode = true
+  # Zmień na własne dane przed publikacją.
+  telegram = "https://t.me/tu_zyjemy"
+  email = "kontakt@tuzyjemy.example"
+  # Adres ankiety terminów na Framadate (framadate.org) — blok głosowania
+  # na stronie głównej tylko pokazuje najpopularniejsze propozycje
+  # (ręcznie aktualizowane w content/*/_index.md) i linkuje tutaj, gdzie
+  # dzieje się właściwe głosowanie (wymaga podania imienia).
+  formularzGlosowania = ""
+  # Adres zewnętrznego formularza (np. Framaforms / CryptPad / Google Forms).
+  formularzHistorii = ""
+  formularzOrganizacji = ""
+  # Ile wpisów pokazywać na stronie głównej
+  liczbaWydarzen = 4
+  liczbaDzialan = 3
+  liczbaAktualnosci = 3
+  # Włącz, gdy repozytorium jest publiczne — dodaje link "edytuj tę stronę"
+  repoEdycji = ""
+
+# ---------------------------------------------------------------------------
+# Języki
+# ---------------------------------------------------------------------------
+[languages]
+
+  [languages.pl]
+    languageCode = "pl-PL"
+    languageName = "Polski"
+    contentDir = "content/pl"
+    weight = 1
+    title = "Tu Żyjemy"
+    [languages.pl.params]
+      opis = "Baza wiedzy i wspólne działania na rzecz praw migrantek i migrantów."
+    [languages.pl.permalinks.page]
+      dzialania = "/dzialania/:contentbasename/"
+      wzory = "/wzory/:contentbasename/"
+      orzeczenia = "/orzeczenia/:contentbasename/"
+      odpowiedzi = "/odpowiedzi/:contentbasename/"
+      aktualnosci = "/aktualnosci/:contentbasename/"
+      poradniki = "/poradniki/:contentbasename/"
+    [languages.pl.permalinks.section]
+      dzialania = "/dzialania/"
+      wzory = "/wzory/"
+      orzeczenia = "/orzeczenia/"
+      odpowiedzi = "/odpowiedzi/"
+      statystyki = "/statystyki/"
+      aktualnosci = "/aktualnosci/"
+      poradniki = "/poradniki/"
+
+  [languages.en]
+    languageCode = "en-GB"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 3
+    title = "Tu Żyjemy"
+    [languages.en.params]
+      opis = "A knowledge base and shared actions for migrants' rights."
+    [languages.en.permalinks.page]
+      dzialania = "/actions/:contentbasename/"
+      wzory = "/templates/:contentbasename/"
+      orzeczenia = "/court-decisions/:contentbasename/"
+      odpowiedzi = "/responses/:contentbasename/"
+      aktualnosci = "/news/:contentbasename/"
+      poradniki = "/guides/:contentbasename/"
+    [languages.en.permalinks.section]
+      dzialania = "/actions/"
+      wzory = "/templates/"
+      orzeczenia = "/court-decisions/"
+      odpowiedzi = "/responses/"
+      statystyki = "/statistics/"
+      aktualnosci = "/news/"
+      poradniki = "/guides/"
+
+  [languages.ru]
+    languageCode = "ru-RU"
+    languageName = "Русский"
+    contentDir = "content/ru"
+    weight = 2
+    title = "Tu Żyjemy"
+    [languages.ru.params]
+      opis = "База знаний и совместные действия в защиту прав мигрантов."
+    [languages.ru.permalinks.page]
+      dzialania = "/deystviya/:contentbasename/"
+      wzory = "/obraztsy/:contentbasename/"
+      orzeczenia = "/resheniya-sudov/:contentbasename/"
+      odpowiedzi = "/otvety/:contentbasename/"
+      aktualnosci = "/novosti/:contentbasename/"
+      poradniki = "/instruktsii/:contentbasename/"
+    [languages.ru.permalinks.section]
+      dzialania = "/deystviya/"
+      wzory = "/obraztsy/"
+      orzeczenia = "/resheniya-sudov/"
+      odpowiedzi = "/otvety/"
+      statystyki = "/statistika/"
+      aktualnosci = "/novosti/"
+      poradniki = "/instruktsii/"
+
+  [languages.uk]
+    languageCode = "uk-UA"
+    languageName = "Українська"
+    contentDir = "content/uk"
+    weight = 4
+    title = "Tu Żyjemy"
+    [languages.uk.params]
+      opis = "База знань і спільні дії на захист прав мігрантів."
+    [languages.uk.permalinks.page]
+      dzialania = "/diyi/:contentbasename/"
+      wzory = "/zrazky/:contentbasename/"
+      orzeczenia = "/rishennya-sudiv/:contentbasename/"
+      odpowiedzi = "/vidpovidi/:contentbasename/"
+      aktualnosci = "/novyny/:contentbasename/"
+      poradniki = "/instruktsii/:contentbasename/"
+    [languages.uk.permalinks.section]
+      dzialania = "/diyi/"
+      wzory = "/zrazky/"
+      orzeczenia = "/rishennya-sudiv/"
+      odpowiedzi = "/vidpovidi/"
+      statystyki = "/statystyka/"
+      aktualnosci = "/novyny/"
+      poradniki = "/instruktsii/"
+
+  [languages.be]
+    languageCode = "be-BY"
+    languageName = "Беларуская"
+    contentDir = "content/be"
+    weight = 5
+    title = "Tu Żyjemy"
+    [languages.be.params]
+      opis = "База ведаў і сумесныя дзеянні ў абарону правоў мігрантаў."
+    [languages.be.permalinks.page]
+      dzialania = "/dzejanni/:contentbasename/"
+      wzory = "/uzory/:contentbasename/"
+      orzeczenia = "/rashenni-sudou/:contentbasename/"
+      odpowiedzi = "/adkazy/:contentbasename/"
+      aktualnosci = "/navisy/:contentbasename/"
+      poradniki = "/instruktsyi/:contentbasename/"
+    [languages.be.permalinks.section]
+      dzialania = "/dzejanni/"
+      wzory = "/uzory/"
+      orzeczenia = "/rashenni-sudou/"
+      odpowiedzi = "/adkazy/"
+      statystyki = "/statystyka/"
+      aktualnosci = "/navisy/"
+      poradniki = "/instruktsyi/"
+
+# ---------------------------------------------------------------------------
+# Menu — te same identyfikatory sekcji we wszystkich językach.
+# Tytuły pochodzą z plików i18n/*.toml
+# ---------------------------------------------------------------------------
+#
+# Kolejność (wagi) odzwierciedla grupowanie z data/menugroups.yaml:
+# najpierw sekcje dla każdego (10-30), potem te dla przygotowujących
+# się do działania (40-50), na końcu dokumentacja/orzecznictwo (60-70).
+[menus]
+  [[menus.main]]
+    identifier = "aktualnosci"
+    pageRef = "/aktualnosci"
+    weight = 10
+  [[menus.main]]
+    identifier = "statystyki"
+    pageRef = "/statystyki"
+    weight = 20
+  [[menus.main]]
+    identifier = "dzialania"
+    pageRef = "/dzialania"
+    weight = 30
+  [[menus.main]]
+    identifier = "wzory"
+    pageRef = "/wzory"
+    weight = 40
+  [[menus.main]]
+    identifier = "poradniki"
+    pageRef = "/poradniki"
+    weight = 50
+  [[menus.main]]
+    identifier = "orzeczenia"
+    pageRef = "/orzeczenia"
+    weight = 60
+  [[menus.main]]
+    identifier = "odpowiedzi"
+    pageRef = "/odpowiedzi"
+    weight = 70

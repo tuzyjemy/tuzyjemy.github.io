@@ -1,0 +1,139 @@
+{{ define "main" }}
+{{ $k := .Params.kampania }}
+<div class="shell">
+
+  {{ with $k }}
+  <div class="eyebrow"><span class="dot"></span> {{ i18n "featured_now" }}</div>
+
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-copy">
+      {{ with .kicker }}<div class="kicker">{{ . }}</div>{{ end }}
+      <h1 id="hero-heading">{{ .naglowek }}</h1>
+      {{ with .opis }}<p class="lead">{{ . }}</p>{{ end }}
+      {{ with .meta }}
+        <div class="meta-row">
+          {{ range . }}<span>{{ . }}</span>{{ end }}
+        </div>
+      {{ end }}
+      {{ with .link }}
+        <p style="margin-top:24px"><a class="btn btn-solid" href="{{ partial "href.html" . }}">{{ $k.linkTytul | default (i18n "read_more") }}</a></p>
+      {{ end }}
+    </div>
+    {{ with .glosowanie }}
+      {{ partial "vote.html" (dict "g" . "ctx" $) }}
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ with .Params.wezwania }}
+  <div class="section-head">
+    <h2>{{ i18n "help_now" }}</h2>
+    <a href="{{ partial "href.html" "/dzialania/" }}">{{ i18n "all_actions" }} &rarr;</a>
+  </div>
+  <section class="cards" aria-label="{{ i18n "help_now" }}">
+    {{ range . }}
+      <article class="card{{ if .pilne }} urgent{{ end }}">
+        {{ with .status }}<div class="card-status">{{ . }}</div>{{ end }}
+        <h3>{{ .tytul }}</h3>
+        {{ with .opis }}<p>{{ . }}</p>{{ end }}
+        {{ if .link }}
+          <a class="card-link" href="{{ partial "href.html" .link }}">{{ .linkTytul | default (i18n "read_more") }} &rarr;</a>
+        {{ end }}
+      </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ $news := partial "section-pages.html" (dict "section" "aktualnosci" "ctx" .) }}
+  {{ if $news }}
+  <div class="section-head">
+    <h2>{{ i18n "menu_aktualnosci" }}</h2>
+    <a href="{{ partial "href.html" "/aktualnosci/" }}">{{ i18n "all_news" }} &rarr;</a>
+  </div>
+  <section class="cards" aria-label="{{ i18n "menu_aktualnosci" }}">
+    {{ range first (.Site.Params.liczbaAktualnosci | default 3) $news }}
+      <article class="card">
+        <div class="card-status">
+          {{ .Date.Format "02.01.2006" }}
+          {{ if ne .Language.Lang $.Language.Lang }}
+            <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>
+            <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" . "tl" $.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>
+          {{ end }}
+        </div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}</p>
+        <a class="card-link" href="{{ .RelPermalink }}">{{ i18n "read_more" }} &rarr;</a>
+      </article>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ $dzialania := where (partial "section-pages.html" (dict "section" "dzialania" "ctx" .)) "Params.ukryte" "!=" true }}
+  {{ if $dzialania }}
+  <div class="section-head">
+    <h2>{{ i18n "what_we_did" }}</h2>
+    <a href="{{ partial "href.html" "/dzialania/" }}">{{ i18n "full_history" }} &rarr;</a>
+  </div>
+
+  <section class="story-grid" aria-label="{{ i18n "what_we_did" }}">
+    <div class="timeline">
+      {{ range first (.Site.Params.liczbaWydarzen | default 4) $dzialania }}
+        <article class="event{{ if eq . (index $dzialania 0) }} is-latest{{ end }}">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+          <span class="event-marker" aria-hidden="true"></span>
+          <div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ if ne .Language.Lang $.Language.Lang }}
+              <p style="margin-top:4px">
+                <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>
+                <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" . "tl" $.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>
+              </p>
+            {{ end }}
+            <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}</p>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+
+    <aside class="side-note">
+      <h3>{{ i18n "knowledge_title" }}</h3>
+      <p>{{ i18n "knowledge_desc" }}</p>
+      <a href="{{ partial "href.html" "/wzory/" }}">{{ i18n "open_library" }} &rarr;</a>
+    </aside>
+  </section>
+  {{ end }}
+
+  <div class="section-head">
+    <h2>{{ i18n "kb_title" }}</h2>
+    <span class="filter-summary">{{ i18n "kb_desc" }}</span>
+  </div>
+
+  {{/* Grupy sekcji zdefiniowane w data/menugroups.yaml — to samo
+       grupowanie widać w nagłówku i w stopce. */}}
+  {{ range hugo.Data.menugroups }}
+    {{ $group := . }}
+    <div class="kb-group">
+      <h3 class="kb-group-title">{{ i18n $group.labelKey }}</h3>
+      <p class="kb-group-desc">{{ i18n $group.descKey }}</p>
+      <section class="kb-grid" aria-label="{{ i18n $group.labelKey }}">
+        {{ range $group.sections }}
+          {{ $ident := . }}
+          {{ $sec := $.Site.GetPage (printf "/%s" $ident) }}
+          {{ if $sec }}
+            <a class="kb-tile" href="{{ $sec.RelPermalink }}">
+              <h3>{{ i18n (printf "menu_%s" $ident) | default $sec.Title }}</h3>
+              <p>{{ with $sec.Description }}{{ . }}{{ else }}{{ $sec.Summary | plainify | truncate 110 }}{{ end }}</p>
+              {{ $n := len (partial "section-pages.html" (dict "section" $ident "ctx" $)) }}
+              {{ if gt $n 0 }}<span class="count">{{ $n }}</span>{{ end }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </section>
+    </div>
+  {{ end }}
+
+  {{ with .Content }}
+    <div class="prose" style="margin-top:40px">{{ . }}</div>
+  {{ end }}
+</div>
+{{ end }}

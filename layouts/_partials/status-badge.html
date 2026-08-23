@@ -1,0 +1,20 @@
+{{/* Kolorowa etykieta statusu. Wejście: obiekt terminu taksonomii (Page).
+     Status jest zawsze zapisywany po polsku w front matter — etykietę
+     tłumaczymy na język bieżącej strony wg data/statuslabels.yaml
+     (klucz to dokładna polska fraza, kolor nadal liczymy ze slugu). */}}
+{{ $title := .LinkTitle }}
+{{ $label := $title }}
+{{ with index hugo.Data.statuslabels $title }}{{ $label = i18n . | default $title }}{{ end }}
+{{/* `urlize` nie zamienia „ł” na „l” (tylko znaki z dekompozycją NFD, jak
+     ą/ć/ę/ń/ó/ś/ź/ż) — bez tego "Wysłane" dałoby inny slug niż "wyslane"
+     niżej. */}}
+{{ $slug := urlize (replace $title "ł" "l") }}
+{{ $class := "badge-neutral" }}
+{{ if in (slice "uwzglednione" "odpowiedz-otrzymana" "zakonczone" "wygrane" "upheld" "closed" "reply-received") $slug }}
+  {{ $class = "badge-ok" }}
+{{ else if in (slice "odrzucone" "bez-odpowiedzi" "przewlekle" "rejected" "no-reply") $slug }}
+  {{ $class = "badge-warn" }}
+{{ else if in (slice "w-toku" "wyslane" "oczekuje-na-odpowiedz" "planowane" "sent" "in-progress") $slug }}
+  {{ $class = "" }}
+{{ end }}
+<a class="badge {{ $class }}" href="{{ .RelPermalink }}">{{ $label }}</a>

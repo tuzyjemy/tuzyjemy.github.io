@@ -1,0 +1,11 @@
+{{/* Kopiowalny blok z treścią wzoru pisma.
+     Użycie w treści:
+       {{< wzor >}}
+       Tekst pisma…
+       {{< /wzor >}}                                                */}}
+{{ $id := printf "wzor-%s" (substr (md5 .Inner) 0 8) }}
+<div class="template-box">
+  <button class="btn btn-sm copy-btn" type="button" data-copy="#{{ $id }}"
+          data-copied-label="{{ i18n "copied" }}">{{ i18n "copy_text" }}</button>
+  <pre id="{{ $id }}">{{ .Inner | plainify | safeHTML }}</pre>
+</div>

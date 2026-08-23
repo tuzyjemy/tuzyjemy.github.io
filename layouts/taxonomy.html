@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="shell">
+  <header class="page-head">
+    <h1>{{ i18n (printf "taxo_%s" .Data.Plural) | default .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+  {{ with .Content }}<div class="prose" style="margin-bottom:24px">{{ . }}</div>{{ end }}
+  <div class="doc-tags" style="gap:10px">
+    {{ range .Pages.ByTitle }}
+      <a class="tag" href="{{ .RelPermalink }}">{{ .Title }} <b>{{ len .Pages }}</b></a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

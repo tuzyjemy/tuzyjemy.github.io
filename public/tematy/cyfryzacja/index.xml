@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cyfryzacja on Tu Żyjemy</title>
+		<link>http://localhost:1313/tematy/cyfryzacja/</link>
+		<description>Recent content in Cyfryzacja on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>pl-PL</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tematy/cyfryzacja/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Wystąpienie do UdSC i Ministerstwa Cyfryzacji w sprawie systemu MOS</title>
+				<link>http://localhost:1313/dzialania/wystapienie-udsc-mc/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/dzialania/wystapienie-udsc-mc/</guid>
+				<description>&lt;p&gt;Zebraliśmy 41 zgłoszeń o błędach w systemie składania wniosków. Trzy powtarzają się&#xA;najczęściej:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brak potwierdzenia złożenia wniosku z datą i godziną,&lt;/li&gt;&#xA;&lt;li&gt;załączniki znikające po zapisaniu formularza,&lt;/li&gt;&#xA;&lt;li&gt;interfejs wyłącznie po polsku, mimo że wnioskodawcami są cudzoziemcy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;notice notice-info&#34;&gt;&#xA;  Zgłoszenia zbieraliśmy przez trzy tygodnie w formularzu anonimowym. Screeny błędów&#xA;przechowujemy osobno i nie publikujemy ich bez zgody osób zgłaszających.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Odpowiedzi jeszcze nie ma — termin ustawowy mija 24 sierpnia 2026.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

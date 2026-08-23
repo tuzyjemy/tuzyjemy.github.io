@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#tresc">{{ i18n "skip_to_content" }}</a>
+  {{ partial "test-banner.html" . }}
+  {{ partial "header.html" . }}
+  <main class="main" id="tresc">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ with resources.Get "js/site.js" | js.Build (dict "minify" true) | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{ end }}
+</body>
+</html>

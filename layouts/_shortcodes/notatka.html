@@ -1,0 +1,5 @@
+{{/* Wyróżniona uwaga.  {{< notatka typ="info" >}}tekst{{< /notatka >}} */}}
+{{ $typ := .Get "typ" | default "uwaga" }}
+<div class="notice{{ if eq $typ "info" }} notice-info{{ end }}">
+  {{ .Inner | .Page.RenderString }}
+</div>

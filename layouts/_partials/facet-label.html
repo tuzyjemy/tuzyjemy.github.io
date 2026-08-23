@@ -1,0 +1,16 @@
+{{- /*  Tłumaczy wartość fasetu (status albo temat) na język bieżącej strony.
+    Instytucje i lata wracają bez zmian — to nazwy własne i liczby.
+    Klucz w słowniku to dokładna polska fraza z front matter (nie slug —
+    `urlize` niespójnie koduje polskie znaki, np. "ł" jako %C5%82).
+
+    Wywołanie: {{ partial "facet-label.html" (dict "facet" "tematy" "value" "Mobilizacja" "lang" "en") }} */ -}}
+{{- $facet := .facet -}}
+{{- $value := .value -}}
+{{- $lang := .lang -}}
+{{- $out := $value -}}
+{{- if eq $facet "statusy" -}}
+  {{- with index hugo.Data.statuslabels $value -}}{{- $out = i18n . | default $value -}}{{- end -}}
+{{- else if eq $facet "tematy" -}}
+  {{- with index hugo.Data.topiclabels $value -}}{{- $out = index . $lang | default $value -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

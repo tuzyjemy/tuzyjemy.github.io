@@ -1,0 +1,48 @@
+{{- /*  Zwraca dokumenty danej sekcji ze wszystkich wersji językowych: dla
+    każdego dokumentu — wersję w bieżącym języku, jeśli istnieje, w
+    przeciwnym razie pierwszą dostępną wg kolejności zdefiniowanej dla
+    bieżącego języka w data/langpriority.yaml (każdy język ma swoją
+    kolejność zapasowych — patrz ten plik). Dzięki temu każda wersja
+    językowa serwisu pokazuje wszystkie dokumenty, zamiast tylko tych
+    faktycznie przetłumaczonych.
+
+    Dopasowanie dokumentu do jego odpowiednika w innym języku odbywa się
+    przez TranslationKey (Hugo), czyli po ścieżce pliku bez prefiksu
+    językowego — więc plik tłumaczenia musi mieć tę samą nazwę co oryginał
+    (albo trzeba ręcznie ustawić `translationKey` w front matter).
+
+    Wywołanie:
+      {{ partial "section-pages.html" (dict "section" "wzory" "ctx" .) }}
+    Zwraca listę stron posortowaną od najnowszej.                          */ -}}
+{{- $section := .section -}}
+{{- $ctx := .ctx -}}
+{{- $currentLang := $ctx.Site.Language.Lang -}}
+{{- $priority := index hugo.Data.langpriority $currentLang -}}
+{{- if not $priority -}}{{- $priority = slice "pl" "en" "ru" "uk" "be" -}}{{- end -}}
+
+{{- $byKey := dict -}}
+{{- range hugo.Sites -}}
+  {{- $lang := .Language.Lang -}}
+  {{- with .GetPage (printf "/%s" $section) -}}
+    {{- range .RegularPages -}}
+      {{- $key := .TranslationKey -}}
+      {{- $inner := index $byKey $key -}}
+      {{- if not $inner -}}{{- $inner = dict -}}{{- end -}}
+      {{- $inner = merge $inner (dict $lang .) -}}
+      {{- $byKey = merge $byKey (dict $key $inner) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $result := slice -}}
+{{- range $byKey -}}
+  {{- $byLang := . -}}
+  {{- $chosen := "" -}}
+  {{- range $priority -}}
+    {{- if not $chosen -}}{{- $chosen = index $byLang . -}}{{- end -}}
+  {{- end -}}
+  {{- if $chosen -}}{{- $result = $result | append $chosen -}}{{- end -}}
+{{- end -}}
+
+{{- $result = sort $result "Date" "desc" -}}
+{{- return $result -}}

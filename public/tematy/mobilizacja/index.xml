@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mobilizacja on Tu Żyjemy</title>
+		<link>http://localhost:1313/tematy/mobilizacja/</link>
+		<description>Recent content in Mobilizacja on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>pl-PL</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tematy/mobilizacja/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Głosujemy nad terminem protestu w Gdańsku</title>
+				<link>http://localhost:1313/aktualnosci/glosowanie-termin-protestu/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/aktualnosci/glosowanie-termin-protestu/</guid>
+				<description>&lt;p&gt;Uruchomiliśmy głosowanie, żeby wspólnie wybrać najlepszy termin. Do wyboru trzy daty&#xA;we wrześniu — dwie soboty i jedna środa po godzinach pracy.&lt;/p&gt;&#xA;&lt;h2 id=&#34;gotowy-post-do-udostępnienia&#34;&gt;Gotowy post do udostępnienia&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;template-box&#34;&gt;&#xA;  &lt;button class=&#34;btn btn-sm copy-btn&#34; type=&#34;button&#34; data-copy=&#34;#wzor-f2b785d3&#34;&#xA;          data-copied-label=&#34;Skopiowano&#34;&gt;Kopiuj treść&lt;/button&gt;&#xA;  &lt;pre id=&#34;wzor-f2b785d3&#34;&gt;&#xA;Walczymy o sprawne postępowania legalizacyjne i realne terminy w urzędach.&#xA;Wybieramy termin protestu w Gdańsku — zagłosuj, kiedy możesz przyjść:&#xA;[LINK]&#xA;&#xA;Głosowanie trwa do 31 sierpnia. Bez konta, bez podawania danych.&#xA;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Jeśli prowadzisz grupę na Telegramie albo Facebooku, wklej to i dodaj link.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ponad 3 700 podpisów pod pakietem działań</title>
+				<link>http://localhost:1313/dzialania/zbiorka-podpisow/</link>
+				<pubDate>Fri, 17 Jul 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/dzialania/zbiorka-podpisow/</guid>
+				<description>&lt;p&gt;3 712 podpisów w cztery miesiące, z czego 1 108 stacjonarnie — przed urzędami,&#xA;na targach i przed dwiema szkołami językowymi.&lt;/p&gt;&#xA;&lt;h2 id=&#34;co-zadziałało&#34;&gt;Co zadziałało&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Punkty przy urzędach w dni przyjęć.&lt;/strong&gt; Ponad połowa podpisów stacjonarnych.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Krótki formularz.&lt;/strong&gt; Imię, kod pocztowy, zgoda. Nic więcej.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wersje językowe.&lt;/strong&gt; Formularz po ukraińsku i rosyjsku zebrał 38% wszystkich podpisów.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;co-nie-zadziałało&#34;&gt;Co nie zadziałało&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wydarzenia wieczorne w centrum miasta — dużo pracy, kilkanaście podpisów.&lt;/li&gt;&#xA;&lt;li&gt;Płatna promocja w mediach społecznościowych: koszt jednego podpisu wyszedł absurdalny.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

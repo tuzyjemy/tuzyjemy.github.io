@@ -1,0 +1,48 @@
+<div class="aside-box">
+  <h2>{{ i18n "meta_zrodlo" }}</h2>
+  <dl class="meta-table">
+    {{ if not .Date.IsZero }}
+      <div><dt>{{ i18n "published" }}</dt><dd>{{ .Date.Format "02.01.2006" }}</dd></div>
+    {{ end }}
+    {{ with .Params.data_wyslania }}
+      <div><dt>{{ i18n "meta_data_wyslania" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.data_odpowiedzi }}
+      <div><dt>{{ i18n "meta_data_odpowiedzi" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.dni }}
+      <div><dt>{{ i18n "meta_czas" }}</dt><dd>{{ . }} {{ i18n "meta_dni" }}</dd></div>
+    {{ end }}
+    {{ with .Params.termin }}
+      <div><dt>{{ i18n "meta_termin" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.sygnatura }}
+      <div><dt>{{ i18n "meta_sygnatura" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.sad }}
+      <div><dt>{{ i18n "meta_sad" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.wynik }}
+      <div><dt>{{ i18n "meta_wynik" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .GetTerms "instytucje" }}
+      <div><dt>{{ i18n "meta_instytucja" }}</dt><dd>
+        {{ range . }}<a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> {{ end }}
+      </dd></div>
+    {{ end }}
+    {{ with .Params.lata }}
+      <div><dt>{{ i18n "meta_rok" }}</dt><dd>{{ delimit . ", " }}</dd></div>
+    {{ end }}
+    {{ with .Params.autor }}
+      <div><dt>{{ i18n "meta_autor" }}</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+    {{ with .Params.zrodlo }}
+      <div><dt>{{ i18n "meta_zrodlo" }}</dt><dd>
+        {{ if hasPrefix . "http" }}<a href="{{ . }}" rel="noopener">{{ . | truncate 40 }}</a>{{ else }}{{ . }}{{ end }}
+      </dd></div>
+    {{ end }}
+    {{ if not .Lastmod.IsZero }}
+      <div><dt>{{ i18n "updated" }}</dt><dd>{{ .Lastmod.Format "02.01.2006" }}</dd></div>
+    {{ end }}
+  </dl>
+</div>

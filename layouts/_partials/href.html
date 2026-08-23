@@ -1,0 +1,19 @@
+{{- /*  Zamienia ścieżkę z front matter na poprawny adres.
+
+    Wywołanie:  {{ partial "href.html" "/statystyki/" }}
+
+    Działa tak samo jak hook odnośników w treści: jeśli istnieje strona
+    o takiej ścieżce, zwraca jej adres w bieżącym języku; jeśli nie —
+    dokłada tylko przedrostek języka i baseURL.                       */ -}}
+{{- $d := . -}}
+{{- $out := $d -}}
+{{- if or (hasPrefix $d "http://") (hasPrefix $d "https://") (hasPrefix $d "mailto:") -}}
+  {{- $out = $d -}}
+{{- else if hasPrefix $d "/" -}}
+  {{- with site.GetPage (strings.TrimSuffix "/" $d) -}}
+    {{- $out = .RelPermalink -}}
+  {{- else -}}
+    {{- $out = $d | relLangURL -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

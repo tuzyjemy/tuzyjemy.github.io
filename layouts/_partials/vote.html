@@ -1,0 +1,31 @@
+{{- /*  Panel głosowania na termin. Samo głosowanie dzieje się na zewnętrznym
+    serwisie (np. Framadate) — tu pokazujemy tylko najpopularniejsze
+    propozycje (ręcznie aktualizowane w front matter) i link, który
+    prowadzi do pełnej listy terminów i właściwego głosowania.        */ -}}
+{{ $g := .g }}
+{{ $ctx := .ctx }}
+{{ $formUrl := $g.formularz | default $ctx.Site.Params.formularzGlosowania }}
+<div class="vote">
+  <h2>{{ $g.naglowek | default (i18n "vote_heading") }}</h2>
+  <p class="vote-intro">{{ $g.opis | default (i18n "vote_intro") }}</p>
+
+  {{ with $g.terminy }}
+    <div class="date-list" role="list" aria-label="{{ $g.naglowek | default (i18n "vote_heading") }}">
+      {{ range . }}
+        <div class="date-option{{ if .domyslny }} is-leading{{ end }}" role="listitem">
+          <span class="date-cal"><b>{{ .dzien }}</b><small>{{ .miesiac }}</small></span>
+          <span class="date-copy"><b>{{ .tytul }}</b>{{ with .opis }}<small>{{ . }}</small>{{ end }}</span>
+          {{ if .domyslny }}<span class="date-lead-badge" aria-hidden="true" title="{{ i18n "vote_leading" }}">★</span>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+    <p class="vote-more">{{ i18n "vote_top_note" }}</p>
+  {{ end }}
+
+  {{ if $formUrl }}
+    <a class="vote-submit" href="{{ $formUrl }}" target="_blank" rel="noopener">{{ i18n "vote_submit" }}</a>
+    <div class="vote-note">{{ i18n "vote_note" }}</div>
+  {{ else }}
+    <div class="vote-note">{{ i18n "vote_no_form" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
+  {{ end }}
+</div>

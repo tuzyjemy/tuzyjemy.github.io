@@ -1,0 +1,20 @@
+{{ if gt (len .Sites) 1 }}
+{{ $page := . }}
+<div class="lang" data-open="false">
+  <button class="lang-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+    <span aria-hidden="true">&#127760;</span>
+    <span>{{ .Site.Language.LanguageName }}</span>
+  </button>
+  <div class="lang-menu" role="menu" aria-label="{{ i18n "lang_label" }}">
+    {{ range .Sites }}
+      {{ $site := . }}
+      {{ $target := $site.Home.RelPermalink }}
+      {{ range $page.AllTranslations }}
+        {{ if eq .Site.Language.Lang $site.Language.Lang }}{{ $target = .RelPermalink }}{{ end }}
+      {{ end }}
+      <a href="{{ $target }}" role="menuitem" lang="{{ $site.Language.Lang }}"
+         {{ if eq $site.Language.Lang $page.Site.Language.Lang }}aria-current="true"{{ end }}>{{ $site.Language.LanguageName }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

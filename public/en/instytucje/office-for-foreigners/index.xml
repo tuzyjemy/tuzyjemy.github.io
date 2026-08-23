@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Office for Foreigners on Tu Żyjemy</title>
+		<link>http://localhost:1313/en/instytucje/office-for-foreigners/</link>
+		<description>Recent content in Office for Foreigners on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>en-GB</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/instytucje/office-for-foreigners/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Reminder (ponaglenie) for an authority&#39;s inaction</title>
+				<link>http://localhost:1313/en/templates/ponaglenie-bezczynnosc/</link>
+				<pubDate>Tue, 12 May 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/en/templates/ponaglenie-bezczynnosc/</guid>
+				<description>&lt;p&gt;A &lt;em&gt;ponaglenie&lt;/em&gt; is the simplest and most effective step when your case is stuck. You file it&#xA;with the &lt;strong&gt;higher-instance authority&lt;/strong&gt;, but &lt;strong&gt;through&lt;/strong&gt; the authority handling your case.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For a voivode&amp;rsquo;s decision the higher authority is the &lt;strong&gt;Head of the Office for Foreigners&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The authority has 7 days to forward the reminder together with the file.&lt;/li&gt;&#xA;&lt;li&gt;The higher authority decides within 7 days.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In the 14 cases we tracked, a reminder moved the decision forward by roughly 3 months.&#xA;In 4 cases it changed nothing.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

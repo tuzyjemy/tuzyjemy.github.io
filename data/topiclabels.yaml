@@ -1,0 +1,63 @@
+# Tematy (taksonomia "tematy") są zawsze zapisywane po polsku w front
+# matter dokumentów. Ten plik tłumaczy same etykiety na potrzeby
+# wyświetlania — nie zmienia danych ani nie tworzy osobnych stron
+# taksonomii per język. Klucz to dokładna polska fraza z front matter
+# (nie slug — patrz facet-label.html).
+#
+# Nazwy instytucji (taksonomia "instytucje") celowo NIE są tu tłumaczone —
+# to nazwy własne konkretnych urzędów, więc zostają w oryginale we
+# wszystkich językach.
+Mobilizacja:
+  pl: Mobilizacja
+  ru: Мобилизация
+  en: Mobilisation
+  uk: Мобілізація
+  be: Мабілізацыя
+Cyfryzacja:
+  pl: Cyfryzacja
+  ru: Цифровизация
+  en: Digitisation
+  uk: Цифровізація
+  be: Лічбавізацыя
+Dostępność:
+  pl: Dostępność
+  ru: Доступность
+  en: Accessibility
+  uk: Доступність
+  be: Даступнасць
+"Droga sądowa":
+  pl: Droga sądowa
+  ru: Судебный путь
+  en: Judicial route
+  uk: Судовий шлях
+  be: Судовы шлях
+Jawność:
+  pl: Jawność
+  ru: Прозрачность
+  en: Transparency
+  uk: Прозорість
+  be: Празрыстасць
+"Legalizacja pobytu":
+  pl: Legalizacja pobytu
+  ru: Легализация пребывания
+  en: Residence legalisation
+  uk: Легалізація перебування
+  be: Легалізацыя знаходжання
+"Przewlekłość postępowań":
+  pl: Przewlekłość postępowań
+  ru: Волокита
+  en: Excessive delay
+  uk: Тяганина
+  be: Валакіта
+Terminy:
+  pl: Terminy
+  ru: Сроки
+  en: Deadlines
+  uk: Строки
+  be: Тэрміны
+"Zmiana prawa":
+  pl: Zmiana prawa
+  ru: Изменение законодательства
+  en: Legal change
+  uk: Зміна законодавства
+  be: Змена заканадаўства

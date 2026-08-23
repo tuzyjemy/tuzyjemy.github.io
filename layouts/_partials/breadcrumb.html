@@ -1,0 +1,11 @@
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
+  {{ with .Parent }}
+    {{ if not .IsHome }}
+      <span aria-hidden="true">/</span>
+      <a href="{{ .RelPermalink }}">{{ i18n (printf "menu_%s" .Section) | default .Title }}</a>
+    {{ end }}
+  {{ end }}
+  <span aria-hidden="true">/</span>
+  <span>{{ .Title }}</span>
+</nav>

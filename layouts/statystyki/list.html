@@ -1,0 +1,211 @@
+{{ define "main" }}
+{{/*  Statystyki czasu rozpatrywania spraw.
+      Źródło danych: assets/data/sprawy.csv (kolumny opisane w README).
+      Kolejność kolumn:
+      0 id | 1 typ | 2 instytucja | 3 miasto | 4 data_zlozenia |
+      5 data_decyzji | 6 dni | 7 termin_ustawowy | 8 wynik | 9 rok     */}}
+{{ $csv := resources.Get "data/sprawy.csv" }}
+{{ $rows := slice }}
+{{ with $csv }}
+  {{ $all := . | transform.Unmarshal (dict "delimiter" ",") }}
+  {{ range after 1 $all }}
+    {{ if and (ge (len .) 10) (index . 6) }}
+      {{ $rows = $rows | append (dict
+          "id" (index . 0)
+          "typ" (index . 1)
+          "instytucja" (index . 2)
+          "miasto" (index . 3)
+          "zlozenie" (index . 4)
+          "decyzja" (index . 5)
+          "dni" (int (index . 6))
+          "termin" (int (index . 7))
+          "wynik" (index . 8)
+          "rok" (index . 9)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="shell">
+  <header class="page-head">
+    <h1>{{ i18n "menu_statystyki" }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ with .Content }}<div class="prose" style="margin-bottom:28px">{{ . }}</div>{{ end }}
+
+  {{ if not $rows }}
+    <p class="notice notice-info">{{ i18n "stat_brak_danych" }}</p>
+  {{ else }}
+
+    {{ $dni := slice }}
+    {{ range $rows }}{{ $dni = $dni | append .dni }}{{ end }}
+    {{ $s := partial "stats-calc.html" $dni }}
+    {{ $over := 0 }}
+    {{ range $rows }}{{ if gt .dni .termin }}{{ $over = add $over 1 }}{{ end }}{{ end }}
+
+    <section class="stat-grid" aria-label="{{ i18n "stat_czas_rozpatrywania" }}">
+      <div class="stat">
+        <div class="label">{{ i18n "stat_liczba" }}</div>
+        <div class="value">{{ $s.count }}</div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ i18n "stat_mediana" }}</div>
+        <div class="value">{{ lang.FormatNumber 0 $s.median }}<span class="unit">{{ i18n "stat_dni" }}</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ i18n "stat_srednia" }}</div>
+        <div class="value">{{ lang.FormatNumber 0 $s.mean }}<span class="unit">{{ i18n "stat_dni" }}</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ i18n "stat_min" }}</div>
+        <div class="value">{{ $s.min }}<span class="unit">{{ i18n "stat_dni" }}</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ i18n "stat_max" }}</div>
+        <div class="value">{{ $s.max }}<span class="unit">{{ i18n "stat_dni" }}</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ i18n "stat_przekroczenie" }}</div>
+        <div class="value">{{ lang.FormatPercent 0 (mul (div (float $over) $s.count) 100) }}</div>
+      </div>
+    </section>
+
+    {{/* ---------------------------------------------- wg instytucji */}}
+    {{ $byInst := dict }}
+    {{ range $rows }}
+      {{ $k := .instytucja }}
+      {{ $cur := index $byInst $k | default slice }}
+      {{ $byInst = merge $byInst (dict $k ($cur | append .)) }}
+    {{ end }}
+
+    {{ $maxDni := $s.max }}
+    <section class="chart-block">
+      <h2>{{ i18n "stat_wg_instytucji" }}</h2>
+      <p class="chart-note">{{ i18n "stat_mediana" }} — {{ i18n "stat_dni" }}. {{ i18n "stat_ustawowy" }}: pionowa kreska.</p>
+      <div class="bars">
+        {{ range $inst, $items := $byInst }}
+          {{ $d := slice }}{{ $t := slice }}
+          {{ range $items }}{{ $d = $d | append .dni }}{{ $t = $t | append .termin }}{{ end }}
+          {{ $is := partial "stats-calc.html" $d }}
+          {{ $ts := partial "stats-calc.html" $t }}
+          {{ $pct := mul (div (float $is.median) $maxDni) 100 }}
+          {{ $limitPct := mul (div (float $ts.median) $maxDni) 100 }}
+          <div class="bar-row">
+            <span class="bar-label">{{ $inst }}</span>
+            <span class="bar-track">
+              <span class="bar-fill{{ if gt $is.median $ts.median }} over{{ end }}"
+                    style="width:{{ printf "%.1f" $pct }}%"></span>
+              {{ if gt $ts.median 0 }}
+                <span class="bar-limit" style="left:{{ printf "%.1f" $limitPct }}%"
+                      title="{{ i18n "stat_ustawowy" }}: {{ $ts.median }}"></span>
+              {{ end }}
+            </span>
+            <span class="bar-value">{{ lang.FormatNumber 0 $is.median }} {{ i18n "stat_dni" }} · {{ $is.count }} {{ i18n "stat_spraw" }}</span>
+          </div>
+        {{ end }}
+      </div>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--accent)"></i> {{ i18n "stat_rzeczywisty" }}</span>
+        <span><i class="swatch" style="background:var(--warm)"></i> {{ i18n "stat_przekroczenie" }}</span>
+        <span><i class="swatch" style="background:var(--deep);width:3px;height:14px;border-radius:0"></i> {{ i18n "stat_ustawowy" }}</span>
+      </div>
+    </section>
+
+    {{/* ---------------------------------------------------- wg roku */}}
+    {{ $byRok := dict }}
+    {{ range $rows }}
+      {{ $k := .rok }}
+      {{ $cur := index $byRok $k | default slice }}
+      {{ $byRok = merge $byRok (dict $k ($cur | append .)) }}
+    {{ end }}
+    <section class="chart-block">
+      <h2>{{ i18n "stat_wg_roku" }}</h2>
+      <p class="chart-note">{{ i18n "stat_mediana" }} — {{ i18n "stat_dni" }}</p>
+      <div class="bars">
+        {{ range $rok, $items := $byRok }}
+          {{ $d := slice }}
+          {{ range $items }}{{ $d = $d | append .dni }}{{ end }}
+          {{ $is := partial "stats-calc.html" $d }}
+          {{ $pct := mul (div (float $is.median) $maxDni) 100 }}
+          <div class="bar-row">
+            <span class="bar-label">{{ $rok }}</span>
+            <span class="bar-track">
+              <span class="bar-fill" style="width:{{ printf "%.1f" $pct }}%"></span>
+            </span>
+            <span class="bar-value">{{ lang.FormatNumber 0 $is.median }} {{ i18n "stat_dni" }} · {{ $is.count }} {{ i18n "stat_spraw" }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* ---------------------------------------------------- wg typu */}}
+    {{ $byTyp := dict }}
+    {{ range $rows }}
+      {{ $k := .typ }}
+      {{ $cur := index $byTyp $k | default slice }}
+      {{ $byTyp = merge $byTyp (dict $k ($cur | append .)) }}
+    {{ end }}
+    <section class="chart-block">
+      <h2>{{ i18n "stat_wg_typu" }}</h2>
+      <p class="chart-note">{{ i18n "stat_mediana" }} — {{ i18n "stat_dni" }}</p>
+      <div class="bars">
+        {{ range $typ, $items := $byTyp }}
+          {{ $d := slice }}
+          {{ range $items }}{{ $d = $d | append .dni }}{{ end }}
+          {{ $is := partial "stats-calc.html" $d }}
+          {{ $pct := mul (div (float $is.median) $maxDni) 100 }}
+          <div class="bar-row">
+            <span class="bar-label">{{ $typ }}</span>
+            <span class="bar-track">
+              <span class="bar-fill" style="width:{{ printf "%.1f" $pct }}%"></span>
+            </span>
+            <span class="bar-value">{{ lang.FormatNumber 0 $is.median }} {{ i18n "stat_dni" }} · {{ $is.count }} {{ i18n "stat_spraw" }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* --------------------------------------------- tabela danych */}}
+    <section class="chart-block">
+      <h2>{{ i18n "stat_tabela" }}</h2>
+      <p class="chart-note">{{ i18n "stat_zrodlo_danych" }}: assets/data/sprawy.csv</p>
+      <div class="table-wrap">
+        <table class="data-table" data-sortable>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>{{ i18n "meta_typ" }}</th>
+              <th>{{ i18n "meta_instytucja" }}</th>
+              <th>{{ i18n "meta_data_wyslania" }}</th>
+              <th>{{ i18n "meta_data_odpowiedzi" }}</th>
+              <th class="num">{{ i18n "stat_rzeczywisty" }}</th>
+              <th class="num">{{ i18n "stat_ustawowy" }}</th>
+              <th>{{ i18n "meta_wynik" }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $rows }}
+              <tr>
+                <td>{{ .id }}</td>
+                <td>{{ .typ }}</td>
+                <td>{{ .instytucja }}{{ with .miasto }} · {{ . }}{{ end }}</td>
+                <td>{{ .zlozenie }}</td>
+                <td>{{ .decyzja }}</td>
+                <td class="num"{{ if gt .dni .termin }} style="color:var(--warm);font-weight:700"{{ end }}>{{ .dni }}</td>
+                <td class="num">{{ .termin }}</td>
+                <td>{{ .wynik }}</td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ $pages := .RegularPages.ByDate.Reverse }}
+  {{ if $pages }}
+    <div class="section-head"><h2>{{ i18n "meta_powiazane" }}</h2></div>
+    {{ partial "doc-list.html" (dict "pages" $pages "ctx" .) }}
+  {{ end }}
+</div>
+{{ end }}

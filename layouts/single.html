@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="shell">
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="article-grid">
+    <article>
+      <header class="page-head">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+        <div class="doc-tags" style="margin-top:16px">
+          {{ range .GetTerms "statusy" }}{{ partial "status-badge.html" . }}{{ end }}
+          {{ range .GetTerms "tematy" }}
+            <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+      </header>
+
+      {{ if .Params.uwaga_prawna }}
+        <p class="notice">{{ i18n "legal_note" }}</p>
+      {{ end }}
+
+      {{ if le (len .AllTranslations) 1 }}
+        {{ $p := . }}
+        <p class="notice notice-info">
+          {{ i18n "no_other_languages" }}
+          {{ i18n "translate_page" }}:
+          {{ range slice "pl" "en" "ru" "uk" "be" }}
+            {{ if ne . $p.Language.Lang }}
+              <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" .) }}" target="_blank" rel="noopener">{{ upper . }}</a>
+            {{ end }}
+          {{ end }}
+        </p>
+      {{ end }}
+
+      <div class="prose">
+        {{ .Content }}
+      </div>
+
+      {{ with .Params.pliki }}
+        <div class="download-row" style="margin-top:28px">
+          {{ range . }}
+            <a class="btn btn-solid" href="{{ .url | relURL }}" download>{{ .tytul | default (i18n "download") }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ $related := .Site.RegularPages.Related . | first 4 }}
+      {{ with $related }}
+        <h2 style="margin-top:44px;font-size:20px">{{ i18n "meta_powiazane" }}</h2>
+        <div class="doc-list" style="margin-top:14px">
+          {{ range . }}
+            <article class="doc">
+              <div class="doc-top">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <span class="doc-date">{{ .Date.Format "02.01.2006" }}</span>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      {{ end }}
+    </article>
+
+    <aside class="aside">
+      {{ partial "meta-box.html" . }}
+      {{ if and .TableOfContents (gt (len .TableOfContents) 40) }}
+        <div class="aside-box toc">
+          <h2>{{ i18n "toc" }}</h2>
+          {{ .TableOfContents }}
+        </div>
+      {{ end }}
+    </aside>
+  </div>
+</div>
+{{ end }}

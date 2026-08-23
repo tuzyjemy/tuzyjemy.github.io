@@ -1,0 +1,105 @@
+{{/*  Uniwersalna, filtrowalna lista wpisów.
+      Wywołanie:  {{ partial "doc-list.html" (dict "pages" $pages "ctx" . ) }}
+
+      Fasety (statusy / instytucje / tematy / lata) pojawiają się automatycznie,
+      jeśli wpisy w tej sekcji mają odpowiednie wartości. Nazwy w liczbie mnogiej,
+      bo tak Hugo czyta taksonomie z front matter.
+
+      Statusy i tematy są zawsze zapisywane po polsku — etykiety (nie dane)
+      tłumaczymy na język bieżącej strony przez facet-label.html. Nazwy
+      instytucji celowo zostają w oryginale (to nazwy własne).             */}}
+{{ $pages := .pages }}
+{{ $ctx := .ctx }}
+{{ $lang := $ctx.Language.Lang }}
+{{ $facets := slice "statusy" "instytucje" "tematy" "lata" }}
+{{ $labels := dict
+    "statusy" "meta_status"
+    "instytucje" "meta_instytucja"
+    "tematy" "meta_temat"
+    "lata" "meta_rok" }}
+
+{{/* zbierz dostępne wartości fasetów */}}
+{{ $available := dict }}
+{{ range $facets }}
+  {{ $facet := . }}
+  {{ $values := slice }}
+  {{ range $pages }}
+    {{ range (index .Params $facet | default slice) }}
+      {{ $values = $values | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $available = merge $available (dict $facet (uniq $values | sort)) }}
+{{ end }}
+
+{{ $id := $ctx.RelPermalink | anchorize }}
+
+<div data-filterable>
+  <div class="filters">
+    <div class="filter-row">
+      <label class="visually-hidden" for="q-{{ $id }}">{{ i18n "search_placeholder" }}</label>
+      <input class="search-input" id="q-{{ $id }}" type="search"
+             placeholder="{{ i18n "search_placeholder" }}">
+      <button class="chip" type="button" data-clear>{{ i18n "clear_filters" }}</button>
+    </div>
+    {{ range $facets }}
+      {{ $facet := . }}
+      {{ $values := index $available $facet }}
+      {{ if $values }}
+        <div class="filter-row">
+          <label>{{ i18n (index $labels $facet) }}</label>
+          {{ range $values }}
+            <button class="chip" type="button" aria-pressed="false"
+                    data-facet="{{ $facet }}" data-value="{{ . }}">{{ partial "facet-label.html" (dict "facet" $facet "value" . "lang" $lang) }}</button>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+    <div class="filter-summary">
+      {{ i18n "showing_count" }} <b data-count>{{ len $pages }}</b> {{ i18n "of_total" }} {{ len $pages }}
+    </div>
+  </div>
+
+  <div class="doc-list">
+    {{ range $pages }}
+      {{ $p := . }}
+      {{ $search := slice .Title (.Description | default "") (.Summary | plainify) }}
+      {{ range $facets }}
+        {{ $search = $search | append (delimit (index $p.Params . | default slice) " ") }}
+      {{ end }}
+      <article class="doc" data-item
+        data-statusy="{{ delimit (.Params.statusy | default slice) "|" }}"
+        data-instytucje="{{ delimit (.Params.instytucje | default slice) "|" }}"
+        data-tematy="{{ delimit (.Params.tematy | default slice) "|" }}"
+        data-lata="{{ delimit (.Params.lata | default slice) "|" }}"
+        data-search="{{ delimit $search " " }}">
+        <div class="doc-top">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <span class="doc-date">{{ .Date.Format "02.01.2006" }}</span>
+        </div>
+        {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 200 }}</p>{{ end }}
+        <div class="doc-tags">
+          {{ if ne $p.Language.Lang $ctx.Language.Lang }}
+            <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
+            <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>
+          {{ end }}
+          {{ range .GetTerms "statusy" }}
+            {{ partial "status-badge.html" . }}
+          {{ end }}
+          {{ range .GetTerms "instytucje" }}
+            <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          {{ end }}
+          {{ range .GetTerms "tematy" }}
+            <a class="tag tag-plain" href="{{ .RelPermalink }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $lang) }}</a>
+          {{ end }}
+          {{ with .Params.sygnatura }}<span class="tag tag-plain">{{ . }}</span>{{ end }}
+          {{ with .Params.dni }}<span class="tag tag-plain">{{ . }} {{ i18n "meta_dni" }}</span>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+
+  <p class="notice" data-empty hidden>{{ i18n "no_results" }}</p>
+  {{ if not $pages }}
+    <p class="notice notice-info">{{ i18n "empty_section" }}</p>
+  {{ end }}
+</div>

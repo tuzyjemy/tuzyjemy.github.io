@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tu Żyjemy</title>
+		<link>http://localhost:1313/ru/</link>
+		<description>Recent content on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>ru-RU</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/ru/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Присоединиться</title>
+				<link>http://localhost:1313/ru/dolacz/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/ru/dolacz/</guid>
+				<description>&lt;p&gt;Мы не ведём списков членов и не собираем взносов. Работаем задачами: кто-то пишет&#xA;обращение, кто-то переводит, кто-то собирает данные, кто-то стоит с плакатом.&lt;/p&gt;&#xA;&lt;h2 id=&#34;что-можно-делать&#34;&gt;Что можно делать&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Собрать данные о своём деле.&lt;/strong&gt; Дата подачи, дата решения, ведомство — этого&#xA;достаточно, чтобы пополнить &lt;a href=&#34;http://localhost:1313/ru/statistika/&#34;&gt;статистику&lt;/a&gt;&#xA;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Переводить.&lt;/strong&gt; Сайт работает на польском, русском, английском, украинском и белорусском.&#xA;Каждый новый перевод — это десятки людей, которые поймут свои права.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Писать и отправлять обращения.&lt;/strong&gt; Пользуйтесь нашими &lt;a href=&#34;http://localhost:1313/ru/obraztsy/&#34;&gt;образцами&lt;/a&gt;&#xA;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Документировать ответы.&lt;/strong&gt; Пришёл ответ из ведомства? Пришлите его нам — он попадёт&#xA;в &lt;a href=&#34;http://localhost:1313/ru/otvety/&#34;&gt;архив ответов&lt;/a&gt;&#xA;.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Понагление (ponaglenie) на бездействие органа</title>
+				<link>http://localhost:1313/ru/obraztsy/ponaglenie-bezczynnosc/</link>
+				<pubDate>Tue, 12 May 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/ru/obraztsy/ponaglenie-bezczynnosc/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Ponaglenie&lt;/em&gt; — самый простой и самый действенный шаг, когда дело стоит. Подаётся&#xA;в &lt;strong&gt;вышестоящий орган&lt;/strong&gt;, но &lt;strong&gt;через&lt;/strong&gt; тот орган, который ведёт дело.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Для решений воеводы вышестоящий орган — &lt;strong&gt;Шеф Управления по делам иностранцев&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;У органа есть 7 дней, чтобы передать понагление вместе с материалами дела.&lt;/li&gt;&#xA;&lt;li&gt;Вышестоящий орган рассматривает его в течение 7 дней.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;В 14 делах, за которыми мы следили, понагление ускорило решение в среднем на 3 месяца.&#xA;В 4 делах не изменило ничего.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

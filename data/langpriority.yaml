@@ -1,0 +1,10 @@
+# Kolejność języków, w jakiej section-pages.html szuka wersji dokumentu,
+# gdy nie ma go w bieżącym języku. Każda lista zaczyna się od siebie
+# samej (więc jeśli tłumaczenie istnieje, zawsze wygrywa) i dalej idzie
+# wg bliskości językowo-kulturowej, a nie jednej sztywnej kolejności
+# dla całego serwisu.
+pl: [pl, en, ru, uk, be]
+en: [en, pl, ru, uk, be]
+ru: [ru, uk, be, pl, en]
+uk: [uk, ru, be, pl, en]
+be: [be, ru, uk, pl, en]

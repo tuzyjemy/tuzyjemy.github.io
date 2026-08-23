@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>tematy on Tu Żyjemy</title>
+		<link>http://localhost:1313/tematy/</link>
+		<description>Recent content in tematy on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>pl-PL</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tematy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Mobilizacja</title>
+				<link>http://localhost:1313/tematy/mobilizacja/</link>
+				<pubDate>Tue, 18 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/mobilizacja/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jawność</title>
+				<link>http://localhost:1313/tematy/jawnosc/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/jawnosc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Przewlekłość postępowań</title>
+				<link>http://localhost:1313/tematy/przewlek%C5%82osc-postepowan/</link>
+				<pubDate>Tue, 11 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/przewlek%C5%82osc-postepowan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Zmiana prawa</title>
+				<link>http://localhost:1313/tematy/zmiana-prawa/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/zmiana-prawa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cyfryzacja</title>
+				<link>http://localhost:1313/tematy/cyfryzacja/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/cyfryzacja/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dostępność</title>
+				<link>http://localhost:1313/tematy/dostepnosc/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/dostepnosc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Legalizacja pobytu</title>
+				<link>http://localhost:1313/tematy/legalizacja-pobytu/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/legalizacja-pobytu/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Droga sądowa</title>
+				<link>http://localhost:1313/tematy/droga-sadowa/</link>
+				<pubDate>Thu, 28 May 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/droga-sadowa/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Terminy</title>
+				<link>http://localhost:1313/tematy/terminy/</link>
+				<pubDate>Thu, 05 Sep 2024 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/tematy/terminy/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

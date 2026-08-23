@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <div class="shell">
+    <nav class="footer-sitemap" aria-label="{{ i18n "footer_sitemap" }}">
+      {{ $current := . }}
+      {{/* Ta sama grupa co w nagłówku i na stronie głównej — patrz
+           data/menugroups.yaml. Pełna mapa strony w stopce, żeby było
+           widać, że serwis ma więcej niż siedem linków w górnym menu. */}}
+      {{ range hugo.Data.menugroups }}
+        {{ $group := . }}
+        <div class="footer-col">
+          <h3>{{ i18n $group.labelKey }}</h3>
+          <ul>
+            {{ range $group.sections }}
+              {{ $ident := . }}
+              <li><a href="{{ partial "href.html" (printf "/%s/" $ident) }}">{{ i18n (printf "menu_%s" $ident) }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+      <div class="footer-col">
+        <h3>{{ i18n "footer_browse" }}</h3>
+        <ul>
+          {{ range (slice "tematy" "instytucje" "statusy" "lata") }}
+            <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "taxo_%s" .) }}</a></li>
+          {{ end }}
+          <li><a href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="footer-inner">
+      <strong>{{ i18n "footer_tagline" }}</strong>
+      <span>{{ i18n "footer_values" }}</span>
+      <div class="footer-meta">
+        {{ i18n "footer_license" }}
+        {{ with .Site.Params.email }}
+          &middot; {{ i18n "footer_contact" }}: <a href="mailto:{{ . }}">{{ . }}</a>
+        {{ end }}
+        {{ if and .Site.Params.repoEdycji .File }}
+          &middot; <a href="{{ .Site.Params.repoEdycji }}/edit/main/content/{{ .Site.Language.Lang }}/{{ .File.Path }}" rel="noopener">{{ i18n "footer_edit" }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</footer>

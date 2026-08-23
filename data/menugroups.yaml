@@ -1,0 +1,13 @@
+# Grupowanie sekcji wg tego, do kogo są adresowane — od najbardziej
+# przystępnych po najbardziej specjalistyczne. Używane w nagłówku,
+# na stronie głównej i w stopce, żeby te trzy miejsca zawsze pokazywały
+# tę samą strukturę.
+- labelKey: kb_group_start_title
+  descKey: kb_group_start_desc
+  sections: [aktualnosci, statystyki, dzialania]
+- labelKey: kb_group_prep_title
+  descKey: kb_group_prep_desc
+  sections: [wzory, poradniki]
+- labelKey: kb_group_ref_title
+  descKey: kb_group_ref_desc
+  sections: [orzeczenia, odpowiedzi]

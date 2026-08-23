@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="shell">
+  <header class="page-head">
+    <p class="kicker">{{ i18n (printf "meta_%s" .Data.Singular) | default .Data.Singular }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+  {{ with .Content }}<div class="prose" style="margin-bottom:24px">{{ . }}</div>{{ end }}
+  {{ partial "doc-list.html" (dict "pages" .Pages.ByDate.Reverse "ctx" .) }}
+</div>
+{{ end }}

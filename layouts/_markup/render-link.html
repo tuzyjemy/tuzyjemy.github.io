@@ -1,0 +1,33 @@
+{{- /*  Hook renderowania odnośników w treści (Markdown).
+
+    Dzięki niemu w tekście wystarczy pisać ścieżki polskie, np.:
+        [statystyki](/statystyki/)
+        [wzór ponaglenia](/wzory/ponaglenie-bezczynnosc/)
+
+    Hugo sam zamienia je na właściwy adres w danym języku
+    (/en/statistics/, /ru/obraztsy/…) i dokłada przedrostek baseURL,
+    gdy strona stoi w podkatalogu (np. /tuzyjemy/).
+    Jeśli strona o takiej ścieżce nie istnieje, odnośnik zostaje
+    użyty dosłownie — tylko z poprawionym przedrostkiem.            */ -}}
+
+{{- $d := .Destination -}}
+{{- $external := or (hasPrefix $d "http://") (hasPrefix $d "https://")
+                    (hasPrefix $d "mailto:") (hasPrefix $d "tel:") (hasPrefix $d "//") -}}
+{{- $href := $d -}}
+
+{{- if and (not $external) (hasPrefix $d "/") -}}
+  {{- $parts := split $d "#" -}}
+  {{- $path := index $parts 0 -}}
+  {{- $frag := "" -}}
+  {{- if gt (len $parts) 1 -}}{{- $frag = printf "#%s" (index $parts 1) -}}{{- end -}}
+  {{- $lookup := strings.TrimSuffix "/" $path -}}
+  {{- with site.GetPage $lookup -}}
+    {{- $href = printf "%s%s" .RelPermalink $frag -}}
+  {{- else -}}
+    {{- $href = printf "%s%s" ($path | relLangURL) $frag -}}
+  {{- end -}}
+{{- end -}}
+
+<a href="{{ $href }}"
+   {{- with .Title }} title="{{ . }}"{{ end }}
+   {{- if $external }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

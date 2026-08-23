@@ -1,0 +1,4 @@
+{{/* Przycisk pobierania.  {{< plik url="/pliki/skarga.docx" tytul="Pobierz .docx" >}} */}}
+<a class="btn btn-solid" href="{{ .Get "url" | relURL }}" download>
+  {{ .Get "tytul" | default (i18n "download") }}
+</a>

@@ -1,0 +1,27 @@
+{{/*  Liczy podstawowe statystyki dla listy liczb.
+      Wywołanie:  {{ $s := partial "stats-calc.html" $liczby }}
+      Zwraca dict: count, median, mean, min, max, sum          */}}
+{{ $nums := . }}
+{{ $out := dict "count" 0 "median" 0 "mean" 0 "min" 0 "max" 0 "sum" 0 }}
+{{ $n := len $nums }}
+{{ if gt $n 0 }}
+  {{ $sorted := sort $nums }}
+  {{ $sum := 0 }}
+  {{ range $sorted }}{{ $sum = add $sum . }}{{ end }}
+  {{ $median := 0 }}
+  {{ if eq (mod $n 2) 1 }}
+    {{ $median = index $sorted (int (math.Floor (div $n 2))) }}
+  {{ else }}
+    {{ $a := index $sorted (sub (int (div $n 2)) 1) }}
+    {{ $b := index $sorted (int (div $n 2)) }}
+    {{ $median = div (add $a $b) 2.0 }}
+  {{ end }}
+  {{ $out = dict
+      "count" $n
+      "median" $median
+      "mean" (div (float $sum) $n)
+      "min" (index $sorted 0)
+      "max" (index $sorted (sub $n 1))
+      "sum" $sum }}
+{{ end }}
+{{ return $out }}

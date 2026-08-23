@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Odpowiedź otrzymana on Tu Żyjemy</title>
+		<link>http://localhost:1313/statusy/odpowiedz-otrzymana/</link>
+		<description>Recent content in Odpowiedź otrzymana on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>pl-PL</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/statusy/odpowiedz-otrzymana/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sejm: petycja skierowana do rozpatrzenia na posiedzeniu Komisji</title>
+				<link>http://localhost:1313/odpowiedzi/sejm-komisja-petycji-2026/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/odpowiedzi/sejm-komisja-petycji-2026/</guid>
+				<description>&lt;p&gt;Pismo z Biura Komunikacji Społecznej Kancelarii Sejmu informuje o nadaniu sygnatury&#xA;i skierowaniu petycji do rozpatrzenia przez Komisję do Spraw Petycji.&lt;/p&gt;&#xA;&lt;h2 id=&#34;nasza-ocena&#34;&gt;Nasza ocena&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Proceduralna, ale pozytywna.&lt;/strong&gt; Petycja nie została odrzucona formalnie, co przy&#xA;petycjach dotyczących cudzoziemców zdarza się często (najczęstszy powód: brak wskazania&#xA;interesu publicznego). W piśmie przewodnim przywołano nasze zestawienie danych.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Petycja do Sejmu o przywrócenie ochrony przed przewlekłością</title>
+				<link>http://localhost:1313/dzialania/petycja-sejm-przewleklosc/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/dzialania/petycja-sejm-przewleklosc/</guid>
+				<description>&lt;h2 id=&#34;czego-dotyczy&#34;&gt;Czego dotyczy&lt;/h2&gt;&#xA;&lt;p&gt;Wnosimy o zmianę przepisów, które w praktyce pozbawiają cudzoziemców środków&#xA;przeciwko bezczynności organu. Postępowania o pobyt czasowy w kilku województwach&#xA;trwają realnie &lt;strong&gt;ponad rok&lt;/strong&gt;, przy ustawowym terminie 60 dni.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

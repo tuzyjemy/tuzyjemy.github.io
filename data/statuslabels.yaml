@@ -1,0 +1,15 @@
+# Status jest zawsze zapisywany po polsku w front matter (patrz
+# archetypes/dzialania.md) — tu mapujemy dokładną polską frazę na klucz
+# i18n, żeby odznaka statusu pokazywała się w języku odwiedzającego,
+# a nie zawsze po polsku. Klucz to fraza, nie slug (celowo — patrz
+# facet-label.html).
+Planowane: status_planowane
+"W toku": status_w_toku
+"Wysłane": status_wyslane
+"Oczekuje na odpowiedź": status_oczekuje
+"Odpowiedź otrzymana": status_odpowiedziano
+"Częściowo uwzględnione": status_czesciowo
+Uwzględnione: status_uwzglednione
+Odrzucone: status_odrzucone
+"Bez odpowiedzi": status_bez_odpowiedzi
+Zakończone: status_zakonczone

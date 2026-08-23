@@ -1,0 +1,56 @@
+<div class="topbar">
+  <div class="shell topbar-inner">
+    <span>{{ i18n "topbar_slogan" }}</span>
+    {{ with .Site.Params.telegram }}
+      <span>Telegram: <a href="{{ . }}" rel="noopener">@tu_zyjemy</a></span>
+    {{ end }}
+  </div>
+</div>
+
+<header class="site-header" data-nav="closed">
+  <div class="shell header-inner">
+    <a class="brand" href="{{ "" | relLangURL }}" aria-label="{{ .Site.Title }} — {{ i18n "home" }}">
+      <span class="brand-symbol" aria-hidden="true">
+        <svg viewBox="0 0 132 76" role="img">
+          <path d="M6 47 L53 11 Q59 6 64 9 L64 25 L20 59 Q14 64 9 60 L5 56 Q1 52 6 47Z" fill="currentColor"></path>
+          <path d="M68 9 Q73 6 79 11 L126 47 Q131 52 127 56 L123 60 Q118 64 112 59 L68 25Z" fill="currentColor"></path>
+          <circle cx="66" cy="61" r="10" fill="var(--warm)"></circle>
+        </svg>
+      </span>
+      <span class="brand-name">{{ .Site.Title }}</span>
+    </a>
+
+    <nav class="nav" aria-label="{{ i18n "menu_label" }}">
+      {{ $current := . }}
+      {{/* Te same trzy grupy (data/menugroups.yaml) co na stronie głównej
+           i w stopce — dzielnik na desktopie, nagłówek grupy w menu mobilnym.
+           Bez tego pogrupowania płaska lista linków sprawia wrażenie, że to
+           już cała zawartość serwisu. */}}
+      {{ range hugo.Data.menugroups }}
+        {{ $group := . }}
+        <div class="nav-group">
+          <span class="nav-group-label">{{ i18n $group.labelKey }}</span>
+          {{ range $group.sections }}
+            {{ $ident := . }}
+            {{ range $current.Site.Menus.main }}
+              {{ if eq .Identifier $ident }}
+                {{ $entry := . }}
+                {{ $key := printf "menu_%s" .Identifier }}
+                {{/* .URL rozwiązuje pageRef względem języka domyślnego, więc adres
+                     bierzemy ze strony sekcji w bieżącym języku. */}}
+                {{ $url := partial "href.html" (printf "/%s/" .Identifier) }}
+                <a href="{{ $url }}"{{ if $current.IsMenuCurrent "main" $entry }} aria-current="page"{{ else if $current.HasMenuCurrent "main" $entry }} class="is-active"{{ end }}>{{ i18n $key | default .Name }}</a>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </nav>
+
+    <div class="header-tools">
+      {{ partial "lang-switch.html" . }}
+      <a class="btn btn-join" href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">{{ i18n "menu_toggle" }}</button>
+    </div>
+  </div>
+</header>

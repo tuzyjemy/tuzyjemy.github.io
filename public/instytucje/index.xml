@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>instytucje on Tu Żyjemy</title>
+		<link>http://localhost:1313/instytucje/</link>
+		<description>Recent content in instytucje on Tu Żyjemy</description>
+		<generator>Hugo</generator>
+		<language>pl-PL</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/instytucje/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Pomorski Urząd Wojewódzki</title>
+				<link>http://localhost:1313/instytucje/pomorski-urzad-wojewodzki/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/pomorski-urzad-wojewodzki/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sejm RP</title>
+				<link>http://localhost:1313/instytucje/sejm-rp/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/sejm-rp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ministerstwo Cyfryzacji</title>
+				<link>http://localhost:1313/instytucje/ministerstwo-cyfryzacji/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/ministerstwo-cyfryzacji/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Urząd do Spraw Cudzoziemców</title>
+				<link>http://localhost:1313/instytucje/urzad-do-spraw-cudzoziemcow/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/urzad-do-spraw-cudzoziemcow/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Wojewoda</title>
+				<link>http://localhost:1313/instytucje/wojewoda/</link>
+				<pubDate>Wed, 10 Jun 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/wojewoda/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Wojewódzki Sąd Administracyjny</title>
+				<link>http://localhost:1313/instytucje/wojewodzki-sad-administracyjny/</link>
+				<pubDate>Thu, 28 May 2026 00:00:00 +0200</pubDate>
+				<guid>http://localhost:1313/instytucje/wojewodzki-sad-administracyjny/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
