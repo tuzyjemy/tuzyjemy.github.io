@@ -1,0 +1,76 @@
+{{- /*  Składa dane kampanii dla bieżącego języka:
+      struktura  → data/campaign/layout.yaml   (raz, dla wszystkich)
+      teksty     → data/campaign/<język>.yaml  (osobno dla każdego)
+    Połączenie odbywa się po polach „id", więc kolejność w layout.yaml
+    można zmieniać bez ruszania tłumaczeń.
+
+    Gdy brakuje pliku z tekstami dla danego języka, sięgamy po język
+    domyślny — lepiej pokazać kampanię po polsku niż pustą stronę.
+
+    Zwraca pusty dict, gdy kampanii nie ma albo jest wyłączona
+    (`active: false`) — strona główna pomija wtedy cały blok.
+
+    Wywołanie: {{ partial "campaign.html" . }}                          */ -}}
+{{- $ctx := . -}}
+{{- $lang := $ctx.Site.Language.Lang -}}
+{{- $c := hugo.Data.campaign -}}
+{{- $out := dict -}}
+
+{{- if and $c $c.layout $c.layout.active -}}
+  {{- $layout := $c.layout -}}
+  {{- $text := index $c $lang -}}
+  {{- if not $text -}}
+    {{- $text = index $c $ctx.Site.Home.Site.Language.Lang -}}
+  {{- end -}}
+  {{- if not $text -}}{{- $text = index $c "pl" -}}{{- end -}}
+
+  {{- if $text -}}
+    {{- /* Zapasowe terminy — dzień tygodnia i miesiąc z daty. */ -}}
+    {{- $terminy := slice -}}
+    {{- range $layout.dates -}}
+      {{- $d := . -}}
+      {{- $p := partial "date-parts.html" (dict "date" $d.date "lang" $lang) -}}
+      {{- $opis := "" -}}
+      {{- with $text.dates -}}{{- $opis = index . $d.id -}}{{- end -}}
+      {{- $terminy = $terminy | append (dict
+          "dzien"    $p.dzien
+          "miesiac"  $p.miesiac
+          "tytul"    (printf "%s, %s" $p.weekday $d.time)
+          "opis"     $opis
+          "domyslny" (default false $d.leading)
+        ) -}}
+    {{- end -}}
+
+    {{- /* Karty „Możesz pomóc już teraz". */ -}}
+    {{- $wezwania := slice -}}
+    {{- range $layout.calls -}}
+      {{- $call := . -}}
+      {{- $t := dict -}}
+      {{- with $text.calls -}}{{- $t = index . $call.id | default dict -}}{{- end -}}
+      {{- $wezwania = $wezwania | append (dict
+          "status"    $t.status
+          "pilne"     (default false $call.urgent)
+          "tytul"     $t.title
+          "opis"      $t.body
+          "link"      $call.link
+          "linkTytul" $t.linkTitle
+        ) -}}
+    {{- end -}}
+
+    {{- $out = dict
+        "kicker"   $text.kicker
+        "naglowek" $text.heading
+        "opis"     $text.body
+        "meta"     $text.meta
+        "wezwania" $wezwania
+        "glosowanie" (dict
+            "naglowek" $text.voteHeading
+            "opis"     $text.voteBody
+            "formularz" (default "" $layout.poll)
+            "terminy"  $terminy
+        )
+    -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $out -}}

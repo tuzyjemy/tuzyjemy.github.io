@@ -1,0 +1,17 @@
+{{- /*  Rozbija datę ISO na części potrzebne do wyświetlenia, w języku
+    bieżącej strony. Nazwy miesięcy i dni tygodnia pochodzą z
+    data/dates.yaml, dzięki czemu ta sama data wygląda poprawnie
+    we wszystkich pięciu wersjach językowych i nie trzeba jej
+    tłumaczyć ręcznie.
+
+    Wywołanie: {{ partial "date-parts.html" (dict "date" "2026-09-12" "lang" "pl") }}
+    Zwraca: dict "dzien" "12" "miesiac" "wrz" "weekday" "Sobota"        */ -}}
+{{- $t := time.AsTime .date -}}
+{{- $lang := .lang -}}
+{{- $months := index hugo.Data.dates.months $lang -}}
+{{- $weekdays := index hugo.Data.dates.weekdays $lang -}}
+{{- return (dict
+    "dzien"   (printf "%d" $t.Day)
+    "miesiac" (index $months (sub (int $t.Month) 1))
+    "weekday" (strings.FirstUpper (index $weekdays (int $t.Weekday)))
+) -}}

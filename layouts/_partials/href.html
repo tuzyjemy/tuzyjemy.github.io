@@ -10,10 +10,25 @@
 {{- if or (hasPrefix $d "http://") (hasPrefix $d "https://") (hasPrefix $d "mailto:") -}}
   {{- $out = $d -}}
 {{- else if hasPrefix $d "/" -}}
-  {{- with site.GetPage (strings.TrimSuffix "/" $d) -}}
+  {{- $lookup := strings.TrimSuffix "/" $d -}}
+  {{- with site.GetPage $lookup -}}
     {{- $out = .RelPermalink -}}
   {{- else -}}
-    {{- $out = $d | relLangURL -}}
+    {{- /* Strony nie ma w bieżącym języku. Zamiast wskazywać adres,
+           który da 404, szukamy jej w pozostałych wersjach językowych —
+           tak samo jak listy dokumentów pokazują wersję zastępczą. */ -}}
+    {{- $found := false -}}
+    {{- range hugo.Sites -}}
+      {{- if not $found -}}
+        {{- with .GetPage $lookup -}}
+          {{- $out = .RelPermalink -}}
+          {{- $found = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $found -}}
+      {{- $out = $d | relLangURL -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- return $out -}}

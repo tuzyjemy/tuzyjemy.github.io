@@ -1,0 +1,32 @@
+# Campaign copy — English. Structure (dates, links) lives in layout.yaml.
+kicker: "Residence legalisation · Gdańsk"
+heading: "Let's choose the protest date together"
+body: "We want to publicly demand efficient proceedings, realistic deadlines and the restoration of protection against excessive delay. Help us pick the date when most of us can come."
+meta:
+  - "● Gdańsk"
+  - "◷ Voting until 31 August"
+
+voteHeading: "When can you come?"
+voteBody: "See which dates are most popular, then cast your vote on Framadate."
+
+dates:
+  a: "most frequently chosen"
+  b: "central Gdańsk"
+  c: "after working hours"
+
+calls:
+  share:
+    status: "Urgent · until 31 August"
+    title: "Share the protest announcement"
+    body: "Send friends a short message and the link to the poll."
+    linkTitle: "Get the ready-made post"
+  organisation:
+    status: "Cooperation"
+    title: "Join as an organisation"
+    body: "We are looking for partners, experts and migrant groups ready to act together."
+    linkTitle: "Register your organisation"
+  story:
+    status: "5 minutes"
+    title: "Tell us about your case"
+    body: "Anonymous accounts help show the real scale of the problem."
+    linkTitle: "Fill in the form"

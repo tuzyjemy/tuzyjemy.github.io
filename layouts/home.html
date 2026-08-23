@@ -1,5 +1,7 @@
 {{ define "main" }}
-{{ $k := .Params.kampania }}
+{{- /* Kampania: struktura z data/campaign/layout.yaml, teksty z pliku
+       językowego obok. Patrz partial „campaign.html". */ -}}
+{{ $k := partial "campaign.html" . }}
 <div class="shell">
 
   {{ with $k }}
@@ -25,7 +27,7 @@
   </section>
   {{ end }}
 
-  {{ with .Params.wezwania }}
+  {{ with $k.wezwania }}
   <div class="section-head">
     <h2>{{ i18n "help_now" }}</h2>
     <a href="{{ partial "href.html" "/dzialania/" }}">{{ i18n "all_actions" }} &rarr;</a>
