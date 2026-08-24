@@ -34,6 +34,8 @@ ineffective before the offices themselves — although the administrative courts
 different view. This is what [our petition to the Sejm](/dzialania/petycja-sejm-legalizacja/)
 is about.
 
+How the provision works in practice — [guide to art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 ## Source
 
 - ["We pay taxes, but wait for years" — MOST Media](https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/)

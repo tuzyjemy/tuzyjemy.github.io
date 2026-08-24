@@ -14,6 +14,7 @@ menu_odpowiedzi = "Відповіді установ"
 menu_statystyki = "Статистика"
 menu_aktualnosci = "Новини"
 menu_poradniki = "Інструкції"
+menu_skutki = "Наслідки"
 
 featured_now = "Найважливіше зараз"
 campaign_telegram = "Актуальна інформація:"

@@ -14,6 +14,7 @@ menu_odpowiedzi = "Institutional responses"
 menu_statystyki = "Statistics"
 menu_aktualnosci = "News"
 menu_poradniki = "Guides"
+menu_skutki = "Consequences"
 
 featured_now = "Most important action right now"
 campaign_telegram = "Live updates:"

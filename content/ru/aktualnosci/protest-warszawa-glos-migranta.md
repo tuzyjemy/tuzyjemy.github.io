@@ -33,6 +33,8 @@ przewlekłości lub naruszenia prawa strony do rozpoznania sprawy bez zbędnej z
 многом безрезультатны. Именно этому посвящена [наша петиция в
 Сейм](/dzialania/petycja-sejm-legalizacja/).
 
+Как эта норма работает на практике — [инструкция об art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 ## Источник
 
 - [«Платим налоги, а ждём годами» — MOST Media](https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/)

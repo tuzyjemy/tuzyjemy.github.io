@@ -21,3 +21,5 @@ ktoś pisze pismo, ktoś tłumaczy, ktoś zbiera dane, ktoś stoi z transparente
 ## Kontakt
 
 Napisz na Telegramie albo mailem. Odpowiadamy po polsku, rosyjsku i angielsku.
+
+{{< kontakt >}}

@@ -17,3 +17,9 @@ someone translates, someone gathers data, someone stands with a banner.
 - **Write and send letters.** Use our [templates](/wzory/) — they are ready to go.
 - **Document responses.** Got a reply from an office? Send it to us and it will join the
   [response archive](/odpowiedzi/).
+
+## Contact
+
+Write to us on Telegram or by email. We reply in Polish, Russian and English.
+
+{{< kontakt >}}

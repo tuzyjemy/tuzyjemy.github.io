@@ -20,6 +20,8 @@ cudzoziemców** — uznając, że przepis narusza konstytucyjne prawo do sądu i
 być stosowany. Składanie skargi na bezczynność **pozostaje więc uzasadnione**, choć wynik
 zależy od sądu i składu orzekającego ([omówienie zmiany orzecznictwa](https://naprawnik.contra-law.pl/przedluzenie-braku-mozliwosci-skarzenia-przewleklosci-wojewody-w-sprawach-cudzoziemcow-do-4-marca-2027-r/)).
 
+Szerzej o samym przepisie: [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 Pamiętaj, że warunkiem skargi jest wcześniejsze [ponaglenie](/wzory/ponaglenie-bezczynnosc/).
 {{< /notatka >}}
 

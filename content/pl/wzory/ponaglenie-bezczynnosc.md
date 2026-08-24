@@ -21,6 +21,8 @@ W praktyce bywa różnie: **część urzędów wojewódzkich reaguje na ponaglen
 przepisu, część odpowiada, powołując się na zawieszenie terminów.** Zależy to od
 województwa.
 
+Jak dokładnie działa ten przepis i co z niego wynika — [wyjaśniamy w osobnym poradniku](/poradniki/art-100d-zawieszenie-terminow/).
+
 Ponaglenie warto złożyć także z innego powodu: jest **warunkiem wniesienia skargi do
 sądu administracyjnego** ([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)), a przed sądem sytuacja wygląda
 dziś korzystniej — zob. [wzór skargi do WSA](/wzory/skarga-wsa-przewleklosc/).

@@ -29,6 +29,8 @@ zrodlo: "https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=B
 Это один из **трёх документов, поданных 24 июня 2026 г.** одним пакетом действий по улучшению процесса легализации пребывания. Инициативе предшествовал публичный сбор подписей. [Обзор пакета](https://t.me/tu_zyjemy/513/516)
 {{< /notatka >}}
 
+В чём именно состоит проблема — [инструкция об art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 ## Документы
 
 - [Карточка петиции в информационной системе Сейма](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) — там же полный текст в PDF

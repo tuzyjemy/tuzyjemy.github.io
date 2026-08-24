@@ -18,6 +18,8 @@ voivode ([art. 100d](https://lexlege.pl/ukraina/art-100d/)). It applies to **all
 In practice it varies: **some voivodeship offices act on a reminder despite the provision,
 others reply by pointing to the suspension.** It depends on the voivodeship.
 
+How the provision works in detail and what follows from it — [explained in a separate guide](/poradniki/art-100d-zawieszenie-terminow/).
+
 There is a second reason to file it anyway: a reminder is a **precondition for taking the
 case to an administrative court** ([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)), and the position before
 the courts is currently more favourable — see the [complaint to the WSA

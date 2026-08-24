@@ -84,6 +84,7 @@ summaryLength = 30
       odpowiedzi = "/odpowiedzi/:contentbasename/"
       aktualnosci = "/aktualnosci/:contentbasename/"
       poradniki = "/poradniki/:contentbasename/"
+      skutki = "/skutki/:contentbasename/"
     [languages.pl.permalinks.section]
       dzialania = "/dzialania/"
       wzory = "/wzory/"
@@ -92,6 +93,7 @@ summaryLength = 30
       statystyki = "/statystyki/"
       aktualnosci = "/aktualnosci/"
       poradniki = "/poradniki/"
+      skutki = "/skutki/"
 
   [languages.en]
     languageCode = "en-GB"
@@ -108,6 +110,7 @@ summaryLength = 30
       odpowiedzi = "/responses/:contentbasename/"
       aktualnosci = "/news/:contentbasename/"
       poradniki = "/guides/:contentbasename/"
+      skutki = "/consequences/:contentbasename/"
     [languages.en.permalinks.section]
       dzialania = "/actions/"
       wzory = "/templates/"
@@ -116,6 +119,7 @@ summaryLength = 30
       statystyki = "/statistics/"
       aktualnosci = "/news/"
       poradniki = "/guides/"
+      skutki = "/consequences/"
 
   [languages.ru]
     languageCode = "ru-RU"
@@ -132,6 +136,7 @@ summaryLength = 30
       odpowiedzi = "/otvety/:contentbasename/"
       aktualnosci = "/novosti/:contentbasename/"
       poradniki = "/instruktsii/:contentbasename/"
+      skutki = "/posledstviya/:contentbasename/"
     [languages.ru.permalinks.section]
       dzialania = "/deystviya/"
       wzory = "/obraztsy/"
@@ -140,6 +145,7 @@ summaryLength = 30
       statystyki = "/statistika/"
       aktualnosci = "/novosti/"
       poradniki = "/instruktsii/"
+      skutki = "/posledstviya/"
 
   [languages.uk]
     languageCode = "uk-UA"
@@ -156,6 +162,7 @@ summaryLength = 30
       odpowiedzi = "/vidpovidi/:contentbasename/"
       aktualnosci = "/novyny/:contentbasename/"
       poradniki = "/instruktsii/:contentbasename/"
+      skutki = "/naslidky/:contentbasename/"
     [languages.uk.permalinks.section]
       dzialania = "/diyi/"
       wzory = "/zrazky/"
@@ -164,6 +171,7 @@ summaryLength = 30
       statystyki = "/statystyka/"
       aktualnosci = "/novyny/"
       poradniki = "/instruktsii/"
+      skutki = "/naslidky/"
 
   [languages.be]
     languageCode = "be-BY"
@@ -180,6 +188,7 @@ summaryLength = 30
       odpowiedzi = "/adkazy/:contentbasename/"
       aktualnosci = "/navisy/:contentbasename/"
       poradniki = "/instruktsyi/:contentbasename/"
+      skutki = "/nastupstvy/:contentbasename/"
     [languages.be.permalinks.section]
       dzialania = "/dzejanni/"
       wzory = "/uzory/"
@@ -188,6 +197,7 @@ summaryLength = 30
       statystyki = "/statystyka/"
       aktualnosci = "/navisy/"
       poradniki = "/instruktsyi/"
+      skutki = "/nastupstvy/"
 
 # ---------------------------------------------------------------------------
 # Menu — te same identyfikatory sekcji we wszystkich językach.
@@ -206,6 +216,10 @@ summaryLength = 30
     identifier = "statystyki"
     pageRef = "/statystyki"
     weight = 20
+  [[menus.main]]
+    identifier = "skutki"
+    pageRef = "/skutki"
+    weight = 25
   [[menus.main]]
     identifier = "dzialania"
     pageRef = "/dzialania"

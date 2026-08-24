@@ -33,6 +33,8 @@ W praktyce oznacza to, że w tych sprawach ponaglenie i skarga na przewlekłoś�
 w dużej mierze bezskuteczne. Tego właśnie dotyczy [nasza petycja do
 Sejmu](/dzialania/petycja-sejm-legalizacja/).
 
+Jak ten przepis działa w praktyce — [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 ## Źródło
 
 - [„Płacimy podatki, a czekamy latami" — MOST Media](https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/)

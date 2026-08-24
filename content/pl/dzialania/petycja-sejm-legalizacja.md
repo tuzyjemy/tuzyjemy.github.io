@@ -29,6 +29,8 @@ Dalszy bieg sprawy zależy od porządku obrad Komisji.
 To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. [Zestawienie pakietu](https://t.me/tu_zyjemy/513/516)
 {{< /notatka >}}
 
+Czego dokładnie dotyczy problem — [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
 ## Dokumenty
 
 - [Karta petycji w Systemie Informacyjnym Sejmu](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) — tam też pełny tekst w PDF

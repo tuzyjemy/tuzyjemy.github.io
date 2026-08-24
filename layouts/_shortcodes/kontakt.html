@@ -1,0 +1,13 @@
+{{/*  Dane kontaktowe — bierzemy je z hugo.toml (params.email, params.telegram),
+      żeby nie powtarzać ich w treści pięciu wersji językowych.
+      Użycie w treści:  {{< kontakt >}}                                    */}}
+<ul class="contact-list">
+  {{ with .Site.Params.email }}
+    <li><span>{{ i18n "footer_contact" }}</span>
+      <a href="mailto:{{ . }}">{{ . }}</a></li>
+  {{ end }}
+  {{ with .Site.Params.telegram }}
+    <li><span>Telegram</span>
+      <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a></li>
+  {{ end }}
+</ul>
