@@ -17,6 +17,12 @@
           {{ range . }}<span>{{ . }}</span>{{ end }}
         </div>
       {{ end }}
+      {{- /* Gdyby coś się zmieniło w ostatniej chwili, napiszemy o tym na
+             Telegramie — strona jest statyczna i nie odświeży się sama. */ -}}
+      {{ with $.Site.Params.telegram }}
+        <p class="hero-telegram">{{ i18n "campaign_telegram" }}
+          <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a></p>
+      {{ end }}
       {{ with .link }}
         <p style="margin-top:24px"><a class="btn btn-solid" href="{{ partial "href.html" . }}">{{ $k.linkTytul | default (i18n "read_more") }}</a></p>
       {{ end }}

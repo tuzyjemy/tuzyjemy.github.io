@@ -16,6 +16,7 @@ menu_aktualnosci = "Новини"
 menu_poradniki = "Інструкції"
 
 featured_now = "Найважливіше зараз"
+campaign_telegram = "Актуальна інформація:"
 help_now = "Допомогти можна вже зараз"
 all_actions = "Усі дії"
 what_we_did = "Що ми вже зробили"

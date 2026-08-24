@@ -16,6 +16,7 @@ menu_aktualnosci = "News"
 menu_poradniki = "Guides"
 
 featured_now = "Most important action right now"
+campaign_telegram = "Live updates:"
 help_now = "You can help right now"
 all_actions = "All actions"
 what_we_did = "What we have done"
