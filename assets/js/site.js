@@ -106,34 +106,6 @@
     apply();
   });
 
-  /* ------------------------------------------------- sortowanie tabel */
-  document.querySelectorAll("table[data-sortable]").forEach(function (table) {
-    var headers = Array.prototype.slice.call(table.querySelectorAll("thead th"));
-    headers.forEach(function (th, index) {
-      th.setAttribute("tabindex", "0");
-      th.setAttribute("role", "button");
-      function sort() {
-        var dir = th.getAttribute("aria-sort") === "ascending" ? -1 : 1;
-        headers.forEach(function (h) { h.removeAttribute("aria-sort"); });
-        th.setAttribute("aria-sort", dir === 1 ? "ascending" : "descending");
-        var body = table.tBodies[0];
-        var rows = Array.prototype.slice.call(body.rows);
-        rows.sort(function (a, b) {
-          var x = a.cells[index] ? a.cells[index].textContent.trim() : "";
-          var y = b.cells[index] ? b.cells[index].textContent.trim() : "";
-          var nx = parseFloat(x.replace(/[^\d.,-]/g, "").replace(",", "."));
-          var ny = parseFloat(y.replace(/[^\d.,-]/g, "").replace(",", "."));
-          if (!isNaN(nx) && !isNaN(ny)) return (nx - ny) * dir;
-          return x.localeCompare(y, document.documentElement.lang || "pl") * dir;
-        });
-        rows.forEach(function (r) { body.appendChild(r); });
-      }
-      th.addEventListener("click", sort);
-      th.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sort(); }
-      });
-    });
-  });
 
   /* ------------------------------------------------- kopiowanie wzoru */
   document.querySelectorAll("[data-copy]").forEach(function (btn) {

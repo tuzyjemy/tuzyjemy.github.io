@@ -1,11 +1,19 @@
 ---
 title: "Statistics"
-description: "How long proceedings really take — data collected from the people who went through them."
+description: "Real waiting times in residence cases — collected by the “Kalendarz pobytu” project."
 ---
 
-These figures come from **accounts of people conducting cases**, not from official statistics.
-Each row is one case: application date, decision date, authority, type of proceedings.
+We do not run our own statistics yet. Rather than duplicate someone else's work, we point
+you to **Kalendarz pobytu** ("Residence calendar"), a project that collects data on real
+waiting times in residence cases — from fingerprints through the decision to collecting
+the card — broken down by voivodeship.
 
-The data is anonymous — we do not collect names, case numbers or contact details.
-Want to add your case? Write to us, or open a pull request adding a row to
-`assets/data/sprawy.csv`.
+[Check waiting times on the @pobytrack channel](https://t.me/pobytrack)
+
+You will find how long people are currently waiting in your voivodeship. You can also
+**add information about your own case** — the more reports, the more accurate the picture.
+
+{{< notatka >}}
+The channel is run in Russian and is not part of Tu Żyjemy. The data comes from people
+handling their own cases, not from official government statistics — treat it as indicative.
+{{< /notatka >}}

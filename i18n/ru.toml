@@ -88,26 +88,6 @@ status_uwzglednione = "Удовлетворено"
 status_odrzucone = "Отклонено"
 status_czesciowo = "Частично удовлетворено"
 
-stat_mediana = "Медиана"
-stat_srednia = "Среднее"
-stat_liczba = "Число дел"
-stat_min = "Быстрее всего"
-stat_max = "Дольше всего"
-stat_dni = "дней"
-stat_czas_rozpatrywania = "Сроки рассмотрения дел"
-stat_wg_instytucji = "По учреждениям"
-stat_wg_roku = "По годам"
-stat_wg_typu = "По типу дела"
-stat_zrodlo_danych = "Источник данных"
-stat_ostatnia_aktualizacja = "Данные обновлены"
-stat_jak_dodac = "Как добавить данные"
-stat_brak_danych = "Данных пока нет. Заполните data/sprawy.csv."
-stat_ustawowy = "Установленный срок"
-stat_rzeczywisty = "Фактический срок"
-stat_przekroczenie = "Превышение срока"
-stat_spraw = "дел"
-stat_tabela = "Подробные данные"
-
 footer_tagline = "Tu Żyjemy — общее место для общего дела."
 footer_values = "Общественный проект · прозрачность · знание · сотрудничество"
 footer_license = "Материалы доступны по лицензии CC BY-SA 4.0, если не указано иное."
@@ -120,9 +100,6 @@ taxo_tematy = "Темы"
 taxo_instytucje = "Учреждения"
 taxo_statusy = "Статусы"
 taxo_lata = "Годы"
-
-
-meta_typ = "Тип дела"
 
 # Количество голосов — формы множественного числа.
 

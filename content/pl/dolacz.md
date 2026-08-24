@@ -9,8 +9,9 @@ ktoś pisze pismo, ktoś tłumaczy, ktoś zbiera dane, ktoś stoi z transparente
 
 ## Co możesz robić
 
-- **Zbierać dane o swojej sprawie.** Data złożenia wniosku, data decyzji, urząd — to
-  wystarczy, żeby zasilić [statystyki](/statystyki/).
+- **Zbierać dane o swojej sprawie.** Data złożenia wniosku, data decyzji, urząd —
+  dodaj je na kanale [@pobytrack](https://t.me/pobytrack). Im więcej zgłoszeń, tym
+  lepiej widać, ile naprawdę trwają [postępowania](/statystyki/).
 - **Tłumaczyć.** Strona działa po polsku, rosyjsku, angielsku, ukraińsku i białorusku.
   Każdy nowy przekład to kilkadziesiąt osób więcej, które zrozumieją swoje prawa.
 - **Pisać i wysyłać pisma.** Korzystaj z naszych [wzorów](/wzory/) — są gotowe do użycia.

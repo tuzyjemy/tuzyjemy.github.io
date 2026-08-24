@@ -88,26 +88,6 @@ status_uwzglednione = "Задаволена"
 status_odrzucone = "Адхілена"
 status_czesciowo = "Часткова задаволена"
 
-stat_mediana = "Медыяна"
-stat_srednia = "Сярэдняе"
-stat_liczba = "Колькасць спраў"
-stat_min = "Найхутчэй"
-stat_max = "Найдаўжэй"
-stat_dni = "дзён"
-stat_czas_rozpatrywania = "Тэрміны разгляду спраў"
-stat_wg_instytucji = "Па ўстановах"
-stat_wg_roku = "Па гадах"
-stat_wg_typu = "Па тыпе справы"
-stat_zrodlo_danych = "Крыніца даных"
-stat_ostatnia_aktualizacja = "Даныя абноўлены"
-stat_jak_dodac = "Як дадаць даныя"
-stat_brak_danych = "Даных пакуль няма. Запоўніце data/sprawy.csv."
-stat_ustawowy = "Устаноўлены тэрмін"
-stat_rzeczywisty = "Фактычны час"
-stat_przekroczenie = "Перавышэнне тэрміну"
-stat_spraw = "спраў"
-stat_tabela = "Падрабязныя даныя"
-
 footer_tagline = "Tu Żyjemy — агульнае месца для агульнай справы."
 footer_values = "Грамадскі праект · празрыстасць · веды · супраца"
 footer_license = "Матэрыялы даступныя паводле ліцэнзіі CC BY-SA 4.0, калі не пазначана іншае."
@@ -120,9 +100,6 @@ taxo_tematy = "Тэмы"
 taxo_instytucje = "Установы"
 taxo_statusy = "Статусы"
 taxo_lata = "Гады"
-
-
-meta_typ = "Тып справы"
 
 # Колькасць галасоў — формы множнага ліку.
 

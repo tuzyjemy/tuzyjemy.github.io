@@ -90,27 +90,6 @@ status_uwzglednione = "Uwzględnione"
 status_odrzucone = "Odrzucone"
 status_czesciowo = "Częściowo uwzględnione"
 
-# Statystyki
-stat_mediana = "Mediana"
-stat_srednia = "Średnia"
-stat_liczba = "Liczba spraw"
-stat_min = "Najkrócej"
-stat_max = "Najdłużej"
-stat_dni = "dni"
-stat_czas_rozpatrywania = "Czas rozpatrywania spraw"
-stat_wg_instytucji = "Według instytucji"
-stat_wg_roku = "Według roku"
-stat_wg_typu = "Według typu sprawy"
-stat_zrodlo_danych = "Źródło danych"
-stat_ostatnia_aktualizacja = "Ostatnia aktualizacja danych"
-stat_jak_dodac = "Jak dodać dane"
-stat_brak_danych = "Brak danych. Uzupełnij plik data/sprawy.csv."
-stat_ustawowy = "Termin ustawowy"
-stat_rzeczywisty = "Rzeczywisty czas"
-stat_przekroczenie = "Przekroczenie terminu"
-stat_spraw = "spraw"
-stat_tabela = "Dane szczegółowe"
-
 footer_tagline = "Tu Żyjemy — wspólne miejsce do wspólnego działania."
 footer_values = "Projekt społeczny · transparentność · wiedza · współpraca"
 footer_license = "Treści dostępne na licencji CC BY-SA 4.0, o ile nie zaznaczono inaczej."
@@ -123,9 +102,6 @@ taxo_tematy = "Tematy"
 taxo_instytucje = "Instytucje"
 taxo_statusy = "Statusy"
 taxo_lata = "Lata"
-
-
-meta_typ = "Typ sprawy"
 
 # Liczba głosów — formy mnogie wg reguł języka polskiego.
 # Ta tabela musi zostać na końcu pliku: w TOML wszystko po nagłówku

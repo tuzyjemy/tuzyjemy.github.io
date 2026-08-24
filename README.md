@@ -141,31 +141,15 @@ Przycisk pobierania (plik wrzuć do `static/pliki/`):
 
 ---
 
-## 4. Statystyki — jak dodać dane
+## 4. Statystyki
 
-Dane leżą w jednym pliku: **`assets/data/sprawy.csv`**. Można go edytować w arkuszu
-kalkulacyjnym albo wprost w przeglądarce (GitHub → plik → ikona ołówka).
+Nie prowadzimy własnych statystyk. Strona `/statystyki/` odsyła do projektu
+**Kalendarz pobytu** ([@pobytrack](https://t.me/pobytrack)), który zbiera dane
+o realnych terminach w sprawach pobytowych. Treść tej strony to zwykły tekst
+w `content/<język>/statystyki/_index.md` — nic się nie przelicza.
 
-Kolumny, w tej kolejności:
-
-| Kolumna | Przykład | Uwagi |
-| --- | --- | --- |
-| `id` | `TZ-026` | dowolny identyfikator, byle unikalny |
-| `typ` | `Pobyt czasowy` | rodzaj postępowania |
-| `instytucja` | `Pomorski UW` | używaj konsekwentnie tych samych nazw |
-| `miasto` | `Gdańsk` | |
-| `data_zlozenia` | `2025-04-02` | format RRRR-MM-DD |
-| `data_decyzji` | `2025-11-19` | |
-| `dni` | `231` | liczba dni między datami |
-| `termin_ustawowy` | `60` | termin z przepisów, w dniach |
-| `wynik` | `Pozytywna` | |
-| `rok` | `2025` | rok złożenia wniosku |
-
-Po zapisaniu pliku i wypchnięciu zmian strona przelicza wszystko sama: mediany,
-średnie, wykresy w podziale na instytucje, lata i typy spraw oraz tabelę z sortowaniem.
-
-**Nie wpisuj do tego pliku danych osobowych.** Bez imion, numerów spraw z urzędu
-i adresów. Jeden wiersz = jedna sprawa, anonimowo.
+Docelowo chcemy zrobić to wspólnie z pobytrack; wtedy rozwiązanie będzie
+wyglądało inaczej niż dawne wykresy liczone z pliku CSV.
 
 ---
 
@@ -208,30 +192,54 @@ Klucze muszą być identyczne we wszystkich plikach.
 
 ## 6. Strona główna
 
-Kampanię z góry strony i karty „Możesz pomóc już teraz" edytuje się **w jednym
-miejscu**: `content/<język>/_index.md`. Nie trzeba dotykać szablonów.
+Kampanię z góry strony i karty „Możesz pomóc już teraz" edytuje się w katalogu
+`data/campaign/`:
 
-Blok `kampania` można usunąć w całości, jeśli akurat nie prowadzicie żadnej akcji —
-strona główna wyświetli wtedy oś czasu i kafelki bazy wiedzy.
-
-### Głosowanie nad terminem
-
-Strona jest statyczna, więc **głosów nie zbieramy u siebie**. Blok głosowania służy
-do wyboru terminów, a po kliknięciu „Oddaj głos" otwiera zewnętrzny formularz
-z wybranymi datami w adresie (`?terminy=2026-09-12,2026-09-19`).
-
-Adres formularza ustaw w `hugo.toml`:
-
-```toml
-[params]
-  formularzGlosowania = "https://cryptpad.fr/form/#/2/form/view/..."
+```
+data/campaign/layout.yaml   struktura: wydarzenie, odnośniki, przełączniki
+data/campaign/pl.yaml       teksty po polsku
+data/campaign/ru.yaml       teksty po rosyjsku   (en, uk, be analogicznie)
 ```
 
-Polecane, bo nie wymagają konta Google i nie śledzą użytkowników:
-[CryptPad Forms](https://cryptpad.fr/form/), [Framaforms](https://framaforms.org/),
-[Nextcloud Forms](https://apps.nextcloud.com/apps/forms).
+Struktura jest opisana **raz**, w `layout.yaml`; pliki językowe zawierają wyłącznie
+teksty i łączą się z nią przez pola `id`. Dodanie karty to jeden wpis w `layout.yaml`
+plus tłumaczenia — bez dotykania szablonów.
 
-Bez ustawionego adresu blok pokazuje adres e-mail zamiast linku do formularza.
+Aby zakończyć kampanię, ustaw w `layout.yaml`:
+
+```yaml
+active: false
+```
+
+Blok zniknie ze strony głównej, a tłumaczenia zostaną na przyszłość.
+
+### Potwierdzanie obecności
+
+Strona jest statyczna, więc **zgłoszeń nie zbieramy u siebie**. Wydarzenie żyje
+w [Mobilizonie](https://mobilizon.fr), a przycisk „Przyjdę" prowadzi na jego stronę:
+
+```yaml
+event:
+  url: "https://mobilizon.fr/events/…"
+  date: "2026-09-07"
+  timeStart: "16:30"
+  timeEnd: "18:00"
+  place: "…"
+  address: "…"
+```
+
+Liczbę zgłoszeń pobieramy przy budowaniu strony z publicznego API Mobilizona
+(`event-attendance.html`). API zwraca **wyłącznie liczbę** — imiona i adresy
+zgłaszających widzi tylko organizator wydarzenia. Osoba odwiedzająca stronę
+główną nie łączy się z Mobilizonem; robi to nasz serwer budujący, co 6 godzin
+(harmonogram w `.github/workflows/hugo.yml`).
+
+W ustawieniach wydarzenia w Mobilizonie **włącz udział anonimowy** — inaczej
+zgłoszenie wymaga zakładania konta.
+
+Datę i miejsce wpisujemy w `layout.yaml`, a nie pobieramy z API, żeby strona
+działała także wtedy, gdy Mobilizon nie odpowiada. Po zmianie terminu w Mobilizonie
+trzeba poprawić je tutaj ręcznie.
 
 ---
 
@@ -241,9 +249,10 @@ Bez ustawionego adresu blok pokazuje adres e-mail zamiast linku do formularza.
 baseURL   = "…"           # adres publikacji — koniecznie zmień
 [params]
   telegram = "…"          # link w górnym pasku
-  email    = "…"          # adres w stopce i w bloku głosowania
-  formularzGlosowania = ""
+  email    = "…"          # adres w stopce i w blokach kontaktowych
+  testMode = true         # pasek „wersja testowa" na każdej stronie
   liczbaWydarzen = 4      # ile wpisów na osi czasu na stronie głównej
+  liczbaAktualnosci = 3   # ile aktualności na stronie głównej
   repoEdycji = ""         # np. "https://github.com/org/repo" — dodaje w stopce
                           # link „Edytuj tę stronę"
 ```
@@ -261,8 +270,7 @@ barwy zdefiniowane są raz, w wariancie jasnym i ciemnym — zmiana tam zmienia 
 ├── archetypes/               szkielety nowych wpisów (hugo new)
 ├── assets/
 │   ├── css/main.css          style — paleta w :root
-│   ├── js/site.js            filtry, sortowanie tabel, menu, kopiowanie
-│   └── data/sprawy.csv       DANE DO STATYSTYK
+│   └── js/site.js            filtry, menu, kopiowanie treści
 ├── content/
 │   ├── pl/ en/ ru/ uk/ be/   treść, po jednym katalogu na język
 ├── i18n/                     napisy interfejsu
@@ -272,7 +280,7 @@ barwy zdefiniowane są raz, w wariancie jasnym i ciemnym — zmiana tam zmienia 
 │   ├── list.html             listy sekcji (z filtrowaniem)
 │   ├── single.html           pojedynczy wpis
 │   ├── term.html             strony taksonomii
-│   ├── statystyki/list.html  wykresy i tabela statystyk
+│   ├── statystyki/list.html  strona statystyk (odsyła do pobytrack)
 │   ├── _partials/            elementy wielokrotnego użytku
 │   └── _shortcodes/          wzor, notatka, plik
 ├── static/
@@ -287,17 +295,17 @@ barwy zdefiniowane są raz, w wariancie jasnym i ciemnym — zmiana tam zmienia 
 
 Kilka rzeczy warto trzymać się od początku:
 
-- **Nie publikujcie danych osobowych osób prowadzących sprawy.** Statystyki mają być
-  anonimowe; odpowiedzi urzędów zanonimizujcie przed wrzuceniem (imiona, adresy,
-  numery dokumentów).
+- **Nie publikujcie danych osobowych osób prowadzących sprawy.** Odpowiedzi urzędów
+  zanonimizujcie przed wrzuceniem (imiona, adresy, numery dokumentów).
 - Historia gita jest publiczna i **trwała**. Plik z danymi osobowymi usunięty
   następnym commitem nadal da się odczytać. Jeśli coś takiego się stanie, trzeba
   przepisać historię (`git filter-repo`) i wymusić push.
 - Strona nie zawiera żadnych trackerów, skryptów zewnętrznych ani ciasteczek —
   jedyne żądanie na zewnątrz to font z Google Fonts. Jeśli chcecie usunąć i to,
   wgrajcie plik fontu do `static/` i podmieńcie odnośnik w `layouts/_partials/head.html`.
-- Do zbierania zgłoszeń używajcie narzędzi, które nie profilują użytkowników
-  (CryptPad, Framaforms, własny Nextcloud).
+- Do zbierania zgłoszeń używajcie narzędzi, które nie profilują użytkowników.
+  Obecnie: Mobilizon (potwierdzenia obecności). Inne warte rozważenia: CryptPad,
+  Framaforms, własny Nextcloud.
 
 ---
 

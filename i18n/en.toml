@@ -88,26 +88,6 @@ status_uwzglednione = "Upheld"
 status_odrzucone = "Rejected"
 status_czesciowo = "Partially upheld"
 
-stat_mediana = "Median"
-stat_srednia = "Mean"
-stat_liczba = "Cases"
-stat_min = "Fastest"
-stat_max = "Slowest"
-stat_dni = "days"
-stat_czas_rozpatrywania = "Case processing times"
-stat_wg_instytucji = "By institution"
-stat_wg_roku = "By year"
-stat_wg_typu = "By case type"
-stat_zrodlo_danych = "Data source"
-stat_ostatnia_aktualizacja = "Data last updated"
-stat_jak_dodac = "How to add data"
-stat_brak_danych = "No data yet. Fill in data/sprawy.csv."
-stat_ustawowy = "Statutory limit"
-stat_rzeczywisty = "Actual time"
-stat_przekroczenie = "Over the limit"
-stat_spraw = "cases"
-stat_tabela = "Detailed data"
-
 footer_tagline = "Tu Żyjemy — a shared place for shared action."
 footer_values = "Grassroots project · transparency · knowledge · cooperation"
 footer_license = "Content available under CC BY-SA 4.0 unless stated otherwise."
@@ -120,9 +100,6 @@ taxo_tematy = "Topics"
 taxo_instytucje = "Institutions"
 taxo_statusy = "Status"
 taxo_lata = "Years"
-
-
-meta_typ = "Case type"
 
 # Vote counts. Keep this table last: in TOML everything after a table
 

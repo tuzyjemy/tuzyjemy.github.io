@@ -23,5 +23,5 @@ calls:
   story:
     status: "5 minutes"
     title: "Tell us about your case"
-    body: "Anonymous accounts help show the real scale of the problem."
-    linkTitle: "Fill in the form"
+    body: "Your data helps show the real scale of the problem."
+    linkTitle: "Add your case"

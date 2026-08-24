@@ -88,26 +88,6 @@ status_uwzglednione = "Задоволено"
 status_odrzucone = "Відхилено"
 status_czesciowo = "Частково задоволено"
 
-stat_mediana = "Медіана"
-stat_srednia = "Середнє"
-stat_liczba = "Кількість справ"
-stat_min = "Найшвидше"
-stat_max = "Найдовше"
-stat_dni = "днів"
-stat_czas_rozpatrywania = "Строки розгляду справ"
-stat_wg_instytucji = "За установами"
-stat_wg_roku = "За роками"
-stat_wg_typu = "За типом справи"
-stat_zrodlo_danych = "Джерело даних"
-stat_ostatnia_aktualizacja = "Дані оновлено"
-stat_jak_dodac = "Як додати дані"
-stat_brak_danych = "Даних поки немає. Заповніть data/sprawy.csv."
-stat_ustawowy = "Установлений строк"
-stat_rzeczywisty = "Фактичний час"
-stat_przekroczenie = "Перевищення строку"
-stat_spraw = "справ"
-stat_tabela = "Детальні дані"
-
 footer_tagline = "Tu Żyjemy — спільне місце для спільної дії."
 footer_values = "Громадський проєкт · прозорість · знання · співпраця"
 footer_license = "Матеріали доступні за ліцензією CC BY-SA 4.0, якщо не зазначено інше."
@@ -120,9 +100,6 @@ taxo_tematy = "Теми"
 taxo_instytucje = "Установи"
 taxo_statusy = "Статуси"
 taxo_lata = "Роки"
-
-
-meta_typ = "Тип справи"
 
 # Кількість голосів — форми множини.
 

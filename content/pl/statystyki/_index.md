@@ -1,12 +1,20 @@
 ---
 title: "Statystyki"
-description: "Ile naprawdę trwają postępowania — dane zbierane od osób, które przez nie przeszły."
+description: "Realne terminy w sprawach pobytowych — zbiera je projekt „Kalendarz pobytu”."
 ---
 
-Poniższe liczby pochodzą z **relacji osób prowadzących sprawy**, nie z oficjalnych
-statystyk urzędów. Każdy wiersz to jedna sprawa: data złożenia wniosku, data decyzji,
-urząd, rodzaj postępowania.
+Własnych statystyk jeszcze nie prowadzimy. Zamiast dublować cudzą pracę, odsyłamy do
+projektu **Kalendarz pobytu**, który zbiera dane o realnych terminach w sprawach
+pobytowych — od odcisków palców, przez decyzję, po odbiór karty — z podziałem na
+województwa.
 
-Dane są anonimowe — nie zbieramy imion, numerów spraw ani danych kontaktowych.
-Chcesz dodać swoją sprawę? Napisz do nas albo zrób pull request z nowym wierszem
-w pliku `assets/data/sprawy.csv`.
+[Sprawdź terminy na kanale @pobytrack](https://t.me/pobytrack)
+
+Znajdziesz tam informacje, ile obecnie czeka się w Twoim województwie. Możesz też
+**dodać informacje o własnej sprawie** — im więcej zgłoszeń, tym dokładniejszy obraz.
+
+{{< notatka >}}
+Kanał prowadzony jest po rosyjsku i nie jest częścią Tu Żyjemy. Dane pochodzą od osób,
+które same prowadzą sprawy, a nie z oficjalnych statystyk urzędów — traktuj je jako
+orientacyjne.
+{{< /notatka >}}

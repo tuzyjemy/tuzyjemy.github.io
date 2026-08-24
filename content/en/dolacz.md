@@ -9,8 +9,9 @@ someone translates, someone gathers data, someone stands with a banner.
 
 ## What you can do
 
-- **Collect data about your own case.** Application date, decision date, authority — that
-  is enough to feed the [statistics](/statystyki/).
+- **Collect data about your own case.** Application date, decision date, authority —
+  add them on the [@pobytrack](https://t.me/pobytrack) channel. The more reports there
+  are, the clearer the [real waiting times](/statystyki/) become.
 - **Translate.** The site runs in Polish, Russian, English, Ukrainian and Belarusian.
   Each new translation means dozens more people who will understand their rights.
 - **Write and send letters.** Use our [templates](/wzory/) — they are ready to go.
