@@ -36,7 +36,7 @@ event:
 # na stronie; teksty biorą się z plików językowych po tym samym „id".
 calls:
   - id: share
-    link: "/aktualnosci/glosowanie-termin-protestu/"
+    link: "/aktualnosci/protest-7-wrzesnia/"
     urgent: true
   - id: organisation
     link: "/dolacz/"
