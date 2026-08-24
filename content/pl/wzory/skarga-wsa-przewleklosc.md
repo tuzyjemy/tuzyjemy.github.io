@@ -10,6 +10,19 @@ wzor: true
 autor: "Zespół Tu Żyjemy"
 ---
 
+{{< notatka typ="info" >}}
+**Art. 100d a droga sądowa.** Formalnie art. 100d ustawy o pomocy obywatelom Ukrainy
+wyłącza do 4 marca 2027 r. środki prawne dotyczące bezczynności i przewlekłości
+([art. 100d](https://lexlege.pl/ukraina/art-100d/)). Sądy administracyjne podchodzą do tego jednak inaczej niż urzędy.
+
+Orzecznictwo początkowo było niejednolite, ale **NSA zmienił stanowisko na korzyść
+cudzoziemców** — uznając, że przepis narusza konstytucyjne prawo do sądu i nie powinien
+być stosowany. Składanie skargi na bezczynność **pozostaje więc uzasadnione**, choć wynik
+zależy od sądu i składu orzekającego ([omówienie zmiany orzecznictwa](https://naprawnik.contra-law.pl/przedluzenie-braku-mozliwosci-skarzenia-przewleklosci-wojewody-w-sprawach-cudzoziemcow-do-4-marca-2027-r/)).
+
+Pamiętaj, że warunkiem skargi jest wcześniejsze [ponaglenie](/wzory/ponaglenie-bezczynnosc/).
+{{< /notatka >}}
+
 Skargę wnosi się **po wcześniejszym złożeniu ponaglenia** — to warunek jej skuteczności
 ([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)). Wpis stały wynosi 100 zł
 (§ 2 ust. 1 pkt 6 rozporządzenia Rady Ministrów z 16 grudnia 2003 r. —

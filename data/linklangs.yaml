@@ -1,0 +1,17 @@
+# Język, w jakim są strony pod danym adresem. Używane przez hook
+# render-link.html: jeśli odnośnik prowadzi do strony w innym języku niż
+# ta, którą czyta odwiedzający, dokładamy obok mały odnośnik do Tłumacza
+# Google.
+#
+# Klucz to nazwa hosta bez „www.". Adresy spoza tej listy zostawiamy bez
+# tłumacza — lepiej nie dokładać go tam, gdzie nie wiemy, co zastaniemy.
+# Celowo pomijamy t.me i mobilizon.fr: pierwsze to aplikacja, drugie ma
+# własny przełącznik języka.
+lexlege.pl: pl
+orzeczenia.nsa.gov.pl: pl
+sejm.gov.pl: pl
+gov.pl: pl
+petycjeonline.com: pl
+bip.warszawa.wsa.gov.pl: pl
+naprawnik.contra-law.pl: pl
+mostmedia.io: ru

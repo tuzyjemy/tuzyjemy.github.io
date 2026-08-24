@@ -49,6 +49,7 @@ updated = "Абноўлена"
 published = "Апублікавана"
 translations_missing = "Гэтая старонка яшчэ не перакладзена. Паказана польская версія."
 translate_page = "Перакласці"
+link_in_language = "Спасылка на мове:"
 no_other_languages = "Гэтая старонка пакуль не даступная на іншых мовах."
 
 meta_instytucja = "Установа"

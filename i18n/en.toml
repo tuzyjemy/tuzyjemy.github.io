@@ -49,6 +49,7 @@ updated = "Updated"
 published = "Published"
 translations_missing = "This page has not been translated yet. Showing the Polish version."
 translate_page = "Translate"
+link_in_language = "Link in:"
 no_other_languages = "This page isn't available in other languages yet."
 
 meta_instytucja = "Institution"

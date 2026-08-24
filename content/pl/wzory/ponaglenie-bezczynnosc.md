@@ -11,6 +11,21 @@ wzor: true
 autor: "Zespół Tu Żyjemy"
 ---
 
+{{< notatka >}}
+**Art. 100d — co to zmienia.** Do 4 marca 2027 r. art. 100d ustawy o pomocy obywatelom
+Ukrainy zawiesza bieg terminów w prowadzonych przez wojewodę sprawach o zezwolenia
+pobytowe ([art. 100d](https://lexlege.pl/ukraina/art-100d/)). Przepis dotyczy **wszystkich cudzoziemców**, nie tylko
+obywateli Ukrainy.
+
+W praktyce bywa różnie: **część urzędów wojewódzkich reaguje na ponaglenie mimo tego
+przepisu, część odpowiada, powołując się na zawieszenie terminów.** Zależy to od
+województwa.
+
+Ponaglenie warto złożyć także z innego powodu: jest **warunkiem wniesienia skargi do
+sądu administracyjnego** ([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)), a przed sądem sytuacja wygląda
+dziś korzystniej — zob. [wzór skargi do WSA](/wzory/skarga-wsa-przewleklosc/).
+{{< /notatka >}}
+
 Ponaglenie to najprostszy i najskuteczniejszy krok, gdy sprawa stoi. Składasz je do
 organu **wyższego stopnia**, ale **za pośrednictwem** organu, który prowadzi sprawę.
 

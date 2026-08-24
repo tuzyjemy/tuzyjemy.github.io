@@ -8,7 +8,11 @@
     (/en/statistics/, /ru/obraztsy/…) i dokłada przedrostek baseURL,
     gdy strona stoi w podkatalogu (np. /tuzyjemy/).
     Jeśli strona o takiej ścieżce nie istnieje, odnośnik zostaje
-    użyty dosłownie — tylko z poprawionym przedrostkiem.            */ -}}
+    użyty dosłownie — tylko z poprawionym przedrostkiem.
+
+    Przy odnośnikach zewnętrznych prowadzących do strony w innym języku
+    niż czytany (wg data/linklangs.yaml) dokładamy obok mały odnośnik
+    do Tłumacza Google.                                            */ -}}
 
 {{- $d := .Destination -}}
 {{- $external := or (hasPrefix $d "http://") (hasPrefix $d "https://")
@@ -28,6 +32,28 @@
   {{- end -}}
 {{- end -}}
 
+{{- /* Język strony docelowej — po nazwie hosta, z pominięciem „www.". */ -}}
+{{- $tl := .Page.Site.Language.Lang -}}
+{{- $sl := "" -}}
+{{- if and $external (hasPrefix $d "http") -}}
+  {{- $host := strings.TrimPrefix "www." (urls.Parse $d).Host -}}
+  {{- with index hugo.Data.linklangs $host -}}
+    {{- $sl = . -}}
+  {{- else -}}
+    {{- /* dopasowanie po domenie nadrzędnej, np. migrant.wsc.gov.pl → gov.pl */ -}}
+    {{- range $dom, $lang := hugo.Data.linklangs -}}
+      {{- if and (not $sl) (hasSuffix $host (printf ".%s" $dom)) -}}{{- $sl = $lang -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <a href="{{ $href }}"
    {{- with .Title }} title="{{ . }}"{{ end }}
    {{- if $external }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- if and $sl (ne $sl $tl) -}}
+  {{- $u := printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($d | urlquery) -}}
+  <span class="link-lang"
+    ><span class="tag tag-plain" title="{{ i18n "link_in_language" }} {{ upper $sl }}">{{ upper $sl }}</span
+    ><a class="tag tag-plain" href="{{ $u }}" target="_blank" rel="noopener"
+       >&#127760; {{ i18n "translate_page" }}</a
+  ></span>
+{{- end -}}

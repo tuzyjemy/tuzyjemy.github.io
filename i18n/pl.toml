@@ -49,6 +49,7 @@ updated = "Aktualizacja"
 published = "Opublikowano"
 translations_missing = "Ta strona nie została jeszcze przetłumaczona. Pokazujemy wersję polską."
 translate_page = "Przetłumacz"
+link_in_language = "Odnośnik w języku:"
 no_other_languages = "Ta strona nie ma jeszcze innych wersji językowych."
 
 # Metadane dokumentów
