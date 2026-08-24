@@ -1,26 +1,20 @@
-# Teksty kampanii — polski. Strukturę (daty, odnośniki) ustawia layout.yaml.
+# Teksty kampanii — polski. Strukturę (wydarzenie, odnośniki) ustawia layout.yaml.
 kicker: "Legalizacja pobytu · Gdańsk"
-heading: "Zdecydujmy razem o proteście"
-body: "Chcemy publicznie upomnieć się o sprawne postępowania, realne terminy i przywrócenie ochrony przed przewlekłością. Pomóż nam wybrać termin, w którym będzie nas najwięcej."
+heading: "Przyjdź na protest 7 września"
+body: "Chcemy publicznie upomnieć się o sprawne postępowania, realne terminy i przywrócenie ochrony przed przewlekłością. Spotykamy się pod Wydziałem do spraw cudzoziemców w Gdańsku."
 meta:
   - "● Gdańsk"
-  - "◷ Głosowanie do 31 sierpnia"
+  - "◷ 7 września, 16:30"
 
-voteHeading: "Kiedy możesz przyjść?"
-voteBody: "Sprawdź, które terminy są najpopularniejsze, i zagłosuj na Framadate."
-
-# Podpisy pod zapasowymi terminami (klucze jak w layout.yaml → dates[].id)
-dates:
-  a: "najczęściej wybierany termin"
-  b: "centrum Gdańska"
-  c: "po godzinach pracy"
+voteHeading: "Przyjdziesz?"
+voteBody: "Potwierdź obecność, żebyśmy wiedzieli, na ile osób liczyć."
 
 # Karty „Możesz pomóc już teraz" (klucze jak w layout.yaml → calls[].id)
 calls:
   share:
-    status: "Pilne · do 31 sierpnia"
+    status: "Pilne · przed 7 września"
     title: "Udostępnij informację o proteście"
-    body: "Przekaż znajomym krótką informację i link do głosowania."
+    body: "Przekaż znajomym krótką informację i link do wydarzenia."
     linkTitle: "Pobierz gotowy post"
   organisation:
     status: "Współpraca"

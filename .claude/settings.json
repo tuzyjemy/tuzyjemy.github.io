@@ -3,7 +3,12 @@
     "allow": [
       "Bash(curl -s \"https://beta.framadate.org/polls/99e97171d61e825bed82\" -o /tmp/poll.html)",
       "Bash(HUGO_SECURITY_HTTP_URLS='.*' hugo --ignoreCache --destination /tmp/c)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "WebFetch(domain:mobilizon.org)",
+      "WebFetch(domain:docs.mobilizon.org)",
+      "Bash(curl -s --max-time 20 -X POST \"https://mobilizon.fr/api\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ searchEvents\\(limit: 3\\) { total elements { uuid title beginsOn } } }\"}')",
+      "Bash(curl -s --max-time 20 -X POST \"https://mobilizon.us/api\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ searchEvents\\(limit: 25\\) { elements { uuid title participantStats { participant creator moderator administrator going notApproved notConfirmed rejected } } } }\"}' -o /tmp/us.json)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

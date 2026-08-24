@@ -360,7 +360,9 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .date-cal b { display: block; font-size: 18px; }
 .date-cal small { font-size: 10px; text-transform: uppercase; }
 .date-copy b { display: block; font-size: 14px; }
-.date-copy small { opacity: 0.72; font-size: 12px; }
+/* Miejsce i adres to osobne wiersze pod terminem wydarzenia. */
+.date-copy small { display: block; opacity: 0.72; font-size: 12px; line-height: 1.4; }
+.attend-count { font-weight: 700; opacity: 0.9; }
 .date-lead-badge { font-size: 16px; }
 .vote-submit {
   display: block;

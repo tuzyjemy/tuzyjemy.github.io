@@ -25,20 +25,25 @@
   {{- if not $text -}}{{- $text = index $c "pl" -}}{{- end -}}
 
   {{- if $text -}}
-    {{- /* Zapasowe terminy — dzień tygodnia i miesiąc z daty. */ -}}
-    {{- $terminy := slice -}}
-    {{- range $layout.dates -}}
-      {{- $d := . -}}
-      {{- $p := partial "date-parts.html" (dict "date" $d.date "lang" $lang) -}}
-      {{- $opis := "" -}}
-      {{- with $text.dates -}}{{- $opis = index . $d.id -}}{{- end -}}
-      {{- $terminy = $terminy | append (dict
-          "dzien"    $p.dzien
-          "miesiac"  $p.miesiac
-          "tytul"    (printf "%s, %s" $p.weekday $d.time)
-          "opis"     $opis
-          "domyslny" (default false $d.leading)
-        ) -}}
+    {{- /* Wydarzenie: data rozbita na części w języku strony, liczba
+           zgłoszeń pobrana z Mobilizona przy budowaniu. */ -}}
+    {{- $event := dict -}}
+    {{- with $layout.event -}}
+      {{- $e := . -}}
+      {{- $p := partial "date-parts.html" (dict "date" $e.date "lang" $lang) -}}
+      {{- $hours := $e.timeStart -}}
+      {{- with $e.timeEnd -}}
+        {{- $hours = printf "%s–%s" $e.timeStart . -}}
+      {{- end -}}
+      {{- $event = dict
+          "url"     $e.url
+          "dzien"   $p.dzien
+          "miesiac" $p.miesiac
+          "tytul"   (printf "%s, %s" $p.weekday $hours)
+          "place"   $e.place
+          "address" $e.address
+          "count"   (partial "event-attendance.html" $e.url)
+      -}}
     {{- end -}}
 
     {{- /* Karty „Możesz pomóc już teraz". */ -}}
@@ -63,11 +68,10 @@
         "opis"     $text.body
         "meta"     $text.meta
         "wezwania" $wezwania
-        "glosowanie" (dict
+        "udzial" (dict
             "naglowek" $text.voteHeading
             "opis"     $text.voteBody
-            "formularz" (default "" $layout.poll)
-            "terminy"  $terminy
+            "event"    $event
         )
     -}}
   {{- end -}}

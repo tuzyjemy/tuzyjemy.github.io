@@ -1,0 +1,49 @@
+{{- /*  Panel „Przyjdziesz?" — potwierdzenie obecności na proteście.
+
+    Samo zgłoszenie odbywa się w Mobilizonie (wolne oprogramowanie
+    Framasoftu): klikamy przycisk, który prowadzi na stronę wydarzenia.
+    Tu pokazujemy tylko termin, miejsce i licznik zgłoszeń.
+
+    Licznik pobieramy z publicznego API Mobilizona przy budowaniu strony
+    — zwraca wyłącznie liczbę, nigdy imion ani adresów. Gdy pobranie się
+    nie powiedzie, po prostu nie pokazujemy licznika; przycisk działa
+    dalej.                                                              */ -}}
+{{ $u := .u }}
+{{ $ctx := .ctx }}
+{{ $e := $u.event }}
+<div class="vote">
+  <h2>{{ $u.naglowek | default (i18n "attend_heading") }}</h2>
+  <p class="vote-intro">{{ $u.opis | default (i18n "attend_intro") }}</p>
+
+  {{ with $e }}
+    {{ if .url }}
+      <div class="date-list">
+        <div class="date-option is-leading">
+          <span class="date-cal"><b>{{ .dzien }}</b><small>{{ .miesiac }}</small></span>
+          <span class="date-copy">
+            <b>{{ .tytul }}</b>
+            {{ with .place }}<small>{{ . }}</small>{{ end }}
+            {{ with .address }}<small>{{ . }}</small>{{ end }}
+          </span>
+        </div>
+      </div>
+
+      {{- /* Licznik tylko wtedy, gdy API odpowiedziało. Zero zgłoszeń
+             pokazujemy jako zachętę, a nie jako „0". */ -}}
+      {{ with .count }}
+        <p class="vote-more attend-count">{{ i18n "attend_count" . }}</p>
+      {{ else }}
+        {{ if eq (printf "%v" .count) "0" }}
+          <p class="vote-more attend-count">{{ i18n "attend_be_first" }}</p>
+        {{ end }}
+      {{ end }}
+
+      <a class="vote-submit" href="{{ .url }}" target="_blank" rel="noopener">{{ i18n "attend_button" }}</a>
+      <div class="vote-note">{{ i18n "attend_note" }}</div>
+    {{ else }}
+      <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
+    {{ end }}
+  {{ else }}
+    <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
+  {{ end }}
+</div>

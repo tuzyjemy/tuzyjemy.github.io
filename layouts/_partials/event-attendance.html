@@ -1,0 +1,60 @@
+{{- /*  Pobiera liczbę zgłoszonych uczestników wydarzenia w Mobilizon.
+
+    Mobilizon udostępnia publiczne API GraphQL (bez konta i bez klucza),
+    a pole `participantStats` zwraca WYŁĄCZNIE liczby — nigdy imion ani
+    adresów e-mail. Lista uczestników wymaga zalogowania jako organizator,
+    więc nawet przypadkiem nie da się jej stąd odczytać. Dokładnie o to
+    chodzi: licznik jawny, dane zgłaszających prywatne.
+
+    Zapytanie wykonujemy przy budowaniu strony (nie w przeglądarce), więc
+    osoba odwiedzająca stronę główną nie łączy się z Mobilizonem — robi to
+    tylko nasz serwer budujący, co 6 godzin (patrz cron w workflow).
+
+    Wejście: pełny adres wydarzenia, np.
+      https://mobilizon.fr/events/5fef6fbc-3896-48ef-8cb5-d643e11d4de7
+
+    Zwraca liczbę uczestników albo nic, gdy zapytanie się nie powiedzie —
+    wtedy strona po prostu nie pokazuje licznika.
+
+    Wywołanie: {{ partial "event-attendance.html" $url }}                */ -}}
+
+{{- $url := . -}}
+{{- $out := "" -}}
+
+{{- if $url -}}
+  {{- $u := urls.Parse $url -}}
+  {{- $uuid := path.Base $u.Path -}}
+  {{- $api := printf "%s://%s/api" $u.Scheme $u.Host -}}
+  {{- $query := printf "{ event(uuid: %q) { participantStats { participant } } }" $uuid -}}
+  {{- $opts := dict
+      "method" "post"
+      "headers" (dict "Content-Type" "application/json")
+      "body" (dict "query" $query | jsonify)
+  -}}
+  {{- with try (resources.GetRemote $api $opts) -}}
+    {{- with .Err -}}
+      {{- warnf "Mobilizon: nie udało się pobrać liczby uczestników (%s)." . -}}
+    {{- else with .Value -}}
+      {{- $r := transform.Unmarshal . -}}
+      {{- with $r.errors -}}
+        {{- warnf "Mobilizon: API zwróciło błąd dla %s (%v)." $uuid . -}}
+      {{- end -}}
+      {{- with $r.data -}}
+        {{- with .event -}}
+          {{- with .participantStats -}}
+            {{- /* JSON daje liczbę jako float64, a Hugo dobiera formy
+                   mnogie (i18n) tylko dla liczb całkowitych — dla float
+                   zwraca po cichu pusty tekst. Rzutujemy na int. */ -}}
+            {{- $out = int .participant -}}
+          {{- end -}}
+        {{- else -}}
+          {{- warnf "Mobilizon: nie znaleziono wydarzenia %s." $uuid -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- warnf "Mobilizon: brak odpowiedzi z %s." $api -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $out -}}

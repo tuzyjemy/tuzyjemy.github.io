@@ -124,23 +124,22 @@ taxo_instytucje = "Instytucje"
 taxo_statusy = "Statusy"
 taxo_lata = "Lata"
 
-vote_heading = "Kiedy możesz przyjść?"
-vote_intro = "Wybierz wszystkie pasujące terminy. To niezobowiązujące badanie zainteresowania."
-vote_top_note = "Pokazujemy tylko najpopularniejsze propozycje."
-vote_live_note = "Najpopularniejsze terminy według głosów oddanych na Framadate."
-slot_day = "cały dzień"
-vote_leading = "Najpopularniejszy termin"
-vote_submit = "Zagłosuj na Framadate"
-vote_note = "Głosowanie odbywa się na Framadate i wymaga podania imienia. Wyniki są widoczne dla innych głosujących."
-vote_no_form = "Formularz nie został jeszcze skonfigurowany. Napisz do nas:"
 
 meta_typ = "Typ sprawy"
 
 # Liczba głosów — formy mnogie wg reguł języka polskiego.
 # Ta tabela musi zostać na końcu pliku: w TOML wszystko po nagłówku
-# tabeli należy do tej tabeli.
-[vote_count]
-one = "{{ .Count }} głos"
-few = "{{ .Count }} głosy"
-many = "{{ .Count }} głosów"
-other = "{{ .Count }} głosu"
+
+attend_heading = "Przyjdziesz?"
+attend_intro = "Potwierdź obecność, żebyśmy wiedzieli, na ile osób liczyć."
+attend_button = "Przyjdę"
+attend_note = "Zgłoszenie odbywa się w Mobilizonie. Publicznie widać tylko liczbę zgłoszeń — nie imiona."
+attend_be_first = "Bądź pierwszą osobą, która potwierdzi obecność."
+attend_no_event = "Wydarzenie nie zostało jeszcze skonfigurowane. Napisz do nas:"
+
+# Liczba zgłoszeń — tabela musi zostać na końcu pliku (TOML).
+[attend_count]
+one = "{{ .Count }} osoba potwierdziła obecność"
+few = "{{ .Count }} osoby potwierdziły obecność"
+many = "{{ .Count }} osób potwierdziło obecność"
+other = "{{ .Count }} osoby potwierdziło obecność"

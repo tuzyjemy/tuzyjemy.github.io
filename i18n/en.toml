@@ -121,20 +121,19 @@ taxo_instytucje = "Institutions"
 taxo_statusy = "Status"
 taxo_lata = "Years"
 
-vote_heading = "When can you come?"
-vote_intro = "Pick every date that works for you. This is a non-binding poll."
-vote_top_note = "We're only showing the most popular options here."
-vote_live_note = "Most popular dates according to votes cast on Framadate."
-slot_day = "all day"
-vote_leading = "Most popular option"
-vote_submit = "Vote on Framadate"
-vote_note = "Voting happens on Framadate and requires a name. Results are visible to other voters."
-vote_no_form = "The form has not been set up yet. Write to us:"
 
 meta_typ = "Case type"
 
 # Vote counts. Keep this table last: in TOML everything after a table
-# header belongs to that table.
-[vote_count]
-one = "{{ .Count }} vote"
-other = "{{ .Count }} votes"
+
+attend_heading = "Are you coming?"
+attend_intro = "Confirm your attendance so we know how many people to expect."
+attend_button = "I'll come"
+attend_note = "Sign-up happens on Mobilizon. Only the number of confirmations is public — never names."
+attend_be_first = "Be the first to confirm you are coming."
+attend_no_event = "The event has not been set up yet. Write to us:"
+
+# Liczba zgłoszeń — tabela musi zostać na końcu pliku (TOML).
+[attend_count]
+one = "{{ .Count }} person is coming"
+other = "{{ .Count }} people are coming"
