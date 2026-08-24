@@ -1,23 +1,26 @@
 ---
-title: "Ponad 3 700 podpisów pod pakietem działań"
-description: "Zbiórka podpisów prowadzona online i stacjonarnie od marca do lipca 2026."
-date: 2026-07-17
-tematy: ["Mobilizacja"]
+title: "Zbiórka podpisów pod pakietem trzech dokumentów"
+description: "Publiczna zbiórka podpisów poprzedzająca złożenie pakietu. Ponad 3 700 podpisów online."
+date: 2026-06-23
+instytucje: []
+tematy: ["Mobilizacja", "Legalizacja pobytu"]
 statusy: ["Zakończone"]
 lata: ["2026"]
-autor: "Zespół Tu Żyjemy"
+zrodlo: "https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow"
 ---
 
-3 712 podpisów w cztery miesiące, z czego 1 108 stacjonarnie — przed urzędami,
-na targach i przed dwiema szkołami językowymi.
+Przed złożeniem [pakietu trzech dokumentów](/dzialania/) prowadziliśmy publiczną zbiórkę
+podpisów online. Podpisy zbieraliśmy do **23 czerwca 2026 r.**, a następnie dołączyliśmy
+je do dokumentów przekazanych adresatom.
 
-## Co zadziałało
+## Ile podpisów
 
-- **Punkty przy urzędach w dni przyjęć.** Ponad połowa podpisów stacjonarnych.
-- **Krótki formularz.** Imię, kod pocztowy, zgoda. Nic więcej.
-- **Wersje językowe.** Formularz po ukraińsku i rosyjsku zebrał 38% wszystkich podpisów.
+**3 770 podpisów** — stan na 24 sierpnia 2026 r.
 
-## Co nie zadziałało
+Licznik na stronie zbiórki jest aktualizowany na bieżąco; podana liczba to odczyt z tego
+dnia, a nie wartość przeliczana automatycznie na naszej stronie.
 
-- Wydarzenia wieczorne w centrum miasta — dużo pracy, kilkanaście podpisów.
-- Płatna promocja w mediach społecznościowych: koszt jednego podpisu wyszedł absurdalny.
+## Źródło
+
+- [Petycja na Petycjeonline.com](https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow) — pełny tekst i aktualny licznik podpisów
+- [Zestawienie pakietu na Telegramie](https://t.me/tu_zyjemy/513/516)

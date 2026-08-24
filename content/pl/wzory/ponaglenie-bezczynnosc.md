@@ -14,12 +14,12 @@ autor: "Zespół Tu Żyjemy"
 Ponaglenie to najprostszy i najskuteczniejszy krok, gdy sprawa stoi. Składasz je do
 organu **wyższego stopnia**, ale **za pośrednictwem** organu, który prowadzi sprawę.
 
-- Dla decyzji wojewody organem wyższego stopnia jest **Szef Urzędu do Spraw Cudzoziemców**.
-- Organ ma 7 dni na przekazanie ponaglenia wraz z aktami.
-- Organ wyższego stopnia rozpatruje je w ciągu 7 dni.
-
-W 14 sprawach, które śledziliśmy, ponaglenie przyspieszyło decyzję średnio o 3 miesiące.
-W 4 sprawach nie zmieniło nic.
+- Dla spraw prowadzonych przez wojewodę organem wyższego stopnia jest **Szef Urzędu
+  do Spraw Cudzoziemców** ([art. 22 ust. 2 ustawy o cudzoziemcach](https://lexlege.pl/ustawa-o-cudzoziemcach/art-22/)).
+- Organ prowadzący sprawę przekazuje ponaglenie wraz z aktami bez zbędnej zwłoki,
+  nie później niż w 7 dni ([art. 37 § 4 KPA](https://lexlege.pl/kpa/art-37/)).
+- Organ wyższego stopnia rozpatruje je w ciągu 7 dni od otrzymania
+  ([art. 37 § 5 KPA](https://lexlege.pl/kpa/art-37/)).
 
 ## Treść pisma
 
@@ -50,9 +50,8 @@ Wniosek w niniejszej sprawie złożyłem/złożyłam w dniu [DATA ZŁOŻENIA WNI
 Do dnia sporządzenia niniejszego pisma, tj. [DATA], sprawa nie została załatwiona,
 mimo upływu [LICZBA] dni od dnia wszczęcia postępowania.
 
-Zgodnie z art. 35 § 3 KPA załatwienie sprawy wymagającej postępowania wyjaśniającego
-powinno nastąpić nie później niż w ciągu miesiąca, a sprawy szczególnie skomplikowanej
-— nie później niż w ciągu dwóch miesięcy od dnia wszczęcia postępowania.
+Zgodnie z art. 112a ust. 1 ustawy z dnia 12 grudnia 2013 r. o cudzoziemcach decyzję
+w sprawie udzielenia zezwolenia na pobyt czasowy wydaje się w terminie 60 dni.
 
 Organ nie zawiadomił mnie o niezałatwieniu sprawy w terminie ani nie wskazał nowego
 terminu jej załatwienia, czym naruszył art. 36 § 1 KPA. [USUŃ, JEŚLI ZAWIADOMIENIE OTRZYMAŁEŚ]
@@ -69,6 +68,15 @@ Załączniki:
 1. Potwierdzenie złożenia wniosku z dnia [DATA].
 2. [EWENTUALNA KORESPONDENCJA Z URZĘDEM]
 {{< /wzor >}}
+
+{{< notatka >}}
+**Od kiedy liczy się 60 dni.** Nie od samego złożenia wniosku. Termin biegnie od
+najpóźniejszego z tych zdarzeń: złożenia wniosku bez braków formalnych (albo ich
+uzupełnienia) oraz przedstawienia dokumentów, o które wojewoda wezwał na podstawie
+art. 106f — albo bezskutecznego upływu wyznaczonego na to terminu
+([art. 112a ustawy o cudzoziemcach](https://lexlege.pl/ustawa-o-cudzoziemcach/art-112a/)).
+Zanim policzysz dni, sprawdź, czy urząd nie wzywał Cię do uzupełnienia.
+{{< /notatka >}}
 
 ## Jak wysłać
 

@@ -1,26 +1,33 @@
 ---
-title: "Petycja do Wojewody Pomorskiego o zwiększenie obsady w wydziale cudzoziemców"
-description: "Wniosek o etaty, godziny przyjęć i publikowanie średnich czasów rozpatrywania."
+title: "Petycja do Wojewody Pomorskiego o usprawnienie postępowań pobytowych"
+description: "Propozycje dotyczące systemowej organizacji rozpatrywania spraw o legalizację pobytu w województwie pomorskim."
 date: 2026-06-24
-lastmod: 2026-08-12
 instytucje: ["Pomorski Urząd Wojewódzki"]
-tematy: ["Przewlekłość postępowań", "Jawność"]
-statusy: ["Częściowo uwzględnione"]
+tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
+statusy: ["Oczekuje na odpowiedź"]
 lata: ["2026"]
 data_wyslania: "24.06.2026"
-data_odpowiedzi: "11.08.2026"
-dni: 48
-autor: "Zespół Tu Żyjemy"
+termin: "24.09.2026"
+sygnatura: "WSC-IV.142.1.2026.DK"
+zrodlo: "https://www.gov.pl/web/uw-pomorski/wykaz-petycji"
 ---
 
-Prosiliśmy o trzy rzeczy. Urząd zgodził się na jedną.
+Petycja złożona 24 czerwca 2026 r. do Pomorskiego Urzędu Wojewódzkiego. W rejestrze
+urzędu jej przedmiot opisano jako *„propozycje dotyczące systemowej organizacji procesu
+rozpatrywania spraw dotyczących legalizacji pobytu cudzoziemców w województwie
+pomorskim"*.
 
-| Postulat | Odpowiedź |
-| --- | --- |
-| Zwiększenie obsady wydziału | Odmowa — „brak środków w budżecie wojewody” |
-| Wydłużenie godzin przyjęć interesantów | Odmowa |
-| Publikowanie średniego czasu rozpatrywania spraw | **Przyjęte** — od IV kwartału 2026 |
+## Status
 
-Trzeci punkt jest ważniejszy, niż wygląda: gdy urząd sam publikuje czasy, przestaje
-być potrzebne zbieranie ich od ludzi. Pełna odpowiedź:
-[odpowiedź PUW z 11.08.2026](/odpowiedzi/puw-gdansk-obsada-2026/).
+Urząd wyznaczył termin zakończenia sprawy na **24 września 2026 r.** Do tego czasu
+petycja pozostaje w toku — odpowiedzi jeszcze nie ma.
+
+
+{{< notatka typ="info" >}}
+To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. [Zestawienie pakietu](https://t.me/tu_zyjemy/513/516)
+{{< /notatka >}}
+
+## Dokumenty
+
+- [Wykaz petycji Pomorskiego Urzędu Wojewódzkiego](https://www.gov.pl/web/uw-pomorski/wykaz-petycji) — pozycja WSC-IV.142.1.2026.DK
+- [Nasze dokumenty na Telegramie](https://t.me/tu_zyjemy/513/516)

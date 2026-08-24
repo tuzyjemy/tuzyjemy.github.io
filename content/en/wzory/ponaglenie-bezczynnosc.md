@@ -17,9 +17,6 @@ with the **higher-instance authority**, but **through** the authority handling y
 - The authority has 7 days to forward the reminder together with the file.
 - The higher authority decides within 7 days.
 
-In the 14 cases we tracked, a reminder moved the decision forward by roughly 3 months.
-In 4 cases it changed nothing.
-
 ## The letter
 
 {{< wzor >}}
@@ -49,9 +46,8 @@ Wniosek w niniejszej sprawie złożyłem/złożyłam w dniu [DATE OF APPLICATION
 Do dnia sporządzenia niniejszego pisma, tj. [DATE], sprawa nie została załatwiona,
 mimo upływu [NUMBER] dni od dnia wszczęcia postępowania.
 
-Zgodnie z art. 35 § 3 KPA załatwienie sprawy wymagającej postępowania wyjaśniającego
-powinno nastąpić nie później niż w ciągu miesiąca, a sprawy szczególnie skomplikowanej
-— nie później niż w ciągu dwóch miesięcy od dnia wszczęcia postępowania.
+Zgodnie z art. 112a ust. 1 ustawy z dnia 12 grudnia 2013 r. o cudzoziemcach decyzję
+w sprawie udzielenia zezwolenia na pobyt czasowy wydaje się w terminie 60 dni.
 
 Organ nie zawiadomił mnie o niezałatwieniu sprawy w terminie ani nie wskazał nowego
 terminu jej załatwienia, czym naruszył art. 36 § 1 KPA.
@@ -72,6 +68,15 @@ Załączniki:
 {{< notatka typ="info" >}}
 Keep the letter itself in Polish — that is the language of the proceedings. The bracketed
 placeholders are the only parts you change.
+{{< /notatka >}}
+
+{{< notatka >}}
+**When the 60 days start.** Not from filing itself. The clock runs from the latest of:
+filing an application free of formal defects (or remedying them), and submitting the
+documents the voivode requested under art. 106f — or the fruitless expiry of the
+deadline set for them
+([art. 112a of the Act on Foreigners](https://lexlege.pl/ustawa-o-cudzoziemcach/art-112a/)).
+Check whether the office asked you for anything before you count the days.
 {{< /notatka >}}
 
 ## How to send it

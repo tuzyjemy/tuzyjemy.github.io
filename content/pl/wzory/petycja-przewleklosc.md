@@ -10,7 +10,10 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 Petycję może złożyć każdy — osoba fizyczna, grupa nieformalna, organizacja — także
-osoba bez obywatelstwa polskiego. Adresat ma 3 miesiące na rozpatrzenie.
+osoba bez obywatelstwa polskiego ([art. 2 ustawy o petycjach](https://lexlege.pl/petycje/art-2/)).
+Adresat ma 3 miesiące na rozpatrzenie; w razie przeszkód niezależnych od siebie może
+ten termin przedłużyć, ale nie więcej niż o kolejne 3 miesiące
+([art. 10 ustawy o petycjach](https://lexlege.pl/petycje/art-10/)).
 
 {{< wzor >}}
 [MIEJSCOWOŚĆ], [DATA]

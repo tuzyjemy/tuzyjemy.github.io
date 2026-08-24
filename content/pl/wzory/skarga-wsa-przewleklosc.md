@@ -10,12 +10,15 @@ wzor: true
 autor: "Zespół Tu Żyjemy"
 ---
 
-Skargę wnosi się **po wyczerpaniu ponaglenia**. Nie ma terminu zawitego — można ją złożyć,
-dopóki trwa stan bezczynności. Wpis stały wynosi 100 zł; przy trudnej sytuacji można
-złożyć wniosek o prawo pomocy.
+Skargę wnosi się **po wcześniejszym złożeniu ponaglenia** — to warunek jej skuteczności
+([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)). Wpis stały wynosi 100 zł
+(§ 2 ust. 1 pkt 6 rozporządzenia Rady Ministrów z 16 grudnia 2003 r. —
+zob. [zestawienie wpisów WSA w Warszawie](https://bip.warszawa.wsa.gov.pl/133/wpis-sadowy-zasady-dokonywania-wpisu.html));
+przy trudnej sytuacji materialnej można złożyć wniosek o prawo pomocy.
 
-Sąd, uwzględniając skargę, zobowiązuje organ do wydania decyzji w wyznaczonym terminie
-i może wymierzyć grzywnę.
+Sąd, uwzględniając skargę, zobowiązuje organ do wydania aktu w wyznaczonym terminie
+i może wymierzyć organowi grzywnę
+([art. 149 PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-149/)).
 
 {{< wzor >}}
 [MIEJSCOWOŚĆ], [DATA]

@@ -17,9 +17,6 @@ wzor: true
 - У органа есть 7 дней, чтобы передать понагление вместе с материалами дела.
 - Вышестоящий орган рассматривает его в течение 7 дней.
 
-В 14 делах, за которыми мы следили, понагление ускорило решение в среднем на 3 месяца.
-В 4 делах не изменило ничего.
-
 ## Текст обращения
 
 {{< wzor >}}
@@ -49,9 +46,8 @@ Wniosek w niniejszej sprawie złożyłem/złożyłam w dniu [ДАТА ПОДАЧ
 Do dnia sporządzenia niniejszego pisma, tj. [ДАТА], sprawa nie została załatwiona,
 mimo upływu [КОЛИЧЕСТВО] dni od dnia wszczęcia postępowania.
 
-Zgodnie z art. 35 § 3 KPA załatwienie sprawy wymagającej postępowania wyjaśniającego
-powinno nastąpić nie później niż w ciągu miesiąca, a sprawy szczególnie skomplikowanej
-— nie później niż w ciągu dwóch miesięcy od dnia wszczęcia postępowania.
+Zgodnie z art. 112a ust. 1 ustawy z dnia 12 grudnia 2013 r. o cudzoziemcach decyzję
+w sprawie udzielenia zezwolenia na pobyt czasowy wydaje się w terminie 60 dni.
 
 Organ nie zawiadomił mnie o niezałatwieniu sprawy w terminie ani nie wskazał nowego
 terminu jej załatwienia, czym naruszył art. 36 § 1 KPA.
@@ -72,6 +68,15 @@ Załączniki:
 {{< notatka typ="info" >}}
 Само обращение оставьте на польском — это язык производства. Меняются только
 части в квадратных скобках.
+{{< /notatka >}}
+
+{{< notatka >}}
+**С какого момента идут 60 дней.** Не с самой подачи. Срок течёт с наиболее позднего
+из событий: подачи заявления без формальных недостатков (или их устранения) и
+представления документов, которые воевода запросил на основании art. 106f, — либо
+безрезультатного истечения назначенного для этого срока
+([art. 112a закона об иностранцах](https://lexlege.pl/ustawa-o-cudzoziemcach/art-112a/)).
+Прежде чем считать дни, проверьте, не вызывал ли вас орган для дополнения.
 {{< /notatka >}}
 
 ## Как отправить
