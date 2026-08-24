@@ -37,4 +37,27 @@ we disbelieve people, but because defamation is a criminal offence in Poland
 credibility of everything gathered here.
 {{< /notatka >}}
 
+## How much of this is visible
+
+What we have gathered here is a small part of the cases that reached the media — and those
+are in turn a small part of what actually happens.
+
+Most such stories are never reported, for reasons that are easy to understand: reporting a
+bribe means admitting you paid one, the residence case is usually still pending, and fear
+of the consequences for your own situation outweighs any hope of justice. A person waiting
+for a decision has the most to lose and the least reason to speak up.
+
+The second filter is the media. The story of someone who could not sign an employment
+contract for a year and a half is rarely "interesting" enough to become an article — and
+when it concerns a foreigner, it meets a further barrier of imagination. Most Poles have
+never had reason to learn what living on a stamp means: that it is not about
+inconvenience, but about a bank account, a tenancy agreement, travelling to a funeral, the
+right to work. Without that context such a story looks like a minor administrative matter
+— and goes unwritten.
+
+That is why the cases that reach the media are above all the ones with arrests and
+charges. The quiet ruin of individual lives has no such threshold to clear.
+
+**This section shows the tip, not the scale.**
+
 Do you have documents relating to such a case? [Write to us](/dolacz/).

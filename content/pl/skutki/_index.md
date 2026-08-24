@@ -36,4 +36,27 @@ przestępstwem (art. 212 KK), a jeden niesprawdzony zarzut podważyłby wiarygod
 wszystkiego, co tu zebraliśmy.
 {{< /notatka >}}
 
+## Ile z tego widać
+
+To, co tu zebraliśmy, jest niewielką częścią spraw, które trafiły do mediów — a te z kolei
+są niewielką częścią tego, co dzieje się naprawdę.
+
+Większość takich historii nigdy nie zostaje zgłoszona, i to z powodów, które łatwo
+zrozumieć: zgłoszenie łapówki oznacza przyznanie się do jej wręczenia, sprawa
+o pobyt zwykle wciąż się toczy, a strach przed konsekwencjami dla własnej sytuacji jest
+większy niż nadzieja na sprawiedliwość. Człowiek, który czeka na decyzję, ma najwięcej do
+stracenia i najmniej powodów, żeby mówić głośno.
+
+Drugie sito to media. Historia osoby, która przez półtora roku nie mogła podpisać umowy
+o pracę, rzadko jest dość „ciekawa", żeby stać się tekstem — a kiedy dotyczy cudzoziemca,
+trafia dodatkowo na barierę wyobraźni. Większość Polaków nigdy nie miała powodu dowiedzieć
+się, co znaczy żyć na stemplu: że nie chodzi o niewygodę, tylko o konto w banku, umowę
+najmu, wyjazd na pogrzeb, prawo do pracy. Bez tego kontekstu taka historia wygląda na
+drobną sprawę administracyjną — i nie zostaje opisana.
+
+Dlatego do mediów trafiają przede wszystkim sprawy z zatrzymaniami i zarzutami. Cicha
+ruina pojedynczych życiorysów nie ma takiego progu wejścia.
+
+**Ta sekcja pokazuje wierzchołek, nie skalę.**
+
 Masz dokumenty dotyczące takiej sprawy? [Napisz do nas](/dolacz/).
