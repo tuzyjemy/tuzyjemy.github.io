@@ -114,6 +114,11 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .topbar a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------------------------------------------------------------- header */
+/*  Nagłówek dostaje szerszy kontener niż treść: osiem pozycji menu nie
+    mieści się w 1180 px, a bez tego nawigacja nachodziła na przycisk
+    „Dołącz do nas" na każdej szerokości ekranu, nie tylko na wąskich.  */
+.site-header .shell { max-width: 1460px; }
+
 .site-header {
   background: color-mix(in srgb, var(--surface) 94%, transparent);
   border-bottom: 1px solid var(--line);
@@ -150,7 +155,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .nav {
   display: flex;
   align-items: center;
-  gap: 17px;
+  gap: 14px;
   flex: 1 1 auto;
   min-width: 0;
   flex-wrap: nowrap;
@@ -165,8 +170,8 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .nav a:hover { color: var(--ink); text-decoration: none; }
 .nav a[aria-current="page"], .nav a.is-active { color: var(--accent); }
 
-.nav-group { display: flex; align-items: center; gap: 17px; }
-.nav-group + .nav-group { padding-left: 17px; border-left: 1px solid var(--line); }
+.nav-group { display: flex; align-items: center; gap: 14px; }
+.nav-group + .nav-group { padding-left: 14px; border-left: 1px solid var(--line); }
 .nav-group-label { display: none; }
 
 .header-tools { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
@@ -193,6 +198,10 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 }
 .btn-solid:hover { background: color-mix(in srgb, var(--deep) 85%, var(--bg)); }
 .btn-sun { background: var(--sun); border-color: var(--sun); color: var(--on-sun); }
+/* Nieprzezroczyste tło: przycisk sąsiaduje z nawigacją i przy ciasnocie
+   prześwitywałby przez niego tekst pozycji menu. */
+.btn-join { background: var(--surface); }
+.btn-join:hover { background: var(--accent-soft); }
 .btn-sm { padding: 7px 12px; font-size: 13px; }
 
 /* language switcher */
@@ -714,7 +723,10 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   .aside { position: static; }
 }
 
-@media (max-width: 1199px) {
+/*  Nawigacja zwija się do przycisku „Menu" wcześniej niż reszta układu:
+    pozycji w menu jest osiem, a w rosyjskim i ukraińskim ich nazwy są
+    długie — przy ~1200 px nachodziły na przycisk „Dołącz do nas".      */
+@media (max-width: 1400px) {
   .nav {
     display: none;
     position: absolute;
@@ -754,6 +766,52 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
     font-weight: 700;
     font-size: 14px;
   }
+}
+
+/*  Stan pośredni między pełną nawigacją a samym przyciskiem „Menu".
+    Grupy w data/menugroups.yaml są ułożone od najczęściej odwiedzanych
+    do najrzadszych, więc przy średniej szerokości zostawiamy w pasku
+    pierwszą grupę, a resztę chowamy pod przyciskiem. Po jego kliknięciu
+    rozwija się pełne menu ze wszystkimi grupami.                      */
+@media (min-width: 1101px) and (max-width: 1400px) {
+  .nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border-bottom: 0;
+    box-shadow: none;
+    padding: 0;
+    gap: 14px;
+  }
+  .nav a { padding: 0; font-size: 13.5px; border-bottom: 0; }
+  .nav-group { flex-direction: row; align-items: center; gap: 14px; }
+  .nav-group-label { display: none; }
+  /* w pasku zostaje tylko pierwsza grupa */
+  .nav-group + .nav-group { display: none; }
+
+  /* po otwarciu — pełne menu, tak jak na wąskich ekranach */
+  .site-header[data-nav="open"] .nav {
+    position: absolute;
+    left: 0; right: 0; top: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    box-shadow: var(--shadow-lg);
+    padding: 8px var(--pad) 16px;
+  }
+  .site-header[data-nav="open"] .nav a { padding: 11px 0; font-size: 16px;
+    border-bottom: 1px solid var(--line); }
+  .site-header[data-nav="open"] .nav a:last-child { border-bottom: 0; }
+  .site-header[data-nav="open"] .nav-group { display: flex; flex-direction: column;
+    align-items: stretch; gap: 0; padding-left: 0; border-left: 0; }
+  .site-header[data-nav="open"] .nav-group-label { display: block; }
+}
+
+@media (max-width: 1199px) {
   .hero { grid-template-columns: 1fr; }
   .hero-copy { padding: 38px; }
   .vote { padding: 30px 38px; }
