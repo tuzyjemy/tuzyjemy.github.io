@@ -22,6 +22,11 @@ także pod kątem bezpieczeństwa i zgłoszenia zgromadzenia.
 
 Publicznie widoczna jest wyłącznie liczba zgłoszeń — nie imiona osób, które je wysłały.
 
+## Bądź na bieżąco
+
+Gdyby coś się zmieniło — godzina, miejsce, szczegóły organizacyjne — napiszemy o tym
+najpierw na Telegramie: [@tu_zyjemy](https://t.me/tu_zyjemy). Tam też odpowiadamy na pytania.
+
 ## Gotowy post do udostępnienia
 
 {{< wzor >}}
@@ -31,6 +36,7 @@ Protest w Gdańsku: poniedziałek 7 września, godz. 16:30
 Wydział do spraw cudzoziemców, ul. Chmielna 74/76
 
 Potwierdź obecność: https://mobilizon.fr/events/5e9e3d5d-90c4-409f-9e61-87de17584abe
+Aktualne informacje: https://t.me/tu_zyjemy
 {{< /wzor >}}
 
 Jeśli prowadzisz grupę na Telegramie albo Facebooku, wklej to i dodaj link.

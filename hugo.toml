@@ -49,9 +49,6 @@ summaryLength = 30
 # Parametry globalne
 # ---------------------------------------------------------------------------
 [params]
-  # Pasek na górze każdej strony ostrzegający, że to wersja testowa.
-  # Wyłącz (false), gdy testy się skończą i treść będzie ostateczna.
-  testMode = true
   # Zmień na własne dane przed publikacją.
   telegram = "https://t.me/tu_zyjemy"
   email = "contact@tuzyjemy.pl"

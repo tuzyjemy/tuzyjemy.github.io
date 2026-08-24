@@ -1,8 +1,0 @@
-{{- /*  Pasek ostrzegający, że serwis jest w fazie testowej. Sterowany
-    parametrem testMode w hugo.toml — wyłącz go tam, gdy testy się
-    skończą, zamiast usuwać ten plik.                                 */ -}}
-{{- if .Site.Params.testMode -}}
-<div class="test-banner">
-  <div class="shell">🧪 {{ i18n "test_banner" }}</div>
-</div>
-{{- end -}}

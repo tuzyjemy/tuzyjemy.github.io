@@ -250,7 +250,6 @@ baseURL   = "…"           # adres publikacji — koniecznie zmień
 [params]
   telegram = "…"          # link w górnym pasku
   email    = "…"          # adres w stopce i w blokach kontaktowych
-  testMode = true         # pasek „wersja testowa" na każdej stronie
   liczbaWydarzen = 4      # ile wpisów na osi czasu na stronie głównej
   liczbaAktualnosci = 3   # ile aktualności na stronie głównej
   repoEdycji = ""         # np. "https://github.com/org/repo" — dodaje w stopce

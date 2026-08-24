@@ -2,7 +2,7 @@
   <div class="shell topbar-inner">
     <span>{{ i18n "topbar_slogan" }}</span>
     {{ with .Site.Params.telegram }}
-      <span>Telegram: <a href="{{ . }}" rel="noopener">@tu_zyjemy</a></span>
+      <span>Telegram: <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a></span>
     {{ end }}
   </div>
 </div>

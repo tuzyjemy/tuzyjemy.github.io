@@ -22,6 +22,11 @@ for safety and for registering the assembly.
 
 Only the number of confirmations is public — never the names of the people who sent them.
 
+## Stay up to date
+
+If anything changes — the time, the place, organisational details — we will post it
+on Telegram first: [@tu_zyjemy](https://t.me/tu_zyjemy). We answer questions there too.
+
 ## Ready-made post to share
 
 {{< wzor >}}
@@ -31,6 +36,7 @@ Protest in Gdańsk: Monday 7 September, 16:30
 Office for Foreigners, ul. Chmielna 74/76
 
 Confirm you're coming: https://mobilizon.fr/events/5e9e3d5d-90c4-409f-9e61-87de17584abe
+Updates: https://t.me/tu_zyjemy
 {{< /wzor >}}
 
 If you run a group on Telegram or Facebook, paste this and add the link.

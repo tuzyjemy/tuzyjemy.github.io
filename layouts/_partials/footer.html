@@ -36,6 +36,9 @@
         {{ with .Site.Params.email }}
           &middot; {{ i18n "footer_contact" }}: <a href="mailto:{{ . }}">{{ . }}</a>
         {{ end }}
+        {{ with .Site.Params.telegram }}
+          &middot; Telegram: <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a>
+        {{ end }}
         {{ if and .Site.Params.repoEdycji .File }}
           &middot; <a href="{{ .Site.Params.repoEdycji }}/edit/main/content/{{ .Site.Language.Lang }}/{{ .File.Path }}" rel="noopener">{{ i18n "footer_edit" }}</a>
         {{ end }}
