@@ -23,6 +23,7 @@
           {{ range (slice "tematy" "instytucje" "statusy" "lata") }}
             <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "taxo_%s" .) }}</a></li>
           {{ end }}
+          <li><a href="{{ partial "href.html" "/postulaty/" }}">{{ i18n "menu_postulaty" }}</a></li>
           <li><a href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a></li>
         </ul>
       </div>

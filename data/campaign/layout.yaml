@@ -11,6 +11,9 @@
 # ---------------------------------------------------------------------------
 active: true
 
+# Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.
+link: "/postulaty/"
+
 # Wydarzenie w Mobilizon. Stąd bierze się przycisk „Przyjdę", a liczbę
 # zgłoszonych uczestników pobieramy z publicznego API przy budowaniu
 # strony (patrz event-attendance.html). API zwraca wyłącznie liczby —

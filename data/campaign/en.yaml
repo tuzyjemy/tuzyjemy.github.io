@@ -1,10 +1,12 @@
 # Campaign copy — English. Structure (dates, links) lives in layout.yaml.
 kicker: "Residence legalisation · Gdańsk"
-heading: "Join the protest on 7 September"
-body: "We want to publicly demand efficient proceedings, realistic deadlines and the restoration of protection against excessive delay. We meet outside the Office for Foreigners in Gdańsk."
+heading: "We do not want to wait for years"
+body: "On 7 September we gather outside the Pomeranian Voivodeship Office. We are not protesting against the staff — we are protesting against a system in which the state accepts an application, collects the fee, and then leaves a person without a decision for two or three years. We have 15 concrete demands."
 meta:
   - "● Gdańsk"
   - "◷ 7 September, 16:30"
+
+linkTitle: "Read the demands"
 
 voteHeading: "Are you coming?"
 voteBody: "Confirm your attendance so we know how many people to expect."

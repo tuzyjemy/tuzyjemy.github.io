@@ -15,6 +15,7 @@ menu_statystyki = "Statistics"
 menu_aktualnosci = "News"
 menu_poradniki = "Guides"
 menu_skutki = "Consequences"
+menu_postulaty = "Protest demands"
 
 featured_now = "Most important action right now"
 campaign_telegram = "Live updates:"
@@ -51,7 +52,7 @@ published = "Published"
 translations_missing = "This page has not been translated yet. Showing the Polish version."
 translate_page = "Translate"
 link_in_language = "Link in:"
-no_other_languages = "This page isn't available in other languages yet."
+no_other_languages = "This page is not available in these languages yet."
 
 meta_instytucja = "Institution"
 meta_temat = "Topic"
@@ -102,8 +103,6 @@ taxo_tematy = "Topics"
 taxo_instytucje = "Institutions"
 taxo_statusy = "Status"
 taxo_lata = "Years"
-
-# Vote counts. Keep this table last: in TOML everything after a table
 
 attend_heading = "Are you coming?"
 attend_intro = "Confirm your attendance so we know how many people to expect."

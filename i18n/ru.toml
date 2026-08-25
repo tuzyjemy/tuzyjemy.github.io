@@ -15,6 +15,7 @@ menu_statystyki = "Статистика"
 menu_aktualnosci = "Новости"
 menu_poradniki = "Инструкции"
 menu_skutki = "Последствия"
+menu_postulaty = "Требования протеста"
 
 featured_now = "Самое важное сейчас"
 campaign_telegram = "Актуальная информация:"
@@ -51,7 +52,7 @@ published = "Опубликовано"
 translations_missing = "Эта страница ещё не переведена. Показана польская версия."
 translate_page = "Перевести"
 link_in_language = "Ссылка на языке:"
-no_other_languages = "Эта страница пока недоступна на других языках."
+no_other_languages = "Этой страницы пока нет на этих языках."
 
 meta_instytucja = "Учреждение"
 meta_temat = "Тема"
@@ -102,8 +103,6 @@ taxo_tematy = "Темы"
 taxo_instytucje = "Учреждения"
 taxo_statusy = "Статусы"
 taxo_lata = "Годы"
-
-# Количество голосов — формы множественного числа.
 
 attend_heading = "Придёте?"
 attend_intro = "Подтвердите участие, чтобы мы знали, на сколько человек рассчитывать."

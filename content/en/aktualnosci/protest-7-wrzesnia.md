@@ -13,6 +13,8 @@ The protest runs until 18:00.
 We are demanding efficient residence legalisation proceedings, realistic deadlines and
 the restoration of protection against excessive delay.
 
+The full list of what we are demanding: [protest demands](/postulaty/).
+
 ## Confirm you're coming
 
 The sooner we know how many people to expect, the better we can prepare — including

@@ -13,6 +13,8 @@ Protest potrwa do 18:00.
 Upominamy się o sprawne postępowania legalizacyjne, realne terminy i przywrócenie
 ochrony przed przewlekłością.
 
+Pełna lista tego, czego się domagamy: [postulaty protestu](/postulaty/).
+
 ## Potwierdź obecność
 
 Im wcześniej wiemy, ile osób przyjdzie, tym lepiej możemy się przygotować —

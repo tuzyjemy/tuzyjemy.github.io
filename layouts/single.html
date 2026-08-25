@@ -19,15 +19,23 @@
         <p class="notice">{{ i18n "legal_note" }}</p>
       {{ end }}
 
-      {{ if le (len .AllTranslations) 1 }}
-        {{ $p := . }}
+      {{- /*  Odnośniki do Tłumacza Google dla tych języków, w których tej
+          strony jeszcze nie ma. Wersje przetłumaczone pomijamy — do nich
+          prowadzi zwykły przełącznik języka w nagłówku.                */ -}}
+      {{ $p := . }}
+      {{ $have := slice }}
+      {{ range .AllTranslations }}{{ $have = $have | append .Language.Lang }}{{ end }}
+      {{ $missing := slice }}
+      {{ range hugo.Sites }}
+        {{ if not (in $have .Language.Lang) }}{{ $missing = $missing | append .Language.Lang }}{{ end }}
+      {{ end }}
+      {{ with $missing }}
         <p class="notice notice-info">
           {{ i18n "no_other_languages" }}
           {{ i18n "translate_page" }}:
-          {{ range slice "pl" "en" "ru" "uk" "be" }}
-            {{ if ne . $p.Language.Lang }}
-              <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" .) }}" target="_blank" rel="noopener">{{ upper . }}</a>
-            {{ end }}
+          {{ range . }}
+            <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" .) }}"
+               target="_blank" rel="noopener">{{ upper . }}</a>
           {{ end }}
         </p>
       {{ end }}

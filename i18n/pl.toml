@@ -15,6 +15,7 @@ menu_statystyki = "Statystyki"
 menu_aktualnosci = "Aktualności"
 menu_poradniki = "Poradniki"
 menu_skutki = "Skutki"
+menu_postulaty = "Postulaty protestu"
 
 featured_now = "Najważniejsza akcja teraz"
 campaign_telegram = "Bieżące informacje:"
@@ -51,7 +52,7 @@ published = "Opublikowano"
 translations_missing = "Ta strona nie została jeszcze przetłumaczona. Pokazujemy wersję polską."
 translate_page = "Przetłumacz"
 link_in_language = "Odnośnik w języku:"
-no_other_languages = "Ta strona nie ma jeszcze innych wersji językowych."
+no_other_languages = "Tej strony nie ma jeszcze w tych językach."
 
 # Metadane dokumentów
 meta_instytucja = "Instytucja"
@@ -104,9 +105,6 @@ taxo_tematy = "Tematy"
 taxo_instytucje = "Instytucje"
 taxo_statusy = "Statusy"
 taxo_lata = "Lata"
-
-# Liczba głosów — formy mnogie wg reguł języka polskiego.
-# Ta tabela musi zostać na końcu pliku: w TOML wszystko po nagłówku
 
 attend_heading = "Przyjdziesz?"
 attend_intro = "Potwierdź obecność, żebyśmy wiedzieli, na ile osób liczyć."

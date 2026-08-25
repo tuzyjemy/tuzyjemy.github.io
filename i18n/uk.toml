@@ -15,6 +15,7 @@ menu_statystyki = "Статистика"
 menu_aktualnosci = "Новини"
 menu_poradniki = "Інструкції"
 menu_skutki = "Наслідки"
+menu_postulaty = "Вимоги протесту"
 
 featured_now = "Найважливіше зараз"
 campaign_telegram = "Актуальна інформація:"
@@ -51,7 +52,7 @@ published = "Опубліковано"
 translations_missing = "Цю сторінку ще не перекладено. Показано польську версію."
 translate_page = "Перекласти"
 link_in_language = "Посилання мовою:"
-no_other_languages = "Ця сторінка поки що недоступна іншими мовами."
+no_other_languages = "Цієї сторінки поки немає цими мовами."
 
 meta_instytucja = "Установа"
 meta_temat = "Тема"
@@ -102,8 +103,6 @@ taxo_tematy = "Теми"
 taxo_instytucje = "Установи"
 taxo_statusy = "Статуси"
 taxo_lata = "Роки"
-
-# Кількість голосів — форми множини.
 
 attend_heading = "Прийдете?"
 attend_intro = "Підтвердьте участь, щоб ми знали, на скільки людей розраховувати."

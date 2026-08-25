@@ -1,10 +1,12 @@
 # Teksty kampanii — polski. Strukturę (wydarzenie, odnośniki) ustawia layout.yaml.
 kicker: "Legalizacja pobytu · Gdańsk"
-heading: "Przyjdź na protest 7 września"
-body: "Chcemy publicznie upomnieć się o sprawne postępowania, realne terminy i przywrócenie ochrony przed przewlekłością. Spotykamy się pod Wydziałem do spraw cudzoziemców w Gdańsku."
+heading: "Nie chcemy czekać latami"
+body: "7 września wychodzimy pod Pomorski Urząd Wojewódzki. Nie występujemy przeciwko pracownikom urzędu — występujemy przeciwko systemowi, w którym państwo przyjmuje wniosek, pobiera opłatę, a potem zostawia człowieka bez decyzji na dwa albo trzy lata. Mamy 15 konkretnych postulatów."
 meta:
   - "● Gdańsk"
   - "◷ 7 września, 16:30"
+
+linkTitle: "Przeczytaj postulaty"
 
 voteHeading: "Przyjdziesz?"
 voteBody: "Potwierdź obecność, żebyśmy wiedzieli, na ile osób liczyć."
