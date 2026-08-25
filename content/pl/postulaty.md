@@ -7,6 +7,11 @@ lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
+{{< notatka typ="info" >}}
+Na podstawie tych postulatów przygotowujemy **petycję**. Będzie ona osobnym dokumentem —
+opublikujemy ją, gdy będzie gotowa.
+{{< /notatka >}}
+
 Nie występujemy przeciwko pracownikom urzędu. Występujemy przeciwko systemowi, w którym państwo przyjmuje wniosek, pobiera opłatę, a następnie pozostawia człowieka bez decyzji przez dwa albo trzy lata.
 
 Za każdą sprawą stoi człowiek, a nie teczka, którą można odłożyć na półkę. Ludzie nie mogą na dwa albo trzy lata zatrzymać życia: muszą pracować, wychowywać dzieci, leczyć się, prowadzić firmy, podróżować i planować przyszłość. Dlatego chcemy, aby sprawy dotyczące legalizacji pobytu w województwie pomorskim i w całej Polsce były rozpatrywane w rozsądnym i przewidywalnym czasie. Nie wystarczy jednak hasło „pracujcie szybciej”. Oczekujemy konkretnych działań, terminów i danych.
