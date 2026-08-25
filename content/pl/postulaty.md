@@ -1,6 +1,6 @@
 ---
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
-description: "Cel i 15 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
+description: "Cel i 16 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
 date: 2026-08-25
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
@@ -103,7 +103,23 @@ Pomorski Urząd Wojewódzki [informuje na swojej stronie](https://wsc.gdansk.uw.
 
 Oczekujemy zmiany tej praktyki i oficjalnego komunikatu. Przed przekazaniem papierowych akt do sądu urząd powinien utworzyć pełną, uporządkowaną kopię roboczą i nadal wykonywać wszystkie czynności, które nie wymagają oryginałów. Jeżeli urząd uważa, że konkretnych czynności nie wolno wykonać bez akt głównych, powinien wskazać ich podstawę prawną i wyjaśnić, dlaczego nie może korzystać z kopii lub elektronicznego obiegu dokumentów. Skarga do sądu nie może stawać się dodatkową karą za próbę obrony swoich praw.
 
-### 10. MOS jako rzeczywiste narzędzie pracy, a nie tylko elektroniczny formularz
+### 10. Terminowe wydawanie zaświadczeń i koniec ignorowania pism urzędowych
+
+Problem bezczynności nie ogranicza się do czasu oczekiwania na decyzję w sprawie pobytowej. PUW nie ma prawa ignorować odrębnych wniosków i pism urzędowych tylko dlatego, że dotyczą osoby czekającej na zakończenie postępowania pobytowego.
+
+Zgodnie z [art. 217 § 3 Kodeksu postępowania administracyjnego](https://eli.gov.pl/api/acts/DU/2024/572/text.html) zaświadczenie powinno zostać wydane bez zbędnej zwłoki, nie później niż w terminie siedmiu dni. Dotyczy to w szczególności zaświadczeń potwierdzających fakty znane urzędowi z posiadanych danych: złożenie wniosku, datę jego wpływu, numer sprawy oraz to, że postępowanie jest w toku — jeżeli wnioskodawca wskaże podstawę przewidzianą w art. 217 § 2 KPA. Jeżeli urząd odmawia wydania zaświadczenia albo zaświadczenia o żądanej treści, powinien wydać postanowienie, na które przysługuje zażalenie zgodnie z art. 219 KPA. Brak odpowiedzi nie jest właściwym sposobem załatwienia wniosku.
+
+Art. 100d dotyczy terminów w wyraźnie wymienionych postępowaniach o udzielenie, zmianę lub cofnięcie zezwoleń pobytowych i nie wymienia postępowań w sprawie wydania zaświadczenia. W naszej ocenie nie ma podstaw, aby automatycznie rozciągać go na takie odrębne postępowania. Istotny argument daje [wyrok WSA w Opolu z 12 października 2023 r., II SAB/Op 44/23](https://orzeczenia.nsa.gov.pl/doc/36A1825148): sąd stwierdził bezczynność wojewody i zobowiązał go do rozpatrzenia w terminie siedmiu dni wniosku o wydanie zaświadczenia potwierdzającego datę złożenia wniosku o pobyt czasowy. Wyrok zapadł w konkretnej sprawie i nie zastępuje oceny prawnej każdego kolejnego przypadku, ale pokazuje, że postępowanie w sprawie zaświadczenia podlega odrębnej kontroli sądu administracyjnego.
+
+Wymagamy od PUW:
+
+- niezwłocznego przejrzenia i rozpatrzenia wszystkich wniosków o wydanie zaświadczenia oczekujących dłużej niż siedem dni;
+- wydawania w ustawowym terminie zaświadczenia albo postanowienia o odmowie, a w razie braku dokumentów lub opłaty — niezwłocznego kierowania wezwania do usunięcia braków;
+- zapewnienia możliwości otrzymania zaświadczenia w postaci elektronicznej przez ePUAP lub e-Doręczenia;
+- rejestrowania i terminowego nadawania właściwego biegu również *ponagleniom*, skargom i innym pismom urzędowym, bez pozostawiania ich bez odpowiedzi;
+- comiesięcznego publikowania liczby złożonych i wydanych zaświadczeń, odmów oraz wniosków niezałatwionych, liczby wniosków oczekujących dłużej niż siedem dni, a także mediany czasu ich rozpatrzenia.
+
+### 11. MOS jako rzeczywiste narzędzie pracy, a nie tylko elektroniczny formularz
 
 Oczekujemy opublikowania lokalnej oceny działania MOS i jego integracji z systemami PUW. MOS nie może być wyłącznie warstwą interfejsu, za którą pracownik nadal ręcznie przepisuje dane do kolejnych systemów. Powinien być jedną rzeczywistą bramą wejściową sprawy: dane i dokumenty przekazane przez wnioskodawcę muszą trafiać do narzędzi używanych przez pracowników bez ponownego wprowadzania tych samych informacji.
 
@@ -111,7 +127,7 @@ Należy porównać okres przed i po wdrożeniu elektronicznej procedury, pokazuj
 
 Jeżeli system nie ograniczył liczby wezwań, ręcznego przepisywania danych i czasu rozpatrywania, urząd powinien wskazać przyczyny oraz przedstawić plan naprawczy. Zmiany wymagające ingerencji w centralny system MOS powinny zostać formalnie zgłoszone do UdSC i MSWiA, a treść zgłoszenia oraz odpowiedź opublikowane.
 
-### 11. Publiczna i merytoryczna odpowiedź na naszą petycję
+### 12. Publiczna i merytoryczna odpowiedź na naszą petycję
 
 24 czerwca 2026 r. oficjalnie złożyliśmy pakiet trzech dokumentów: petycję do Wojewody Pomorskiego, petycję do Komisji do Spraw Petycji Sejmu RP oraz pismo do Ministerstwa Cyfryzacji i Szefa UdSC. [Pakiet poparło już ponad 3 700 osób](https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow).
 
@@ -121,7 +137,7 @@ Protest nie zastępuje petycji. Ma sprawić, aby nie zakończyła się ona ogól
 
 Wojewoda nie może samodzielnie zmienić ustawy. Dlatego poniższe postulaty nie są formalnymi żądaniami wobec PUW. Mówimy o nich podczas protestu, ponieważ lokalna kolejka jest skutkiem zarówno organizacji urzędu, jak i przepisów oraz centralnych systemów. Oczekujemy od Wojewody publicznego stanowiska oraz przekazania tych postulatów właściwym ministrom i komisjom parlamentarnym.
 
-### 12. Uchylenie art. 100d i przywrócenie odpowiedzialności państwa za terminy
+### 13. Uchylenie art. 100d i przywrócenie odpowiedzialności państwa za terminy
 
 Art. 100d ustawy pomocowej zawiesza bieg terminów w prowadzonych przez wojewodów sprawach o pobyt czasowy, stały i rezydenta długoterminowego UE, wyłącza stosowanie przepisów o bezczynności oraz ogranicza skuteczne środki prawne wobec opóźnień. W 2026 r. jego obowiązywanie [przedłużono do 4 marca 2027 r.](https://eli.gov.pl/eli/DU/2026/203).
 
@@ -133,7 +149,7 @@ Także [Rzecznik Praw Obywatelskich](https://bip.brpo.gov.pl/sites/default/files
 
 Żądamy od rządu i Sejmu uchylenia art. 100d oraz przywrócenia rzeczywistych terminów, obowiązku informowania strony o opóźnieniu i skutecznej ochrony przed bezczynnością i przewlekłością. Jeżeli państwo potrzebuje okresu przejściowego, powinien mu towarzyszyć publiczny plan redukcji zaległości z kwartalnymi celami, a nie kolejne automatyczne przedłużenie wyjątku.
 
-### 13. UD408: szybka procedura według obiektywnych kryteriów, nie uprzywilejowanie wybranych paszportów
+### 14. UD408: szybka procedura według obiektywnych kryteriów, nie uprzywilejowanie wybranych paszportów
 
 Rządowy projekt [UD408](https://www.gov.pl/web/premier/projekt-ustawy-o-zmianie-ustawy-o-cudzoziemcach) przewiduje milczące załatwienie większości spraw o pobyt czasowy w ciągu 60 dni dla obywateli wybranych, rozwiniętych państw trzecich korzystających z ruchu bezwizowego. Listę państw ma określić Rada Ministrów, biorąc pod uwagę ryzyko migracyjne i współpracę w dziedzinie bezpieczeństwa.
 
@@ -147,7 +163,7 @@ Do szybkiej ścieżki powinny również kwalifikować się powiązane sprawy ma�
 
 Jeżeli rząd mimo wszystko zachowa listę państw, powinien publicznie wykazać proporcjonalność takiego rozwiązania, opublikować ocenę jego wpływu na pozostałe kolejki oraz zapewnić dodatkowe zasoby. Przyspieszenie jednej grupy nie może oznaczać jeszcze dłuższego oczekiwania wszystkich pozostałych.
 
-### 14. Realizacja postulatów ustawowych z naszej petycji do Sejmu
+### 15. Realizacja postulatów ustawowych z naszej petycji do Sejmu
 
 Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 
@@ -158,7 +174,7 @@ Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 - ustawowego powiązania spraw małoletnich dzieci ze sprawami rodziców lub opiekunów;
 - zapewnienia, aby osoba legalnie oczekująca na decyzję mogła skutecznie wykazać swój status wobec instytucji publicznych i — w granicach przepisów sektorowych — regulowanych podmiotów prywatnych.
 
-### 15. Jedna cyfrowa brama zamiast kolejnych niepołączonych systemów
+### 16. Jedna cyfrowa brama zamiast kolejnych niepołączonych systemów
 
 MOS 2 nie może być jedynie nową warstwą interfejsu ani elektroniczną kopertą dla dokumentów. Powinien być jedną bramą wejściową do całego postępowania i wspólnym źródłem danych dla systemów, z których korzystają pracownicy. Oczekujemy od Ministerstwa Cyfryzacji, MSWiA i UdSC pełnej integracji MOS ze ST POBYT, EZD, systemami wojewódzkimi oraz potrzebnymi rejestrami publicznymi, w szczególności ZUS, KAS, CEIDG i KRS. Informacja wprowadzona raz powinna być dalej wykorzystywana w całym procesie. Dane złożone elektronicznie nie mogą być ponownie ręcznie przepisywane, a dokument dostępny państwu w jednym rejestrze nie powinien być kolejny raz wymagany od wnioskodawcy.
 
