@@ -3,7 +3,17 @@ title: "Statystyki"
 description: "Realne terminy w sprawach pobytowych — zbiera je projekt „Kalendarz pobytu”."
 ---
 
-Własnych statystyk jeszcze nie prowadzimy. Zamiast dublować cudzą pracę, odsyłamy do
+## Nasze dane: orzeczenia sądów
+
+Prowadzimy własną bazę orzeczeń sądów administracyjnych w sprawach pobytowych — z
+odnośnikami do CBOSA. Widać w niej, jak często sądy przyznają rację skarżącym, jak to
+się zmieniało w czasie i dlaczego połowa spraw nigdy nie dochodzi do oceny merytorycznej.
+
+[Zobacz bazę orzeczeń](/orzeczenia/)
+
+## Terminy oczekiwania: Kalendarz pobytu
+
+Statystyk czasu oczekiwania nie prowadzimy. Zamiast dublować cudzą pracę, odsyłamy do
 projektu **Kalendarz pobytu**, który zbiera dane o realnych terminach w sprawach
 pobytowych — od odcisków palców, przez decyzję, po odbiór karty — z podziałem na
 województwa.

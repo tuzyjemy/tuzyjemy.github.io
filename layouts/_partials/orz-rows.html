@@ -1,0 +1,25 @@
+{{- /*  Wczytuje bazę orzeczeń z assets/data/orzeczenia.csv i zwraca listę
+    wierszy posortowaną od najnowszych.
+
+    Jedno źródło prawdy dla szablonu sekcji (orzeczenia/list.html) i dla
+    skrótu {{< orz >}} używanego w treści — dzięki temu liczby w tekście
+    nie rozjadą się z tabelą przy kolejnej aktualizacji bazy.
+
+    Pomijamy pozycje bez rozstrzygnięcia merytorycznego lub procesowego:
+    to wpisy typu „Nie dotyczy zakresu weryfikacji", trafiła tam też
+    sprawa spoza zakresu pobytowego.
+
+    Wywołanie: {{ partialCached "orz-rows.html" . }}                     */ -}}
+{{- $rows := slice -}}
+{{- with resources.Get "data/orzeczenia.csv" -}}
+  {{- range after 1 (. | transform.Unmarshal (dict "delimiter" ",")) -}}
+    {{- if and (ge (len .) 9) (in (slice "Merytoryczny" "Procesowy") (index . 4)) -}}
+      {{- $rows = $rows | append (dict
+          "data" (index . 0) "sad" (index . 1) "sygnatura" (index . 2)
+          "wynik" (index . 3) "charakter" (index . 4) "przyczyna" (index . 5)
+          "rodzaj" (index . 6) "opis" (index . 7) "link" (index . 8)
+          "nsaSyg" (index . 9) "nsaLink" (index . 10) "nsaZmienil" (index . 11)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return sort $rows "data" "desc" -}}

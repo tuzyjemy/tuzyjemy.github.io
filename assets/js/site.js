@@ -93,7 +93,13 @@
     });
 
     if (search) {
-      search.addEventListener("input", apply);
+      /* Duże tabele (np. orzeczenia — kilka tysięcy wierszy) przeliczają się
+         przy każdym naciśnięciu klawisza; krótkie opóźnienie usuwa zacinanie. */
+      var t = null;
+      search.addEventListener("input", function () {
+        clearTimeout(t);
+        t = setTimeout(apply, items.length > 500 ? 160 : 0);
+      });
     }
     if (clear) {
       clear.addEventListener("click", function () {

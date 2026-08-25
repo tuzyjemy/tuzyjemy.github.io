@@ -3,7 +3,17 @@ title: "Statistics"
 description: "Real waiting times in residence cases — collected by the “Kalendarz pobytu” project."
 ---
 
-We do not run our own statistics yet. Rather than duplicate someone else's work, we point
+## Our own data: court rulings
+
+We maintain our own database of administrative court rulings in residence cases, each
+linked to CBOSA. It shows how often courts side with applicants, how that changed over
+time, and why half of all cases never reach a decision on the merits.
+
+[See the rulings database](/orzeczenia/)
+
+## Waiting times: Kalendarz pobytu
+
+We do not run waiting-time statistics. Rather than duplicate someone else's work, we point
 you to **Kalendarz pobytu** ("Residence calendar"), a project that collects data on real
 waiting times in residence cases — from fingerprints through the decision to collecting
 the card — broken down by voivodeship.

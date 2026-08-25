@@ -1,0 +1,26 @@
+{{- /*  Pojedyncza liczba z bazy orzeczeń, do wstawienia w tekście.
+
+    Użycie:  {{< orz merits_pct >}}   — % wygranych merytorycznych
+             {{< orz merits_won >}}   — ile wygranych merytorycznych
+             {{< orz merits_all >}}   — ile orzeczeń merytorycznych
+             {{< orz since_pct >}}    — % wygranych od $cut
+             {{< orz since_won >}} / {{< orz since_all >}}
+             {{< orz total >}}        — wszystkie orzeczenia
+
+    Data graniczna: od października 2025 r. WSA we Wrocławiu i w Gliwicach
+    przestały stosować zawieszenie z art. 100d wprost i poszły za linią NSA
+    z maja–czerwca 2025 r.                                               */ -}}
+{{- $cut := "2025-10-01" -}}
+{{- $rows := partialCached "orz-rows.html" . -}}
+{{- $mer := where $rows "charakter" "Merytoryczny" -}}
+{{- $now := where $mer "data" "ge" $cut -}}
+{{- $what := .Get 0 -}}
+{{- if eq $what "merits_pct" -}}{{ lang.FormatPercent 0 (mul (div (float (len (where $mer "wynik" "Pozytywny"))) (len $mer)) 100) }}
+{{- else if eq $what "merits_won" -}}{{ len (where $mer "wynik" "Pozytywny") }}
+{{- else if eq $what "merits_all" -}}{{ len $mer }}
+{{- else if eq $what "since_pct" -}}{{ lang.FormatPercent 0 (mul (div (float (len (where $now "wynik" "Pozytywny"))) (len $now)) 100) }}
+{{- else if eq $what "since_won" -}}{{ len (where $now "wynik" "Pozytywny") }}
+{{- else if eq $what "since_all" -}}{{ len $now }}
+{{- else if eq $what "total" -}}{{ len $rows }}
+{{- else -}}{{ errorf "shortcode orz: nieznany parametr %q" $what }}
+{{- end -}}

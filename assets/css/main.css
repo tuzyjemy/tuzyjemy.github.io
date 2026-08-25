@@ -859,3 +859,38 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .contact-list li span { min-width: 88px; font-size: 13px; font-weight: 700;
   text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 .contact-list li a { font-weight: 600; }
+
+/* Podsumowanie nad listą orzeczeń */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px; margin-bottom: 22px; }
+.stat-box { background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-md); padding: 16px 18px; }
+.stat-box b { display: block; font-size: 26px; font-weight: 750; letter-spacing: -0.03em; }
+.stat-box span { color: var(--muted); font-size: 12.5px; line-height: 1.35; }
+
+/* Podstawowe style tabeli danych (wróciły po usunięciu sekcji statystyk). */
+.table-wrap { overflow-x: auto; }
+.data-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.data-table th, .data-table td { padding: 9px 12px; text-align: left;
+  border-bottom: 1px solid var(--line); }
+.data-table thead th { font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--muted); font-weight: 800; }
+.data-table tbody tr:hover { background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+.data-table .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Tabela orzeczeń — kilka tysięcy wierszy, więc zwarta i z lepką główką. */
+.orz-table { min-width: 780px; font-size: 13.5px; }
+.orz-table thead th { position: sticky; top: 0; z-index: 1; background: var(--surface-2); }
+.orz-table td { vertical-align: top; }
+.orz-table .nsa { font-size: 12px; color: var(--muted); }
+.orz-table .badge { white-space: nowrap; }
+.table-wrap { max-height: 78vh; overflow: auto; border: 1px solid var(--line);
+  border-radius: var(--r-md); }
+.stat-hero { background: var(--ok-soft); border-color: var(--ok); }
+.stat-hero b { color: var(--ok); font-size: 34px; }
+.orz-table .charakter { font-size: 11.5px; color: var(--muted); }
+.orz-table .przyczyna { font-size: 11.5px; color: var(--warm); display: block; margin-top: 3px; }
+.breakdowns { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px; margin: 26px 0; }
+.chart-block h2 { font-size: 18px; margin-bottom: 4px; }
+.chart-block .chart-note { color: var(--muted); font-size: 12.5px; margin: 0 0 12px; }

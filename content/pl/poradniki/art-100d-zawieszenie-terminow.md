@@ -67,11 +67,42 @@ Co ważniejsze, ponaglenie jest **warunkiem wniesienia skargi do sądu**
 ([art. 53 § 2b PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-53/)). Bez niego droga sądowa jest zamknięta.
 [Wzór ponaglenia](/wzory/ponaglenie-bezczynnosc/)
 
-**Skarga do WSA — tu sytuacja wygląda lepiej.** Orzecznictwo początkowo było niejednolite,
-ale NSA zmienił stanowisko na korzyść cudzoziemców, uznając, że przepis narusza
-konstytucyjne prawo do sądu i nie powinien być stosowany. Sądy administracyjne podchodzą
-więc do art. 100d inaczej niż urzędy ([omówienie zmiany orzecznictwa](https://naprawnik.contra-law.pl/przedluzenie-braku-mozliwosci-skarzenia-przewleklosci-wojewody-w-sprawach-cudzoziemcow-do-4-marca-2027-r/)).
+**Skarga do WSA — tu sytuacja wygląda lepiej.** Sądy administracyjne podchodzą do
+art. 100d inaczej niż urzędy.
+
+W maju i czerwcu 2025 r. Naczelny Sąd Administracyjny — w ramach **rozproszonej kontroli
+konstytucyjności ustaw** — odmówił zastosowania przepisu, którym przedłużono zawieszenie
+terminów do 30 września 2025 r. (art. 1 pkt 3 ustawy z 15 maja 2024 r.,
+[Dz.U. 2024 poz. 854](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000854)),
+jako niezgodnego z **art. 45 ust. 1 w zw. z art. 31 ust. 3 Konstytucji**. NSA uznał, że
+nadzwyczajne okoliczności nie mogły uzasadniać **czwartego z rzędu** przedłużenia, a
+ograniczenie prawa do sądu pozostaje proporcjonalne tylko dopóki te okoliczności trwają
+(*cessante ratione legis, cessat lex ipsa*).
+
+W praktyce wyznacza to granicę **30 czerwca 2024 r.**: bezczynność i przewlekłość
+**po tej dacie** sąd może ocenić merytorycznie.
+
+Wyroki, na które można się powołać w skardze:
+
+- **19 maja 2025 r.** — II OSK 2921/24, II OSK 2498/24, II OSK 2737/24, II OSK 2926/24
+- **28 maja 2025 r.** — II OSK 2945/24
+- **12 czerwca 2025 r.** — II OSK 3096/24
+- **26 czerwca 2025 r.** — II OSK 2234/24, II OSK 2243/24
+
 [Wzór skargi do WSA](/wzory/skarga-wsa-przewleklosc/)
+
+{{< notatka >}}
+**Dwie rzeczy, o których warto wiedzieć.** Po pierwsze, w samych tych ośmiu sprawach
+cudzoziemcy **przegrali** — dotyczyły one okresu, w którym zawieszenie obowiązywało
+jeszcze skutecznie. Powołuj się na nie ze względu na **zasadę**, a nie na wynik.
+Po drugie, NSA potwierdził, że art. 100d dotyczy **wszystkich cudzoziemców**, nie tylko
+obywateli Ukrainy. Argument „ten przepis mnie nie dotyczy" nie działa — działa granica
+30 czerwca 2024 r.
+{{< /notatka >}}
+
+Formalnie art. 100d obowiązuje **do 4 marca 2027 r.** i część składów nadal stosuje go
+wprost. Wynik zależy od sądu i składu orzekającego — ale w naszej bazie orzeczeń
+wygrane merytoryczne w 2026 r. sięgają blisko **97%**: zobacz [Orzeczenia](/orzeczenia/).
 
 ## Co próbujemy zmienić
 

@@ -67,11 +67,40 @@ reminder, others reply by pointing to the suspension. More importantly, a remind
 court route is closed.
 [Reminder template](/wzory/ponaglenie-bezczynnosc/)
 
-**A complaint to the WSA — here the position is better.** Case law was initially divided,
-but the NSA shifted in favour of foreigners, holding that the provision breaches the
-constitutional right to a court and should not be applied. The courts therefore treat
-art. 100d differently from the offices ([analysis of the shift](https://naprawnik.contra-law.pl/przedluzenie-braku-mozliwosci-skarzenia-przewleklosci-wojewody-w-sprawach-cudzoziemcow-do-4-marca-2027-r/)).
+**A complaint to the WSA — this is where it looks better.** The courts treat art. 100d
+differently from the offices.
+
+In May and June 2025 the NSA — applying **dispersed constitutional review**
+(*rozproszona kontrola konstytucyjności*) — refused to apply the provision that extended
+the suspension to 30 September 2025 (art. 1 pkt 3 of the Act of 15 May 2024,
+Dz.U. 2024 poz. 854), as incompatible with **art. 45(1) in conjunction with art. 31(3)
+of the Constitution**. It held that the extraordinary circumstances could not justify a
+**fourth consecutive** extension, and that a limitation on the right to a court stays
+proportionate only while those circumstances last (*cessante ratione legis, cessat lex ipsa*).
+
+In practice this sets a cut-off of **30 June 2024**: inactivity and undue delay **after
+that date** can be assessed on the merits.
+
+Rulings you can cite in your complaint:
+
+- **19.05.2025** — II OSK 2921/24, II OSK 2498/24, II OSK 2737/24, II OSK 2926/24
+- **28.05.2025** — II OSK 2945/24
+- **12.06.2025** — II OSK 3096/24
+- **26.06.2025** — II OSK 2234/24, II OSK 2243/24
+
 [WSA complaint template](/wzory/skarga-wsa-przewleklosc/)
+
+{{< notatka >}}
+**Two things worth knowing.** First, in these eight cases the foreigners **lost** — they
+concerned a period when the suspension was still validly in force. Cite them for the
+**principle**, not for the outcome. Second, the NSA confirmed that art. 100d covers
+**all foreigners**, not only Ukrainian citizens. "This provision does not apply to me"
+does not work — the 30 June 2024 cut-off does.
+{{< /notatka >}}
+
+Formally art. 100d runs **until 4 March 2027**, and some benches still apply it directly.
+The outcome depends on the court and the panel — but in our rulings database, merits wins
+in 2026 reach nearly **97%**: see [Court rulings](/orzeczenia/).
 
 ## What we are trying to change
 

@@ -15,12 +15,19 @@ autor: "Zespół Tu Żyjemy"
 wyłącza do 4 marca 2027 r. środki prawne dotyczące bezczynności i przewlekłości
 ([art. 100d](https://lexlege.pl/ukraina/art-100d/)). Sądy administracyjne podchodzą do tego jednak inaczej niż urzędy.
 
-Orzecznictwo początkowo było niejednolite, ale **NSA zmienił stanowisko na korzyść
-cudzoziemców** — uznając, że przepis narusza konstytucyjne prawo do sądu i nie powinien
-być stosowany. Składanie skargi na bezczynność **pozostaje więc uzasadnione**, choć wynik
-zależy od sądu i składu orzekającego ([omówienie zmiany orzecznictwa](https://naprawnik.contra-law.pl/przedluzenie-braku-mozliwosci-skarzenia-przewleklosci-wojewody-w-sprawach-cudzoziemcow-do-4-marca-2027-r/)).
+W maju i czerwcu 2025 r. NSA — w ramach **rozproszonej kontroli konstytucyjności** —
+odmówił zastosowania przepisu przedłużającego zawieszenie terminów (art. 1 pkt 3 ustawy
+z 15 maja 2024 r., Dz.U. 2024 poz. 854) jako niezgodnego z **art. 45 ust. 1 w zw. z
+art. 31 ust. 3 Konstytucji**. Granica to **30 czerwca 2024 r.** — bezczynność po tej
+dacie sąd może ocenić merytorycznie.
 
-Szerzej o samym przepisie: [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+**Powołaj się w uzasadnieniu na:** wyroki NSA z 19 maja 2025 r. (II OSK 2921/24,
+II OSK 2498/24, II OSK 2737/24, II OSK 2926/24), z 28 maja 2025 r. (II OSK 2945/24),
+z 12 czerwca 2025 r. (II OSK 3096/24) oraz z 26 czerwca 2025 r. (II OSK 2234/24,
+II OSK 2243/24).
+
+Składanie skargi **pozostaje uzasadnione**, choć wynik zależy od sądu i składu
+orzekającego. Szerzej: [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
 
 Pamiętaj, że warunkiem skargi jest wcześniejsze [ponaglenie](/wzory/ponaglenie-bezczynnosc/).
 {{< /notatka >}}
@@ -75,3 +82,13 @@ Załączniki:
 3. Dowód uiszczenia wpisu (100 zł) lub wniosek o prawo pomocy.
 4. Odpis skargi dla organu.
 {{< /wzor >}}
+
+{{< notatka >}}
+**Jeśli sąd oddali skargę.** Uzasadnienie wyroku powstaje wtedy tylko na Twój wniosek,
+złożony **w ciągu 7 dni** od ogłoszenia
+([art. 141 § 2 PPSA](https://lexlege.pl/prawo-o-postepowaniu-przed-sadami-administracyjnymi/art-141/)).
+Bez uzasadnienia nie przygotujesz skargi kasacyjnej do NSA. Przy wyroku korzystnym
+uzasadnienie sporządzane jest z urzędu.
+
+Jak często sądy uwzględniają takie skargi — zob. [nasze zestawienie orzeczeń](/orzeczenia/).
+{{< /notatka >}}
