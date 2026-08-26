@@ -905,3 +905,20 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   flex-wrap: wrap;
   gap: 10px;
 }
+
+/* Zgłoszenie zgromadzenia i zasady udziału — fakty o wydarzeniu, w głównej
+   kolumnie hero, obok wiersza z terminem i adresem. Drobny tekst, bo mają
+   uspokajać, a nie konkurować z przyciskiem „Przyjdę". */
+.hero-assurance { list-style: none; margin: 14px 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.hero-assurance li { font-size: 13px; color: var(--muted); }
+.hero-assurance li::before { content: "\2713"; margin-right: 6px; color: var(--accent); }
+.hero-assurance a { color: inherit; text-decoration: underline;
+  text-underline-offset: 2px; }
+.hero-assurance a:hover { color: var(--ink); }
+
+/* Postulaty i zasady stoją obok siebie: „czego chcemy" i „jak się
+   zachowujemy" to dwie rzeczy, które trzeba przeczytać przed protestem.
+   Postulaty zostają przyciskiem głównym, zasady mają obrys — równie
+   widoczne, ale bez dwóch konkurujących plam koloru. */
+.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }

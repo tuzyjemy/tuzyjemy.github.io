@@ -40,6 +40,7 @@
 
       <a class="vote-submit" href="{{ .url }}" target="_blank" rel="noopener">{{ i18n "attend_button" }}</a>
       <div class="vote-note">{{ i18n "attend_note" }}</div>
+
     {{ else }}
       <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
     {{ end }}

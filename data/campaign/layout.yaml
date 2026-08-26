@@ -14,6 +14,10 @@ active: true
 # Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.
 link: "/postulaty/"
 
+# Zasady udziału w zgromadzeniu — pokazujemy je przy przycisku „Przyjdę",
+# czyli w miejscu, w którym ktoś decyduje, czy przyjść.
+rules: "/zasady/"
+
 # Wydarzenie w Mobilizon. Stąd bierze się przycisk „Przyjdę", a liczbę
 # zgłoszonych uczestników pobieramy z publicznego API przy budowaniu
 # strony (patrz event-attendance.html). API zwraca wyłącznie liczby —
@@ -34,6 +38,10 @@ event:
   # Adres to nazwa własna — zostaje bez tłumaczenia we wszystkich językach.
   place: "Wydział do spraw cudzoziemców Pomorskiego UW"
   address: "ul. Chmielna 74/76, 80-748 Gdańsk"
+  # Wpis w wykazie zgromadzeń publicznych Urzędu Miejskiego w Gdańsku.
+  # Zgromadzenia się zgłasza, a nie „uzyskuje na nie zgodę" — miasto może
+  # je najwyżej zakazać. Dlatego mówimy „zgłoszone", nie „zatwierdzone".
+  registerUrl: "https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325"
 
 # Karty „Możesz pomóc już teraz". Kolejność stąd decyduje o kolejności
 # na stronie; teksty biorą się z plików językowych po tym samym „id".

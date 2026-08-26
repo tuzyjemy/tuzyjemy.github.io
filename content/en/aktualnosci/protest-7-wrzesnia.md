@@ -15,6 +15,8 @@ the restoration of protection against excessive delay.
 
 The full list of what we are demanding: [protest demands](/postulaty/).
 
+The assembly has been notified and appears in the [register of public assemblies of the Gdańsk City Office](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325). The protest is lawful.
+
 ## Confirm you're coming
 
 The sooner we know how many people to expect, the better we can prepare — including
@@ -24,23 +26,12 @@ for safety and for registering the assembly.
 
 Only the number of confirmations is public — never the names of the people who sent them.
 
+Before you come, please read the [rules for taking part in the assembly](/zasady/).
+
 ## Stay up to date
 
 If anything changes — the time, the place, organisational details — we will post it
 on Telegram first: [@tu_zyjemy](https://t.me/tu_zyjemy). We answer questions there too.
-
-## Print it and hand it out
-
-The leaflet is in **five languages (PL / RU / EN / UA / BY)** and fits on a single A4 page.
-Polish, Russian and English carry the full text; Ukrainian and Belarusian have a short call to action.
-The colour version works for printing and on screen; the black-and-white one is for
-cheap printing and photocopiers.
-
-{{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="A4 leaflet — colour (PDF)" >}}
-{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="A4 leaflet — black and white (PDF)" styl="obrys" >}}
-
-Put it up at work, in a shop, at a clinic or on campus — anywhere people waiting for
-a decision are likely to see it.
 
 ## Ready-made post to share
 
