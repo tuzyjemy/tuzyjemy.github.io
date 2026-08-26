@@ -36,7 +36,7 @@ lata: ["2026"]
 и копировального аппарата.
 
 {{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="Листовка A4 — цветная (PDF)" >}}
-{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Листовка A4 — чёрно-белая (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Листовка A4 — чёрно-белая (PDF)" styl="obrys" >}}
 
 Повесьте её на работе, в магазине, в поликлинике или в вузе — везде, где бывают
 люди, ожидающие решения.

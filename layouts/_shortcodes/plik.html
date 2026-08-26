@@ -1,4 +1,8 @@
-{{/* Przycisk pobierania.  {{< plik url="/pliki/skarga.docx" tytul="Pobierz .docx" >}} */}}
-<a class="btn btn-solid" href="{{ .Get "url" | relURL }}" download>
+{{/* Przycisk pobierania.
+     {{< plik url="/pliki/skarga.docx" tytul="Pobierz .docx" >}}
+     Dodaj styl="obrys" dla wariantu drugorzędnego, gdy obok stoi już
+     przycisk główny — dwa wypełnione przyciski konkurują ze sobą. */}}
+<a class="btn{{ if ne (.Get "styl") "obrys" }} btn-solid{{ end }}"
+   href="{{ .Get "url" | relURL }}" download>
   {{ .Get "tytul" | default (i18n "download") }}
 </a>

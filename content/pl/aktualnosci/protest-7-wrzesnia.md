@@ -36,7 +36,7 @@ Wersja kolorowa nadaje się do druku i na ekran, czarno-biała — do taniego dr
 i kserokopiarki.
 
 {{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="Ulotka A4 — kolor (PDF)" >}}
-{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Ulotka A4 — czarno-biała (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Ulotka A4 — czarno-biała (PDF)" styl="obrys" >}}
 
 Powieś ją w miejscu pracy, w sklepie, w przychodni albo na uczelni — wszędzie tam,
 gdzie bywają osoby czekające na decyzję.

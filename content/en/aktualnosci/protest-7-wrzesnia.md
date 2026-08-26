@@ -36,7 +36,7 @@ The colour version works for printing and on screen; the black-and-white one is 
 cheap printing and photocopiers.
 
 {{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="A4 leaflet — colour (PDF)" >}}
-{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="A4 leaflet — black and white (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="A4 leaflet — black and white (PDF)" styl="obrys" >}}
 
 Put it up at work, in a shop, at a clinic or on campus — anywhere people waiting for
 a decision are likely to see it.

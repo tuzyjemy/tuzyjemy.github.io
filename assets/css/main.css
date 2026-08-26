@@ -894,3 +894,14 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   gap: 22px; margin: 26px 0; }
 .chart-block h2 { font-size: 18px; margin-bottom: 4px; }
 .chart-block .chart-note { color: var(--muted); font-size: 12.5px; margin: 0 0 12px; }
+
+/* Przyciski pobierania stoją w treści obok siebie. Same znaki spacji nie
+   wystarczają: dwa wypełnione przyciski o zaokrąglonych rogach zlewają się
+   wtedy w jeden kształt. Akapit zawierający wyłącznie przyciski zamieniamy
+   więc na wiersz flex z odstępem — na wąskim ekranie przyciski zawijają się
+   i zachowują odstęp również w pionie. */
+.prose p:has(> .btn) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

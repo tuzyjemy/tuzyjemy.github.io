@@ -34,7 +34,7 @@ lata: ["2026"]
 і капіравальнага апарата.
 
 {{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="Улётка A4 — каляровая (PDF)" >}}
-{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Улётка A4 — чорна-белая (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Улётка A4 — чорна-белая (PDF)" styl="obrys" >}}
 
 Павесьце яе на працы, у краме, у паліклініцы ці ва ўніверсітэце — усюды, дзе бываюць
 людзі, якія чакаюць рашэння.
