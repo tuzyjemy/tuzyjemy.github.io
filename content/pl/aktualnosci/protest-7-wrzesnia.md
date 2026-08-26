@@ -29,6 +29,18 @@ Publicznie widoczna jest wyłącznie liczba zgłoszeń — nie imiona osób, kt�
 Gdyby coś się zmieniło — godzina, miejsce, szczegóły organizacyjne — napiszemy o tym
 najpierw na Telegramie: [@tu_zyjemy](https://t.me/tu_zyjemy). Tam też odpowiadamy na pytania.
 
+## Wydrukuj i rozdaj
+
+Ulotka jest **trójjęzyczna (PL / RU / EN)** i mieści się na jednej stronie A4.
+Wersja kolorowa nadaje się do druku i na ekran, czarno-biała — do taniego druku
+i kserokopiarki.
+
+{{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="Ulotka A4 — kolor (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="Ulotka A4 — czarno-biała (PDF)" >}}
+
+Powieś ją w miejscu pracy, w sklepie, w przychodni albo na uczelni — wszędzie tam,
+gdzie bywają osoby czekające na decyzję.
+
 ## Gotowy post do udostępnienia
 
 {{< wzor >}}

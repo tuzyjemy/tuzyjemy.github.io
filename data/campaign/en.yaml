@@ -18,8 +18,8 @@ calls:
   share:
     status: "Urgent · before 7 September"
     title: "Share the protest announcement"
-    body: "Send friends a short message and the link to the event."
-    linkTitle: "Get the ready-made post"
+    body: "Send friends a short message and the link. You can also print an A4 leaflet (PL/RU/EN)."
+    linkTitle: "Ready-made post and leaflet"
   organisation:
     status: "Cooperation"
     title: "Join as an organisation"

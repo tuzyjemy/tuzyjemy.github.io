@@ -29,6 +29,18 @@ Only the number of confirmations is public — never the names of the people who
 If anything changes — the time, the place, organisational details — we will post it
 on Telegram first: [@tu_zyjemy](https://t.me/tu_zyjemy). We answer questions there too.
 
+## Print it and hand it out
+
+The leaflet is **trilingual (PL / RU / EN)** and fits on a single A4 page.
+The colour version works for printing and on screen; the black-and-white one is for
+cheap printing and photocopiers.
+
+{{< plik url="/pliki/ulotka-protest-gdansk-kolor.pdf" tytul="A4 leaflet — colour (PDF)" >}}
+{{< plik url="/pliki/ulotka-protest-gdansk-cb.pdf" tytul="A4 leaflet — black and white (PDF)" >}}
+
+Put it up at work, in a shop, at a clinic or on campus — anywhere people waiting for
+a decision are likely to see it.
+
 ## Ready-made post to share
 
 {{< wzor >}}
