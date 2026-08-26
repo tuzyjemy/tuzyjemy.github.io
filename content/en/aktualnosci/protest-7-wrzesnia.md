@@ -31,7 +31,8 @@ on Telegram first: [@tu_zyjemy](https://t.me/tu_zyjemy). We answer questions the
 
 ## Print it and hand it out
 
-The leaflet is **trilingual (PL / RU / EN)** and fits on a single A4 page.
+The leaflet is in **five languages (PL / RU / EN / UA / BY)** and fits on a single A4 page.
+Polish, Russian and English carry the full text; Ukrainian and Belarusian have a short call to action.
 The colour version works for printing and on screen; the black-and-white one is for
 cheap printing and photocopiers.
 

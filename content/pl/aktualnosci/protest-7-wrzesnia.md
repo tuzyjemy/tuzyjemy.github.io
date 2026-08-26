@@ -31,7 +31,8 @@ najpierw na Telegramie: [@tu_zyjemy](https://t.me/tu_zyjemy). Tam też odpowiada
 
 ## Wydrukuj i rozdaj
 
-Ulotka jest **trójjęzyczna (PL / RU / EN)** i mieści się na jednej stronie A4.
+Ulotka jest **pięciojęzyczna (PL / RU / EN / UA / BY)** i mieści się na jednej stronie A4.
+Po polsku, rosyjsku i angielsku jest pełny tekst, po ukraińsku i białorusku — krótkie wezwanie.
 Wersja kolorowa nadaje się do druku i na ekran, czarno-biała — do taniego druku
 i kserokopiarki.
 
