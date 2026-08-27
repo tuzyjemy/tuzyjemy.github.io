@@ -174,11 +174,15 @@ Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 - ustawowego powiązania spraw małoletnich dzieci ze sprawami rodziców lub opiekunów;
 - zapewnienia, aby osoba legalnie oczekująca na decyzję mogła skutecznie wykazać swój status wobec instytucji publicznych i — w granicach przepisów sektorowych — regulowanych podmiotów prywatnych.
 
-### 16. Jedna cyfrowa brama zamiast kolejnych niepołączonych systemów
+### 16. Integracja MOS 2 z innymi systemami państwowymi
 
-MOS 2 nie może być jedynie nową warstwą interfejsu ani elektroniczną kopertą dla dokumentów. Powinien być jedną bramą wejściową do całego postępowania i wspólnym źródłem danych dla systemów, z których korzystają pracownicy. Oczekujemy od Ministerstwa Cyfryzacji, MSWiA i UdSC pełnej integracji MOS ze ST POBYT, EZD, systemami wojewódzkimi oraz potrzebnymi rejestrami publicznymi, w szczególności ZUS, KAS, CEIDG i KRS. Informacja wprowadzona raz powinna być dalej wykorzystywana w całym procesie. Dane złożone elektronicznie nie mogą być ponownie ręcznie przepisywane, a dokument dostępny państwu w jednym rejestrze nie powinien być kolejny raz wymagany od wnioskodawcy.
+MOS 2 nie powinien być jedynie nową warstwą interfejsu ani elektroniczną teczką na dokumenty. Jego zadaniem jest zapewnienie automatycznej wymiany danych między ST POBYT, EZD, systemami wojewódzkimi oraz niezbędnymi rejestrami publicznymi, w szczególności ZUS, KAS, CEIDG i KRS.
 
-Pracownik powinien widzieć w jednym środowisku kompletny wniosek, dokumenty, dane z rejestrów, historię czynności i zadania do wykonania. Wnioskodawca powinien mieć dostęp do rzetelnego statusu sprawy, wykazu wykonanych i oczekiwanych czynności oraz cyfrowego potwierdzenia legalnego pobytu możliwego do zweryfikowania przez uprawnione instytucje. Szczegółowe rozwiązania opisaliśmy już w piśmie do Ministerstwa Cyfryzacji i Szefa UdSC. Każdy projekt informatyczny powinien być rozliczany według efektu: mniej ręcznej pracy, mniej wezwań, krótsza rejestracja i krótszy czas do decyzji.
+Nie chodzi o ograniczanie przewidzianych ustawą sposobów złożenia wniosku. Niezależnie od tego, którym dopuszczalnym sposobem został on złożony, informacja powinna trafiać do wspólnego procesu cyfrowego i być wykorzystywana na wszystkich kolejnych etapach. Dane nie powinny być ręcznie przenoszone między systemami, a dokumenty już dostępne państwu nie powinny być ponownie wymagane od wnioskodawcy.
+
+Pracownik powinien widzieć w jednym środowisku pracy wniosek, dokumenty, dane z rejestrów, historię czynności i zadania w sprawie. Uprawnione instytucje powinny mieć możliwość sprawdzenia aktualności cyfrowego potwierdzenia legalności pobytu wnioskodawcy.
+
+Automatyczną wymianę danych, zasadę jednorazowego podania informacji, sprawdzanie rejestrów publicznych oraz cyfrowe potwierdzenie statusu proponowaliśmy już w piśmie do Ministerstwa Cyfryzacji i Szefa UdSC. Rezultat każdego projektu informatycznego powinien być mierzony tym, na ile zmniejsza ręczną pracę i powtórne żądania dokumentów, przyspiesza rejestrację i skraca czas oczekiwania na decyzję.
 
 ## Dlaczego protestujemy właśnie teraz
 

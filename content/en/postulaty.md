@@ -174,11 +174,15 @@ We expect further work on the solutions described in the petition submitted:
 - a statutory link between the cases of minor children and those of their parents or guardians;
 - ensuring that a person lawfully awaiting a decision can effectively demonstrate their status to public institutions and — within the limits of sectoral legislation — to regulated private entities.
 
-### 16. One digital gateway instead of further unconnected systems
+### 16. Integration of MOS 2 with other state systems
 
-MOS 2 cannot be merely a new interface layer or an electronic envelope for documents. It should be a single entry point to the entire proceedings and a common source of data for the systems used by staff. We expect the Ministry of Digital Affairs, the Ministry of the Interior and Administration and the Office for Foreigners to integrate MOS fully with ST POBYT, EZD, voivodeship systems and the necessary public registers, in particular ZUS, the National Revenue Administration, CEIDG and the National Court Register. Information entered once should be used throughout the process. Data submitted electronically must not be re-keyed by hand, and a document available to the state in one register should not be demanded from the applicant again.
+MOS 2 should not be merely a new interface layer or an electronic folder for documents. Its purpose is to ensure the automatic exchange of data between ST POBYT, EZD, voivodeship systems and the necessary public registers, in particular ZUS, the National Revenue Administration, CEIDG and the National Court Register.
 
-A caseworker should see in a single environment the complete application, the documents, the data from registers, the history of steps taken and the tasks to be carried out. An applicant should have access to a reliable case status, a list of steps completed and expected, and digital confirmation of lawful residence that authorised institutions can verify. We have already described detailed solutions in our letter to the Ministry of Digital Affairs and the Head of the Office for Foreigners. Every IT project should be accounted for by its effect: less manual work, fewer requests, faster registration and a shorter time to decision.
+This is not about restricting the methods of submitting an application provided for by law. Whichever permitted method is used, the information should enter a common digital process and be used at every subsequent stage. Data should not be transferred manually between systems, and documents already available to the state should not be demanded from the applicant again.
+
+A caseworker should see in a single working environment the application, the documents, the data from registers, the history of steps taken and the tasks in the case. Authorised institutions should be able to check that the digital confirmation of the applicant's lawful residence is current.
+
+We have already proposed automatic data exchange, the once-only principle, checking of public registers and digital confirmation of status in our letter to the Ministry of Digital Affairs and the Head of the Office for Foreigners. The result of every IT project should be measured by how far it reduces manual work and repeated requests for documents, speeds up registration and shortens the wait for a decision.
 
 ## Why we are protesting now
 
