@@ -1,15 +1,18 @@
 ---
 title: "We do not want to wait for years. The aim and demands of the residence-legalisation protest"
 description: "The aim and 16 demands of the 7 September protest in Gdańsk — addressed to the Pomeranian Voivode and to the government."
-date: 2026-08-25
+date: 2026-08-27
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-On the basis of these demands we are preparing a **petition**. It will be a separate
-document — we will publish it once it is ready.
+On the basis of the protest demands we are preparing a **new supplementary petition**.
+It will be separate from the package of three documents submitted on 24 June 2026. We will
+publish it by **6 September 2026** at the latest, before the protest begins.
+
+[Media materials](/dla-mediow/)
 {{< /notatka >}}
 
 We are not acting against the staff of the office. We are acting against a system in which the state accepts an application, collects the fee, and then leaves a person without a decision for two or three years.
@@ -22,6 +25,17 @@ Our aim is:
 - to shorten the real waiting time for a decision;
 - to introduce transparent rules by which anyone can check whether the situation is genuinely improving;
 - to bring about organisational change in the Pomeranian Voivodeship Office, and statutory and digital change at national level.
+
+## The demands in brief
+
+We expect:
+
+1. **a public backlog-reduction plan and open data** — with deadlines, monthly targets and regular publication of real waiting times;
+2. **efficient organisation of proceedings** — adequate staffing, starting the steps that are possible before biometrics, coordinating family cases, continuing work after a complaint to the WSA, and handling formal correspondence on time;
+3. **accountability of the state and equal rules** — repeal of art. 100d and fast procedures based on objective features of the case rather than nationality;
+4. **one coherent digital process** — integration of MOS 2 with ST POBYT, EZD, voivodeship systems and state registers, without re-keying the same data by hand.
+
+The full 16 demands, with reasoning, are set out below.
 
 ## Our demands to the Pomeranian Voivode and the Pomeranian Voivodeship Office
 
@@ -193,6 +207,8 @@ The problem is nationwide. The official [report of the Sejm investigative commit
 [Our own analysis of rulings of the WSA in Gdańsk](https://docs.google.com/spreadsheets/d/1oDs32tjch63iM2KZxf9EKlc_57-Ywh3m/) concerning inactivity and undue delay in residence cases covers, as the database stood on 24 August 2026, 388 classified rulings from 2025–2026. In 263 cases the final classified outcome was favourable to the complainant; in at least 61 source descriptions the court found a *gross violation of the law*, and in at least 24 cases it awarded the complainant a sum of money. Our search for rulings is not yet complete, so these figures are a lower bound, not full statistics for all cases. We do not use them to judge individual members of staff. They show the recurring nature of an organisational problem and its real consequences.
 
 We also know that improvement is possible. The [Lower Silesian Voivodeship Office](https://www.gov.pl/web/dolnoslaski-uw/wydzial-spraw-obywatelskich-i-cudzoziemcow-w-2025-roku) reported that after reorganisation in 2025 the cost of judgments and compensation fell by 84.7%, the number of complaints to the WSA by 16.1%, and the backlog from 2022 and earlier was reduced to 507 cases. We do not claim that the solutions used in Wrocław can be copied mechanically in Gdańsk. We do expect the Pomeranian Voivode to explain what solutions have been applied in other offices, which of them have been analysed in Pomerania, and why no public plan with comparably measurable targets has yet been presented.
+
+We set out a detailed comparison of official processing times, application numbers and the results of organisational change in our analysis ["Pomorskie compared with Małopolska and Lower Silesia: shorter times and the effects of reorganisation"](/statystyki/pomorskie-malopolska-dolny-slask/).
 
 The Commissioner for Human Rights also drew attention to the enormous differences in staff workload between voivodeships. At the Lesser Poland Voivodeship Office in Kraków there were 73 cases per decision-issuing member of staff in 2023 and 85 in the first half of 2024. These figures do not yet prove that a single number explains all the differences in waiting times. They do show that the resources, organisation and results of Kraków, Wrocław and Gdańsk can and should be compared, instead of treating a wait of several years as inevitable.
 

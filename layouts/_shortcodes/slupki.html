@@ -1,0 +1,33 @@
+{{/*  Poziomy wykres słupkowy budowany z treści skrótu — jeden wiersz na słupek:
+
+        etykieta | wartość liczbowa | podpis do pokazania
+
+      Wartość służy tylko do wyliczenia długości słupka; użytkownik widzi
+      podpis, więc można pokazać zakres („26–28") albo liczbę z odstępami.
+      Rysujemy w HTML zamiast wstawiać obrazek, bo tekst zostaje wtedy
+      zaznaczalny, czytany przez czytniki ekranu i poprawnie wygląda
+      w trybie ciemnym.                                                   */}}
+{{ $max := 0.0 }}
+{{ $rows := slice }}
+{{ range split (trim .Inner "\n") "\n" }}
+  {{ $p := split . "|" }}
+  {{ if ge (len $p) 3 }}
+    {{ $v := float (trim (index $p 1) " ") }}
+    {{ $rows = $rows | append (dict "etykieta" (trim (index $p 0) " ") "v" $v "podpis" (trim (index $p 2) " ")) }}
+    {{ if gt $v $max }}{{ $max = $v }}{{ end }}
+  {{ end }}
+{{ end }}
+<div class="slupki"{{ with .Get "tytul" }} role="img" aria-label="{{ . }}"{{ end }}>
+  {{ with .Get "tytul" }}<h3 class="slupki-tytul">{{ . }}</h3>{{ end }}
+  {{ with .Get "podtytul" }}<p class="slupki-podtytul">{{ . }}</p>{{ end }}
+  {{ range $rows }}
+    <div class="slupek">
+      <span class="slupek-etykieta">{{ .etykieta }}</span>
+      <span class="slupek-tor">
+        <span class="slupek-wypelnienie" style="width:{{ printf "%.1f" (mul (div .v $max) 100) }}%"></span>
+      </span>
+      <b class="slupek-wartosc">{{ .podpis }}</b>
+    </div>
+  {{ end }}
+  {{ with .Get "zrodlo" }}<p class="slupki-zrodlo">{{ . | markdownify }}</p>{{ end }}
+</div>

@@ -3,6 +3,14 @@ title: "Statystyki"
 description: "Realne terminy w sprawach pobytowych — zbiera je projekt „Kalendarz pobytu”."
 ---
 
+## Porównanie województw
+
+**Pomorskie ma drugi najdłuższy termin w Polsce — 598 dni.** Małopolskie i Dolnośląskie
+przyjęły w 2025 r. więcej wniosków, a rozpatrywały je szybciej. We Wrocławiu po
+reorganizacji termin spadł w rok z 472 do 273 dni.
+
+[Przeczytaj analizę: Pomorskie na tle Małopolski i Dolnego Śląska](/statystyki/pomorskie-malopolska-dolny-slask/)
+
 ## Nasze dane: orzeczenia sądów
 
 Prowadzimy własną bazę orzeczeń sądów administracyjnych w sprawach pobytowych — z

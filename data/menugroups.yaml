@@ -4,7 +4,7 @@
 # tę samą strukturę.
 - labelKey: kb_group_start_title
   descKey: kb_group_start_desc
-  sections: [aktualnosci, skutki, statystyki, dzialania]
+  sections: [aktualnosci, skutki, statystyki, dzialania, dla-mediow]
 - labelKey: kb_group_prep_title
   descKey: kb_group_prep_desc
   sections: [wzory, poradniki]

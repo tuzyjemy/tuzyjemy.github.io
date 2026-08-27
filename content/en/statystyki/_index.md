@@ -3,6 +3,14 @@ title: "Statistics"
 description: "Real waiting times in residence cases — collected by the “Kalendarz pobytu” project."
 ---
 
+## Comparing the voivodeships
+
+**Pomorskie has the second-longest processing time in Poland — 598 days.** Małopolskie and
+Dolnośląskie took in more applications in 2025 and handled them faster. In Wrocław,
+reorganisation cut the time from 472 to 273 days in a single year.
+
+[Read the analysis: Pomorskie compared with Małopolska and Lower Silesia](/statystyki/pomorskie-malopolska-dolny-slask/)
+
 ## Our own data: court rulings
 
 We maintain our own database of administrative court rulings in residence cases, each

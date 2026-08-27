@@ -1,15 +1,18 @@
 ---
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
 description: "Cel i 16 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
-date: 2026-08-25
+date: 2026-08-27
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-Na podstawie tych postulatów przygotowujemy **petycję**. Będzie ona osobnym dokumentem —
-opublikujemy ją, gdy będzie gotowa.
+Na podstawie postulatów protestu przygotowujemy **nową petycję uzupełniającą**. Będzie
+ona odrębna od pakietu trzech dokumentów złożonego 24 czerwca 2026 r. Opublikujemy ją
+najpóźniej **6 września 2026 r.**, przed rozpoczęciem protestu.
+
+[Materiały dla mediów](/dla-mediow/)
 {{< /notatka >}}
 
 Nie występujemy przeciwko pracownikom urzędu. Występujemy przeciwko systemowi, w którym państwo przyjmuje wniosek, pobiera opłatę, a następnie pozostawia człowieka bez decyzji przez dwa albo trzy lata.
@@ -22,6 +25,17 @@ Naszym celem jest:
 - skrócenie rzeczywistego czasu oczekiwania na decyzję;
 - wprowadzenie przejrzystych zasad, dzięki którym każdy będzie mógł sprawdzić, czy sytuacja naprawdę się poprawia;
 - doprowadzenie do zmian organizacyjnych w Pomorskim Urzędzie Wojewódzkim oraz zmian ustawowych i cyfrowych na poziomie krajowym.
+
+## Postulaty w skrócie
+
+Oczekujemy:
+
+1. **publicznego planu redukcji zaległości i jawnych danych** — z terminami, miesięcznymi celami oraz regularną publikacją rzeczywistych czasów oczekiwania;
+2. **sprawnej organizacji postępowań** — odpowiedniej obsady, rozpoczynania możliwych czynności przed biometrią, koordynowania spraw rodzinnych, kontynuowania pracy po skardze do WSA i terminowej obsługi formalnych pism;
+3. **odpowiedzialności państwa i równych zasad** — uchylenia art. 100d oraz szybkich procedur opartych na obiektywnych cechach sprawy, a nie obywatelstwie;
+4. **jednego spójnego procesu cyfrowego** — integracji MOS 2 ze ST POBYT, EZD, systemami wojewódzkimi oraz rejestrami państwowymi, bez ręcznego przepisywania tych samych danych.
+
+Pełne 16 postulatów wraz z uzasadnieniem znajduje się poniżej.
 
 ## Nasze wymagania wobec Wojewody Pomorskiej i Pomorskiego Urzędu Wojewódzkiego
 
@@ -193,6 +207,8 @@ Problem ma skalę ogólnopolską. W oficjalnym [sprawozdaniu sejmowej komisji ś
 [Nasza własna analiza orzeczeń WSA w Gdańsku](https://docs.google.com/spreadsheets/d/1oDs32tjch63iM2KZxf9EKlc_57-Ywh3m/) dotyczących bezczynności i przewlekłości w sprawach pobytowych obejmuje, według stanu bazy na 24 sierpnia 2026 r., 388 sklasyfikowanych orzeczeń z lat 2025–2026. W 263 sprawach końcowy wynik klasyfikacji był korzystny dla skarżącego; w co najmniej 61 opisach źródłowych sąd stwierdził *rażące naruszenie prawa*, a w co najmniej 24 sprawach przyznał skarżącemu sumę pieniężną. Nasze wyszukiwanie orzeczeń nie zostało jeszcze zakończone, dlatego liczby te są dolną granicą, a nie pełną statystyką wszystkich spraw. Nie wykorzystujemy ich do oceniania pojedynczych pracowników. Pokazują one powtarzalność problemu organizacyjnego i jego realne skutki.
 
 Wiemy też, że poprawa jest możliwa. [Dolnośląski Urząd Wojewódzki](https://www.gov.pl/web/dolnoslaski-uw/wydzial-spraw-obywatelskich-i-cudzoziemcow-w-2025-roku) poinformował, że po reorganizacji w 2025 r. koszty wyroków i odszkodowań spadły o 84,7%, liczba skarg do WSA o 16,1%, a zaległości z 2022 r. i lat wcześniejszych ograniczono do 507 spraw. Nie twierdzimy, że rozwiązania z Wrocławia można mechanicznie skopiować w Gdańsku. Oczekujemy jednak, że Wojewoda Pomorska wyjaśni, jakie rozwiązania zastosowano w innych urzędach, które z nich przeanalizowano w Pomorskiem i dlaczego nadal nie przedstawiono publicznego planu o porównywalnie mierzalnych celach.
+
+Szczegółowe zestawienie oficjalnych terminów, liczby wniosków i wyników zmian organizacyjnych opisaliśmy w analizie [„Pomorskie na tle Małopolski i Dolnego Śląska: krótsze terminy i efekty reorganizacji"](/statystyki/pomorskie-malopolska-dolny-slask/).
 
 RPO zwrócił ponadto uwagę na ogromne różnice w obciążeniu pracowników między województwami. W Małopolskim Urzędzie Wojewódzkim w Krakowie na pracownika wydającego decyzje przypadały 73 sprawy w 2023 r. i 85 w pierwszej połowie 2024 r. Dane te nie dowodzą jeszcze, że jedna liczba wyjaśnia wszystkie różnice w czasie oczekiwania. Pokazują jednak, że można i trzeba porównać zasoby, organizację oraz wyniki Krakowa, Wrocławia i Gdańska zamiast traktować wieloletnie oczekiwanie jako sytuację nieuniknioną.
 

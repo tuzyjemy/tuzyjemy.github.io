@@ -78,6 +78,7 @@ summaryLength = 30
     [languages.pl.params]
       opis = "Baza wiedzy i wspólne działania na rzecz praw migrantek i migrantów."
     [languages.pl.permalinks.page]
+      statystyki = "/statystyki/:contentbasename/"
       dzialania = "/dzialania/:contentbasename/"
       wzory = "/wzory/:contentbasename/"
       orzeczenia = "/orzeczenia/:contentbasename/"
@@ -104,6 +105,7 @@ summaryLength = 30
     [languages.en.params]
       opis = "A knowledge base and shared actions for migrants' rights."
     [languages.en.permalinks.page]
+      statystyki = "/statistics/:contentbasename/"
       dzialania = "/actions/:contentbasename/"
       wzory = "/templates/:contentbasename/"
       orzeczenia = "/court-decisions/:contentbasename/"
@@ -130,6 +132,7 @@ summaryLength = 30
     [languages.ru.params]
       opis = "База знаний и совместные действия в защиту прав мигрантов."
     [languages.ru.permalinks.page]
+      statystyki = "/statistika/:contentbasename/"
       dzialania = "/deystviya/:contentbasename/"
       wzory = "/obraztsy/:contentbasename/"
       orzeczenia = "/resheniya-sudov/:contentbasename/"
@@ -156,6 +159,7 @@ summaryLength = 30
     [languages.uk.params]
       opis = "База знань і спільні дії на захист прав мігрантів."
     [languages.uk.permalinks.page]
+      statystyki = "/statystyka/:contentbasename/"
       dzialania = "/diyi/:contentbasename/"
       wzory = "/zrazky/:contentbasename/"
       orzeczenia = "/rishennya-sudiv/:contentbasename/"
@@ -182,6 +186,7 @@ summaryLength = 30
     [languages.be.params]
       opis = "База ведаў і сумесныя дзеянні ў абарону правоў мігрантаў."
     [languages.be.permalinks.page]
+      statystyki = "/statystyka/:contentbasename/"
       dzialania = "/dzejanni/:contentbasename/"
       wzory = "/uzory/:contentbasename/"
       orzeczenia = "/rashenni-sudou/:contentbasename/"
@@ -213,17 +218,21 @@ summaryLength = 30
     pageRef = "/aktualnosci"
     weight = 10
   [[menus.main]]
+    identifier = "skutki"
+    pageRef = "/skutki"
+    weight = 15
+  [[menus.main]]
     identifier = "statystyki"
     pageRef = "/statystyki"
     weight = 20
   [[menus.main]]
-    identifier = "skutki"
-    pageRef = "/skutki"
-    weight = 25
-  [[menus.main]]
     identifier = "dzialania"
     pageRef = "/dzialania"
     weight = 30
+  [[menus.main]]
+    identifier = "dla-mediow"
+    pageRef = "/dla-mediow"
+    weight = 35
   [[menus.main]]
     identifier = "wzory"
     pageRef = "/wzory"
