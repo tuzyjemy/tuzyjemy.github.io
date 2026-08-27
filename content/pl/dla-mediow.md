@@ -43,6 +43,7 @@ Wieloletnie oczekiwanie może oznaczać:
 - niepewną sytuację dziecka, gdy jego sprawa zależy od niezakończonej sprawy rodzica;
 - brak możliwości wyjazdu i powrotu do Polski mimo trwającego legalnie postępowania;
 - problemy ze zmianą pracy, wykonywaniem obowiązków służbowych albo prowadzeniem działalności gospodarczej;
+- brak możliwości wykonywania pracy wymagającej wyjazdów zagranicznych — na przykład kursów międzynarodowych w transporcie — co uderza także w pracodawcę;
 - zgłaszane blokady rachunku, karty lub części usług bankowych albo konieczność dodatkowej weryfikacji, gdy poprzedni dokument pobytowy stracił ważność, a nowa karta nie została jeszcze wydana;
 - brak możliwości spokojnego planowania nauki, podróży i życia rodzinnego.
 

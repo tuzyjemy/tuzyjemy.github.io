@@ -1,6 +1,10 @@
 {{/*  Poziomy wykres słupkowy budowany z treści skrótu — jeden wiersz na słupek:
 
-        etykieta | wartość liczbowa | podpis do pokazania
+        etykieta | wartość liczbowa | podpis do pokazania | kolor (opcjonalnie)
+
+      Kolor podajemy jako nazwę zmiennej CSS (np. „woj-pomorskie") — te same
+      barwy co w dokumencie źródłowym i te same, co kropki przy nazwach
+      województw w tabelach.
 
       Wartość służy tylko do wyliczenia długości słupka; użytkownik widzi
       podpis, więc można pokazać zakres („26–28") albo liczbę z odstępami.
@@ -13,7 +17,9 @@
   {{ $p := split . "|" }}
   {{ if ge (len $p) 3 }}
     {{ $v := float (trim (index $p 1) " ") }}
-    {{ $rows = $rows | append (dict "etykieta" (trim (index $p 0) " ") "v" $v "podpis" (trim (index $p 2) " ")) }}
+    {{ $rows = $rows | append (dict "etykieta" (trim (index $p 0) " ") "v" $v
+        "podpis" (trim (index $p 2) " ")
+        "kolor" (cond (ge (len $p) 4) (trim (index $p 3) " ") "")) }}
     {{ if gt $v $max }}{{ $max = $v }}{{ end }}
   {{ end }}
 {{ end }}
@@ -21,7 +27,7 @@
   {{ with .Get "tytul" }}<h3 class="slupki-tytul">{{ . }}</h3>{{ end }}
   {{ with .Get "podtytul" }}<p class="slupki-podtytul">{{ . }}</p>{{ end }}
   {{ range $rows }}
-    <div class="slupek">
+    <div class="slupek"{{ with .kolor }} style="--slupek-kolor:var(--{{ . }})"{{ end }}>
       <span class="slupek-etykieta">{{ .etykieta }}</span>
       <span class="slupek-tor">
         <span class="slupek-wypelnienie" style="width:{{ printf "%.1f" (mul (div .v $max) 100) }}%"></span>

@@ -14,6 +14,10 @@
   --ink:          light-dark(#263136, #f4eee5);
   --muted:        light-dark(#6f706b, #bdb5aa);
   --line:         light-dark(#d8cec1, #454747);
+  /* Kolory województw z dokumentu źródłowego, dostrojone per motyw. */
+  --woj-malopolskie:  light-dark(#a32138, #e8798d);
+  --woj-dolnoslaskie: light-dark(#8a5e0f, #d9a63a);
+  --woj-pomorskie:    light-dark(#00697a, #45b4c7);
   --line-strong:  light-dark(#c3b6a5, #5a5c5c);
   --deep:         light-dark(#283337, #d9d4cc);
   --on-deep:      light-dark(#ffffff, #14171a);
@@ -947,8 +951,14 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .slupek-etykieta { font-size: 13.5px; }
 .slupek-tor { background: var(--surface-2, var(--surface)); border-radius: 999px; height: 22px; }
 .slupek-wypelnienie { display: block; height: 100%; border-radius: 999px;
-  background: var(--deep); min-width: 3px; }
-.slupek-wartosc { font-size: 14px; white-space: nowrap; }
+  background: var(--slupek-kolor, var(--deep)); min-width: 3px; }
+.slupek-wartosc { font-size: 14px; white-space: nowrap;
+  color: var(--slupek-kolor, inherit); }
+/* Kropka koloru przy nazwie województwa w tabelach — ta sama legenda
+   co na wykresach, żeby barwa znaczyła wszędzie to samo. */
+.woj { display: inline-flex; align-items: baseline; gap: 7px; }
+.woj::before { content: ""; width: 9px; height: 9px; border-radius: 50%;
+  background: var(--woj-kolor); flex: none; transform: translateY(-1px); }
 .slupki-zrodlo { font-size: 12px; color: var(--muted); margin: 12px 0 0; }
 @media (max-width: 560px) {
   .slupek { grid-template-columns: 1fr auto; }

@@ -23,9 +23,9 @@ szybciej. Sama liczba wpływających spraw nie wyjaśnia więc całej różnicy.
 
 | Województwo | 2023 | 2024 | 2025 | 2026 |
 | --- | --- | --- | --- | --- |
-| Małopolskie | 128 | 145 | 183 | 242 |
-| Dolnośląskie | 401 | 472 | **273** | 303 |
-| Pomorskie | 314 | 383 | 544 | **598** |
+| <span class="woj" style="--woj-kolor:var(--woj-malopolskie)">Małopolskie</span> | 128 | 145 | 183 | 242 |
+| <span class="woj" style="--woj-kolor:var(--woj-dolnoslaskie)">Dolnośląskie</span> | 401 | 472 | **273** | 303 |
+| <span class="woj" style="--woj-kolor:var(--woj-pomorskie)">Pomorskie</span> | 314 | 383 | 544 | **598** |
 
 Dane w dniach. Wartości za 2026 r. obejmują okres do 6 lipca 2026 r.
 Źródło: [odpowiedź MSWiA na interpelację nr 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body).
@@ -38,15 +38,15 @@ w Pomorskiem, a mimo to oficjalny średni termin postępowania jest tam około 2
 krótszy.
 
 {{< slupki tytul="Skala: ważne dokumenty cudzoziemców" podtytul="liczba aktualnych dokumentów, 2026 r." zrodlo="Źródło: [migracje.gov.pl](https://migracje.gov.pl/statystyki/zakres/polska/). Wskaźnik pokazuje zasób ważnych dokumentów, a nie liczbę nowych wniosków." >}}
-Dolnośląskie | 123281 | 123 281
-Małopolskie | 109429 | 109 429
-Pomorskie | 59236 | 59 236
+Dolnośląskie | 123281 | 123 281 | woj-dolnoslaskie
+Małopolskie | 109429 | 109 429 | woj-malopolskie
+Pomorskie | 59236 | 59 236 | woj-pomorskie
 {{< /slupki >}}
 
 {{< slupki tytul="Obserwowane oczekiwanie od wniosku do odbioru karty" podtytul="miesiące; obserwacje projektu Pobytrack, koniec lipca 2026 r." zrodlo="Źródło: [Pobytrack](https://t.me/pobytrack). To obserwowane sprawy projektu, a nie próba reprezentatywna. Okres obejmuje także produkcję i wydanie karty." >}}
-Kraków / Małopolskie | 5 | 3,5–5
-Wrocław / Dolnośląskie | 9 | 8–9
-Gdańsk / Pomorskie | 28 | 26–28
+Kraków / Małopolskie | 5 | 3,5–5 | woj-malopolskie
+Wrocław / Dolnośląskie | 9 | 8–9 | woj-dolnoslaskie
+Gdańsk / Pomorskie | 28 | 26–28 | woj-pomorskie
 {{< /slupki >}}
 
 {{< notatka typ="info" >}}
