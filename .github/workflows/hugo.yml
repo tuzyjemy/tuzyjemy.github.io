@@ -8,7 +8,7 @@ on:
   # Strona jest statyczna, więc bez tego wyniki zostałyby zamrożone
   # na chwili ostatniego wypchnięcia zmian.
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 * * * *"
   # Pozwala uruchomić publikację ręcznie z zakładki Actions
   workflow_dispatch:
 
