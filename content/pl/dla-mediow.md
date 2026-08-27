@@ -47,22 +47,6 @@ Wieloletnie oczekiwanie może oznaczać:
 - zgłaszane blokady rachunku, karty lub części usług bankowych albo konieczność dodatkowej weryfikacji, gdy poprzedni dokument pobytowy stracił ważność, a nowa karta nie została jeszcze wydana;
 - brak możliwości spokojnego planowania nauki, podróży i życia rodzinnego.
 
-## Kierowcy, którzy nie mogą wyjechać w trasę
-
-Problem dotyczy nie tylko prywatnych podróży. Podczas rozdawania ulotek pracownica
-polskiej firmy transportowej wzięła większą liczbę materiałów po rosyjsku i ukraińsku,
-aby przekazać je w swojej firmie. Wyjaśniła, że opóźnienia w wydawaniu kart pobytu
-utrudniają wysyłanie kierowców w trasy zagraniczne.
-
-Kierowca może pracować i mieszkać w Polsce, lecz brak aktualnego dokumentu pobytowego
-może uniemożliwić mu bezpieczne przekraczanie granicy i wykonywanie międzynarodowych
-kursów. Konsekwencje ponosi pracownik, jego rodzina oraz przedsiębiorstwo, które nie może
-normalnie planować przewozów. Podobne problemy zgłaszają osoby zawodowo zajmujące się
-legalizacją pobytu.
-
-Ludzie nie są teczkami, które można odłożyć na półkę. Urzędowa procedura nie może na lata
-zatrzymywać zwykłego życia i wykonywania normalnej pracy.
-
 ## Ile trwa cała droga? 26–28 miesięcy
 
 Według danych projektu [Pobytrack](https://t.me/pobytrack) pełna droga od złożenia wniosku
