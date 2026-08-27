@@ -70,6 +70,7 @@ meta_autor = "Author"
 meta_zalaczniki = "Attachments"
 meta_powiazane = "Related"
 meta_zrodlo = "Source"
+meta_box_title = "Publication details"
 meta_czas = "Duration"
 meta_dni = "days"
 

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#1a2124"/>
+  <g transform="translate(0,285)">
+    <rect x="0" y="0" width="1200" height="630" fill="#283337"/>
+    <rect x="0" y="0" width="1200" height="12" fill="#bd6949"/>
+    <g transform="translate(92,92) scale(1.30)">
+      <path d="M6 47 L53 11 Q59 6 64 9 L64 25 L20 59 Q14 64 9 60 L5 56 Q1 52 6 47Z" fill="#f2eadf"/>
+      <path d="M68 9 Q73 6 79 11 L126 47 Q131 52 127 56 L123 60 Q118 64 112 59 L68 25Z" fill="#f2eadf"/>
+      <circle cx="66" cy="61" r="10" fill="#bd6949"/>
+    </g>
+    <text x="92" y="360" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+          font-size="96" font-weight="700" fill="#f2eadf" letter-spacing="1">TU ŻYJEMY</text>
+    <text x="92" y="428" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+          font-size="34" fill="#bcb2a5">Razem zmieniamy to, co dotyczy nas wszystkich.</text>
+    <text x="92" y="556" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+          font-size="30" font-weight="700" fill="#bd6949">tuzyjemy.pl</text>
+  </g>
+</svg>

@@ -19,8 +19,8 @@ autor: "Zespół Tu Żyjemy"
 
 ## Kim jesteśmy
 
-Tu Żyjemy jest oddolną inicjatywą mieszkańców, którzy chcą wspólnie działać wobec
-problemów publicznych. Legalizacja pobytu jest naszą pierwszą inicjatywą, ale nie
+Tu Żyjemy jest oddolną inicjatywą mieszkańców, którzy chcą wspólnie działać
+w sprawach publicznych. Legalizacja pobytu jest naszą pierwszą inicjatywą, ale nie
 definiuje całej platformy.
 
 ## Dlaczego protestujemy

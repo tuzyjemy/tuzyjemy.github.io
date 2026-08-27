@@ -70,6 +70,7 @@ meta_autor = "Автор"
 meta_zalaczniki = "Додатки"
 meta_powiazane = "Пов'язані матеріали"
 meta_zrodlo = "Джерело"
+meta_box_title = "Інформація про публікацію"
 meta_czas = "Тривалість"
 meta_dni = "днів"
 

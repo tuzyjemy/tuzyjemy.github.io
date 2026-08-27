@@ -71,6 +71,7 @@ meta_autor = "Autor"
 meta_zalaczniki = "Załączniki"
 meta_powiazane = "Powiązane"
 meta_zrodlo = "Źródło"
+meta_box_title = "Informacje o publikacji"
 meta_czas = "Czas trwania"
 meta_dni = "dni"
 

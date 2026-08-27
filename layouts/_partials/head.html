@@ -17,6 +17,21 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
 
+{{- /* Karta podglądu w Telegramie i mediach społecznościowych. Bez obrazka
+       linki wyglądają tam jak sam tekst. Strona może podać własny obrazek
+       w polu `obrazek` front mattera; w przeciwnym razie idzie domyślna
+       karta z logo (źródło: assets/og/og-default.svg). */ -}}
+{{ $og := "/img/og-default.png" }}
+{{ with .Params.obrazek }}{{ $og = . }}{{ end }}
+<meta property="og:image" content="{{ $og | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ .Site.Title }} — {{ i18n "topbar_slogan" }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $displayTitle }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.opis }}{{ end }}">
+<meta name="twitter:image" content="{{ $og | absURL }}">
+
 <link rel="canonical" href="{{ .Permalink }}">
 {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
