@@ -7,9 +7,6 @@ lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
-Materiały, dane, postulaty i informacje organizacyjne dotyczące pokojowego zgromadzenia
-7 września 2026 r. przed Pomorskim Urzędem Wojewódzkim.
-
 ## Najważniejsze informacje
 
 - **Data:** poniedziałek, 7 września 2026 r.
