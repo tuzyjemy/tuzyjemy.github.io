@@ -1,0 +1,16 @@
+# Ulotki protestowe: dla każdego języka wersja kolorowa i czarno-biała.
+# Pliki leżą w static/pliki/ i nazywają się według wzoru
+#   ulotka-tuzyjemy-<lang>.pdf        (kolor)
+#   ulotka-tuzyjemy-<lang>-cb.pdf     (czarno-biała)
+# Nazwy języków podajemy w ich własnym języku — to lista do wyboru
+# „swojego" pliku, a nie tłumaczony interfejs.
+- lang: pl
+  name: "Polski"
+- lang: ru
+  name: "Русский"
+- lang: en
+  name: "English"
+- lang: uk
+  name: "Українська"
+- lang: be
+  name: "Беларуская"

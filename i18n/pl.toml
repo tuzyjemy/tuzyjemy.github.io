@@ -16,6 +16,7 @@ menu_aktualnosci = "Aktualności"
 menu_poradniki = "Poradniki"
 menu_skutki = "Skutki"
 menu_postulaty = "Postulaty protestu"
+menu_ulotki = "Ulotki"
 
 featured_now = "Najważniejsza akcja teraz"
 campaign_telegram = "Bieżące informacje:"
@@ -138,6 +139,8 @@ attend_note = "Zgłoszenie odbywa się w Mobilizonie. Publicznie widać tylko li
 attend_registered = "Zgromadzenie zgłoszone w Urzędzie Miejskim w Gdańsku"
 attend_rules = "Zasady udziału w zgromadzeniu"
 rules_button = "Zasady udziału"
+leaflet_colour = "kolor"
+leaflet_bw = "czarno-biała"
 attend_be_first = "Bądź pierwszą osobą, która potwierdzi obecność."
 attend_no_event = "Wydarzenie nie zostało jeszcze skonfigurowane. Napisz do nas:"
 

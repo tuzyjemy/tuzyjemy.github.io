@@ -16,6 +16,7 @@ menu_aktualnosci = "News"
 menu_poradniki = "Guides"
 menu_skutki = "Consequences"
 menu_postulaty = "Protest demands"
+menu_ulotki = "Leaflets"
 
 featured_now = "Most important action right now"
 campaign_telegram = "Live updates:"
@@ -136,6 +137,8 @@ attend_note = "Sign-up happens on Mobilizon. Only the number of confirmations is
 attend_registered = "Assembly notified to the Gdańsk City Office"
 attend_rules = "Rules for taking part"
 rules_button = "Rules of participation"
+leaflet_colour = "colour"
+leaflet_bw = "black & white"
 attend_be_first = "Be the first to confirm you are coming."
 attend_no_event = "The event has not been set up yet. Write to us:"
 

@@ -16,6 +16,7 @@ menu_aktualnosci = "Новости"
 menu_poradniki = "Инструкции"
 menu_skutki = "Последствия"
 menu_postulaty = "Требования протеста"
+menu_ulotki = "Листовки"
 
 featured_now = "Самое важное сейчас"
 campaign_telegram = "Актуальная информация:"
@@ -136,6 +137,8 @@ attend_note = "Регистрация проходит в Mobilizon. Публи�
 attend_registered = "Собрание заявлено в мэрии Гданьска"
 attend_rules = "Правила участия в собрании"
 rules_button = "Правила участия"
+leaflet_colour = "цветная"
+leaflet_bw = "чёрно-белая"
 attend_be_first = "Станьте первым, кто подтвердит участие."
 attend_no_event = "Событие пока не настроено. Напишите нам:"
 

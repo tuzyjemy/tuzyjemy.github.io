@@ -24,6 +24,15 @@
             <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "taxo_%s" .) }}</a></li>
           {{ end }}
           <li><a href="{{ partial "href.html" "/postulaty/" }}">{{ i18n "menu_postulaty" }}</a></li>
+          {{/* Strony związane z trwającą kampanią. Znikną razem z nią, gdy
+               w data/campaign/layout.yaml ustawimy `active: false` — nie
+               chcemy w stopce odnośników do zasad protestu, który minął.
+               Czytamy sam przełącznik, a nie cały partial kampanii, żeby
+               nie odpytywać Mobilizona przy każdej podstronie. */}}
+          {{ with hugo.Data.campaign }}{{ if and .layout .layout.active }}
+            <li><a href="{{ partial "href.html" "/zasady/" }}">{{ i18n "rules_button" }}</a></li>
+            <li><a href="{{ partial "href.html" "/ulotki/" }}">{{ i18n "menu_ulotki" }}</a></li>
+          {{ end }}{{ end }}
           <li><a href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a></li>
         </ul>
       </div>

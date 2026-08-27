@@ -33,6 +33,13 @@ Zanim przyjdziesz, przeczytaj [zasady udziału w zgromadzeniu](/zasady/).
 Gdyby coś się zmieniło — godzina, miejsce, szczegóły organizacyjne — napiszemy o tym
 najpierw na Telegramie: [@tu_zyjemy](https://t.me/tu_zyjemy). Tam też odpowiadamy na pytania.
 
+## Wydrukuj i rozdaj
+
+Ulotka o proteście jest gotowa do druku — po polsku, rosyjsku, angielsku, ukraińsku
+i białorusku, w wersji kolorowej i czarno-białej.
+
+[Pobierz ulotki](/ulotki/)
+
 ## Gotowy post do udostępnienia
 
 {{< wzor >}}

@@ -1,0 +1,21 @@
+{{/*  Lista ulotek do pobrania: każdy język w wersji kolorowej i czarno-białej.
+
+      Pliki i nazwy języków bierzemy z data/ulotki.yaml, więc dodanie
+      kolejnego języka nie wymaga ruszania treści w pięciu wersjach.
+
+      Język bieżącej strony pokazujemy na początku — ktoś, kto czyta
+      po ukraińsku, najpewniej chce ulotki po ukraińsku.               */}}
+{{ $here := .Page.Language.Lang }}
+{{ $mine := where site.Data.ulotki "lang" $here }}
+{{ $rest := where site.Data.ulotki "lang" "!=" $here }}
+<ul class="leaflets">
+  {{ range append $rest $mine }}
+    <li class="leaflet{{ if eq .lang $here }} is-mine{{ end }}">
+      <span class="leaflet-lang" lang="{{ .lang }}">{{ .name }}</span>
+      <span class="leaflet-files">
+        <a class="btn btn-sm btn-solid" href="{{ printf "/pliki/ulotka-tuzyjemy-%s.pdf" .lang | relURL }}" download>{{ i18n "leaflet_colour" }}</a>
+        <a class="btn btn-sm" href="{{ printf "/pliki/ulotka-tuzyjemy-%s-cb.pdf" .lang | relURL }}" download>{{ i18n "leaflet_bw" }}</a>
+      </span>
+    </li>
+  {{ end }}
+</ul>

@@ -33,6 +33,13 @@ Before you come, please read the [rules for taking part in the assembly](/zasady
 If anything changes — the time, the place, organisational details — we will post it
 on Telegram first: [@tu_zyjemy](https://t.me/tu_zyjemy). We answer questions there too.
 
+## Print it and hand it out
+
+A leaflet about the protest is ready to print — in Polish, Russian, English, Ukrainian
+and Belarusian, in colour and black-and-white.
+
+[Download the leaflets](/ulotki/)
+
 ## Ready-made post to share
 
 {{< wzor >}}
