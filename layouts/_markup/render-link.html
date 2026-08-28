@@ -7,8 +7,10 @@
     Hugo sam zamienia je na właściwy adres w danym języku
     (/en/statistics/, /ru/obraztsy/…) i dokłada przedrostek baseURL,
     gdy strona stoi w podkatalogu (np. /tuzyjemy/).
-    Jeśli strona o takiej ścieżce nie istnieje, odnośnik zostaje
-    użyty dosłownie — tylko z poprawionym przedrostkiem.
+    Jeśli strona o takiej ścieżce nie istnieje w bieżącym języku,
+    odnośnik prowadzi do istniejącej wersji w innym języku. Dopiero gdy
+    strona nie istnieje nigdzie, adres jest używany dosłownie z poprawnym
+    przedrostkiem języka.
 
     Przy odnośnikach zewnętrznych prowadzących do strony w innym języku
     niż czytany (wg data/linklangs.yaml) dokładamy obok mały odnośnik
@@ -28,7 +30,18 @@
   {{- with site.GetPage $lookup -}}
     {{- $href = printf "%s%s" .RelPermalink $frag -}}
   {{- else -}}
-    {{- $href = printf "%s%s" ($path | relLangURL) $frag -}}
+    {{- $found := false -}}
+    {{- range hugo.Sites -}}
+      {{- if not $found -}}
+        {{- with .GetPage $lookup -}}
+          {{- $href = printf "%s%s" .RelPermalink $frag -}}
+          {{- $found = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $found -}}
+      {{- $href = printf "%s%s" ($path | relLangURL) $frag -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 

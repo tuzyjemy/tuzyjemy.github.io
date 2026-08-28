@@ -6,6 +6,11 @@ tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 instytucje: ["MSWiA", "Wojewoda"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
+aliases:
+  - /en/statystyki/pomorskie-malopolska-dolny-slask/
+  - /ru/statystyki/pomorskie-malopolska-dolny-slask/
+  - /uk/statystyki/pomorskie-malopolska-dolny-slask/
+  - /be/statystyki/pomorskie-malopolska-dolny-slask/
 ---
 
 Pomorskie należy do dwóch województw o najdłuższych terminach rozpatrywania spraw
