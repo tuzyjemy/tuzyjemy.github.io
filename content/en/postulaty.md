@@ -1,7 +1,8 @@
 ---
 title: "We do not want to wait for years. The aim and demands of the residence-legalisation protest"
 description: "The aim and 16 demands of the 7 September protest in Gdańsk — addressed to the Pomeranian Voivode and to the government."
-date: 2026-08-27
+date: 2026-08-25
+lastmod: 2026-08-28
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -30,18 +31,18 @@ Our aim is:
 
 We expect:
 
-1. **a public backlog-reduction plan and open data** — with deadlines, monthly targets and regular publication of real waiting times;
-2. **efficient organisation of proceedings** — adequate staffing, starting the steps that are possible before biometrics, coordinating family cases, continuing work after a complaint to the WSA, and handling formal correspondence on time;
-3. **accountability of the state and equal rules** — repeal of art. 100d and fast procedures based on objective features of the case rather than nationality;
+1. **an official, publicly available backlog-reduction plan and open data** — with deadlines, monthly targets and regular publication of real waiting times;
+2. **efficient organisation of proceedings** — adequate staffing, carrying out administrative steps without delay once an application is registered, stating a realistic date for concluding the case when asking for formal defects to be remedied, coordinating the cases of members of one family, continuing work after a complaint to the WSA, and handling formal correspondence on time;
+3. **accountability of the administration and equal rules** — repeal of art. 100d and fast procedures based on objective features of the case rather than nationality;
 4. **one coherent digital process** — integration of MOS 2 with ST POBYT, EZD, voivodeship systems and state registers, without re-keying the same data by hand.
 
 The full 16 demands, with reasoning, are set out below.
 
 ## Our demands to the Pomeranian Voivode and the Pomeranian Voivodeship Office
 
-### 1. A public plan for clearing the queue
+### 1. An official, publicly available backlog-reduction plan
 
-We expect a plan with concrete deadlines, named responsible officials and measurable results. It is not enough to be told that the office "is working on the problem". We want to know what will be done, by what date, and by which indicators the public will be able to judge the outcome.
+We expect the Pomeranian Voivode to present an official, publicly available backlog-reduction plan with concrete deadlines, named responsible officials and measurable results. It is not enough to be told that the office "is working on the problem". We want to know what will be done, by what date, and by which indicators the public will be able to judge the outcome.
 
 The plan should set out at least:
 
@@ -99,17 +100,21 @@ We expect a report on the implementation of the project ["Strengthening the capa
 
 The report should show how the spending affected the number of closed cases, the size of the queue and the waiting time. The results of the thirteen-person helpline provided for in the project should be published separately: the number of posts filled, the number of incoming, answered and unanswered calls, the average waiting time, and the number of consultations given by e-mail and in person. We also want to know which posts, system integrations and other project activities have already been launched, and which are delayed or have not been carried out.
 
-### 7. Work on a case starting from the moment it enters the system
+### 7. Acting without undue delay at every stage of the proceedings
 
-Once an application has been submitted through MOS and made available to the Pomeranian Voivodeship Office, the case should not sit idle waiting for a fingerprinting appointment. We expect the office to carry out immediately all steps permissible at that stage: register the case, check that the form and documents are complete, verify the available registers, establish any links to other proceedings, and prepare any necessary requests. The biometrics appointment should be scheduled in parallel and as early as possible, and once it has taken place the case should move on to full examination on the merits without a further pause.
+Once an application has been registered in MOS or another relevant office system, the Pomeranian Voivodeship Office should carry out without delay the administrative steps possible at that stage.
 
-We are not asking the office to disregard obligations arising from statute. Changing the legal role of biometrics is a demand addressed to the Sejm. What we require of the Voivode is that work be organised so that biometrics does not become an excuse for failing to carry out beforehand those steps that are already legally possible. The office should publish monthly the median time from receipt of the application to registration, from registration to biometrics, and from biometrics to the first substantive step.
+After the foreigner has appeared in person, had fingerprints taken and supplied any missing formal documents, the case should not join another queue lasting months. The office should begin examination on the merits without delay, including the required checks and approaches to the competent authorities.
 
-### 8. Coordinated handling of related family cases
+When asking for formal defects to be remedied, the office should state not only the deadline for doing so but also a realistic date for concluding the case.
 
-We expect a fast track for *residence for the purpose of family reunification* and for cases *based on other circumstances* whose outcome depends directly on the resolution of the case of a spouse, parent or guardian.
+Each month the office should publish the median time from receipt of the application to registration, from registration to the personal appearance, and — in temporary residence cases — from the conditions in art. 112a ust. 2 being met to the first substantive step and to the decision.
 
-We are not asking for the formal joinder of proceedings where the law does not provide for it. We are asking for organisational coordination: assignment to a common team, re-use of shared documents within the limits of the law, no duplication of the same checks, and decisions issued at the same time. Where this is not possible, the case of a spouse or child should be concluded within 30 days of the decision in the principal applicant's case, unless there are individual obstacles requiring further proceedings.
+### 8. Coordinating the related cases of members of one family
+
+The related cases of members of one family should be handled in a coordinated way, even where they rest on different legal bases or are dealt with by different units of the office.
+
+We are not asking for the formal joinder of proceedings where the law does not provide for it. We do expect the office — within the limits of the law — to synchronise the completion of applications and to allow members of one family to collect their decisions and residence cards at around the same time. Shared documents and checks already carried out should not be needlessly duplicated.
 
 ### 9. An end to freezing cases after a complaint is filed with the WSA
 
@@ -148,7 +153,7 @@ The protest does not replace the petition. Its purpose is to ensure that the pet
 
 The Voivode cannot change legislation alone. The demands below are therefore not formal requirements addressed to the Pomeranian Voivodeship Office. We raise them during the protest because the local queue is the result both of how the office is organised and of legislation and central systems. We expect the Voivode to take a public position and to pass these demands on to the competent ministers and parliamentary committees.
 
-### 13. Repeal of art. 100d and restoration of the state's responsibility for time limits
+### 13. Repeal of art. 100d and restoration of the administration's responsibility for issuing decisions on time
 
 Art. 100d of the Ukraine assistance act suspends the running of time limits in cases conducted by voivodes concerning temporary residence, permanent residence and EU long-term resident status, excludes the application of the provisions on inactivity, and limits effective legal remedies against delay. In 2026 its operation was [extended to 4 March 2027](https://eli.gov.pl/eli/DU/2026/203).
 
@@ -178,7 +183,6 @@ If the government nevertheless retains a list of countries, it should publicly d
 
 We expect further work on the solutions described in the petition submitted:
 
-- separating biometrics as an identification step from the substantive progress of the case, so that the absence of an available appointment does not block examination of the application;
 - a simplified procedure for subsequent temporary residence permits in cases with recurring facts;
 - limiting requests for documents that the authority can verify itself in ZUS, the National Revenue Administration, CEIDG, the National Court Register or other public registers;
 - simplifications for people continuing genuine, stable and verifiable sole-trader activity;

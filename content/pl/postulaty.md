@@ -1,7 +1,8 @@
 ---
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
 description: "Cel i 16 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
-date: 2026-08-27
+date: 2026-08-25
+lastmod: 2026-08-28
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -30,18 +31,18 @@ Naszym celem jest:
 
 Oczekujemy:
 
-1. **publicznego planu redukcji zaległości i jawnych danych** — z terminami, miesięcznymi celami oraz regularną publikacją rzeczywistych czasów oczekiwania;
-2. **sprawnej organizacji postępowań** — odpowiedniej obsady, rozpoczynania możliwych czynności przed biometrią, koordynowania spraw rodzinnych, kontynuowania pracy po skardze do WSA i terminowej obsługi formalnych pism;
-3. **odpowiedzialności państwa i równych zasad** — uchylenia art. 100d oraz szybkich procedur opartych na obiektywnych cechach sprawy, a nie obywatelstwie;
+1. **oficjalnego i publicznie dostępnego planu redukcji zaległości oraz jawnych danych** — z terminami, miesięcznymi celami oraz regularną publikacją rzeczywistych czasów oczekiwania;
+2. **sprawnej organizacji postępowań** — odpowiedniej obsady, niezwłocznego wykonywania czynności administracyjnych po zarejestrowaniu wniosku, wskazywania realistycznego terminu załatwienia sprawy przy uzupełnianiu braków formalnych, koordynowania spraw członków jednej rodziny, kontynuowania pracy po skardze do WSA i terminowej obsługi formalnych pism;
+3. **odpowiedzialności administracji i równych zasad** — uchylenia art. 100d oraz szybkich procedur opartych na obiektywnych cechach sprawy, a nie obywatelstwie;
 4. **jednego spójnego procesu cyfrowego** — integracji MOS 2 ze ST POBYT, EZD, systemami wojewódzkimi oraz rejestrami państwowymi, bez ręcznego przepisywania tych samych danych.
 
 Pełne 16 postulatów wraz z uzasadnieniem znajduje się poniżej.
 
 ## Nasze wymagania wobec Wojewody Pomorskiej i Pomorskiego Urzędu Wojewódzkiego
 
-### 1. Publiczny plan likwidacji kolejki
+### 1. Oficjalny i publicznie dostępny plan redukcji zaległości
 
-Oczekujemy przedstawienia planu z konkretnymi terminami, odpowiedzialnymi osobami i mierzalnymi rezultatami. Nie wystarczy informacja, że urząd „pracuje nad problemem”. Chcemy wiedzieć, co zostanie zrobione, do jakiej daty oraz po jakich wskaźnikach społeczeństwo będzie mogło ocenić wynik.
+Oczekujemy przedstawienia przez Wojewodę Pomorską oficjalnego i publicznie dostępnego planu redukcji zaległości z konkretnymi terminami, odpowiedzialnymi osobami i mierzalnymi rezultatami. Nie wystarczy informacja, że urząd „pracuje nad problemem”. Chcemy wiedzieć, co zostanie zrobione, do jakiej daty oraz po jakich wskaźnikach społeczeństwo będzie mogło ocenić wynik.
 
 Plan powinien określać co najmniej:
 
@@ -99,17 +100,21 @@ Oczekujemy raportu z realizacji projektu [„Wzmocnienie zdolności Wojewody Pom
 
 Raport powinien pokazywać, jak wydatki wpłynęły na liczbę zakończonych spraw, wielkość kolejki i czas oczekiwania. Osobno należy opublikować wyniki przewidzianej w projekcie trzynastoosobowej infolinii: liczbę obsadzonych etatów, liczbę połączeń przychodzących, odebranych i nieodebranych, średni czas oczekiwania oraz liczbę udzielonych konsultacji e-mailowych i osobistych. Chcemy również wiedzieć, które stanowiska pracy, integracje systemów i pozostałe działania projektu już uruchomiono, a które są opóźnione lub niezrealizowane.
 
-### 7. Rozpoczęcie pracy nad sprawą od chwili jej wpływu do systemu
+### 7. Czynności bez zbędnej zwłoki na każdym etapie postępowania
 
-Po wpłynięciu wniosku przez MOS i udostępnieniu go PUW sprawa nie powinna bezczynnie czekać na termin pobrania odcisków palców. Oczekujemy, że urząd od razu wykona wszystkie czynności dopuszczalne na tym etapie: zarejestruje sprawę, sprawdzi kompletność formularza i dokumentów, zweryfikuje dostępne rejestry, ustali powiązania z innymi postępowaniami oraz przygotuje niezbędne wezwania. Termin biometrii powinien być wyznaczany równolegle i możliwie wcześnie, a po jej wykonaniu sprawa powinna bez kolejnej przerwy przejść do pełnego rozpatrywania merytorycznego.
+Po zarejestrowaniu wniosku w MOS lub innym właściwym systemie urzędu PUW powinien niezwłocznie wykonywać czynności administracyjne możliwe na danym etapie postępowania.
 
-Nie żądamy od PUW pomijania obowiązków wynikających z ustawy. Zmiana prawnej roli biometrii jest postulatem skierowanym do Sejmu. Od Wojewody wymagamy natomiast takiej organizacji pracy, aby biometria nie była usprawiedliwieniem dla niewykonywania wcześniej tych czynności, które są już prawnie możliwe. Urząd powinien co miesiąc publikować medianę czasu od wpływu wniosku do rejestracji, od rejestracji do biometrii oraz od biometrii do pierwszej czynności merytorycznej.
+Po osobistym stawiennictwie cudzoziemca, pobraniu odcisków linii papilarnych oraz uzupełnieniu braków formalnych i wymaganych dokumentów sprawa nie powinna trafiać do kolejnej wielomiesięcznej kolejki. Urząd powinien niezwłocznie rozpocząć rozpatrywanie merytoryczne, w tym dokonać wymaganych sprawdzeń i wystąpić do właściwych organów.
 
-### 8. Skoordynowane rozpatrywanie powiązanych spraw rodzinnych
+W wezwaniu do uzupełnienia braków formalnych urząd powinien wskazywać nie tylko termin na ich uzupełnienie, lecz także realistyczny termin załatwienia sprawy.
 
-Oczekujemy stworzenia szybkiej ścieżki dla spraw *pobyt w celu połączenia się z rodziną* oraz spraw *ze względu na inne okoliczności*, których wynik bezpośrednio zależy od rozstrzygnięcia sprawy małżonka, rodzica albo opiekuna.
+Urząd powinien co miesiąc publikować medianę czasu od wpływu wniosku do rejestracji, od rejestracji do osobistego stawiennictwa oraz — w sprawach o pobyt czasowy — od spełnienia warunków określonych w art. 112a ust. 2 do pierwszej czynności merytorycznej i do wydania decyzji.
 
-Nie żądamy formalnego połączenia postępowań tam, gdzie prawo tego nie przewiduje. Żądamy ich organizacyjnego skoordynowania: przypisania do wspólnego zespołu, ponownego wykorzystywania wspólnych dokumentów w granicach prawa, niedublowania tych samych sprawdzeń oraz wydawania decyzji równocześnie. Jeżeli nie jest to możliwe, sprawa małżonka lub dziecka powinna zostać zakończona w ciągu 30 dni od decyzji w sprawie głównego wnioskodawcy, o ile nie występują indywidualne przeszkody wymagające dalszego postępowania.
+### 8. Koordynacja powiązanych spraw członków jednej rodziny
+
+Powiązane sprawy członków jednej rodziny powinny być prowadzone w sposób skoordynowany, nawet jeżeli opierają się na różnych podstawach prawnych lub są rozpatrywane przez różne komórki urzędu.
+
+Nie żądamy formalnego łączenia postępowań tam, gdzie prawo tego nie przewiduje. Oczekujemy natomiast, aby urząd — w granicach prawa — synchronizował uzupełnianie wniosków oraz umożliwiał odbiór decyzji i kart pobytu członków jednej rodziny w zbliżonym terminie. Wspólne dokumenty i przeprowadzone już sprawdzenia nie powinny być bez potrzeby dublowane.
 
 ### 9. Koniec z zamrażaniem spraw po wniesieniu skargi do WSA
 
@@ -148,7 +153,7 @@ Protest nie zastępuje petycji. Ma sprawić, aby nie zakończyła się ona ogól
 
 Wojewoda nie może samodzielnie zmienić ustawy. Dlatego poniższe postulaty nie są formalnymi żądaniami wobec PUW. Mówimy o nich podczas protestu, ponieważ lokalna kolejka jest skutkiem zarówno organizacji urzędu, jak i przepisów oraz centralnych systemów. Oczekujemy od Wojewody publicznego stanowiska oraz przekazania tych postulatów właściwym ministrom i komisjom parlamentarnym.
 
-### 13. Uchylenie art. 100d i przywrócenie odpowiedzialności państwa za terminy
+### 13. Uchylenie art. 100d i przywrócenie odpowiedzialności administracji za terminowe wydawanie decyzji
 
 Art. 100d ustawy pomocowej zawiesza bieg terminów w prowadzonych przez wojewodów sprawach o pobyt czasowy, stały i rezydenta długoterminowego UE, wyłącza stosowanie przepisów o bezczynności oraz ogranicza skuteczne środki prawne wobec opóźnień. W 2026 r. jego obowiązywanie [przedłużono do 4 marca 2027 r.](https://eli.gov.pl/eli/DU/2026/203).
 
@@ -178,7 +183,6 @@ Jeżeli rząd mimo wszystko zachowa listę państw, powinien publicznie wykazać
 
 Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 
-- oddzielenia biometrii jako czynności identyfikacyjnej od merytorycznego biegu sprawy, tak aby brak dostępnego terminu wizyty nie blokował rozpatrywania wniosku;
 - uproszczonego trybu dla kolejnych zezwoleń na pobyt czasowy w sprawach o powtarzalnym stanie faktycznym;
 - ograniczenia żądania dokumentów, które organ może samodzielnie zweryfikować w ZUS, KAS, CEIDG, KRS lub innych rejestrach publicznych;
 - uproszczeń dla osób kontynuujących rzeczywistą, stabilną i możliwą do zweryfikowania jednoosobową działalność gospodarczą;

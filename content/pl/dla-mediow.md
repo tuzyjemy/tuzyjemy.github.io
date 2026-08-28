@@ -2,6 +2,7 @@
 title: "Dla mediów: protest w sprawie legalizacji pobytu w Gdańsku"
 description: "Materiały, dane, postulaty i informacje organizacyjne dotyczące zgromadzenia 7 września 2026 r. przed Pomorskim Urzędem Wojewódzkim."
 date: 2026-08-27
+lastmod: 2026-08-28
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -12,7 +13,7 @@ autor: "Zespół Tu Żyjemy"
 - **Data:** poniedziałek, 7 września 2026 r.
 - **Godzina:** 16:30–18:00
 - **Miejsce:** ul. Chmielna 74/76, Gdańsk, przed Wydziałem Spraw Cudzoziemców Pomorskiego Urzędu Wojewódzkiego
-- **Forma:** pokojowe, stacjonarne i ponadpartyjne zgromadzenie
+- **Forma:** pokojowe zgromadzenie stacjonarne
 - **Status:** zgłoszone w trybie zwykłym i [opublikowane w BIP Miasta Gdańska](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
 - **Organizator:** oddolna inicjatywa Tu Żyjemy
 - **Kontakt dla mediów:** [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
@@ -146,23 +147,27 @@ prowadzenia najstarszych spraw mają znaczenie.
 
 ## Najważniejsze kierunki zmian
 
-### 1. Plan i jawne dane
+### 1. Oficjalny plan i jawne dane
 
-Publiczny plan redukcji zaległości z terminami i miesięcznymi celami, pełna informacja
-o liczbie i wieku spraw oraz regularna publikacja rzeczywistych czasów oczekiwania
-i etapów, na których powstają opóźnienia.
+Oficjalny i publicznie dostępny plan redukcji zaległości przedstawiony przez Wojewodę
+Pomorską, z konkretnymi terminami i miesięcznymi celami. Pełna informacja o liczbie, wieku
+i czasie rozpatrywania spraw oraz regularna publikacja rzeczywistych czasów oczekiwania.
 
 ### 2. Sprawna organizacja postępowań
 
-Odpowiednia obsada, rozliczenie efektów projektu FAMI, rozpoczynanie możliwych czynności
-przed biometrią, koordynowanie spraw rodzinnych, kontynuowanie możliwej pracy po
-przekazaniu akt do WSA oraz terminowa obsługa formalnych pism.
+Odpowiednia obsada, rozliczenie efektów projektu FAMI, niezwłoczne wykonywanie czynności
+administracyjnych po zarejestrowaniu wniosku, rozpoczęcie rozpatrywania merytorycznego bez
+kolejnej zwłoki po spełnieniu wymaganych warunków, wskazywanie realistycznego terminu
+załatwienia sprawy przy uzupełnianiu braków formalnych, koordynowanie spraw członków jednej
+rodziny, kontynuowanie możliwej pracy po przekazaniu akt do WSA oraz terminowa obsługa
+formalnych pism.
 
-### 3. Odpowiedzialność państwa i sprawny proces cyfrowy
+### 3. Odpowiedzialność administracji i sprawny proces cyfrowy
 
-Uchylenie art. 100d, szybkie procedury oparte na obiektywnych cechach sprawy zamiast
-obywatelstwa, uproszczenia dla spraw powtarzalnych i rodzinnych oraz integracja MOS 2
-ze ST POBYT, EZD, systemami wojewódzkimi i rejestrami państwowymi.
+Uchylenie art. 100d i przywrócenie odpowiedzialności administracji za terminowe wydawanie
+decyzji, szybkie procedury oparte na obiektywnych cechach sprawy zamiast obywatelstwa,
+uproszczenia dla spraw powtarzalnych i rodzinnych oraz integracja MOS 2 ze ST POBYT, EZD,
+systemami wojewódzkimi i rejestrami państwowymi.
 
 [Przeczytaj pełne 16 postulatów wraz z uzasadnieniem](/postulaty/)
 
