@@ -964,3 +964,9 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   .slupek { grid-template-columns: 1fr auto; }
   .slupek-tor { grid-column: 1 / -1; order: 3; }
 }
+
+/* Znacznik przy sprawach z wykazu WSA w Warszawie — nie ma ich w CBOSA,
+   więc sygnatura nie jest odnośnikiem. Znacznik odróżnia „brak linku"
+   od „link, który nie działa". */
+.zrodlo-wykaz { font-size: 11px; padding: 1px 6px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }

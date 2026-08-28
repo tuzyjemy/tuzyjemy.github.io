@@ -132,6 +132,8 @@ orz_r_ponaglenie = "Nie wniesiono wcześniej ponaglenia"
 orz_courts = "sądów"
 orz_search = "Szukaj po sygnaturze, sądzie lub treści…"
 orz_nsa_changed = "NSA zmienił wynik"
+orz_wykaz = "poza CBOSA"
+orz_wykaz_title = "Pozycja z wykazu WSA w Warszawie. Nie ma jej w publicznej bazie CBOSA — treść orzeczenia sąd udostępnia na wniosek."
 
 
 attend_heading = "Przyjdziesz?"

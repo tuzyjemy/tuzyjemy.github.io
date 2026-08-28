@@ -117,21 +117,18 @@ Pomorski Urząd Wojewódzki [informuje na swojej stronie](https://wsc.gdansk.uw.
 
 Oczekujemy zmiany tej praktyki i oficjalnego komunikatu. Przed przekazaniem papierowych akt do sądu urząd powinien utworzyć pełną, uporządkowaną kopię roboczą i nadal wykonywać wszystkie czynności, które nie wymagają oryginałów. Jeżeli urząd uważa, że konkretnych czynności nie wolno wykonać bez akt głównych, powinien wskazać ich podstawę prawną i wyjaśnić, dlaczego nie może korzystać z kopii lub elektronicznego obiegu dokumentów. Skarga do sądu nie może stawać się dodatkową karą za próbę obrony swoich praw.
 
-### 10. Terminowe wydawanie zaświadczeń i koniec ignorowania pism urzędowych
+### 10. Terminowe wydawanie zaświadczeń
 
-Problem bezczynności nie ogranicza się do czasu oczekiwania na decyzję w sprawie pobytowej. PUW nie ma prawa ignorować odrębnych wniosków i pism urzędowych tylko dlatego, że dotyczą osoby czekającej na zakończenie postępowania pobytowego.
+Zaświadczenia mają własny ustawowy termin: **7 dni**. W tym czasie urząd powinien wydać dokument albo postanowienie o odmowie. Jeżeli wniosek ma braki formalne lub wymaga opłaty, urząd powinien niezwłocznie wysłać właściwe wezwanie. Jeżeli termin nie może zostać dotrzymany, urząd powinien formalnie podać przyczynę opóźnienia, wskazać nowy termin i pouczyć o prawie do wniesienia ponaglenia.
 
-Zgodnie z [art. 217 § 3 Kodeksu postępowania administracyjnego](https://eli.gov.pl/api/acts/DU/2024/572/text.html) zaświadczenie powinno zostać wydane bez zbędnej zwłoki, nie później niż w terminie siedmiu dni. Dotyczy to w szczególności zaświadczeń potwierdzających fakty znane urzędowi z posiadanych danych: złożenie wniosku, datę jego wpływu, numer sprawy oraz to, że postępowanie jest w toku — jeżeli wnioskodawca wskaże podstawę przewidzianą w art. 217 § 2 KPA. Jeżeli urząd odmawia wydania zaświadczenia albo zaświadczenia o żądanej treści, powinien wydać postanowienie, na które przysługuje zażalenie zgodnie z art. 219 KPA. Brak odpowiedzi nie jest właściwym sposobem załatwienia wniosku.
+Milczenie przez tygodnie lub miesiące nie jest prawidłowym sposobem załatwienia sprawy.
 
-Art. 100d dotyczy terminów w wyraźnie wymienionych postępowaniach o udzielenie, zmianę lub cofnięcie zezwoleń pobytowych i nie wymienia postępowań w sprawie wydania zaświadczenia. W naszej ocenie nie ma podstaw, aby automatycznie rozciągać go na takie odrębne postępowania. Istotny argument daje [wyrok WSA w Opolu z 12 października 2023 r., II SAB/Op 44/23](https://orzeczenia.nsa.gov.pl/doc/36A1825148): sąd stwierdził bezczynność wojewody i zobowiązał go do rozpatrzenia w terminie siedmiu dni wniosku o wydanie zaświadczenia potwierdzającego datę złożenia wniosku o pobyt czasowy. Wyrok zapadł w konkretnej sprawie i nie zastępuje oceny prawnej każdego kolejnego przypadku, ale pokazuje, że postępowanie w sprawie zaświadczenia podlega odrębnej kontroli sądu administracyjnego.
+Domagamy się:
 
-Wymagamy od PUW:
+- faktycznego przestrzegania 7-dniowego terminu: wydania zaświadczenia albo postanowienia o odmowie;
+- regularnego publikowania danych pozwalających sprawdzić przestrzeganie tego terminu: liczby wniosków załatwionych w ciągu 7 dni i po jego przekroczeniu.
 
-- niezwłocznego przejrzenia i rozpatrzenia wszystkich wniosków o wydanie zaświadczenia oczekujących dłużej niż siedem dni;
-- wydawania w ustawowym terminie zaświadczenia albo postanowienia o odmowie, a w razie braku dokumentów lub opłaty — niezwłocznego kierowania wezwania do usunięcia braków;
-- zapewnienia możliwości otrzymania zaświadczenia w postaci elektronicznej przez ePUAP lub e-Doręczenia;
-- rejestrowania i terminowego nadawania właściwego biegu również *ponagleniom*, skargom i innym pismom urzędowym, bez pozostawiania ich bez odpowiedzi;
-- comiesięcznego publikowania liczby złożonych i wydanych zaświadczeń, odmów oraz wniosków niezałatwionych, liczby wniosków oczekujących dłużej niż siedem dni, a także mediany czasu ich rozpatrzenia.
+Jak złożyć wniosek i co zrobić po upływie terminu, opisujemy w [poradniku o zaświadczeniach](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
 
 ### 11. MOS jako rzeczywiste narzędzie pracy, a nie tylko elektroniczny formularz
 

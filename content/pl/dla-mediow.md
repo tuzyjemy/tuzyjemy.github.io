@@ -39,8 +39,8 @@ Wieloletnie oczekiwanie może oznaczać:
 - rozdzielenie rodziny lub brak możliwości odwiedzenia najbliższych za granicą;
 - niepewną sytuację dziecka, gdy jego sprawa zależy od niezakończonej sprawy rodzica;
 - brak możliwości wyjazdu i powrotu do Polski mimo trwającego legalnie postępowania;
-- problemy ze zmianą pracy, wykonywaniem obowiązków służbowych albo prowadzeniem działalności gospodarczej;
-- brak możliwości wykonywania pracy wymagającej wyjazdów zagranicznych — na przykład kursów międzynarodowych w transporcie — co uderza także w pracodawcę;
+- problemy ze zmianą pracy albo prowadzeniem działalności gospodarczej;
+- brak możliwości wykonywania obowiązków wymagających wyjazdów zagranicznych — od tras międzynarodowych kierowców, przez wyjazdy naukowców na konferencje, po delegacje pracowników innych branż — co odczuwają także pracodawcy;
 - zgłaszane blokady rachunku, karty lub części usług bankowych albo konieczność dodatkowej weryfikacji, gdy poprzedni dokument pobytowy stracił ważność, a nowa karta nie została jeszcze wydana;
 - brak możliwości spokojnego planowania nauki, podróży i życia rodzinnego.
 
@@ -70,6 +70,60 @@ spraw. Pokazują natomiast zgodny rząd wielkości — człowiek czeka na zakoń
 drogi około dwóch lat i kilku miesięcy.
 
 [Źródło oficjalne: odpowiedź MSWiA na interpelację nr 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body)
+
+## Sądy potwierdzają skalę problemu
+
+Przy postępowaniu trwającym 26–28 miesięcy część osób, po wcześniejszym wniesieniu
+ponaglenia, decyduje się złożyć skargę na bezczynność lub przewlekłe prowadzenie sprawy
+do Wojewódzkiego Sądu Administracyjnego.
+
+W Gdańsku **99,6% spraw pobytowych rozpoznanych przez sąd merytorycznie zakończyło się
+pozytywnie dla skarżących**. Sąd administracyjny nie wydaje zezwolenia na pobyt. Ocenia,
+czy urząd pozostawał bezczynny albo prowadził postępowanie przewlekle. Tak wysoki odsetek
+pozytywnych rozstrzygnięć pokazuje, że problem nie sprowadza się do pojedynczych historii
+ani subiektywnego poczucia zbyt długiego oczekiwania.
+
+Droga sądowa ma jednak w Pomorskiem paradoksalny skutek. Po przekazaniu akt do WSA urząd
+może wstrzymać dalsze czynności do czasu ich zwrotu z sądu. Praktyka nie wygląda tak samo
+we wszystkich województwach. Dlatego jednym z naszych postulatów jest zachowanie przez
+urząd roboczej kopii akt i dalsze wykonywanie wszystkich czynności, które nie wymagają
+dostępu do oryginałów.
+
+Pozytywne rozstrzygnięcia nie ograniczają się do Gdańska. Zebraliśmy i przeanalizowaliśmy
+ponad 4 000 orzeczeń WSA i NSA dotyczących spraw pobytowych z całej Polski. Większość
+opublikowanych pozycji można samodzielnie sprawdzić w Centralnej Bazie Orzeczeń Sądów
+Administracyjnych; sprawy WSA w Warszawie pochodzą z wykazu tego sądu, nie ma ich w CBOSA
+i są u nas wyraźnie oznaczone.
+
+[Zobacz ogólnopolską statystykę i bazę orzeczeń WSA/NSA](/orzeczenia/)
+
+**Ciąg dalszy: art. 100d.** Dane pokazują również wyraźny rozdźwięk między obowiązującą
+ustawą a orzecznictwem sądów. Naczelny Sąd Administracyjny odmówił zastosowania kolejnego
+przedłużenia zawieszenia terminów, uznając je za niezgodne z konstytucyjnym prawem do sądu.
+Od października 2025 r. w analizowanych orzeczeniach zaczęła dominować linia zgodna
+z orzecznictwem NSA, według której art. 100d nie jest traktowany jako automatyczna
+przeszkoda do stwierdzenia bezczynności lub przewlekłości. W naszej bazie **96% spraw
+rozpoznanych merytorycznie od tego momentu zakończyło się korzystnie dla skarżących**.
+
+Mimo tej utrwalającej się linii orzeczniczej art. 100d nadal pozostaje w ustawie
+i formalnie ma obowiązywać do 4 marca 2027 r. Oznacza to, że sądy przywracają ochronę
+przed bezczynnością w konkretnych sprawach, podczas gdy ustawodawca nadal utrzymuje
+przepis, który miał tę ochronę wyłączyć.
+
+[Jak działa art. 100d i co wynika z orzeczeń NSA](/poradniki/art-100d-zawieszenie-terminow/)
+
+{{< notatka typ="info" >}}
+**Zaświadczenie: 7 dni, nie miesiące.** Opóźnienia dotyczą nie tylko decyzji pobytowych.
+Zaświadczenie potwierdzające datę złożenia wniosku, numer sprawy albo to, że postępowanie
+nadal trwa, powinno zostać wydane bez zbędnej zwłoki, nie później niż w ciągu 7 dni.
+Jeżeli urząd nie może wydać dokumentu o żądanej treści, powinien formalnie odmówić, a nie
+milczeć przez tygodnie lub miesiące. Brak zaświadczenia może w praktyce utrudniać
+załatwienie spraw w banku, ZUS albo urzędzie gminy.
+
+Podstawa prawna: art. 217 § 3 i art. 219 KPA.
+
+[Co zrobić, gdy urząd nie wydaje zaświadczenia w terminie? →](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
+{{< /notatka >}}
 
 ## 472 → 273 dni — zmiana we Wrocławiu
 
@@ -112,6 +166,27 @@ ze ST POBYT, EZD, systemami wojewódzkimi i rejestrami państwowymi.
 
 [Przeczytaj pełne 16 postulatów wraz z uzasadnieniem](/postulaty/)
 
+## Co zrobiliśmy przed protestem
+
+Protest jest kolejnym etapem działań inicjatywy Tu Żyjemy. 24 czerwca 2026 r., po zebraniu
+[ponad 3 700 podpisów online](/dzialania/zbiorka-podpisow/), złożyliśmy pakiet trzech
+dokumentów: [petycję do Sejmu](/dzialania/petycja-sejm-legalizacja/), [petycję do Wojewody
+Pomorskiego](/dzialania/petycja-wojewoda-pomorski/) oraz [wystąpienie do Ministra
+Cyfryzacji i Szefa Urzędu do Spraw Cudzoziemców](/dzialania/wystapienie-cyfryzacja/).
+
+Równolegle tworzymy publiczną bazę wiedzy. Przeanalizowaliśmy [ponad 4 000 orzeczeń WSA
+i NSA](/orzeczenia/) dotyczących spraw pobytowych. Analiza pokazała wyraźną zmianę
+praktyki: od października 2025 r. zaczęła dominować linia, według której art. 100d nie
+blokuje automatycznie stwierdzenia bezczynności lub przewlekłości. W naszej bazie 96%
+spraw rozpoznanych merytorycznie od tego momentu zakończyło się korzystnie dla skarżących.
+
+Analizujemy również [sytuację legalizacji pobytu w różnych województwach](/statystyki/)
+oraz publikujemy [odpowiedzi instytucji](/odpowiedzi/), [poradniki](/poradniki/) i [gotowe
+wzory pism do urzędów i sądów](/wzory/) — między innymi ponagleń, skarg do WSA i wniosków
+o wydanie zaświadczenia.
+
+[Zobacz historię naszych działań →](/dzialania/)
+
 ## Materiały i źródła
 
 - [Informacje dla uczestników protestu](/aktualnosci/protest-7-wrzesnia/)
@@ -125,7 +200,9 @@ ze ST POBYT, EZD, systemami wojewódzkimi i rejestrami państwowymi.
 
 ## Kontakt dla mediów
 
-[contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
+**Valentine Kareev** — organizator inicjatywy
+
+E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
 Rozmowy z organizatorami i uczestnikami będą możliwe na miejscu. W sprawie wcześniejszych
 rozmów prosimy o kontakt mailowy.

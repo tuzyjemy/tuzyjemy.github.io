@@ -14,7 +14,7 @@ reorganisation cut the time from 472 to 273 days in a single year.
 ## Our own data: court rulings
 
 We maintain our own database of administrative court rulings in residence cases, each
-linked to CBOSA. It shows how often courts side with applicants, how that changed over
+linked to its source. It shows how often courts side with applicants, how that changed over
 time, and why half of all cases never reach a decision on the merits.
 
 [See the rulings database](/orzeczenia/)

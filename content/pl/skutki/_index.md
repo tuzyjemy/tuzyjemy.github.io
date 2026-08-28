@@ -20,7 +20,8 @@ to samo dla wszystkich. To jest fundament państwa prawa — i traci go **każdy
 w tym kraju, niezależnie od paszportu**.
 
 **Drugi to złamane życiorysy.** Zablokowane konto, utracona praca, niemożliwy wyjazd do
-chorego rodzica, rozdzielona rodzina, kredyt, którego nie da się spłacić. To nie są skutki
+chorego rodzica, na konferencję naukową lub zagraniczną delegację, rozdzielona rodzina,
+kredyt, którego nie da się spłacić. To nie są skutki
 uboczne — to jest realna cena, którą ludzie płacą za to, że sprawa leży.
 
 Ta sekcja zbiera jedno i drugie — o ile da się to udokumentować.

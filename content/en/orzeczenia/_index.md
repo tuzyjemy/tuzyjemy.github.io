@@ -1,10 +1,11 @@
 ---
 title: "Court rulings"
-description: "Our database of WSA and NSA rulings in residence cases — every entry linked to CBOSA."
+description: "Our database of WSA and NSA rulings in residence cases — linked to CBOSA or marked with its other source."
 ---
 
-We collect administrative court rulings in residence-legalisation cases. Every entry can be
-checked in [CBOSA](https://orzeczenia.nsa.gov.pl/).
+We collect administrative court rulings in residence-legalisation cases. Most entries can be
+checked in [CBOSA](https://orzeczenia.nsa.gov.pl/); cases from the WSA in Warsaw come from
+that court's register and are marked in the table.
 
 ## What these numbers say
 
@@ -31,9 +32,12 @@ obstacles can be cleared, and we describe both step by step:
 - [WSA complaint template](/wzory/skarga-wsa-przewleklosc/) — covering the fee and legal aid
 
 {{< notatka >}}
-**Being straight about this data.** We publish only rulings with a link to CBOSA — entries
-without a verifiable source, and those we flagged as needing review, were left out. The
-database is still being filled in, so **this is not complete statistics for all cases**.
+**Being straight about this data.** Most entries carry a link to CBOSA and you can check each
+one at source. Cases from the WSA in Warsaw, however, come from **that court's own register**
+(as at 24.07.2026) and are absent from the public CBOSA database — the court supplies the
+text on request. We mark them in the table as "not in CBOSA" so it is visible what cannot be
+opened in one click. Entries we flagged as needing review were left out. The database is
+still being filled in, so **this is not complete statistics for all cases**.
 
 Many cases are heard in **simplified proceedings**, where the court publishes only the
 operative part with no reasoning — regardless of whether the applicant won or lost. The
@@ -42,5 +46,6 @@ the court's arguments**.
 
 The outcome classification is our own assessment, not a quote from the ruling. A high share
 of merits wins does not mean your case is won — only that courts in these cases usually
-side with applicants. Read a ruling in CBOSA before relying on it.
+side with applicants. Read the text of a ruling before relying on it — in CBOSA, or, for entries marked
+"not in CBOSA", after obtaining it from the court.
 {{< /notatka >}}

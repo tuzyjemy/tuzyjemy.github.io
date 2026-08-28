@@ -130,6 +130,8 @@ orz_r_ponaglenie = "Не пададзена панагленне загадзя"
 orz_courts = "судоў"
 orz_search = "Пошук па нумары справы, судзе або змесце…"
 orz_nsa_changed = "NSA змяніў вынік"
+orz_wykaz = "па-за CBOSA"
+orz_wykaz_title = "Пазіцыя з рэестра WSA у Варшаве. Яе няма ў публічнай базе CBOSA — тэкст рашэння суд дае па запыце."
 
 
 attend_heading = "Прыйдзеце?"

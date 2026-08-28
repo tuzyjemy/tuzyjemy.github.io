@@ -1,10 +1,11 @@
 ---
 title: "Orzeczenia"
-description: "Nasza baza orzeczeń WSA i NSA w sprawach pobytowych — z odnośnikiem do CBOSA przy każdej pozycji."
+description: "Nasza baza orzeczeń WSA i NSA w sprawach pobytowych — z odnośnikiem do CBOSA albo oznaczeniem innego źródła."
 ---
 
-Zbieramy orzeczenia sądów administracyjnych w sprawach o legalizację pobytu. Każdą pozycję
-można sprawdzić w [CBOSA](https://orzeczenia.nsa.gov.pl/).
+Zbieramy orzeczenia sądów administracyjnych w sprawach o legalizację pobytu. Większość
+pozycji można sprawdzić w [CBOSA](https://orzeczenia.nsa.gov.pl/); sprawy WSA w Warszawie
+pochodzą z wykazu tego sądu i są w tabeli oznaczone.
 
 ## Co mówią te liczby
 
@@ -32,9 +33,13 @@ opisujemy krok po kroku:
 - [Wzór skargi do WSA](/wzory/skarga-wsa-przewleklosc/) — z informacją o wpisie i prawie pomocy
 
 {{< notatka >}}
-**Uczciwie o tych danych.** Publikujemy wyłącznie orzeczenia z odnośnikiem do CBOSA —
-pozycje bez sprawdzalnego źródła i oznaczone u nas jako wymagające weryfikacji pominęliśmy.
-Baza jest nadal uzupełniana, więc **nie jest to pełna statystyka wszystkich spraw**.
+**Uczciwie o tych danych.** Większość pozycji ma odnośnik do CBOSA i każdą z nich możesz
+sprawdzić u źródła. Sprawy WSA w Warszawie pochodzą natomiast z **wykazu tego sądu**
+(stan na 24.07.2026) i nie ma ich w publicznej bazie CBOSA — treść orzeczenia sąd
+udostępnia na wniosek. Oznaczamy je w tabeli znacznikiem „poza CBOSA", żeby było widać,
+czego nie da się otworzyć jednym kliknięciem. Pozycje oznaczone u nas jako wymagające
+weryfikacji pominęliśmy. Baza jest nadal uzupełniana, więc **nie jest to pełna statystyka
+wszystkich spraw**.
 
 Wiele spraw sąd rozpoznaje w **trybie uproszczonym** i publikuje samą sentencję, bez
 uzasadnienia — niezależnie od tego, czy skarżący wygrał, czy przegrał. Opis, który
@@ -44,5 +49,6 @@ streszczeniem argumentów sądu**.
 Klasyfikacja wyniku to nasza własna ocena, a nie cytat z sentencji. Wysoki odsetek wygranych
 merytorycznych nie znaczy, że Twoja sprawa jest wygrana — znaczy tylko, że sądy w tych
 sprawach zwykle przyznają rację skarżącym. Przed powołaniem się na konkretne orzeczenie
-przeczytaj je w CBOSA.
+przeczytaj jego treść — w CBOSA, a przy sprawach oznaczonych „poza CBOSA" po uzyskaniu jej
+z sądu.
 {{< /notatka >}}

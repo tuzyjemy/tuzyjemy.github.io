@@ -14,7 +14,7 @@ reorganizacji termin spadł w rok z 472 do 273 dni.
 ## Nasze dane: orzeczenia sądów
 
 Prowadzimy własną bazę orzeczeń sądów administracyjnych w sprawach pobytowych — z
-odnośnikami do CBOSA. Widać w niej, jak często sądy przyznają rację skarżącym, jak to
+odnośnikami do źródeł. Widać w niej, jak często sądy przyznają rację skarżącym, jak to
 się zmieniało w czasie i dlaczego połowa spraw nigdy nie dochodzi do oceny merytorycznej.
 
 [Zobacz bazę orzeczeń](/orzeczenia/)

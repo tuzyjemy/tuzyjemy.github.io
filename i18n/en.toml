@@ -130,6 +130,8 @@ orz_r_ponaglenie = "No prior reminder (ponaglenie) filed"
 orz_courts = "courts"
 orz_search = "Search by case number, court or content…"
 orz_nsa_changed = "NSA overturned"
+orz_wykaz = "not in CBOSA"
+orz_wykaz_title = "Entry from the Warsaw WSA register. It is not in the public CBOSA database — the court provides the text on request."
 
 
 attend_heading = "Are you coming?"

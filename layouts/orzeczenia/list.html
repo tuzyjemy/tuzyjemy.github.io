@@ -2,8 +2,8 @@
 {{/*  Orzeczenia sądów administracyjnych w sprawach pobytowych.
 
       Dane: assets/data/orzeczenia.csv — nasza własna baza, zbudowana
-      z CBOSA. Publikujemy wyłącznie te pozycje, przy których jest
-      odnośnik do CBOSA, żeby każdą dało się sprawdzić u źródła.
+      z CBOSA i z wykazu WSA w Warszawie. Pozycje bez odnośnika do CBOSA
+      oznaczamy w tabeli — sąd udostępnia ich treść na wniosek.
       Kolumny: data | sad | sygnatura | wynik | charakter | rodzaj |
                opis | link | nsa_sygnatura | nsa_link | nsa_zmienil   */}}
 {{ $rows := partialCached "orz-rows.html" . }}
@@ -171,7 +171,17 @@
             {{- range $rows }}
             <tr data-item data-sad="{{ .sad }}" data-wynik="{{ .wynik }}" data-charakter="{{ .charakter }}" data-rok="{{ substr .data 0 4 }}" data-search="{{ .sygnatura }} {{ .nsaSyg }} {{ .rodzaj }}">
               <td class="num">{{ .data }}</td>
-              <td><a href="{{ .link }}" rel="noopener">{{ .sygnatura }}</a>{{ if .nsaSyg }}<br><a class="nsa" href="{{ .nsaLink | default .link }}" rel="noopener">NSA {{ .nsaSyg }}</a>{{ end }}</td>
+              {{/* Pozycje z wykazu WSA w Warszawie nie mają odnośnika do CBOSA —
+                   zamiast martwego linku pokazujemy sygnaturę i znacznik. */}}
+              <td>
+                {{ if .link }}<a href="{{ .link }}" rel="noopener">{{ .sygnatura }}</a>
+                {{- else }}{{ .sygnatura }} <span class="zrodlo-wykaz" title="{{ i18n "orz_wykaz_title" }}">{{ i18n "orz_wykaz" }}</span>
+                {{- end }}
+                {{- if .nsaSyg }}<br>
+                  {{- if .nsaLink }}<a class="nsa" href="{{ .nsaLink }}" rel="noopener">NSA {{ .nsaSyg }}</a>
+                  {{- else }}<span class="nsa">NSA {{ .nsaSyg }}</span>{{ end }}
+                {{- end }}
+              </td>
               <td>{{ .sad }}</td>
               <td><span class="badge{{ if eq .wynik "Pozytywny" }} badge-ok{{ else if eq .wynik "Negatywny" }} badge-warn{{ end }}">{{ .wynik }}</span>
                 {{ with .charakter }}<br><span class="charakter">{{ . }}</span>{{ end }}</td>

@@ -6,8 +6,12 @@
     nie rozjadą się z tabelą przy kolejnej aktualizacji bazy.
 
     Pomijamy pozycje bez rozstrzygnięcia merytorycznego lub procesowego:
-    to wpisy typu „Nie dotyczy zakresu weryfikacji", trafiła tam też
-    sprawa spoza zakresu pobytowego.
+    to wpisy typu „Nie dotyczy zakresu weryfikacji" oraz oznaczone jako
+    wymagające weryfikacji; trafiła tam też sprawa spoza zakresu pobytowego.
+
+    Kolumna „zrodlo" mówi, czy pozycję da się otworzyć w CBOSA („cbosa"),
+    czy pochodzi z wykazu WSA w Warszawie („wykaz") — tego drugiego nie ma
+    w bazie publicznej i sąd udostępnia go na wniosek.
 
     Wywołanie: {{ partialCached "orz-rows.html" . }}                     */ -}}
 {{- $rows := slice -}}
@@ -18,7 +22,8 @@
           "data" (index . 0) "sad" (index . 1) "sygnatura" (index . 2)
           "wynik" (index . 3) "charakter" (index . 4) "przyczyna" (index . 5)
           "rodzaj" (index . 6) "opis" (index . 7) "link" (index . 8)
-          "nsaSyg" (index . 9) "nsaLink" (index . 10) "nsaZmienil" (index . 11)) -}}
+          "nsaSyg" (index . 9) "nsaLink" (index . 10) "nsaZmienil" (index . 11)
+          "zrodlo" (index . 12)) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

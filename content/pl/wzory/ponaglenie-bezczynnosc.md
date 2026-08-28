@@ -11,6 +11,12 @@ wzor: true
 autor: "Zespół Tu Żyjemy"
 ---
 
+{{< notatka typ="info" >}}
+Ten wzór dotyczy **głównego postępowania o zezwolenie na pobyt**. Jeżeli chodzi
+o siedmiodniowe postępowanie w sprawie wydania zaświadczenia, użyj
+[ponaglenia w sprawie zaświadczenia](/wzory/ponaglenie-zaswiadczenie/).
+{{< /notatka >}}
+
 {{< notatka >}}
 **Art. 100d — co to zmienia.** Do 4 marca 2027 r. art. 100d ustawy o pomocy obywatelom
 Ukrainy zawiesza bieg terminów w prowadzonych przez wojewodę sprawach o zezwolenia

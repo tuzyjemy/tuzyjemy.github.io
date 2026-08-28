@@ -117,21 +117,18 @@ The Pomeranian Voivodeship Office [states on its website](https://wsc.gdansk.uw.
 
 We expect this practice to change and an official statement to be issued. Before sending the paper file to the court, the office should create a complete, ordered working copy and continue to carry out all steps that do not require the originals. If the office takes the view that particular steps may not be carried out without the main file, it should state the legal basis and explain why it cannot use a copy or electronic document workflow. A complaint to a court must not become an additional penalty for trying to defend one's rights.
 
-### 10. Timely issuing of certificates and an end to ignoring official correspondence
+### 10. Issuing certificates on time
 
-The problem of inactivity is not limited to the time spent waiting for a decision in a residence case. The Pomeranian Voivodeship Office has no right to ignore separate applications and official correspondence merely because they concern a person awaiting the conclusion of residence proceedings.
+Certificates have their own statutory deadline: **7 days**. Within that time the office should issue the document or a decision refusing it. If the application has formal defects or requires a fee, the office should send the appropriate request without delay. If the deadline cannot be met, the office should formally state the reason for the delay, give a new date, and advise on the right to file a reminder.
 
-Under [art. 217 § 3 of the Code of Administrative Procedure](https://eli.gov.pl/api/acts/DU/2024/572/text.html), a certificate should be issued without undue delay and no later than within seven days. This applies in particular to certificates confirming facts known to the office from the data it holds: the submission of an application, the date it was received, the case number, and the fact that proceedings are pending — provided the applicant states a ground under art. 217 § 2 of the Code. If the office refuses to issue a certificate, or a certificate with the requested content, it should issue a decision subject to appeal under art. 219 of the Code. Silence is not a proper way of dealing with an application.
+Silence lasting weeks or months is not a proper way of dealing with a case.
 
-Art. 100d concerns time limits in expressly listed proceedings for granting, changing or withdrawing residence permits, and does not mention proceedings for the issuing of certificates. In our assessment there is no basis for extending it automatically to such separate proceedings. A significant argument is provided by the [judgment of the WSA in Opole of 12 October 2023, II SAB/Op 44/23](https://orzeczenia.nsa.gov.pl/doc/36A1825148): the court found the Voivode inactive and ordered him to deal within seven days with an application for a certificate confirming the date on which a temporary residence application had been submitted. That judgment was given in a specific case and does not replace a legal assessment of each subsequent case, but it shows that proceedings on a certificate are subject to separate review by an administrative court.
+We demand:
 
-We require the Pomeranian Voivodeship Office:
+- actual compliance with the 7-day deadline: issuing either the certificate or a decision refusing it;
+- regular publication of data allowing that compliance to be checked: the number of applications dealt with within 7 days and the number dealt with after the deadline.
 
-- to review and deal without delay with all applications for certificates pending for more than seven days;
-- to issue, within the statutory time limit, either the certificate or a decision refusing it, and where documents or payment are missing, to send a request to remedy the deficiencies without delay;
-- to make it possible to receive a certificate electronically via ePUAP or e-Doręczenia;
-- to register and give timely and proper effect also to *ponaglenia* (reminders), complaints and other official correspondence, rather than leaving them unanswered;
-- to publish monthly the number of certificates applied for and issued, refusals and unresolved applications, the number of applications pending for more than seven days, and the median time taken to deal with them.
+How to apply, and what to do once the deadline passes, is set out in our [guide to certificates](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
 
 ### 11. MOS as a real working tool, not just an electronic form
 
