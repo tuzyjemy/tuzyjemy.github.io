@@ -46,7 +46,11 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-<a href="{{ $href }}"
+{{- /* Go czyści adresy w szablonach i podmienia nieznane schematy na
+       „#ZgotmplZ". Schemat „tel:" nie jest na jego liście, więc numer
+       telefonu przestawał być odnośnikiem — dlatego tylko dla „tel:"
+       oznaczamy adres jako bezpieczny. */ -}}
+<a href="{{ if hasPrefix $d "tel:" }}{{ $href | safeURL }}{{ else }}{{ $href }}{{ end }}"
    {{- with .Title }} title="{{ . }}"{{ end }}
    {{- if $external }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- if and $sl (ne $sl $tl) -}}

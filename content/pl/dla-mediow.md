@@ -204,9 +204,11 @@ o wydanie zaświadczenia.
 
 E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
+Telefon: [+48 730 927 292](tel:+48730927292)
+
 Rozmowy z organizatorami i uczestnikami będą możliwe na miejscu. W sprawie wcześniejszych
-rozmów prosimy o kontakt mailowy.
+rozmów prosimy o kontakt mailowy lub telefoniczny.
 
 ---
 
-*Stan materiałów: 27 sierpnia 2026 r.*
+*Stan materiałów: 28 sierpnia 2026 r.*
