@@ -10,6 +10,12 @@ uwaga_prawna: true
 wzor: true
 ---
 
+{{< notatka typ="info" >}}
+This template concerns the **main residence permit proceedings**. If your matter is the
+seven-day proceeding to issue a certificate, use the
+[reminder about issuing a certificate](/wzory/ponaglenie-zaswiadczenie/).
+{{< /notatka >}}
+
 {{< notatka >}}
 **What art. 100d changes.** Until 4 March 2027, art. 100d of the Act on assistance to
 Ukrainian citizens suspends the deadlines in residence-permit proceedings conducted by a
