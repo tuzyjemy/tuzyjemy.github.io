@@ -1,0 +1,49 @@
+decimal: ","
+
+regions:
+  malopolskie: "Małopolskie"
+  dolnoslaskie: "Dolnośląskie"
+  pomorskie: "Pomorskie"
+
+official_wait:
+  first_header: "Województwo"
+
+document_stock:
+  title: "Skala: ważne dokumenty cudzoziemców"
+  subtitle: "liczba aktualnych dokumentów, 2026 r."
+  source: "Źródło: [migracje.gov.pl](https://migracje.gov.pl/statystyki/zakres/polska/). Wskaźnik pokazuje zasób ważnych dokumentów, a nie liczbę nowych wniosków."
+  labels:
+    dolnoslaskie: "Dolnośląskie"
+    malopolskie: "Małopolskie"
+    pomorskie: "Pomorskie"
+
+observed_wait:
+  title: "Obserwowane oczekiwanie od wniosku do odbioru karty"
+  subtitle: "miesiące; obserwacje projektu Pobytrack, koniec lipca 2026 r."
+  source: "Źródło: [Pobytrack](https://t.me/pobytrack). To obserwowane sprawy projektu, a nie próba reprezentatywna. Okres obejmuje także produkcję i wydanie karty."
+  labels:
+    krakow_malopolskie: "Kraków / Małopolskie"
+    wroclaw_dolnoslaskie: "Wrocław / Dolnośląskie"
+    gdansk_pomorskie: "Gdańsk / Pomorskie"
+
+wroclaw_wait:
+  headers: ["Rok", "Średni termin"]
+  day_suffix:
+    "2023": " dni"
+    "2024": " dni"
+    "2025": " dni"
+    "2026": " dni"
+  change_suffix: " w rok"
+
+workload:
+  headers: ["Województwo", "Spraw na pracownika", "Okres", "Jak używać"]
+  no_data: "brak danych"
+  periods:
+    "2022": "2022"
+    "2023": "2023"
+    "2025": "2025"
+    h1_2024: "I połowa 2024"
+  usage:
+    official: "oficjalny wskaźnik MSWiA"
+    historical: "historyczne obciążenie sprzed reorganizacji"
+    no_response: "urząd nie odpowiedział na wniosek o informację publiczną"

@@ -21,11 +21,7 @@ faster. The number of incoming cases alone does not explain the entire differenc
 
 ## Official average processing time
 
-| Voivodeship | 2023 | 2024 | 2025 | 2026 |
-| --- | --- | --- | --- | --- |
-| <span class="woj" style="--woj-kolor:var(--woj-malopolskie)">Małopolskie</span> | 128 | 145 | 183 | 242 |
-| <span class="woj" style="--woj-kolor:var(--woj-dolnoslaskie)">Dolnośląskie</span> | 401 | 472 | **273** | 303 |
-| <span class="woj" style="--woj-kolor:var(--woj-pomorskie)">Pomorskie</span> | 314 | 383 | 544 | **598** |
+{{< statystyki-dane id="official_wait" >}}
 
 Data in days. Values for 2026 cover the period until July 6, 2026.
 Source: [reply MSWiA to interpellation no. 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body).
@@ -37,17 +33,9 @@ foreigners. In Małopolska, the number of important documents is almost twice as
 in the Pomeranian Voivodeship, and yet the official average procedure time there is approximately 2.5 times longer
 shorter.
 
-{{< slupki tytul="Scale: important documents of foreigners" podtytul="number of current documents, 2026" zrodlo="Source: [migracje.gov.pl](https://migracje.gov.pl/statystyki/zakres/polska/). The indicator shows the stock of valid documents, not the number of new applications." >}}
-Lower Silesia | 123281 | 123 281 | Lower Silesian Voivodeship
-Lesser Poland | 109429 | 109 429 | Lesser Poland Voivodeship
-Pomerania | 59236 | 59 236 | Pomeranian Voivodeship
-{{< /slupki >}}
+{{< statystyki-dane id="document_stock" >}}
 
-{{< slupki tytul="Observed waiting time from application to card collection" podtytul="months; Pobytrack project observations, end of July 2026" zrodlo="Source: [Pobytrack](https://t.me/pobytrack). These are observed project matters, not a representative sample. The period also includes the production and issuance of the card." >}}
-Kraków / Lesser Poland | 5 | 3.5–5 | Lesser Poland Voivodeship
-Wrocław / Lower Silesia | 9 | 8–9 | Lower Silesian Voivodeship
-Gdańsk / Pomerania | 28 | 26–28 | Pomeranian Voivodeship
-{{< /slupki >}}
+{{< statystyki-dane id="observed_wait" >}}
 
 {{< notatka typ="info" >}}
 **These are two different measurements.** Official statistics measure the average procedure time to issuance
@@ -63,12 +51,7 @@ showed 60.6 thousand unfinished cases, PLN 12.2 million of expenses resulting fr
 court cases and 7.8 thousand reservations outside the system; NIK sent a notice to
 prosecutor's office. There are two confirmed checks NIK.
 
-| Year | Medium term |
-| --- | --- |
-| 2023 | 401 days |
-| 2024 | 472 days |
-| 2025 | **273 days** (−42% in a year) |
-| 2026 | 303 days |
+{{< statystyki-dane id="wroclaw_wait" >}}
 
 In 2026, the deadline increased to 303 days, but it is still almost twice as short
 in the Pomeranian Voivodeship (598 days).
@@ -94,12 +77,7 @@ Sources: [NIK - A country not ready for foreigners](https://www.nik.gov.pl/najno
 The indicator applies to employees involved in preparing and issuing decisions.
 Hotline and front office are not counted unless these employees perform such tasks.
 
-| Voivodeship | Apply for an employee | Period | How to use |
-| --- | --- | --- | --- |
-| Lesser Poland | 73 | 2023 | official indicator MSWiA |
-| Lesser Poland | 85 | First half of 2024 | official indicator MSWiA |
-| Lower Silesia | 771 | 2022 | historical load before reorganization |
-| Pomeranian Voivodeship | no data | 2025 | the office did not respond to a request for public information |
+{{< statystyki-dane id="workload" >}}
 
 All values are assigned a period. The numbers 73/85 and 771 come from official ones
 materials RPO and MSWiA. No response from the Pomeranian Voivodeship Office was recorded

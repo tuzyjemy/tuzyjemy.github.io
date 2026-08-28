@@ -1,0 +1,49 @@
+decimal: ","
+
+regions:
+  malopolskie: "Малопольское"
+  dolnoslaskie: "Нижнесилезское"
+  pomorskie: "Поморское"
+
+official_wait:
+  first_header: "Воеводство"
+
+document_stock:
+  title: "Масштаб: действующие документы иностранцев"
+  subtitle: "количество действующих документов, 2026 г."
+  source: "Источник: [migracje.gov.pl](https://migracje.gov.pl/statystyki/zakres/polska/). Показатель отражает число действующих документов, а не новых заявлений."
+  labels:
+    dolnoslaskie: "Нижнесилезское"
+    malopolskie: "Малопольское"
+    pomorskie: "Поморское"
+
+observed_wait:
+  title: "Наблюдаемый срок от подачи заявления до получения карты"
+  subtitle: "месяцы; наблюдения проекта Pobytrack, конец июля 2026 г."
+  source: "Источник: [Pobytrack](https://t.me/pobytrack). Это наблюдаемые дела проекта, а не репрезентативная выборка. Период включает также изготовление и выдачу карты."
+  labels:
+    krakow_malopolskie: "Краков / Малопольское"
+    wroclaw_dolnoslaskie: "Вроцлав / Нижнесилезское"
+    gdansk_pomorskie: "Гданьск / Поморское"
+
+wroclaw_wait:
+  headers: ["Год", "Средний срок"]
+  day_suffix:
+    "2023": " день"
+    "2024": " дня"
+    "2025": " дня"
+    "2026": " дня"
+  change_suffix: " за год"
+
+workload:
+  headers: ["Воеводство", "Дел на сотрудника", "Период", "Как использовать"]
+  no_data: "нет данных"
+  periods:
+    "2022": "2022"
+    "2023": "2023"
+    "2025": "2025"
+    h1_2024: "первая половина 2024 года"
+  usage:
+    official: "официальный показатель MSWiA"
+    historical: "историческая нагрузка до реорганизации"
+    no_response: "ужонд не ответил на запрос о публичной информации"

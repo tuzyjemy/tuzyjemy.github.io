@@ -1,0 +1,88 @@
+# Wspólne dane liczbowe dla artykułu porównującego Pomorskie, Małopolskie
+# i Dolnośląskie. Teksty zależne od języka znajdują się w plikach pl.yaml,
+# ru.yaml, en.yaml, uk.yaml i be.yaml w tym samym katalogu.
+#
+# Zmiana liczby, wyróżnienia albo koloru wymaga edycji tylko tego pliku.
+
+official_wait:
+  kind: official_wait
+  years: [2023, 2024, 2025, 2026]
+  rows:
+    - region: malopolskie
+      color: woj-malopolskie
+      values: [128, 145, 183, 242]
+      highlight: null
+    - region: dolnoslaskie
+      color: woj-dolnoslaskie
+      values: [401, 472, 273, 303]
+      highlight: 2025
+    - region: pomorskie
+      color: woj-pomorskie
+      values: [314, 383, 544, 598]
+      highlight: 2026
+
+document_stock:
+  kind: bars
+  rows:
+    - label: dolnoslaskie
+      value: 123281
+      display: "123 281"
+      color: woj-dolnoslaskie
+    - label: malopolskie
+      value: 109429
+      display: "109 429"
+      color: woj-malopolskie
+    - label: pomorskie
+      value: 59236
+      display: "59 236"
+      color: woj-pomorskie
+
+observed_wait:
+  kind: bars
+  rows:
+    - label: krakow_malopolskie
+      value: 5
+      display: "3.5–5"
+      color: woj-malopolskie
+    - label: wroclaw_dolnoslaskie
+      value: 9
+      display: "8–9"
+      color: woj-dolnoslaskie
+    - label: gdansk_pomorskie
+      value: 28
+      display: "26–28"
+      color: woj-pomorskie
+
+wroclaw_wait:
+  kind: wroclaw_wait
+  rows:
+    - year: 2023
+      value: 401
+    - year: 2024
+      value: 472
+    - year: 2025
+      value: 273
+      highlight: true
+      change: "−42"
+    - year: 2026
+      value: 303
+
+workload:
+  kind: workload
+  rows:
+    - region: malopolskie
+      cases: 73
+      period: "2023"
+      usage: official
+    - region: malopolskie
+      cases: 85
+      period: h1_2024
+      usage: official
+    - region: dolnoslaskie
+      cases: 771
+      period: "2022"
+      usage: historical
+    - region: pomorskie
+      cases: null
+      period: "2025"
+      usage: no_response

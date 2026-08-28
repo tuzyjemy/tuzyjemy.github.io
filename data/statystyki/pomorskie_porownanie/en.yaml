@@ -1,0 +1,49 @@
+decimal: "."
+
+regions:
+  malopolskie: "Lesser Poland"
+  dolnoslaskie: "Lower Silesia"
+  pomorskie: "Pomerania"
+
+official_wait:
+  first_header: "Voivodeship"
+
+document_stock:
+  title: "Scale: valid documents held by foreigners"
+  subtitle: "number of valid documents, 2026"
+  source: "Source: [migracje.gov.pl](https://migracje.gov.pl/statystyki/zakres/polska/). The indicator shows the stock of valid documents, not the number of new applications."
+  labels:
+    dolnoslaskie: "Lower Silesia"
+    malopolskie: "Lesser Poland"
+    pomorskie: "Pomerania"
+
+observed_wait:
+  title: "Observed waiting time from application to card collection"
+  subtitle: "months; Pobytrack project observations, end of July 2026"
+  source: "Source: [Pobytrack](https://t.me/pobytrack). These are cases observed by the project, not a representative sample. The period also includes production and issuance of the card."
+  labels:
+    krakow_malopolskie: "Kraków / Lesser Poland"
+    wroclaw_dolnoslaskie: "Wrocław / Lower Silesia"
+    gdansk_pomorskie: "Gdańsk / Pomerania"
+
+wroclaw_wait:
+  headers: ["Year", "Average processing time"]
+  day_suffix:
+    "2023": " days"
+    "2024": " days"
+    "2025": " days"
+    "2026": " days"
+  change_suffix: " in one year"
+
+workload:
+  headers: ["Voivodeship", "Cases per employee", "Period", "How to use"]
+  no_data: "no data"
+  periods:
+    "2022": "2022"
+    "2023": "2023"
+    "2025": "2025"
+    h1_2024: "first half of 2024"
+  usage:
+    official: "official MSWiA indicator"
+    historical: "historical workload before reorganization"
+    no_response: "the office did not respond to a public-information request"
