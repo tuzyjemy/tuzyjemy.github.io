@@ -1,10 +1,18 @@
-{{/*  Dane kontaktowe — bierzemy je z hugo.toml (params.email, params.telegram),
+{{/*  Dane kontaktowe — bierzemy je z hugo.toml,
       żeby nie powtarzać ich w treści pięciu wersji językowych.
       Użycie w treści:  {{< kontakt >}}                                    */}}
 <ul class="contact-list">
+  {{ with .Site.Params.contactName }}
+    <li><span>{{ i18n "contact_person" }}</span>{{ . }}</li>
+  {{ end }}
   {{ with .Site.Params.email }}
-    <li><span>{{ i18n "footer_contact" }}</span>
+    <li><span>{{ i18n "contact_email" }}</span>
       <a href="mailto:{{ . }}">{{ . }}</a></li>
+  {{ end }}
+  {{ with .Site.Params.phone }}
+    {{ $phoneLink := printf "tel:%s" (replaceRE "[^0-9+]" "" .) }}
+    <li><span>{{ i18n "contact_phone" }}</span>
+      <a href="{{ $phoneLink | safeURL }}">{{ . }}</a></li>
   {{ end }}
   {{ with .Site.Params.telegram }}
     <li><span>Telegram</span>

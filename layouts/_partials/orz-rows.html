@@ -18,11 +18,18 @@
 {{- with resources.Get "data/orzeczenia.csv" -}}
   {{- range after 1 (. | transform.Unmarshal (dict "delimiter" ",")) -}}
     {{- if and (ge (len .) 9) (in (slice "Merytoryczny" "Procesowy") (index . 4)) -}}
+      {{- /* W eksporcie pola linków NSA mogą zawierać znaczniki tekstowe
+           („Nie dotyczy", „Brak linku w wykazie WSA"). Nie wolno przekazywać
+           ich do href, bo przeglądarka potraktuje je jak względne adresy. */ -}}
+      {{- $link := index . 8 -}}
+      {{- $nsaLink := index . 10 -}}
+      {{- if not (hasPrefix $link "https://orzeczenia.nsa.gov.pl/doc/") -}}{{- $link = "" -}}{{- end -}}
+      {{- if not (hasPrefix $nsaLink "https://orzeczenia.nsa.gov.pl/doc/") -}}{{- $nsaLink = "" -}}{{- end -}}
       {{- $rows = $rows | append (dict
           "data" (index . 0) "sad" (index . 1) "sygnatura" (index . 2)
           "wynik" (index . 3) "charakter" (index . 4) "przyczyna" (index . 5)
-          "rodzaj" (index . 6) "opis" (index . 7) "link" (index . 8)
-          "nsaSyg" (index . 9) "nsaLink" (index . 10) "nsaZmienil" (index . 11)
+          "rodzaj" (index . 6) "opis" (index . 7) "link" $link
+          "nsaSyg" (index . 9) "nsaLink" $nsaLink "nsaZmienil" (index . 11)
           "zrodlo" (index . 12)) -}}
     {{- end -}}
   {{- end -}}

@@ -205,7 +205,7 @@ o wydanie zaświadczenia.
 
 ## Kontakt dla mediów
 
-**Valentine Kareev** — organizator inicjatywy
+**Walentyn Kariejew** — organizator inicjatywy
 
 E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 

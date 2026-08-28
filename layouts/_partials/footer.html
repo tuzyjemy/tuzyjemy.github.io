@@ -43,8 +43,15 @@
       <span>{{ i18n "footer_values" }}</span>
       <div class="footer-meta">
         {{ i18n "footer_license" }}
+        {{ with .Site.Params.contactName }}
+          &middot; {{ i18n "contact_person" }}: {{ . }}
+        {{ end }}
         {{ with .Site.Params.email }}
-          &middot; {{ i18n "footer_contact" }}: <a href="mailto:{{ . }}">{{ . }}</a>
+          &middot; {{ i18n "contact_email" }}: <a href="mailto:{{ . }}">{{ . }}</a>
+        {{ end }}
+        {{ with .Site.Params.phone }}
+          {{ $phoneLink := printf "tel:%s" (replaceRE "[^0-9+]" "" .) }}
+          &middot; {{ i18n "contact_phone" }}: <a href="{{ $phoneLink | safeURL }}">{{ . }}</a>
         {{ end }}
         {{ with .Site.Params.telegram }}
           &middot; Telegram: <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a>

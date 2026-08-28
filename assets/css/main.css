@@ -119,9 +119,9 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 
 /* ---------------------------------------------------------------- header */
 /*  Nagłówek dostaje szerszy kontener niż treść: osiem pozycji menu nie
-    mieści się w 1180 px, a bez tego nawigacja nachodziła na przycisk
-    „Dołącz do nas" na każdej szerokości ekranu, nie tylko na wąskich.  */
-.site-header .shell { max-width: 1460px; }
+    mieści się w 1180 px. Pełny wariant pokazujemy dopiero na bardzo szerokich
+    ekranach, ale zostawiamy mu też bezpieczny zapas na dłuższe tłumaczenia. */
+.site-header .shell { max-width: 1600px; }
 
 .site-header {
   background: color-mix(in srgb, var(--surface) 94%, transparent);
@@ -732,8 +732,8 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 
 /*  Nawigacja zwija się do przycisku „Menu" wcześniej niż reszta układu:
     pozycji w menu jest osiem, a w rosyjskim i ukraińskim ich nazwy są
-    długie — przy ~1200 px nachodziły na przycisk „Dołącz do nas".      */
-@media (max-width: 1400px) {
+    długie — przy ~1400 px nachodzą na przełącznik języka.             */
+@media (max-width: 1540px) {
   .nav {
     display: none;
     position: absolute;
@@ -780,7 +780,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
     do najrzadszych, więc przy średniej szerokości zostawiamy w pasku
     pierwszą grupę, a resztę chowamy pod przyciskiem. Po jego kliknięciu
     rozwija się pełne menu ze wszystkimi grupami.                      */
-@media (min-width: 1101px) and (max-width: 1400px) {
+@media (min-width: 1101px) and (max-width: 1540px) {
   .nav {
     display: flex;
     position: static;
@@ -860,7 +860,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 
 .contact-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 8px; }
 .contact-list li { display: flex; align-items: baseline; gap: 10px; margin: 0; }
-.contact-list li span { min-width: 88px; font-size: 13px; font-weight: 700;
+.contact-list li span { min-width: 132px; font-size: 13px; font-weight: 700;
   text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 .contact-list li a { font-weight: 600; }
 
