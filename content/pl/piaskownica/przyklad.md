@@ -1,6 +1,8 @@
 ---
-title: "Przykładowy wpis"
-description: "Wpis do zabawy. Można go zmieniać i kasować bez konsekwencji."
+title: Przykładowy wpis
+description: |-
+  Wpis do zabawy. Można go zmieniać i kasować bez konsekwencji.
+  Zmiana 1.
 date: 2026-08-31
 ---
 
