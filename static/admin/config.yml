@@ -65,8 +65,9 @@ publish_mode: editorial_workflow
 # Każda kolekcja z treścią ma `publish: false`: w panelu nie ma przycisku
 # „Opublikuj”. Redaktor przesuwa wpis do statusu „Gotowe”, a pull request
 # akceptuje i scala człowiek na GitHubie — tam widać pełny diff.
-# Piaskownica jest wyjątkiem: zostaje publikowalna, żeby dało się
-# przećwiczyć całą mechanikę bez ruszania treści serwisu.
+# Dotyczy to także piaskownicy: wolontariusze mają rolę „write”, która nie
+# obchodzi reguł gałęzi main, więc przycisk „Opublikuj” i tak zwracałby błąd.
+# Ćwiczenie w piaskownicy przebiega więc tak samo jak praca na treści.
 # Gdy zaufanie do obiegu wzrośnie, wystarczy usunąć `publish: false`
 # z wybranych kolekcji.
 
@@ -96,6 +97,7 @@ collections:
   # w content/pl/piaskownica/_index.md), więc można tu tworzyć i kasować
   # wpisy bez wpływu na serwis.
   - name: piaskownica_pl
+    publish: false
     label: Piaskownica (testy)
     label_singular: Wpis testowy
     folder: content/pl/piaskownica
@@ -108,10 +110,13 @@ collections:
       - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
       - { name: body, label: Treść, widget: markdown }
 
+  - divider: true
+
   # =========================================================== KAMPANIA
   - name: kampania
     publish: false
     label: Kampania na stronie głównej
+    i18n: true
     label_singular: Kampania
     files:
       - name: uklad
@@ -197,8 +202,8 @@ collections:
   - name: strony
     publish: false
     label: Strony stałe
+    i18n: true
     label_singular: Strona
-    divider: true
     files:
 
       - name: home
@@ -278,8 +283,8 @@ collections:
   - name: opisy_sekcji
     publish: false
     label: Opisy sekcji
+    i18n: true
     label_singular: Opis sekcji
-    divider: true
     files:
 
       - name: aktualnosci
@@ -354,6 +359,8 @@ collections:
           - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
+
+  - divider: true
 
   # =========================================================== SEKCJE Z WPISAMI
   # Osobna kolekcja na język (patrz uwaga o układzie języków na górze pliku).
