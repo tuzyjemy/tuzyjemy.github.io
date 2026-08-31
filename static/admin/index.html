@@ -18,6 +18,12 @@
          + pole na nową. Musi być ładowany PO skrypcie CMS, bo używa
          globalnych `CMS`, `h` i `createClass`. -->
     <script src="/admin/tagi.js"></script>
+    <!-- Objaśnienie pola „Przyjazny link”. Sveltia pokazuje to pole tylko
+         przy tworzeniu wpisu i nie da się do niego dopiąć podpowiedzi
+         z konfiguracji, więc notkę dostawiamy tutaj — i tylko wtedy,
+         gdy pole jest widoczne. Gdy skrypt nie odnajdzie pola, po prostu
+         nic nie rysuje. -->
+    <script src="/admin/slug-note.js"></script>
     <!-- Logowanie: przycisk „Sign In with Token”. W oknie, które się pojawi,
          jest odnośnik do strony GitHuba z zaznaczonym już zakresem `repo`.
          Wygeneruj token, wklej go i gotowe — token zostaje w pamięci

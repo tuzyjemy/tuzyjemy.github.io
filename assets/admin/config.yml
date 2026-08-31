@@ -90,7 +90,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /piaskownica/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: body, label: Treść, widget: markdown, i18n: true }
@@ -405,7 +404,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /aktualnosci/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
@@ -442,7 +440,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /wzory/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
@@ -482,7 +479,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /poradniki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
@@ -520,7 +516,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /skutki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
@@ -557,7 +552,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /dzialania/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
@@ -605,7 +599,6 @@ collections:
         label: Tytuł
         widget: string
         i18n: true
-        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /statystyki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
