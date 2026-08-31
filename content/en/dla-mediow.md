@@ -1,6 +1,6 @@
 ---
-title: "For the media: protest regarding the legalization of stay in Gdańsk"
-description: "Materials, data, demands and organizational information regarding the meeting on September 7, 2026 in front of the Pomeranian Voivodeship Office."
+title: "For the media: protest over residence legalisation in Gdańsk"
+description: "Materials, data, demands and organisational information about the assembly of 7 September 2026 outside the Pomeranian Voivodeship Office."
 date: 2026-08-27
 lastmod: 2026-08-28
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
@@ -8,212 +8,214 @@ lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
-## The most important information
+## Key information
 
-- **Date:** Monday, September 7, 2026
+- **Date:** Monday, 7 September 2026
 - **Time:** 16:30–18:00
-- **Location:** ul. Chmielna 74/76, Gdańsk, in front of the Department of Foreigners' Affairs of the Pomeranian Voivodeship Office
-- **Form:** stationary peaceful assembly
-- **Status:** reported in the regular mode and [published in the BIP of the City of Gdańsk](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
-- **Organizer:** grassroots initiative Tu Żyjemy
+- **Place:** ul. Chmielna 74/76, Gdańsk, outside the Department for Foreigners of the Pomeranian Voivodeship Office
+- **Form:** a peaceful, static assembly
+- **Status:** notified under the standard procedure and [published in the Gdańsk City BIP](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
+- **Organiser:** the grassroots initiative Tu Żyjemy
 - **Media contact:** [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
 ## Who we are
 
-Tu Żyjemy is a grass-roots initiative of residents who want to act together
-in public affairs. Legalization of stay is our first initiative, but no
-defines the entire platform.
+Tu Żyjemy is a grassroots initiative of residents who want to act together on public
+matters. Residence legalisation is our first campaign, but it does not define the whole
+platform.
 
-## Why we protest
+## Why we are protesting
 
-We do not act against office employees. We are against the system in which
-the state accepts the application and fee and then does not issue it for many months or years
-decision nor does it present a credible plan to clear the arrears.
+We are not acting against the staff of the office. We are acting against a system in which
+the state accepts an application and a fee, and then for many months or years issues no
+decision and presents no credible plan for clearing the backlog.
 
-Behind the case numbers are ordinary human lives. One person cannot go to the sick person
-a child or for a parent's funeral, because leaving means the risk of not being able to return
-home in Poland. Another works, studies, raises children or runs a business, but through...
-the next few years cannot calmly plan a trip, a change of job or a family future.
+Behind the case numbers are ordinary human lives. One person cannot travel to a sick child
+or to a parent's funeral, because leaving means risking not being able to return home to
+Poland. Another works, studies, raises children or runs a business, yet for years cannot
+calmly plan a trip, a change of job or the family's future.
 
-Waiting for many years can mean:
+Waiting for years can mean:
 
-- family separation or inability to visit loved ones abroad;
-- the child's uncertain situation when his or her case depends on the parent's unfinished business;
-- inability to leave and return to Poland despite legally ongoing proceedings;
-- problems with changing jobs or running a business;
-- inability to perform duties requiring trips abroad - from international drivers' routes, through scientists' trips to conferences, to delegations of employees from other industries - which is also felt by employers;
-- reported blocking of an account, card or part of banking services or the need for additional verification when the previous residence permit has expired and a new card has not yet been issued;
-- inability to calmly plan studies, travel and family life.
+- a family separated, or being unable to visit relatives abroad;
+- a child left in an uncertain position, because their case depends on a parent's unfinished one;
+- being unable to leave Poland and return, despite proceedings that are lawfully under way;
+- difficulty changing jobs or running a business;
+- being unable to perform duties that require travelling abroad — from drivers' international routes, through researchers attending conferences, to staff in other sectors going on assignment — which employers feel too;
+- reported blocks on an account, a card or some banking services, or demands for extra verification, once the previous residence document has expired and the new card has not yet been issued;
+- being unable to plan study, travel and family life with any certainty.
 
-## How long does the whole journey take? 26–28 months
+## How long does the whole path take? 26–28 months
 
-According to the [Pobytrack](https://t.me/pobytrack) project data, it's a full journey from submitting the application
-to collect the card in observed cases in Gdańsk lasted at the end of July 2026.
-**26–28 months**.
+According to the [Pobytrack](https://t.me/pobytrack) project, the full path from filing an
+application to collecting the card, in the cases it observes in Gdańsk, took **26–28
+months** as of late July 2026.
 
-The remaining available data paints a coherent picture of the same scale of expectations:
+The other available data form a consistent picture of the same scale of waiting:
 
-- according to Pobytrack data, the waiting time for biometrics in Gdańsk is currently approximately **9 months**;
-- MSWiA provides **598 days**, i.e. approximately **19.7 months**, as the average duration of temporary residence proceedings conducted by the Pomeranian Voivode in 2026 until July 6.
+- according to Pobytrack, the wait for biometrics in Gdańsk is currently about **9 months**;
+- the Ministry of the Interior and Administration gives **598 days**, about **19.7 months**, as the average duration of temporary residence proceedings conducted by the Pomeranian Voivode in 2026 up to 6 July.
 
-In practice, biometrics is the stage after which the case can proceed to full consideration
-substantive. To show the scale:
+In practice, biometrics is the stage after which a case can move to full examination on the
+merits. To illustrate the scale:
 
 {{< notatka typ="info" >}}
-**approximately 9 months for biometrics + 598 days, i.e. approximately 19.7 months of proceedings
-= scale approximately 28–29 months**
+**about 9 months to biometrics + 598 days, i.e. about 19.7 months of proceedings
+= a scale of about 28–29 months**
 {{< /notatka >}}
 
-This calculation is very close to what Pobytrack has observed for 26-28 months since
-card application. **However, it is not an official pattern:** MSWiA does not explain from which
-the system counts exactly 598 days of events, and both lists may cover different groups
-matters However, they show a consistent order of magnitude - a person waits for the whole thing to be completed
-about two years and a few months.
+This calculation comes very close to the 26–28 months from application to card that
+Pobytrack observes. **It is not, however, an official formula:** the ministry does not
+explain from which event exactly the system counts the 598 days, and the two sets of
+figures may cover different groups of cases. What they do show is a consistent order of
+magnitude — a person waits around two years and several months for the whole path to end.
 
-[Official source: MSWiA's response to interpellation no. 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body)
+[Official source: the ministry's reply to parliamentary question no. 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body)
 
 ## The courts confirm the scale of the problem
 
-In proceedings lasting 26-28 months, some people, after submitting an earlier application
-reminder, decides to file a complaint about inaction or lengthy handling of the case
-to the Provincial Administrative Court.
+With proceedings running 26–28 months, some people — having first filed a reminder
+(*ponaglenie*) — decide to bring a complaint about inactivity or undue delay before the
+Voivodeship Administrative Court.
 
-In Gdańsk **99.6% of residence cases heard by the court ended substantively
-positively for the complainants**. The administrative court does not issue a residence permit. evaluates,
-whether the office remained inactive or conducted proceedings in a lengthy manner. Such a high percentage
-positive outcomes shows that the problem is not limited to individual stories
-nor the subjective feeling of waiting too long.
+In Gdańsk, **99.6% of residence cases examined by the court on the merits ended in the
+complainant's favour**. An administrative court does not grant a residence permit. It
+assesses whether the office was inactive or conducted the case with undue delay. So high a
+share of favourable rulings shows that the problem does not come down to isolated stories
+or to a subjective feeling of waiting too long.
 
-However, going to court has a paradoxical effect in the Pomeranian Voivodeship. After transferring the files to WSA, the office
-may suspend further actions until they are returned from the court. Practice is not the same
-in all voivodeships. Therefore, one of our demands is the behavior of
-office of a working copy of the files and further performance of all activities that do not require
-access to the originals.
+The judicial route has a paradoxical effect in Pomerania, though. Once the file has been
+sent to the court, the office may suspend further steps until it is returned. The practice
+is not the same in every voivodeship. That is why one of our demands is that the office
+keep a working copy of the file and continue every step that does not require the
+originals.
 
-Positive results are not limited to Gdańsk. We collected and analyzed
-over 4,000 judgments WSA and NSA regarding residence cases from all over Poland. Most
-published items can be checked on your own in the Central Database of Court Decisions
-Administrative; WSA cases in Warsaw come from the list of this court, they are not included in CBOSA
-and they are clearly marked with us.
+Favourable rulings are not limited to Gdańsk. We have collected and analysed over 4,000
+rulings of the voivodeship administrative courts and the Supreme Administrative Court in
+residence cases from across Poland. Most published entries can be checked independently in
+the Central Database of Administrative Court Rulings; cases from the Warsaw court come from
+that court's own register, are absent from that database, and are clearly marked as such on
+our site.
 
-[See nationwide statistics and judgment database WSA/NSA](/orzeczenia/)
+[See the nationwide statistics and the rulings database](/orzeczenia/)
 
-**Continued: art. 100d.** The data also shows a clear gap between the current
-the Act and the jurisprudence of the courts. The Supreme Administrative Court refused to apply another one
-extending the suspension of deadlines, considering them inconsistent with the constitutional right to a court.
-From October 2025, the consensual line began to dominate in the analyzed judgments
-with the NSA case law, according to which art. 100d is not treated as an automatic
-an obstacle to establishing inactivity or delay. In our database **96% of cases
-examined substantively from that moment on, it ended favorably for the complainants**.
+**Continued: art. 100d.** The data also show a clear gap between the statute in force and
+the case law of the courts. The Supreme Administrative Court refused to apply a further
+extension of the suspension of time limits, finding it incompatible with the constitutional
+right to a court. From October 2025, the rulings we analysed came to be dominated by a line
+consistent with that case law, under which art. 100d is not treated as an automatic bar to
+finding inactivity or undue delay. In our database, **96% of cases examined on the merits
+since that point ended in the complainant's favour**.
 
-Despite this persistent line of jurisprudence, art. 100d remains in the Act
-and is formally to be in force until March 4, 2027. This means that the courts are restoring protection
-against inaction on specific issues while the legislature continues to maintain
-a provision that was supposed to exclude this protection.
+Despite this settling line of case law, art. 100d remains in the statute and is formally to
+apply until 4 March 2027. This means the courts are restoring protection against inactivity
+in individual cases, while the legislature keeps in force a provision meant to remove that
+protection.
 
-[How does art. 100d work and what results from the rulings NSA](/poradniki/art-100d-zawieszenie-terminow/)
+[How art. 100d works and what follows from the court's rulings](/poradniki/art-100d-zawieszenie-terminow/)
 
 {{< notatka typ="info" >}}
-**Certificate: 7 days, not months.** Delays concern not only residence decisions.
-A certificate confirming the date of submission of the application, the case number or that the proceedings are pending
-is still in progress, it should be issued without undue delay and no later than 7 days.
-If the office cannot issue a document with the requested content, it should formally refuse
-stay silent for weeks or months. The lack of a certificate may make it difficult in practice
-settling matters at the bank, ZUS or commune office.
+**A certificate: 7 days, not months.** The delays are not confined to residence decisions.
+A certificate confirming the date an application was filed, the case number, or the fact
+that proceedings are still pending, should be issued without undue delay and no later than
+within 7 days. If the office cannot issue a document with the content requested, it should
+formally refuse rather than stay silent for weeks or months. Not having the certificate can
+in practice make it harder to deal with a bank, the social insurance institution or the
+municipal office.
 
-Legal basis: art. 217 § 3 and art. 219 KPA.
+Legal basis: art. 217 § 3 and art. 219 of the Code of Administrative Procedure.
 
-[What to do if the office does not issue the certificate on time? →](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
+[What to do when the office fails to issue a certificate on time →](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
 {{< /notatka >}}
 
-## 472 → 273 days - change in Wrocław
+## 472 → 273 days — the change in Wrocław
 
-The official average procedure time in Lower Silesia dropped from 472 days in 2024 to 273 days
-in 2025. The Lower Silesian Voivodeship Office also announced a decrease in the costs of judgments
-and compensation by 84.7%, reducing the number of complaints to WSA by 16.1% and reducing
-backlog from 2022 and earlier years to 507 cases.
+The official average duration of proceedings in Lower Silesia fell from 472 days in 2024 to
+273 days in 2025. The Lower Silesian Voivodeship Office also reported an 84.7% drop in the
+cost of judgments and compensation, a 16.1% fall in the number of complaints to the court,
+and a reduction of the backlog from 2022 and earlier to 507 cases.
 
 [Source: Lower Silesian Voivodeship Office](https://www.gov.pl/web/dolnoslaski-uw/wydzial-spraw-obywatelskich-i-cudzoziemcow-w-2025-roku)
 
-## Pomerania against the background of Lesser Poland and Lower Silesia
+## Pomerania compared with Lesser Poland and Lower Silesia
 
-In 2025, Małopolska and Lower Silesia accepted more applications for temporary residence than
-Pomeranian Voivodeship, and yet they achieved shorter official average terms. This does not mean that one thing
-the solution can be automatically transferred between offices. However, it shows that the sheer number
-conclusions does not explain the entire difference, but the organization of work, resources, supervision and method
-handling the oldest cases are important.
+In 2025, Lesser Poland and Lower Silesia received more temporary residence applications
+than Pomerania and still achieved shorter official average times. That does not mean one
+solution can simply be transferred from one office to another. It does show that the number
+of applications alone does not explain the whole difference, and that how work is organised,
+what resources exist, how it is supervised and how the oldest cases are handled all matter.
 
-[See comparison of Pomerania, Lesser Poland and Lower Silesia](/statystyki/pomorskie-malopolska-dolny-slask/)
+[See the comparison of Pomerania, Lesser Poland and Lower Silesia](/statystyki/pomorskie-malopolska-dolny-slask/)
 
-## The most important directions of change
+## The main directions of change
 
-### 1. Official plan and public data
+### 1. An official plan and open data
 
-An official and publicly available arrears reduction plan presented by the Governor
-Pomorska, with specific deadlines and monthly goals. Full information about number, age
-and processing times, and regular publication of actual waiting times.
+An official, publicly available backlog-reduction plan presented by the Pomeranian Voivode,
+with concrete deadlines and monthly targets. Full information on the number, age and
+processing time of cases, and regular publication of real waiting times.
 
-### 2. Efficient organization of proceedings
+### 2. Efficient organisation of proceedings
 
-Appropriate staff, settlement of project effects FAMI, immediate implementation of activities
-administrative procedures after registering the application, commencement of substantive consideration without
-next delay after meeting the required conditions, indicating a realistic deadline
-dealing with matters by filling in formal deficiencies, coordinating the affairs of members of one
-family, continuing possible work after transferring files to WSA and timely service
-formal letters.
+Adequate staffing, an account of what the FAMI project achieved, carrying out administrative
+steps without delay once an application is registered, beginning examination on the merits
+without a further wait once the required conditions are met, stating a realistic date for
+concluding the case when asking for formal defects to be remedied, coordinating the cases of
+members of one family, continuing whatever work is possible after the file has gone to the
+court, and handling formal correspondence on time.
 
-### 3. Administrative responsibility and efficient digital process
+### 3. Accountability of the administration and an efficient digital process
 
-Repeal of art. 100d and restoration of administrative responsibility for timely issuance
-decisions, quick procedures based on objective features of the case instead of citizenship,
-simplifications for repetitive and family matters and integration of MOS 2 with ST POBYT, EZD,
-provincial systems and state registers.
+Repeal of art. 100d and restoration of the administration's responsibility for issuing
+decisions on time, fast procedures based on objective features of the case rather than
+nationality, simplifications for recurring and family cases, and integration of MOS 2 with
+ST POBYT, EZD, voivodeship systems and state registers.
 
-[Read the full 16 postulates with justification](/postulaty/)
+[Read the full 16 demands, with reasoning](/postulaty/)
 
 ## What we did before the protest
 
-The protest is the next stage of the Tu Żyjemy initiative. June 24, 2026, after the meeting
-[over 3,700 signatures online](/dzialania/zbiorka-podpisow/), we submitted a package of three
-documents: [petition to the Sejm](/dzialania/petycja-sejm-legalizacja/), [petition to the Voivode
-Pomorskie](/dzialania/petycja-wojewoda-pomorski/) and [application to the Minister
-Digitization and the Head of the Office for Foreigners](/dzialania/wystapienie-cyfryzacja/).
+The protest is the next stage in the work of the Tu Żyjemy initiative. On 24 June 2026,
+having collected [over 3,700 signatures online](/dzialania/zbiorka-podpisow/), we submitted
+a package of three documents: [a petition to the Sejm](/dzialania/petycja-sejm-legalizacja/),
+[a petition to the Pomeranian Voivode](/dzialania/petycja-wojewoda-pomorski/) and [a letter
+to the Minister of Digital Affairs and the Head of the Office for Foreigners](/dzialania/wystapienie-cyfryzacja/).
 
-In parallel, we are creating a public knowledge base. We analyzed [over 4,000 judgments WSA
-and NSA](/orzeczenia/) regarding residence matters. The analysis showed a clear change
-practices: from October 2025, the line began to dominate, according to which art. 100d does not
-automatically blocks statements of inactivity or delay. In our database 96%
-cases examined substantively from that point on ended in favor of the applicants.
+Alongside this we are building a public knowledge base. We analysed [over 4,000 rulings of
+the administrative courts](/orzeczenia/) in residence cases. The analysis showed a clear
+change in practice: from October 2025 a line came to dominate under which art. 100d does
+not automatically bar a finding of inactivity or undue delay. In our database, 96% of cases
+examined on the merits since that point ended in the complainant's favour.
 
-We are also analyzing [the situation of legalization of stay in various voivodeships](/statystyki/)
-and we publish [institution responses](/odpowiedzi/), [guides](/poradniki/) and [ready
-templates of letters to offices and courts](/wzory/) - including reminders, complaints to WSA and applications
-for the issuance of a certificate.
+We also analyse [how residence legalisation works across the voivodeships](/statystyki/)
+and publish [institutional responses](/odpowiedzi/), [guides](/poradniki/) and [ready-made
+letter templates for offices and courts](/wzory/) — among them reminders, complaints to the
+court and applications for a certificate.
 
-[See the history of our activities →](/dzialania/)
+[See the history of what we have done →](/dzialania/)
 
 ## Materials and sources
 
 - [Information for protest participants](/aktualnosci/protest-7-wrzesnia/)
-- [Full 16 postulates](/postulaty/)
-- [Rules for participating in the meeting](/zasady/)
+- [The full 16 demands](/postulaty/)
+- [Rules for taking part in the assembly](/zasady/)
 - [Printable leaflets in five languages](/ulotki/)
 - [Statistics](/statystyki/)
-- [Judgment statistics WSA/NSA](/orzeczenia/)
-- [History of activities and submitted documents](/dzialania/)
-- [Official registration of the meeting in BIP](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
+- [Statistics on administrative court rulings](/orzeczenia/)
+- [History of our actions and the documents submitted](/dzialania/)
+- [Official registration of the assembly in the BIP](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
 
 ## Media contact
 
-**Valentine Kareev** - initiative organizer
+**Valentine Kareev** — organiser of the initiative
 
 E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
 Phone: [+48 730 927 292](tel:+48730927292)
 
-Interviews with organizers and participants will be possible on site. Regarding the earlier ones
-please contact us by e-mail or telephone.
+Interviews with organisers and participants will be possible on site. To arrange something
+beforehand, please get in touch by e-mail or phone.
 
 ---
 
-*Material status: August 28, 2026*
+*Materials as at 28 August 2026.*
