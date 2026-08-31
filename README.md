@@ -201,6 +201,10 @@ data/campaign/pl.yaml       teksty po polsku
 data/campaign/ru.yaml       teksty po rosyjsku   (en, uk, be analogicznie)
 ```
 
+Główny opis kampanii jest podzielony na pola `lead`, `boundary`, `principle` i `body`.
+`boundary` zawiera krótkie doprecyzowanie zakresu protestu i jest wyświetlane nieco
+grubszym krojem; pozostałe pola zachowują zwykłą hierarchię akapitów.
+
 Struktura jest opisana **raz**, w `layout.yaml`; pliki językowe zawierają wyłącznie
 teksty i łączą się z nią przez pola `id`. Dodanie karty to jeden wpis w `layout.yaml`
 plus tłumaczenia — bez dotykania szablonów.

@@ -1,10 +1,10 @@
 # Campaign copy — English. Structure (dates, links) lives in layout.yaml.
 kicker: "PROTEST 7 SEPTEMBER · GDAŃSK"
 heading: "Efficient residence legalisation — better integration"
-body: |-
-  We call for timely, lawful decisions on temporary residence, permanent residence and EU long-term resident permits. We are not proposing changes to the rules for granting Polish citizenship or automatically positive decisions. The state has the right to examine applications thoroughly — and should decide them within a predictable time.
-
-  We do not want to wait for years for a residence decision. On 7 September we gather outside the Pomeranian Voivodeship Office with 16 concrete demands.
+lead: "We call for timely, lawful decisions on temporary residence, permanent residence and EU long-term resident permits."
+boundary: "We do not call for changes to the rules for granting Polish citizenship or automatically positive decisions."
+principle: "The state has the right to examine applications thoroughly — and should decide them within a predictable time."
+body: "We do not want to wait for years for a residence decision. On 7 September we gather outside the Pomeranian Voivodeship Office with 16 concrete demands."
 
 meta:
   - "● Gdańsk"

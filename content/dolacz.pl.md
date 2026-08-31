@@ -4,7 +4,7 @@ description: "Jak włączyć się w działania Tu Żyjemy — jako osoba, grupa 
 date: 2026-08-01
 ---
 
-Nie prowadzimy list członkowskich i nie zbieramy składek. Działamy zadaniami:
+Działamy zadaniowo, bez składek i list członkowskich:
 ktoś pisze pismo, ktoś tłumaczy, ktoś zbiera dane, ktoś stoi z transparentem.
 
 ## Co możesz robić

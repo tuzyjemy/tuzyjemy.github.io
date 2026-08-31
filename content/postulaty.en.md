@@ -16,7 +16,9 @@ publish it by **6 September 2026** at the latest, before the protest begins.
 [Media materials](/dla-mediow/)
 {{< /notatka >}}
 
-We are not acting against the staff of the office. We are acting against a system in which the state accepts an application, collects the fee, and then leaves a person without a decision for two or three years.
+The protest concerns the system and institutional accountability, not the assessment of individual office staff. The state accepts an application, collects the fee, and then leaves a person without a decision for two or three years.
+
+We do not call for changes to the rules for granting Polish citizenship or automatically positive decisions.
 
 Behind every case there is a person, not a file that can be put on a shelf. People cannot put their lives on hold for two or three years: they have to work, raise children, get medical treatment, run businesses, travel and plan for the future. That is why we want residence-legalisation cases in the Pomeranian Voivodeship and across Poland to be handled within a reasonable and predictable time. But the slogan "work faster" is not enough. We expect concrete measures, deadlines and data.
 
@@ -168,8 +170,8 @@ We demand that the government and the Sejm repeal art. 100d and restore real tim
 ### 14. UD408: a fast residence procedure based on risk and case completeness
 
 {{< notatka typ="info" >}}
-This proposal does not concern the rules for granting Polish citizenship. We refer to
-country of origin solely as a criterion for access to a faster residence procedure.
+The proposal concerns a faster residence procedure based on objective features of the
+case, not nationality. We do not call for changes to the rules for granting Polish citizenship.
 {{< /notatka >}}
 
 The government bill [UD408](https://www.gov.pl/web/premier/projekt-ustawy-o-zmianie-ustawy-o-cudzoziemcach) provides for tacit approval of most temporary residence cases within 60 days for nationals of selected developed third countries enjoying visa-free travel. The list of countries is to be determined by the Council of Ministers, taking into account migration risk and cooperation on security.

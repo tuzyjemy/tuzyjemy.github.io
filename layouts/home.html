@@ -11,11 +11,15 @@
     <div class="hero-copy">
       {{ with .kicker }}<div class="kicker">{{ . }}</div>{{ end }}
       <h1 id="hero-heading">{{ .naglowek }}</h1>
-      {{- /* Pusta linia w polu „body" (data/campaign/<język>.yaml) rozdziela
-             akapity. Pierwszy jest wyróżniony, kolejne mniejsze.        */ -}}
+      {{ with .wstep }}
+        <p class="lead">{{ . }}
+          {{- with $k.zastrzezenie }} <span class="lead-medium">{{ . }}</span>{{ end }}
+          {{- with $k.zasada }} {{ . }}{{ end }}
+        </p>
+      {{ end }}
       {{ with .opis }}
         {{ range $i, $par := split (trim . "\n") "\n\n" }}
-          <p class="lead{{ if $i }} lead-sub{{ end }}">{{ trim $par "\n" }}</p>
+          <p class="lead lead-sub">{{ trim $par "\n" }}</p>
         {{ end }}
       {{ end }}
       {{ with .meta }}

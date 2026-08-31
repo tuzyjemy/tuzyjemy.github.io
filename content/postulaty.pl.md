@@ -16,7 +16,9 @@ najpóźniej **6 września 2026 r.**, przed rozpoczęciem protestu.
 [Materiały dla mediów](/dla-mediow/)
 {{< /notatka >}}
 
-Nie występujemy przeciwko pracownikom urzędu. Występujemy przeciwko systemowi, w którym państwo przyjmuje wniosek, pobiera opłatę, a następnie pozostawia człowieka bez decyzji przez dwa albo trzy lata.
+Protest dotyczy systemu i odpowiedzialności instytucji, a nie oceny poszczególnych pracowników urzędu. Państwo przyjmuje wniosek, pobiera opłatę, a następnie pozostawia człowieka bez decyzji przez dwa albo trzy lata.
+
+Nie postulujemy zmian zasad nadawania polskiego obywatelstwa ani automatycznie pozytywnych decyzji.
 
 Za każdą sprawą stoi człowiek, a nie teczka, którą można odłożyć na półkę. Ludzie nie mogą na dwa albo trzy lata zatrzymać życia: muszą pracować, wychowywać dzieci, leczyć się, prowadzić firmy, podróżować i planować przyszłość. Dlatego chcemy, aby sprawy dotyczące legalizacji pobytu w województwie pomorskim i w całej Polsce były rozpatrywane w rozsądnym i przewidywalnym czasie. Nie wystarczy jednak hasło „pracujcie szybciej”. Oczekujemy konkretnych działań, terminów i danych.
 
@@ -168,8 +170,8 @@ Także [Rzecznik Praw Obywatelskich](https://bip.brpo.gov.pl/sites/default/files
 ### 14. UD408: szybka procedura pobytowa według ryzyka i kompletności sprawy
 
 {{< notatka typ="info" >}}
-Ten postulat nie dotyczy zasad nadawania polskiego obywatelstwa. Mówimy o państwie
-pochodzenia wyłącznie jako kryterium dostępu do szybszej procedury pobytowej.
+Postulat dotyczy szybszej procedury pobytowej opartej na obiektywnych cechach sprawy,
+a nie na obywatelstwie. Nie postulujemy zmian zasad nadawania polskiego obywatelstwa.
 {{< /notatka >}}
 
 Rządowy projekt [UD408](https://www.gov.pl/web/premier/projekt-ustawy-o-zmianie-ustawy-o-cudzoziemcach) przewiduje milczące załatwienie większości spraw o pobyt czasowy w ciągu 60 dni dla obywateli wybranych, rozwiniętych państw trzecich korzystających z ruchu bezwizowego. Listę państw ma określić Rada Ministrów, biorąc pod uwagę ryzyko migracyjne i współpracę w dziedzinie bezpieczeństwa.

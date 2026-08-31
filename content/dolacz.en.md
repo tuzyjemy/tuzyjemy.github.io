@@ -4,7 +4,7 @@ description: "How to take part in Tu Żyjemy — as an individual, an informal g
 date: 2026-08-01
 ---
 
-We keep no membership lists and collect no fees. We work in tasks: someone writes a letter,
+We work through concrete tasks, without membership fees or membership lists: someone writes a letter,
 someone translates, someone gathers data, someone stands with a banner.
 
 ## What you can do

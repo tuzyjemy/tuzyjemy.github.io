@@ -1,10 +1,10 @@
 # Teksty kampanii — polski. Strukturę (wydarzenie, odnośniki) ustawia layout.yaml.
 kicker: "PROTEST 7 WRZEŚNIA · GDAŃSK"
 heading: "Sprawna legalizacja pobytu — lepsza integracja"
-body: |-
-  Domagamy się terminowych, zgodnych z prawem decyzji w sprawach zezwoleń na pobyt czasowy, stały i rezydenta długoterminowego UE. Nie postulujemy zmian zasad nadawania polskiego obywatelstwa ani automatycznie pozytywnych decyzji. Państwo ma prawo dokładnie sprawdzać wnioski — powinno też rozstrzygać je w przewidywalnym terminie.
-
-  Nie chcemy czekać latami na decyzję pobytową. 7 września wychodzimy pod Pomorski Urząd Wojewódzki z 16 konkretnymi postulatami.
+lead: "Postulujemy terminowe i zgodne z prawem wydawanie decyzji w sprawach zezwoleń na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE."
+boundary: "Nie postulujemy zmian zasad nadawania polskiego obywatelstwa ani automatycznie pozytywnych decyzji."
+principle: "Państwo ma prawo dokładnie sprawdzać wnioski — powinno też rozstrzygać je w przewidywalnym terminie."
+body: "Nie chcemy czekać latami na decyzję pobytową. 7 września wychodzimy pod Pomorski Urząd Wojewódzki z 16 konkretnymi postulatami."
 
 meta:
   - "● Gdańsk"

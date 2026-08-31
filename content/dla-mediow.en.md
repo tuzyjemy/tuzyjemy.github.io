@@ -22,8 +22,8 @@ autor: "Zespół Tu Żyjemy"
 
 The protest concerns efficient residence-permit proceedings: predictable timelines,
 individual assessment of every application, full document and security checks, and
-transparent data on how the administration performs. We are not asking for automatically
-positive decisions.
+transparent data on how the administration performs. **We do not call for changes to the
+rules for granting Polish citizenship or automatically positive decisions.**
 
 ## Who we are
 
@@ -33,9 +33,9 @@ platform.
 
 ## Why we are protesting
 
-We are not acting against the staff of the office. We are acting against a system in which
-the state accepts an application and a fee, and then for many months or years issues no
-decision and presents no credible plan for clearing the backlog.
+The protest concerns the system and institutional accountability, not the assessment of
+individual office staff. The state accepts an application and a fee, and then for many
+months or years issues no decision and presents no credible plan for clearing the backlog.
 
 Behind the case numbers are ordinary human lives. One person cannot travel to a sick child
 or to a parent's funeral, because leaving means risking not being able to return home to

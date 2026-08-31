@@ -22,7 +22,8 @@ autor: "Zespół Tu Żyjemy"
 
 Protest dotyczy sprawności postępowań o zezwolenia na pobyt: przewidywalnych terminów,
 indywidualnej oceny każdego wniosku, pełnej kontroli dokumentów i bezpieczeństwa oraz
-jawnych danych o pracy administracji. Nie domagamy się automatycznie pozytywnych decyzji.
+jawnych danych o pracy administracji. **Nie postulujemy zmian zasad nadawania polskiego
+obywatelstwa ani automatycznie pozytywnych decyzji.**
 
 ## Kim jesteśmy
 
@@ -32,9 +33,9 @@ definiuje całej platformy.
 
 ## Dlaczego protestujemy
 
-Nie występujemy przeciwko pracownikom urzędu. Występujemy przeciwko systemowi, w którym
-państwo przyjmuje wniosek i opłatę, a następnie przez wiele miesięcy lub lat nie wydaje
-decyzji ani nie przedstawia wiarygodnego planu usunięcia zaległości.
+Protest dotyczy systemu i odpowiedzialności instytucji, a nie oceny poszczególnych
+pracowników urzędu. Państwo przyjmuje wniosek i opłatę, a następnie przez wiele miesięcy
+lub lat nie wydaje decyzji ani nie przedstawia wiarygodnego planu usunięcia zaległości.
 
 Za numerami spraw stoją zwykłe ludzkie życia. Jedna osoba nie może pojechać do chorego
 dziecka albo na pogrzeb rodzica, ponieważ wyjazd oznacza ryzyko braku możliwości powrotu
