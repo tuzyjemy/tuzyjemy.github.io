@@ -30,6 +30,14 @@ backend:
   # Wszystkie commity jednego wpisu scalają się w jeden przy merge'u —
   # historia main zostaje czytelna, bez serii „save” z edytora.
   squash_merges: true
+  # Logowanie tylko tokenem. Domyślny przycisk „Zaloguj przez GitHuba”
+  # prowadzi przez pośrednika OAuth Netlify (api.netlify.com/auth), który
+  # działa wyłącznie dla stron zarejestrowanych w Netlify — u nas kończy
+  # się błędem „Not Found”. Zostawiamy więc jedną, działającą drogę.
+  # Gdybyśmy chcieli zwykłe logowanie przez GitHuba, trzeba wdrożyć
+  # sveltia-cms-auth (np. Cloudflare Workers), dodać tu `base_url`
+  # wskazujący na ten serwis i przywrócić `oauth` na tej liście.
+  auth_methods: [token]
 
 # Tryb redakcyjny: zapis w panelu NIE trafia od razu na main. Każdy wpis
 # dostaje własną gałąź `cms/<kolekcja>/<slug>` i otwarty pull request:

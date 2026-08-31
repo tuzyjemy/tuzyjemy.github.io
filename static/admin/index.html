@@ -12,6 +12,14 @@
          beta (0.x), więc zmiany bywają łamiące — jeśli panel przestanie
          działać, tymczasowo przypnij działającą wersję, np.
          https://unpkg.com/@sveltia/cms@0.203.2/dist/sveltia-cms.js -->
+    <noscript>Panel redakcyjny wymaga włączonego JavaScriptu.</noscript>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <!-- Logowanie: przycisk „Sign In with Token”. W oknie, które się pojawi,
+         jest odnośnik do strony GitHuba z zaznaczonym już zakresem `repo`.
+         Wygeneruj token, wklej go i gotowe — token zostaje w pamięci
+         przeglądarki, więc podaje się go raz na urządzenie.
+         Zwykłe „Sign in with GitHub” jest wyłączone (auth_methods w
+         config.yml): prowadziłoby przez pośrednika Netlify, którego ta
+         strona nie ma, i kończyło się błędem „Not Found”. -->
   </body>
 </html>
