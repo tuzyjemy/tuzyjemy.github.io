@@ -1,3 +1,13 @@
+{{- /* UWAGA: ten plik jest szablonem Hugo — publikuje go partial
+       cms-config.html jako /admin/config.yml.
+
+       Sveltia ma własne znaczniki w podwójnych nawiasach ({{locale}},
+       {{fields._slug}}), które Hugo próbowałby wykonać jako funkcje.
+       Dlatego trzymamy je w zmiennych poniżej i wstawiamy przez $L / $SLUG.
+       Dodając nowy znacznik Sveltii, zrób z nim to samo — inaczej budowanie
+       padnie z błędem „function ... not defined”. */ -}}
+{{- $L := "{{locale}}" -}}
+{{- $SLUG := "{{fields._slug}}" -}}
 # yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 #
 # Sveltia CMS — panel redakcyjny tuzyjemy.pl
@@ -47,6 +57,15 @@ i18n:
   # (menu z trzema kropkami), gdy tłumaczenie jest gotowe.
   initial_locales: [pl]
 
+# Jak powstaje „przyjazny link" (slug), niezależnie od tego, co ktoś wpisze:
+# polskie znaki są zamieniane na łacińskie, wielkie litery na małe,
+# spacje na myślniki. „Zaświadczenie o pobycie” → „zaswiadczenie-o-pobycie”.
+slug:
+  encoding: ascii
+  clean_accents: true
+  lowercase: true
+  sanitize_replacement: '-'
+
 publish_mode: editorial_workflow
 
 # Każda kolekcja ma `publish: false`: w panelu nie ma przycisku „Opublikuj”.
@@ -65,9 +84,13 @@ collections:
     folder: content/piaskownica
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /piaskownica/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: body, label: Treść, widget: markdown, i18n: true }
@@ -113,7 +136,7 @@ collections:
 
       - name: teksty
         label: Teksty kampanii
-        file: data/campaign/{{locale}}.yaml
+        file: data/campaign/{{ $L }}.yaml
         i18n: true
         fields:
           - { name: kicker, label: Nadtytuł, widget: string, required: false, i18n: true }
@@ -170,7 +193,7 @@ collections:
 
       - name: home
         label: Strona główna (tekst pod kafelkami)
-        file: content/_index.{{locale}}.md
+        file: content/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -179,59 +202,99 @@ collections:
 
       - name: postulaty
         label: Postulaty protestu
-        file: content/postulaty.{{locale}}.md
+        file: content/postulaty.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
           - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
           - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
           - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - name: tematy
+            label: Tematy
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+          - name: lata
+            label: Lata
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
           - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
       - name: dla_mediow
         label: Dla mediów
-        file: content/dla-mediow.{{locale}}.md
+        file: content/dla-mediow.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
           - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
           - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
           - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - name: tematy
+            label: Tematy
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+          - name: lata
+            label: Lata
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
           - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
       - name: zasady
         label: Zasady udziału w zgromadzeniu
-        file: content/zasady.{{locale}}.md
+        file: content/zasady.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
           - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
           - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - name: tematy
+            label: Tematy
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+          - name: lata
+            label: Lata
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
       - name: ulotki
         label: Ulotki do druku
-        file: content/ulotki.{{locale}}.md
+        file: content/ulotki.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
           - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
           - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - name: tematy
+            label: Tematy
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+          - name: lata
+            label: Lata
+            widget: tagi
+            required: false
+            i18n: duplicate
+            options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
       - name: dolacz
         label: Dołącz do nas
-        file: content/dolacz.{{locale}}.md
+        file: content/dolacz.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -252,7 +315,7 @@ collections:
 
       - name: aktualnosci
         label: Aktualności
-        file: content/aktualnosci/_index.{{locale}}.md
+        file: content/aktualnosci/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -261,7 +324,7 @@ collections:
 
       - name: wzory
         label: Wzory pism
-        file: content/wzory/_index.{{locale}}.md
+        file: content/wzory/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -270,7 +333,7 @@ collections:
 
       - name: poradniki
         label: Poradniki
-        file: content/poradniki/_index.{{locale}}.md
+        file: content/poradniki/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -279,7 +342,7 @@ collections:
 
       - name: skutki
         label: Skutki
-        file: content/skutki/_index.{{locale}}.md
+        file: content/skutki/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -288,7 +351,7 @@ collections:
 
       - name: dzialania
         label: Co zrobiliśmy
-        file: content/dzialania/_index.{{locale}}.md
+        file: content/dzialania/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -297,7 +360,7 @@ collections:
 
       - name: orzeczenia
         label: Orzeczenia
-        file: content/orzeczenia/_index.{{locale}}.md
+        file: content/orzeczenia/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -306,7 +369,7 @@ collections:
 
       - name: statystyki
         label: Statystyki
-        file: content/statystyki/_index.{{locale}}.md
+        file: content/statystyki/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -315,7 +378,7 @@ collections:
 
       - name: odpowiedzi
         label: Odpowiedzi instytucji
-        file: content/odpowiedzi/_index.{{locale}}.md
+        file: content/odpowiedzi/_index.{{ $L }}.md
         i18n: true
         fields:
           - { name: title, label: Tytuł, widget: string, i18n: true }
@@ -336,14 +399,33 @@ collections:
     folder: content/aktualnosci
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /aktualnosci/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: zrodlo, label: Źródło (adres), widget: string, required: false, i18n: duplicate }
       - { name: body, label: Treść, widget: markdown, i18n: true }
 
@@ -354,15 +436,34 @@ collections:
     folder: content/wzory
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /wzory/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true, i18n: duplicate }
       - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true, i18n: duplicate }
       - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
@@ -375,14 +476,33 @@ collections:
     folder: content/poradniki
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /poradniki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true, i18n: duplicate }
       - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
       - { name: body, label: Treść, widget: markdown, i18n: true }
@@ -394,14 +514,33 @@ collections:
     folder: content/skutki
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /skutki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: zrodlo, label: Źródło (adres), widget: string, required: false, i18n: duplicate }
       - { name: body, label: Treść, widget: markdown, i18n: true }
 
@@ -412,16 +551,40 @@ collections:
     folder: content/dzialania
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /dzialania/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
-      - { name: statusy, label: Statusy, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: statusy
+        label: Statusy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.statusy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: data_wyslania, label: Data wysłania, widget: string, required: false, i18n: duplicate }
       - { name: sygnatura, label: Sygnatura, widget: string, required: false, i18n: duplicate }
       - { name: termin, label: Termin, widget: string, required: false, i18n: duplicate }
@@ -436,14 +599,33 @@ collections:
     folder: content/statystyki
     create: true
     i18n: true
-    slug: '{{fields._slug}}'
+    slug: '{{ $SLUG }}'
     fields:
-      - { name: title, label: Tytuł, widget: string, i18n: true }
+      - name: title
+        label: Tytuł
+        widget: string
+        i18n: true
+        comment: 'Pole „Przyjazny link” powyżej to adres strony — wpisany tam `protest-7-wrzesnia` da /statystyki/protest-7-wrzesnia/. Wpisz je po polsku; wielkie litery, polskie znaki i spacje poprawią się same.'
       - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
-      - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
-      - { name: instytucje, label: Instytucje, widget: list, required: false, i18n: duplicate }
-      - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+      - name: tematy
+        label: Tematy
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: instytucje
+        label: Instytucje
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.instytucje }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+      - name: lata
+        label: Lata
+        widget: tagi
+        required: false
+        i18n: duplicate
+        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
       - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false, i18n: true }
       - { name: body, label: Treść, widget: markdown, i18n: true }

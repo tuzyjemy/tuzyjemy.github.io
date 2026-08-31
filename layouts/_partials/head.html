@@ -14,7 +14,9 @@
        we front matterze — wtedy nie trafiają do wyszukiwarek. Z list
        i mapy strony usuwa je osobno `build.list: never`. */ -}}
 {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
-{{ end }}<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ end }}{{- /* Konfiguracja panelu redakcyjnego — generowana raz przy budowaniu. */ -}}
+{{ if and .IsHome (eq .Site.Language.Lang .Site.Home.Site.Language.Lang) }}{{ partial "cms-config.html" . }}{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $displayTitle }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.opis }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">

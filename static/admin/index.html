@@ -14,6 +14,10 @@
          https://unpkg.com/@sveltia/cms@0.203.2/dist/sveltia-cms.js -->
     <noscript>Panel redakcyjny wymaga włączonego JavaScriptu.</noscript>
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <!-- Własny typ pola „tagi”: istniejące wartości jako przyciski
+         + pole na nową. Musi być ładowany PO skrypcie CMS, bo używa
+         globalnych `CMS`, `h` i `createClass`. -->
+    <script src="/admin/tagi.js"></script>
     <!-- Logowanie: przycisk „Sign In with Token”. W oknie, które się pojawi,
          jest odnośnik do strony GitHuba z zaznaczonym już zakresem `repo`.
          Wygeneruj token, wklej go i gotowe — token zostaje w pamięci

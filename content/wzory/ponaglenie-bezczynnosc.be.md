@@ -3,8 +3,8 @@ title: "Панагленне (ponaglenie) на бяздзейнасць орга
 description: "Зварот, які падаюць, калі ведамства не вырашыла справу ва ўстаноўлены тэрмін. Падстава: ст. 37 КаАП Польшчы."
 date: 2026-05-12
 lastmod: 2026-08-02
-instytucje: ["Воевода", "Управление по делам иностранцев"]
-tematy: ["Волокита", "Легализация пребывания"]
+instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
+tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

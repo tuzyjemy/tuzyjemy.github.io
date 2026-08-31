@@ -3,8 +3,8 @@ title: "Понагление (ponaglenie) на бездействие орган
 description: "Обращение, которое подают, когда ужонд не рассмотрел дело в установленный срок. Основание: ст. 37 Кодекса административного производства Польши (KPA)."
 date: 2026-05-12
 lastmod: 2026-08-02
-instytucje: ["Воевода", "Управление по делам иностранцев"]
-tematy: ["Волокита", "Легализация пребывания"]
+instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
+tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

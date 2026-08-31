@@ -3,8 +3,8 @@ title: "Понаглення (ponaglenie) на бездіяльність орг
 description: "Звернення, яке подають, коли відомство не вирішило справу у встановлений термін. Підстава: ст. 37 КпАП Польщі."
 date: 2026-05-12
 lastmod: 2026-08-02
-instytucje: ["Воевода", "Управление по делам иностранцев"]
-tematy: ["Волокита", "Легализация пребывания"]
+instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
+tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true
