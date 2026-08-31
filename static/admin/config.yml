@@ -38,6 +38,12 @@ backend:
   # sveltia-cms-auth (np. Cloudflare Workers), dodać tu `base_url`
   # wskazujący na ten serwis i przywrócić `oauth` na tej liście.
   auth_methods: [token]
+  # Repozytorium jest publiczne, więc wystarczy wąski zakres `public_repo`.
+  # Domyślny `repo` daje tokenowi dostęp do WSZYSTKICH repozytoriów
+  # właściciela, łącznie z prywatnymi — niepotrzebnie dużo jak na edycję
+  # strony. (Gdyby repozytorium kiedyś stało się prywatne, trzeba wrócić
+  # do `repo` — `public_repo` przestanie wtedy wystarczać.)
+  auth_scope: public_repo
 
 # Tryb redakcyjny: zapis w panelu NIE trafia od razu na main. Każdy wpis
 # dostaje własną gałąź `cms/<kolekcja>/<slug>` i otwarty pull request:
@@ -55,6 +61,14 @@ backend:
 # Publikacja strony rusza dopiero po merge'u: .github/workflows/hugo.yml
 # reaguje na push do main, więc gałęzie robocze nie uruchamiają wdrożeń.
 publish_mode: editorial_workflow
+
+# Każda kolekcja z treścią ma `publish: false`: w panelu nie ma przycisku
+# „Opublikuj”. Redaktor przesuwa wpis do statusu „Gotowe”, a pull request
+# akceptuje i scala człowiek na GitHubie — tam widać pełny diff.
+# Piaskownica jest wyjątkiem: zostaje publikowalna, żeby dało się
+# przećwiczyć całą mechanikę bez ruszania treści serwisu.
+# Gdy zaufanie do obiegu wzrośnie, wystarczy usunąć `publish: false`
+# z wybranych kolekcji.
 
 site_url: https://tuzyjemy.pl
 
@@ -96,6 +110,7 @@ collections:
 
   # =========================================================== KAMPANIA
   - name: kampania
+    publish: false
     label: Kampania na stronie głównej
     label_singular: Kampania
     files:
@@ -180,6 +195,7 @@ collections:
   # =========================================================== STRONY STAŁE
   # Jeden wpis = pięć plików. Języki przełącza się zakładkami w edytorze.
   - name: strony
+    publish: false
     label: Strony stałe
     label_singular: Strona
     divider: true
@@ -260,6 +276,7 @@ collections:
   # =========================================================== OPISY SEKCJI
   # Pliki _index.md — tekst nad listą wpisów w każdej sekcji.
   - name: opisy_sekcji
+    publish: false
     label: Opisy sekcji
     label_singular: Opis sekcji
     divider: true
@@ -344,6 +361,7 @@ collections:
   # Pliki _index.md są odfiltrowane — opisy sekcji edytuje się wyżej.
 
   - name: aktualnosci_pl
+    publish: false
     label: Aktualności · PL
     label_singular: Aktualności · PL
     folder: content/pl/aktualnosci
@@ -361,6 +379,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: aktualnosci_ru
+    publish: false
     label: Aktualności · RU
     label_singular: Aktualności · RU
     folder: content/ru/aktualnosci
@@ -378,6 +397,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: aktualnosci_en
+    publish: false
     label: Aktualności · EN
     label_singular: Aktualności · EN
     folder: content/en/aktualnosci
@@ -395,6 +415,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: aktualnosci_uk
+    publish: false
     label: Aktualności · UA
     label_singular: Aktualności · UA
     folder: content/uk/aktualnosci
@@ -412,6 +433,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: aktualnosci_be
+    publish: false
     label: Aktualności · BY
     label_singular: Aktualności · BY
     folder: content/be/aktualnosci
@@ -430,6 +452,7 @@ collections:
 
   # ---------------------------------------------------------------
   - name: wzory_pl
+    publish: false
     label: Wzory pism · PL
     label_singular: Wzory pism · PL
     folder: content/pl/wzory
@@ -450,6 +473,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: wzory_ru
+    publish: false
     label: Wzory pism · RU
     label_singular: Wzory pism · RU
     folder: content/ru/wzory
@@ -470,6 +494,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: wzory_en
+    publish: false
     label: Wzory pism · EN
     label_singular: Wzory pism · EN
     folder: content/en/wzory
@@ -490,6 +515,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: wzory_uk
+    publish: false
     label: Wzory pism · UA
     label_singular: Wzory pism · UA
     folder: content/uk/wzory
@@ -510,6 +536,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: wzory_be
+    publish: false
     label: Wzory pism · BY
     label_singular: Wzory pism · BY
     folder: content/be/wzory
@@ -531,6 +558,7 @@ collections:
 
   # ---------------------------------------------------------------
   - name: poradniki_pl
+    publish: false
     label: Poradniki · PL
     label_singular: Poradniki · PL
     folder: content/pl/poradniki
@@ -549,6 +577,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: poradniki_ru
+    publish: false
     label: Poradniki · RU
     label_singular: Poradniki · RU
     folder: content/ru/poradniki
@@ -567,6 +596,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: poradniki_en
+    publish: false
     label: Poradniki · EN
     label_singular: Poradniki · EN
     folder: content/en/poradniki
@@ -585,6 +615,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: poradniki_uk
+    publish: false
     label: Poradniki · UA
     label_singular: Poradniki · UA
     folder: content/uk/poradniki
@@ -603,6 +634,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: poradniki_be
+    publish: false
     label: Poradniki · BY
     label_singular: Poradniki · BY
     folder: content/be/poradniki
@@ -622,6 +654,7 @@ collections:
 
   # ---------------------------------------------------------------
   - name: skutki_pl
+    publish: false
     label: Skutki · PL
     label_singular: Skutki · PL
     folder: content/pl/skutki
@@ -639,6 +672,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: skutki_ru
+    publish: false
     label: Skutki · RU
     label_singular: Skutki · RU
     folder: content/ru/skutki
@@ -656,6 +690,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: skutki_en
+    publish: false
     label: Skutki · EN
     label_singular: Skutki · EN
     folder: content/en/skutki
@@ -673,6 +708,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: skutki_uk
+    publish: false
     label: Skutki · UA
     label_singular: Skutki · UA
     folder: content/uk/skutki
@@ -690,6 +726,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: skutki_be
+    publish: false
     label: Skutki · BY
     label_singular: Skutki · BY
     folder: content/be/skutki
@@ -708,6 +745,7 @@ collections:
 
   # ---------------------------------------------------------------
   - name: dzialania_pl
+    publish: false
     label: Co zrobiliśmy · PL
     label_singular: Co zrobiliśmy · PL
     folder: content/pl/dzialania
@@ -731,6 +769,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: dzialania_ru
+    publish: false
     label: Co zrobiliśmy · RU
     label_singular: Co zrobiliśmy · RU
     folder: content/ru/dzialania
@@ -754,6 +793,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: dzialania_en
+    publish: false
     label: Co zrobiliśmy · EN
     label_singular: Co zrobiliśmy · EN
     folder: content/en/dzialania
@@ -777,6 +817,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: dzialania_uk
+    publish: false
     label: Co zrobiliśmy · UA
     label_singular: Co zrobiliśmy · UA
     folder: content/uk/dzialania
@@ -800,6 +841,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: dzialania_be
+    publish: false
     label: Co zrobiliśmy · BY
     label_singular: Co zrobiliśmy · BY
     folder: content/be/dzialania
@@ -824,6 +866,7 @@ collections:
 
   # ---------------------------------------------------------------
   - name: statystyki_pl
+    publish: false
     label: Statystyki — artykuły · PL
     label_singular: Statystyki — artykuły · PL
     folder: content/pl/statystyki
@@ -842,6 +885,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: statystyki_ru
+    publish: false
     label: Statystyki — artykuły · RU
     label_singular: Statystyki — artykuły · RU
     folder: content/ru/statystyki
@@ -860,6 +904,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: statystyki_en
+    publish: false
     label: Statystyki — artykuły · EN
     label_singular: Statystyki — artykuły · EN
     folder: content/en/statystyki
@@ -878,6 +923,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: statystyki_uk
+    publish: false
     label: Statystyki — artykuły · UA
     label_singular: Statystyki — artykuły · UA
     folder: content/uk/statystyki
@@ -896,6 +942,7 @@ collections:
       - { name: body, label: Treść, widget: markdown }
 
   - name: statystyki_be
+    publish: false
     label: Statystyki — artykuły · BY
     label_singular: Statystyki — artykuły · BY
     folder: content/be/statystyki

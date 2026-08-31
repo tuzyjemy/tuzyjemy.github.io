@@ -1,0 +1,50 @@
+# Sprawdzenie budowania dla pull requestów.
+#
+# Panel redakcyjny (/admin/) zapisuje zmiany w gałęziach i otwiera pull
+# requesty, a nie commituje prosto na main. Ten przepływ buduje stronę
+# z takiego PR-a i NIC nie publikuje — chodzi wyłącznie o to, żeby błąd
+# w treści (niedomknięty skrót, zły front matter) zatrzymał się na PR-ze,
+# a nie wywrócił publikacji po scaleniu.
+#
+# Sveltia pokazuje wynik tego sprawdzenia jako plakietkę na kartach tablicy
+# redakcyjnej, więc czerwony build widać w panelu przed publikacją.
+name: Sprawdzenie budowania (PR)
+
+on:
+  pull_request:
+    branches: [main]
+
+# Nowy commit w PR-ze przerywa poprzednie sprawdzenie — liczy się ostatni stan.
+concurrency:
+  group: pr-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Ta sama wersja co w publikacji — inaczej PR mógłby przejść,
+      # a publikacja się wywrócić.
+      HUGO_VERSION: 0.165.0
+    steps:
+      - name: Instalacja Hugo (extended)
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Pobranie repozytorium
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Budowanie strony
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: Europe/Warsaw
+        run: hugo --gc --minify --baseURL "https://tuzyjemy.pl/"
