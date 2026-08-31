@@ -2,7 +2,7 @@
 title: "We do not want to wait for years. The aim and demands of the residence-legalisation protest"
 description: "The aim and 16 demands of the 7 September protest in Gdańsk — addressed to the Pomeranian Voivode and to the government."
 date: 2026-08-25
-lastmod: 2026-08-28
+lastmod: 2026-08-31
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -165,7 +165,12 @@ The [Commissioner for Human Rights](https://bip.brpo.gov.pl/sites/default/files/
 
 We demand that the government and the Sejm repeal art. 100d and restore real time limits, the duty to inform a party of delay, and effective protection against inactivity and undue delay. If the state needs a transitional period, it should be accompanied by a public backlog-reduction plan with quarterly targets, not by another automatic extension of the exception.
 
-### 14. UD408: a fast procedure based on objective criteria, not privilege for selected passports
+### 14. UD408: a fast residence procedure based on risk and case completeness
+
+{{< notatka typ="info" >}}
+This proposal does not concern the rules for granting Polish citizenship. We refer to
+country of origin solely as a criterion for access to a faster residence procedure.
+{{< /notatka >}}
 
 The government bill [UD408](https://www.gov.pl/web/premier/projekt-ustawy-o-zmianie-ustawy-o-cudzoziemcach) provides for tacit approval of most temporary residence cases within 60 days for nationals of selected developed third countries enjoying visa-free travel. The list of countries is to be determined by the Council of Ministers, taking into account migration risk and cooperation on security.
 

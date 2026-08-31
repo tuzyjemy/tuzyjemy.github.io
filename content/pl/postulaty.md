@@ -2,7 +2,7 @@
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
 description: "Cel i 16 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
 date: 2026-08-25
-lastmod: 2026-08-28
+lastmod: 2026-08-31
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -165,7 +165,12 @@ Także [Rzecznik Praw Obywatelskich](https://bip.brpo.gov.pl/sites/default/files
 
 Żądamy od rządu i Sejmu uchylenia art. 100d oraz przywrócenia rzeczywistych terminów, obowiązku informowania strony o opóźnieniu i skutecznej ochrony przed bezczynnością i przewlekłością. Jeżeli państwo potrzebuje okresu przejściowego, powinien mu towarzyszyć publiczny plan redukcji zaległości z kwartalnymi celami, a nie kolejne automatyczne przedłużenie wyjątku.
 
-### 14. UD408: szybka procedura według obiektywnych kryteriów, nie uprzywilejowanie wybranych paszportów
+### 14. UD408: szybka procedura pobytowa według ryzyka i kompletności sprawy
+
+{{< notatka typ="info" >}}
+Ten postulat nie dotyczy zasad nadawania polskiego obywatelstwa. Mówimy o państwie
+pochodzenia wyłącznie jako kryterium dostępu do szybszej procedury pobytowej.
+{{< /notatka >}}
 
 Rządowy projekt [UD408](https://www.gov.pl/web/premier/projekt-ustawy-o-zmianie-ustawy-o-cudzoziemcach) przewiduje milczące załatwienie większości spraw o pobyt czasowy w ciągu 60 dni dla obywateli wybranych, rozwiniętych państw trzecich korzystających z ruchu bezwizowego. Listę państw ma określić Rada Ministrów, biorąc pod uwagę ryzyko migracyjne i współpracę w dziedzinie bezpieczeństwa.
 

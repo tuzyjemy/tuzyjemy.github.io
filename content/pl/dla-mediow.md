@@ -2,7 +2,7 @@
 title: "Dla mediów: protest w sprawie legalizacji pobytu w Gdańsku"
 description: "Materiały, dane, postulaty i informacje organizacyjne dotyczące zgromadzenia 7 września 2026 r. przed Pomorskim Urzędem Wojewódzkim."
 date: 2026-08-27
-lastmod: 2026-08-28
+lastmod: 2026-08-31
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -17,6 +17,12 @@ autor: "Zespół Tu Żyjemy"
 - **Status:** zgłoszone w trybie zwykłym i [opublikowane w BIP Miasta Gdańska](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
 - **Organizator:** oddolna inicjatywa Tu Żyjemy
 - **Kontakt dla mediów:** [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
+
+## Zakres protestu
+
+Protest dotyczy sprawności postępowań o zezwolenia na pobyt: przewidywalnych terminów,
+indywidualnej oceny każdego wniosku, pełnej kontroli dokumentów i bezpieczeństwa oraz
+jawnych danych o pracy administracji. Nie domagamy się automatycznie pozytywnych decyzji.
 
 ## Kim jesteśmy
 

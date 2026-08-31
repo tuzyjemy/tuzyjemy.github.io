@@ -1,20 +1,17 @@
 ---
 title: "Consequences"
-description: "Corruption does not stay in one office, and delay breaks lives. Documented cases."
+description: "Documented consequences of delay: harm to people's lives and the risk of abuse."
 ---
 
 Delay is not merely an inconvenience. It has two consequences, and neither stops at
 foreigners.
 
-**The first is corruption.** When a decision takes two years, a market appears: for
-promises to speed things up, for "contacts in the office", for intermediaries.
+**The first is the risk of abuse.** Excessive delay creates room for promises to speed
+cases up, "contacts in the office" and paid intermediation.
 
-And here begins the part that concerns everyone. **Corruption rarely stays where it
-started.** An office does not have one honest counter for citizens and a separate,
-purchasable one for foreigners — it is the same officials, the same hierarchy, the same
-intermediaries "invoking their influence". A mechanism that has worked once in one queue
-does not disappear when the type of case changes; on the contrary, it demonstrates that it
-can be done and that nobody caught it.
+Documented proceedings show that the consequences of such abuse are not limited to
+foreigners. Residents rely on the same offices, procedures and oversight mechanisms, so
+their integrity is in everyone's interest.
 
 An office where a faster decision can be bought stops being an office where the law means
 the same thing for everyone. That is the foundation of the rule of law — and it is lost by

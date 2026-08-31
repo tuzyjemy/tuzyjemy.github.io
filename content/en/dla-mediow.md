@@ -2,7 +2,7 @@
 title: "For the media: protest over residence legalisation in Gdańsk"
 description: "Materials, data, demands and organisational information about the assembly of 7 September 2026 outside the Pomeranian Voivodeship Office."
 date: 2026-08-27
-lastmod: 2026-08-28
+lastmod: 2026-08-31
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -17,6 +17,13 @@ autor: "Zespół Tu Żyjemy"
 - **Status:** notified under the standard procedure and [published in the Gdańsk City BIP](https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325)
 - **Organiser:** the grassroots initiative Tu Żyjemy
 - **Media contact:** [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
+
+## Scope of the protest
+
+The protest concerns efficient residence-permit proceedings: predictable timelines,
+individual assessment of every application, full document and security checks, and
+transparent data on how the administration performs. We are not asking for automatically
+positive decisions.
 
 ## Who we are
 

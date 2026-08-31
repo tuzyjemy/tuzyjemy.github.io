@@ -1,19 +1,17 @@
 ---
 title: "Skutki"
-description: "Korupcja nie zostaje w jednym urzędzie, a przewlekłość łamie życiorysy. Udokumentowane sprawy."
+description: "Udokumentowane skutki przewlekłości: problemy życiowe i ryzyko nadużyć."
 ---
 
 Przewlekłość nie jest tylko niedogodnością. Ma dwa skutki i żaden z nich nie kończy się
 na cudzoziemcach.
 
-**Pierwszy to korupcja.** Kiedy na decyzję czeka się dwa lata, powstaje rynek: na obietnice
-przyspieszenia, na „znajomości w urzędzie", na pośredników.
+**Pierwszy to ryzyko nadużyć.** Przewlekłość tworzy przestrzeń dla obietnic
+przyspieszenia, „znajomości w urzędzie" i płatnego pośrednictwa.
 
-I tu zaczyna się część, która dotyczy już wszystkich. **Korupcja rzadko zostaje tam, gdzie
-się zaczęła.** W urzędzie nie ma osobnego, uczciwego okienka dla obywateli i osobnego,
-kupionego dla cudzoziemców — to ci sami urzędnicy, ta sama hierarchia, ci sami pośrednicy
-„powołujący się na wpływy". Mechanizm raz sprawdzony w jednej kolejce nie znika, kiedy
-zmienia się rodzaj sprawy; przeciwnie — pokazuje, że da się i że nikt tego nie wyłapał.
+Udokumentowane postępowania pokazują, że skutki takich nadużyć nie ograniczają się do
+cudzoziemców. Mieszkańcy korzystają z tych samych urzędów, procedur i mechanizmów
+kontrolnych, dlatego ich rzetelność leży w interesie wszystkich.
 
 Urząd, w którym da się kupić szybszą decyzję, przestaje być urzędem, w którym prawo znaczy
 to samo dla wszystkich. To jest fundament państwa prawa — i traci go **każdy, kto mieszka
