@@ -10,7 +10,11 @@
 <meta name="theme-color" content="#f2eadf" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#17191a" media="(prefers-color-scheme: dark)">
 
-<meta property="og:site_name" content="{{ .Site.Title }}">
+{{- /* Strony robocze (np. piaskownica redakcyjna) mają `noindex: true`
+       we front matterze — wtedy nie trafiają do wyszukiwarek. Z list
+       i mapy strony usuwa je osobno `build.list: never`. */ -}}
+{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
+{{ end }}<meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $displayTitle }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.opis }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">

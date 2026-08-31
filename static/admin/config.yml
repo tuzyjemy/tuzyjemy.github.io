@@ -1,0 +1,906 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+#
+# Sveltia CMS — panel redakcyjny tuzyjemy.pl
+# ---------------------------------------------------------------------------
+# Panel działa pod /admin/. Każdy zapis to commit do repozytorium przez API
+# GitHuba, a GitHub Actions przebudowuje stronę — tak samo jak przy ręcznej
+# edycji plików.
+#
+# LOGOWANIE. Strona stoi na GitHub Pages, więc nie ma serwera, który mógłby
+# obsłużyć OAuth. Zamiast tego logujemy się osobistym tokenem (PAT):
+# w oknie logowania wybieramy opcję z tokenem i wklejamy token o zakresie
+# `repo`. Jeśli kiedyś zechcemy zwykłe logowanie „przez GitHuba”, trzeba
+# wdrożyć sveltia-cms-auth (np. na Cloudflare Workers) i dodać tu
+# `base_url` wskazujący na ten serwis.
+#
+# UKŁAD JĘZYKÓW. Treść leży w content/<język>/<sekcja>/ — kod języka stoi
+# POWYŻEJ sekcji. Sveltia łączy tłumaczenia w jedną kartę z zakładkami
+# języków tylko wtedy, gdy ścieżkę podamy wprost, a to działa w kolekcjach
+# plikowych (`file:` przyjmuje znacznik {{locale}}). Dlatego:
+#   • strony stałe i pliki danych → kolekcje plikowe, pięć języków naraz;
+#   • sekcje z wpisami → osobna kolekcja na język, bo `folder:` nie
+#     obsługuje {{locale}}, a struktura `multiple_root_folders` umieściłaby
+#     język w korzeniu repozytorium (/pl/wzory/…), a nie w content/pl/wzory/….
+# ---------------------------------------------------------------------------
+
+backend:
+  name: github
+  repo: tuzyjemy/tuzyjemy.github.io
+  branch: main
+  # Wszystkie commity jednego wpisu scalają się w jeden przy merge'u —
+  # historia main zostaje czytelna, bez serii „save” z edytora.
+  squash_merges: true
+
+# Tryb redakcyjny: zapis w panelu NIE trafia od razu na main. Każdy wpis
+# dostaje własną gałąź `cms/<kolekcja>/<slug>` i otwarty pull request:
+#
+#   zapis nowego wpisu   → gałąź + PR (na początku jako szkic)
+#   kolejny zapis        → następny commit na tej samej gałęzi
+#   zmiana statusu       → zmiana etykiety PR-a
+#   „Opublikuj”          → merge PR-a i skasowanie gałęzi
+#   „Odrzuć”             → zamknięcie PR-a bez merge'a i skasowanie gałęzi
+#
+# Statusy odpowiadają etykietom: sveltia-cms/draft, /pending_review,
+# /pending_publish. Wpis w statusie „szkic” jest draft PR-em, więc nie da
+# się go scalić przypadkiem.
+#
+# Publikacja strony rusza dopiero po merge'u: .github/workflows/hugo.yml
+# reaguje na push do main, więc gałęzie robocze nie uruchamiają wdrożeń.
+publish_mode: editorial_workflow
+
+site_url: https://tuzyjemy.pl
+
+# Hugo zdejmuje przedrostek `static/`, więc adres publiczny go nie zawiera.
+media_folder: static/img
+public_folder: /img
+
+i18n:
+  structure: multiple_folders
+  locales: [pl, ru, en, uk, be]
+  default_locale: pl
+  # Które języki są włączone od razu w nowym wpisie. Sveltia wymaga
+  # wypełnienia pól obowiązkowych we WSZYSTKICH włączonych językach, więc
+  # `all` oznaczałoby, że nowego wpisu nie da się zapisać, dopóki nie ma
+  # pięciu wersji. Źródłem jest polski, tłumaczenia powstają później —
+  # dlatego startujemy z samym `pl`, a kolejne języki redaktor włącza
+  # w edytorze (menu z trzema kropkami), gdy tłumaczenie jest gotowe.
+  initial_locales: [pl]
+
+collections:
+
+  # =========================================================== PIASKOWNICA
+  # Sekcja do testowania panelu i obiegu z pull requestami. Strony stąd nie
+  # trafiają do menu, list, RSS-a ani mapy strony (patrz `cascade`
+  # w content/pl/piaskownica/_index.md), więc można tu tworzyć i kasować
+  # wpisy bez wpływu na serwis.
+  - name: piaskownica_pl
+    label: Piaskownica (testy)
+    label_singular: Wpis testowy
+    folder: content/pl/piaskownica
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis, widget: text, required: false }
+      - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  # =========================================================== KAMPANIA
+  - name: kampania
+    label: Kampania na stronie głównej
+    label_singular: Kampania
+    files:
+      - name: uklad
+        label: Układ i wydarzenie (bez tekstów)
+        file: data/campaign/layout.yaml
+        description: >-
+          Daty, godziny, adresy i przełączniki. Teksty są w osobnym wpisie,
+          żeby zmiana terminu nie wymagała ruszania pięciu tłumaczeń.
+        fields:
+          - { name: active, label: Kampania aktywna, widget: boolean, default: true }
+          - { name: link, label: Dokument kampanii (ścieżka), widget: string }
+          - { name: rules, label: Zasady udziału (ścieżka), widget: string, required: false }
+          - name: event
+            label: Wydarzenie
+            widget: object
+            fields:
+              - { name: url, label: Adres w Mobilizonie, widget: string }
+              - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+              - { name: timeStart, label: Godzina rozpoczęcia, widget: string }
+              - { name: timeEnd, label: Godzina zakończenia, widget: string, required: false }
+              - { name: place, label: Miejsce, widget: string }
+              - { name: address, label: Adres, widget: string }
+              - { name: registerUrl, label: Wpis w wykazie zgromadzeń (BIP), widget: string, required: false }
+          - name: calls
+            label: Karty „Możesz pomóc już teraz”
+            widget: list
+            fields:
+              - { name: id, label: Identyfikator (łączy z tekstami), widget: string }
+              - { name: link, label: Odnośnik, widget: string }
+              - { name: urgent, label: Pilne, widget: boolean, required: false, default: false }
+
+      - name: teksty
+        label: Teksty kampanii (5 języków)
+        file: data/campaign/{{locale}}.yaml
+        i18n: true
+        fields:
+          - { name: kicker, label: Nadtytuł, widget: string, required: false, i18n: true }
+          - { name: heading, label: Nagłówek, widget: string, i18n: true }
+          - { name: body, label: Opis (pusty wiersz dzieli akapity), widget: text, i18n: true }
+          - { name: linkTitle, label: Napis na przycisku, widget: string, required: false, i18n: true }
+          - { name: meta, label: Wiersz z terminem i miejscem, widget: list, required: false, i18n: true }
+          - { name: voteHeading, label: Panel zgłoszeń — nagłówek, widget: string, required: false, i18n: true }
+          - { name: voteBody, label: Panel zgłoszeń — opis, widget: text, required: false, i18n: true }
+          - name: calls
+            label: Teksty kart
+            widget: object
+            i18n: true
+            fields:
+
+              - name: share
+                label: Karta „udostępnij”
+                widget: object
+                i18n: true
+                fields:
+                  - { name: status, label: Status, widget: string, required: false, i18n: true }
+                  - { name: title, label: Tytuł, widget: string, i18n: true }
+                  - { name: body, label: Opis, widget: text, i18n: true }
+                  - { name: linkTitle, label: Napis na odnośniku, widget: string, required: false, i18n: true }
+
+              - name: organisation
+                label: Karta „dołącz”
+                widget: object
+                i18n: true
+                fields:
+                  - { name: status, label: Status, widget: string, required: false, i18n: true }
+                  - { name: title, label: Tytuł, widget: string, i18n: true }
+                  - { name: body, label: Opis, widget: text, i18n: true }
+                  - { name: linkTitle, label: Napis na odnośniku, widget: string, required: false, i18n: true }
+
+              - name: story
+                label: Karta „dane”
+                widget: object
+                i18n: true
+                fields:
+                  - { name: status, label: Status, widget: string, required: false, i18n: true }
+                  - { name: title, label: Tytuł, widget: string, i18n: true }
+                  - { name: body, label: Opis, widget: text, i18n: true }
+                  - { name: linkTitle, label: Napis na odnośniku, widget: string, required: false, i18n: true }
+
+
+  # =========================================================== STRONY STAŁE
+  # Jeden wpis = pięć plików. Języki przełącza się zakładkami w edytorze.
+  - name: strony
+    label: Strony stałe
+    label_singular: Strona
+    divider: true
+    files:
+
+      - name: home
+        label: Strona główna (tekst pod kafelkami)
+        file: content/{{locale}}/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: postulaty
+        label: Postulaty protestu
+        file: content/{{locale}}/postulaty.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
+          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: dla_mediow
+        label: Dla mediów
+        file: content/{{locale}}/dla-mediow.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
+          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy, i18n: duplicate }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: zasady
+        label: Zasady udziału w zgromadzeniu
+        file: content/{{locale}}/zasady.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
+          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: ulotki
+        label: Ulotki do druku
+        file: content/{{locale}}/ulotki.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: tematy, label: Tematy, widget: list, required: false, i18n: duplicate }
+          - { name: lata, label: Lata, widget: list, required: false, i18n: duplicate }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: dolacz
+        label: Dołącz do nas
+        file: content/{{locale}}/dolacz.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+
+  # =========================================================== OPISY SEKCJI
+  # Pliki _index.md — tekst nad listą wpisów w każdej sekcji.
+  - name: opisy_sekcji
+    label: Opisy sekcji
+    label_singular: Opis sekcji
+    divider: true
+    files:
+
+      - name: aktualnosci
+        label: Aktualności
+        file: content/{{locale}}/aktualnosci/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: wzory
+        label: Wzory pism
+        file: content/{{locale}}/wzory/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: poradniki
+        label: Poradniki
+        file: content/{{locale}}/poradniki/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: skutki
+        label: Skutki
+        file: content/{{locale}}/skutki/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: dzialania
+        label: Co zrobiliśmy
+        file: content/{{locale}}/dzialania/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: orzeczenia
+        label: Orzeczenia
+        file: content/{{locale}}/orzeczenia/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: statystyki
+        label: Statystyki
+        file: content/{{locale}}/statystyki/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+      - name: odpowiedzi
+        label: Odpowiedzi instytucji
+        file: content/{{locale}}/odpowiedzi/_index.md
+        i18n: true
+        fields:
+          - { name: title, label: Tytuł, widget: string, i18n: true }
+          - { name: description, label: Opis (lead i meta), widget: text, required: false, i18n: true }
+          - { name: body, label: Treść, widget: markdown, i18n: true }
+
+
+  # =========================================================== SEKCJE Z WPISAMI
+  # Osobna kolekcja na język (patrz uwaga o układzie języków na górze pliku).
+  # Ułożone sekcjami, więc wszystkie języki jednej sekcji stoją obok siebie.
+  # Pliki _index.md są odfiltrowane — opisy sekcji edytuje się wyżej.
+
+  - name: aktualnosci_pl
+    label: Aktualności · PL
+    label_singular: Aktualności · PL
+    folder: content/pl/aktualnosci
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: aktualnosci_ru
+    label: Aktualności · RU
+    label_singular: Aktualności · RU
+    folder: content/ru/aktualnosci
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: aktualnosci_en
+    label: Aktualności · EN
+    label_singular: Aktualności · EN
+    folder: content/en/aktualnosci
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: aktualnosci_uk
+    label: Aktualności · UA
+    label_singular: Aktualności · UA
+    folder: content/uk/aktualnosci
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: aktualnosci_be
+    label: Aktualności · BY
+    label_singular: Aktualności · BY
+    folder: content/be/aktualnosci
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  # ---------------------------------------------------------------
+  - name: wzory_pl
+    label: Wzory pism · PL
+    label_singular: Wzory pism · PL
+    folder: content/pl/wzory
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: wzory_ru
+    label: Wzory pism · RU
+    label_singular: Wzory pism · RU
+    folder: content/ru/wzory
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: wzory_en
+    label: Wzory pism · EN
+    label_singular: Wzory pism · EN
+    folder: content/en/wzory
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: wzory_uk
+    label: Wzory pism · UA
+    label_singular: Wzory pism · UA
+    folder: content/uk/wzory
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: wzory_be
+    label: Wzory pism · BY
+    label_singular: Wzory pism · BY
+    folder: content/be/wzory
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: wzor, label: To wzór pisma, widget: boolean, required: false, default: true }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  # ---------------------------------------------------------------
+  - name: poradniki_pl
+    label: Poradniki · PL
+    label_singular: Poradniki · PL
+    folder: content/pl/poradniki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: poradniki_ru
+    label: Poradniki · RU
+    label_singular: Poradniki · RU
+    folder: content/ru/poradniki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: poradniki_en
+    label: Poradniki · EN
+    label_singular: Poradniki · EN
+    folder: content/en/poradniki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: poradniki_uk
+    label: Poradniki · UA
+    label_singular: Poradniki · UA
+    folder: content/uk/poradniki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: poradniki_be
+    label: Poradniki · BY
+    label_singular: Poradniki · BY
+    folder: content/be/poradniki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: uwaga_prawna, label: Pokaż zastrzeżenie prawne, widget: boolean, required: false, default: true }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  # ---------------------------------------------------------------
+  - name: skutki_pl
+    label: Skutki · PL
+    label_singular: Skutki · PL
+    folder: content/pl/skutki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: skutki_ru
+    label: Skutki · RU
+    label_singular: Skutki · RU
+    folder: content/ru/skutki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: skutki_en
+    label: Skutki · EN
+    label_singular: Skutki · EN
+    folder: content/en/skutki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: skutki_uk
+    label: Skutki · UA
+    label_singular: Skutki · UA
+    folder: content/uk/skutki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: skutki_be
+    label: Skutki · BY
+    label_singular: Skutki · BY
+    folder: content/be/skutki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  # ---------------------------------------------------------------
+  - name: dzialania_pl
+    label: Co zrobiliśmy · PL
+    label_singular: Co zrobiliśmy · PL
+    folder: content/pl/dzialania
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: statusy, label: Statusy, widget: list, required: false }
+      - { name: data_wyslania, label: Data wysłania, widget: string, required: false }
+      - { name: sygnatura, label: Sygnatura, widget: string, required: false }
+      - { name: termin, label: Termin, widget: string, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: dzialania_ru
+    label: Co zrobiliśmy · RU
+    label_singular: Co zrobiliśmy · RU
+    folder: content/ru/dzialania
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: statusy, label: Statusy, widget: list, required: false }
+      - { name: data_wyslania, label: Data wysłania, widget: string, required: false }
+      - { name: sygnatura, label: Sygnatura, widget: string, required: false }
+      - { name: termin, label: Termin, widget: string, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: dzialania_en
+    label: Co zrobiliśmy · EN
+    label_singular: Co zrobiliśmy · EN
+    folder: content/en/dzialania
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: statusy, label: Statusy, widget: list, required: false }
+      - { name: data_wyslania, label: Data wysłania, widget: string, required: false }
+      - { name: sygnatura, label: Sygnatura, widget: string, required: false }
+      - { name: termin, label: Termin, widget: string, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: dzialania_uk
+    label: Co zrobiliśmy · UA
+    label_singular: Co zrobiliśmy · UA
+    folder: content/uk/dzialania
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: statusy, label: Statusy, widget: list, required: false }
+      - { name: data_wyslania, label: Data wysłania, widget: string, required: false }
+      - { name: sygnatura, label: Sygnatura, widget: string, required: false }
+      - { name: termin, label: Termin, widget: string, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: dzialania_be
+    label: Co zrobiliśmy · BY
+    label_singular: Co zrobiliśmy · BY
+    folder: content/be/dzialania
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: statusy, label: Statusy, widget: list, required: false }
+      - { name: data_wyslania, label: Data wysłania, widget: string, required: false }
+      - { name: sygnatura, label: Sygnatura, widget: string, required: false }
+      - { name: termin, label: Termin, widget: string, required: false }
+      - { name: zrodlo, label: Źródło (adres), widget: string, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: body, label: Treść, widget: markdown }
+
+  # ---------------------------------------------------------------
+  - name: statystyki_pl
+    label: Statystyki — artykuły · PL
+    label_singular: Statystyki — artykuły · PL
+    folder: content/pl/statystyki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: statystyki_ru
+    label: Statystyki — artykuły · RU
+    label_singular: Statystyki — artykuły · RU
+    folder: content/ru/statystyki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: statystyki_en
+    label: Statystyki — artykuły · EN
+    label_singular: Statystyki — artykuły · EN
+    folder: content/en/statystyki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: statystyki_uk
+    label: Statystyki — artykuły · UA
+    label_singular: Statystyki — artykuły · UA
+    folder: content/uk/statystyki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false }
+      - { name: body, label: Treść, widget: markdown }
+
+  - name: statystyki_be
+    label: Statystyki — artykuły · BY
+    label_singular: Statystyki — artykuły · BY
+    folder: content/be/statystyki
+    create: true
+    slug: '{{fields._slug}}'
+    filter: { field: title, pattern: '.' }
+    fields:
+      - { name: title, label: Tytuł, widget: string }
+      - { name: description, label: Opis (lead i meta), widget: text, required: false }
+      - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+      - { name: tematy, label: Tematy, widget: list, required: false }
+      - { name: instytucje, label: Instytucje, widget: list, required: false }
+      - { name: lata, label: Lata, widget: list, required: false }
+      - { name: autor, label: Autor, widget: string, required: false, default: Zespół Tu Żyjemy }
+      - { name: aliases, label: Stare adresy (aliasy), widget: list, required: false }
+      - { name: body, label: Treść, widget: markdown }

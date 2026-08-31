@@ -3,9 +3,9 @@ name: Publikacja na GitHub Pages
 on:
   push:
     branches: [main]
-  # Co 6 godzin przebudowujemy stronę, żeby odświeżyć wyniki ankiety
-  # pobierane z Framadate przy budowaniu (patrz poll-results.html).
-  # Strona jest statyczna, więc bez tego wyniki zostałyby zamrożone
+  # Co godzinę przebudowujemy stronę, żeby odświeżyć licznik zgłoszeń
+  # pobierany z Mobilizona przy budowaniu (patrz event-attendance.html).
+  # Strona jest statyczna, więc bez tego licznik zostałby zamrożony
   # na chwili ostatniego wypchnięcia zmian.
   schedule:
     - cron: "0 * * * *"
