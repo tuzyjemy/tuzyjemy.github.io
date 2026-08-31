@@ -73,7 +73,6 @@ summaryLength = 30
   [languages.pl]
     languageCode = "pl-PL"
     languageName = "Polski"
-    contentDir = "content/pl"
     weight = 1
     title = "Tu Żyjemy"
     [languages.pl.params]
@@ -101,7 +100,6 @@ summaryLength = 30
   [languages.en]
     languageCode = "en-GB"
     languageName = "English"
-    contentDir = "content/en"
     weight = 3
     title = "Tu Żyjemy"
     [languages.en.params]
@@ -129,7 +127,6 @@ summaryLength = 30
   [languages.ru]
     languageCode = "ru-RU"
     languageName = "Русский"
-    contentDir = "content/ru"
     weight = 2
     title = "Tu Żyjemy"
     [languages.ru.params]
@@ -157,7 +154,6 @@ summaryLength = 30
   [languages.uk]
     languageCode = "uk-UA"
     languageName = "Українська"
-    contentDir = "content/uk"
     weight = 4
     title = "Tu Żyjemy"
     [languages.uk.params]
@@ -185,7 +181,6 @@ summaryLength = 30
   [languages.be]
     languageCode = "be-BY"
     languageName = "Беларуская"
-    contentDir = "content/be"
     weight = 5
     title = "Tu Żyjemy"
     [languages.be.params]
