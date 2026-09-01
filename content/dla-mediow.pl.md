@@ -121,14 +121,21 @@ przepis, który miał tę ochronę wyłączyć.
 [Jak działa art. 100d i co wynika z orzeczeń NSA](/poradniki/art-100d-zawieszenie-terminow/)
 
 {{< notatka typ="info" >}}
-**Zaświadczenie: 7 dni, nie miesiące.** Opóźnienia dotyczą nie tylko decyzji pobytowych.
-Zaświadczenie potwierdzające datę złożenia wniosku, numer sprawy albo to, że postępowanie
-nadal trwa, powinno zostać wydane bez zbędnej zwłoki, nie później niż w ciągu 7 dni.
-Jeżeli urząd nie może wydać dokumentu o żądanej treści, powinien formalnie odmówić, a nie
-milczeć przez tygodnie lub miesiące. Brak zaświadczenia może w praktyce utrudniać
-załatwienie spraw w banku, ZUS albo urzędzie gminy.
+**Dwa zaświadczenia — dwa reżimy prawne.** Opóźnienia dotyczą nie tylko decyzji
+pobytowych. Zaświadczenie wydawane na wniosek na podstawie art. 217 KPA, potwierdzające
+na przykład datę wpływu wniosku, numer sprawy albo to, że postępowanie nadal trwa,
+powinno zostać wydane bez zbędnej zwłoki, nie później niż w ciągu 7 dni.
 
-Podstawa prawna: art. 217 § 3 i art. 219 KPA.
+[Od 27 kwietnia 2026 r.](https://www.mos.cudzoziemcy.gov.pl/artyku-y/informacja-o-uruchomieniu-systemu-mos/) istnieje również odrębne, bezpłatne zaświadczenie wydawane przez
+MOS na podstawie art. 108, 206 albo 222a ustawy o cudzoziemcach. Zastąpiło stempel
+w paszporcie i zawiera informację, że pobyt uważa się za legalny. Siedmiodniowy termin
+z KPA nie ma do niego zastosowania, lecz urząd ma obowiązek wydać je po spełnieniu
+ustawowych warunków. Brak któregokolwiek potrzebnego dokumentu może sprawić, że osoba
+legalnie przebywająca w Polsce nie zdoła wykazać tego przed bankiem, ZUS albo gminą
+w krótkim terminie wyznaczonym przez tę instytucję.
+
+Podstawa prawna: art. 108, 206 i 222a ustawy o cudzoziemcach oraz art. 217 § 3
+i art. 219 KPA.
 
 [Co zrobić, gdy urząd nie wydaje zaświadczenia w terminie? →](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
 {{< /notatka >}}

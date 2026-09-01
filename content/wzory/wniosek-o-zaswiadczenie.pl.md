@@ -2,6 +2,7 @@
 title: "Wniosek o wydanie zaświadczenia o toczącym się postępowaniu"
 description: "Wzór wniosku o zaświadczenie potwierdzające datę złożenia wniosku, sygnaturę sprawy i to, że postępowanie jest w toku. Termin: 7 dni."
 date: 2026-08-28
+lastmod: 2026-08-31
 instytucje: ["Wojewoda"]
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
@@ -11,8 +12,11 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-Zaświadczenie potwierdza fakty znane urzędowi z jego danych. **Nie tworzy podstawy
-legalnego pobytu** i nie zastępuje wizy, karty pobytu ani stempla. Szerzej:
+Ten wzór dotyczy zaświadczenia wydawanego na wniosek na podstawie art. 217 KPA.
+Nie służy do uzyskania nowego, bezpłatnego zaświadczenia z [art. 108, 206 albo 222a
+ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl), które wojewoda wydaje z urzędu przez MOS po spełnieniu
+ustawowych warunków. Zaświadczenie na podstawie KPA potwierdza fakty znane urzędowi
+z jego danych i samo nie tworzy podstawy legalnego pobytu. Szerzej:
 [poradnik o zaświadczeniach](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
 {{< /notatka >}}
 

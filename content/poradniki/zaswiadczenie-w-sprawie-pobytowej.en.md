@@ -1,7 +1,8 @@
 ---
-title: "A certificate in a residence case: how to apply and what to do after 7 days"
-description: "A certificate confirming pending proceedings has a statutory 7-day deadline. What it can confirm, what it costs, how to file it, and what to do when the office stays silent."
+title: "A KPA certificate in a residence case: how to apply and what to do after 7 days"
+description: "Guidance on a certificate requested under Article 217 KPA, which has a statutory 7-day deadline. It is not the new certificate delivered through MOS."
 date: 2026-08-28
+lastmod: 2026-08-31
 instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
@@ -10,9 +11,13 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-**The key point.** A certificate confirms specific facts held in the office's own records.
-**It does not create a basis for lawful residence** and does not replace a visa, a residence
-card, a stamp or any other residence basis.
+**Scope of this guide.** It concerns a certificate requested under Article 217 KPA,
+which confirms specific facts held in the office's records and has a 7-day deadline.
+[Since 27 April 2026](https://www.mos.cudzoziemcy.gov.pl/artyku-y/informacja-o-uruchomieniu-systemu-mos/), a separate, free certificate under Articles 108, 206 or 222a of the
+Act on Foreigners is delivered through MOS after the statutory conditions are met. It
+contains a statement that the foreigner's stay is deemed legal. The KPA chapter on
+certificates — including its 7-day deadline — expressly does not apply to that MOS
+certificate.
 {{< /notatka >}}
 
 ## 1. What a certificate can confirm
@@ -35,7 +40,7 @@ The general rate for issuing a certificate is **17 zł**.
 If the certificate is needed for a child-raising benefit, a social benefit or social
 insurance matter, issuing it **may be exempt from stamp duty**. In that case describe the
 purpose of the document clearly and cite
-[art. 2 ust. 1 of the Stamp Duty Act](https://eli.gov.pl/eli/DU/2025/1691/ogl).
+[art. 2 ust. 1 of the Stamp Duty Act](https://eli.gov.pl/eli/DU/2025/1154/ogl).
 
 Do not automatically attach proof of a 17 zł payment without checking the purpose. For a
 bank, registration of residence or another purpose, the fee will as a rule be due unless a
@@ -104,9 +109,10 @@ numbers, signatures and any other personal data.
 
 ## Legal basis
 
-- [art. 217 § 1–3, art. 218 § 1, art. 219 and art. 37 § 1 of the Code of Administrative Procedure](https://eli.gov.pl/eli/DU/2026/143/ogl)
-- [Stamp Duty Act](https://eli.gov.pl/eli/DU/2025/1691/ogl)
-- [Law on Proceedings before Administrative Courts](https://eli.gov.pl/eli/DU/2025/1154/ogl)
+- [art. 217 § 1–3, art. 218 § 1, art. 219 and art. 37 § 1 of the Code of Administrative Procedure](https://eli.gov.pl/eli/DU/1960/168/ogl)
+- [Articles 108, 206 and 222a of the Act on Foreigners](https://eli.gov.pl/eli/DU/2025/1079/ogl)
+- [Stamp Duty Act](https://eli.gov.pl/eli/DU/2025/1154/ogl)
+- [Law on Proceedings before Administrative Courts](https://eli.gov.pl/eli/DU/2026/143/ogl)
 - [PUW/WSC: certificate](https://wsc.gdansk.uw.gov.pl/pl/slownik-pojec/zaswiadczenie)
 
 *Legal position verified 28.08.2026.*

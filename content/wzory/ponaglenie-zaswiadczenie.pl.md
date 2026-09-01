@@ -2,6 +2,7 @@
 title: "Ponaglenie w sprawie wydania zaświadczenia"
 description: "Pismo składane, gdy minął 7-dniowy termin na wydanie zaświadczenia, a urząd milczy. Podstawa: art. 37 § 1 pkt 1 KPA."
 date: 2026-08-28
+lastmod: 2026-08-31
 instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
@@ -11,8 +12,10 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-Ten wzór dotyczy **postępowania o wydanie zaświadczenia** (termin 7 dni), a nie głównego
-postępowania o zezwolenie na pobyt. Dla sprawy pobytowej użyj
+Ten wzór dotyczy **postępowania o wydanie zaświadczenia na podstawie art. 217 KPA**
+(termin 7 dni), a nie głównego postępowania o zezwolenie na pobyt ani zaświadczenia
+wydawanego z urzędu przez MOS na podstawie [art. 108, 206 albo 222a ustawy
+o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl). Dla sprawy pobytowej użyj
 [ponaglenia w sprawie bezczynności organu](/wzory/ponaglenie-bezczynnosc/).
 {{< /notatka >}}
 

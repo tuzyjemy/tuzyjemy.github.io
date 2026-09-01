@@ -124,18 +124,23 @@ Pomorski Urząd Wojewódzki [informuje na swojej stronie](https://wsc.gdansk.uw.
 
 Oczekujemy zmiany tej praktyki i oficjalnego komunikatu. Przed przekazaniem papierowych akt do sądu urząd powinien utworzyć pełną, uporządkowaną kopię roboczą i nadal wykonywać wszystkie czynności, które nie wymagają oryginałów. Jeżeli urząd uważa, że konkretnych czynności nie wolno wykonać bez akt głównych, powinien wskazać ich podstawę prawną i wyjaśnić, dlaczego nie może korzystać z kopii lub elektronicznego obiegu dokumentów. Skarga do sądu nie może stawać się dodatkową karą za próbę obrony swoich praw.
 
-### 10. Terminowe wydawanie zaświadczeń
+### 10. Terminowe wydawanie zaświadczeń i skuteczne potwierdzenie legalności pobytu
 
-Zaświadczenia mają własny ustawowy termin: **7 dni**. W tym czasie urząd powinien wydać dokument albo postanowienie o odmowie. Jeżeli wniosek ma braki formalne lub wymaga opłaty, urząd powinien niezwłocznie wysłać właściwe wezwanie. Jeżeli termin nie może zostać dotrzymany, urząd powinien formalnie podać przyczynę opóźnienia, wskazać nowy termin i pouczyć o prawie do wniesienia ponaglenia.
+[Od 27 kwietnia 2026 r.](https://www.mos.cudzoziemcy.gov.pl/artyku-y/informacja-o-uruchomieniu-systemu-mos/) trzeba rozróżnić dwa dokumenty. Po prawidłowym złożeniu w MOS wniosku pobytowego podczas legalnego pobytu wojewoda wydaje z urzędu, bez opłaty, zaświadczenie na podstawie art. 108, 206 albo 222a ustawy o cudzoziemcach. Zastąpiło ono stempel w paszporcie i zawiera informację, że pobyt cudzoziemca uważa się za legalny do dnia, w którym decyzja stanie się ostateczna. Legalność wynika z ustawy, nie z samego dokumentu, ale zaświadczenie jest przeznaczonym do jej wykazania urzędowym potwierdzeniem dostępnym w MOS.
 
-Milczenie przez tygodnie lub miesiące nie jest prawidłowym sposobem załatwienia sprawy.
+Innym dokumentem jest zaświadczenie wydawane na wniosek na podstawie art. 217 KPA, na przykład potwierdzające datę wpływu wniosku, sygnaturę albo pozostawanie postępowania w toku. W tym postępowaniu obowiązuje termin **7 dni**. Jeżeli urząd nie może wydać zaświadczenia o żądanej treści, powinien wydać postanowienie o odmowie, a nie milczeć przez tygodnie lub miesiące.
+
+To rozróżnienie ma praktyczne znaczenie. Osoba może przebywać w Polsce legalnie z mocy ustawy, a jednocześnie nie mieć dokumentu, którym potrafi to wykazać przed bankiem, ZUS, gminą albo inną instytucją. Gdy instytucja wyznacza krótki termin na uzupełnienie dokumentów, wielotygodniowe oczekiwanie na zaświadczenie może prowadzić do ograniczenia dostępu do rachunku lub usług bankowych, wstrzymania świadczenia albo problemów z prowadzeniem działalności. [Opisaliśmy już udokumentowany przypadek blokady rachunku](/skutki/blokada-konta-bankowego/).
 
 Domagamy się:
 
-- faktycznego przestrzegania 7-dniowego terminu: wydania zaświadczenia albo postanowienia o odmowie;
-- regularnego publikowania danych pozwalających sprawdzić przestrzeganie tego terminu: liczby wniosków załatwionych w ciągu 7 dni i po jego przekroczeniu.
+- automatycznego doręczania w MOS zaświadczeń z art. 108, 206 i 222a niezwłocznie po spełnieniu ustawowych warunków, bez dodatkowego wniosku;
+- faktycznego przestrzegania 7-dniowego terminu w odrębnych postępowaniach zaświadczeniowych prowadzonych na podstawie KPA;
+- pilnej ścieżki obsługi, gdy wnioskodawca wykaże krótki termin wyznaczony przez bank, ZUS, gminę albo inną instytucję i ryzyko utraty dostępu do środków, świadczeń lub działalności;
+- pokazywania w MOS, czy warunki wydania zaświadczenia zostały zweryfikowane, a jeżeli nie — czego brakuje;
+- comiesięcznego publikowania liczby wydanych i niewydanych zaświadczeń obu rodzajów, mediany oraz 90. percentyla czasu oczekiwania, a dla zaświadczeń wydawanych na podstawie KPA także liczby spraw załatwionych w ciągu 7 dni i po przekroczeniu tego terminu.
 
-Jak złożyć wniosek i co zrobić po upływie terminu, opisujemy w [poradniku o zaświadczeniach](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
+[Czym różnią się oba zaświadczenia i co zrobić po przekroczeniu terminu?](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
 
 ### 11. MOS jako rzeczywiste narzędzie pracy, a nie tylko elektroniczny formularz
 

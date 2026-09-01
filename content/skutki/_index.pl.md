@@ -58,4 +58,8 @@ ruina pojedynczych życiorysów nie ma takiego progu wejścia.
 
 **Ta sekcja pokazuje wierzchołek, nie skalę.**
 
-Masz dokumenty dotyczące takiej sprawy? [Napisz do nas](/dolacz/).
+Masz pismo banku, ZUS, gminy albo innej instytucji, która wyznaczyła 14 lub 30 dni na
+potwierdzenie legalności pobytu, podczas gdy urząd kazał czekać na zaświadczenie tygodnie
+albo miesiące? [Napisz do nas](/dolacz/). Taki komplet dokumentów pozwala pokazać nie
+tylko pojedynczą historię, lecz także konflikt terminów i skalę jego skutków. Przed
+wysłaniem usuń PESEL, numery dokumentów, adres, podpis i inne dane osobowe.

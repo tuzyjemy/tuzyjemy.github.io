@@ -2,6 +2,7 @@
 title: "A bank froze the account because there is a stamp instead of a residence card"
 description: "A case reported by MOST: 50,000 zł frozen, mortgage payments at risk — because the decision did not come on time."
 date: 2026-07-16
+lastmod: 2026-08-31
 instytucje: []
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
@@ -25,10 +26,15 @@ four months — even though the regulations provide for a considerably shorter d
 
 ## The connection to delay
 
-This shows that the cost of delay does not end with waiting. The stamp is a lawful basis
-of residence, but **private institutions treat it differently from a card** — and the
-longer proceedings drag on, the longer a person lives with a document that a bank, an
-employer or a landlord may refuse to accept.
+This shows that the cost of delay does not end with waiting. Lawful residence followed
+from the statute; the stamp or certificate was meant to provide official evidence of it.
+The bank nevertheless rejected the document presented and required another form of proof
+that the office did not issue within the customer's deadline.
+
+[Since 27 April 2026](https://www.mos.cudzoziemcy.gov.pl/artyku-y/informacja-o-uruchomieniu-systemu-mos/), new applications filed through MOS use a separate, free certificate
+under Articles 108, 206 or 222a of the Act on Foreigners instead of a passport stamp. It
+expressly states that the stay is deemed lawful. The problem remains if the document is
+not generated promptly or an institution cannot verify it.
 
 {{< notatka typ="info" >}}
 We do not publish the details of the person described in the article. If you have found
