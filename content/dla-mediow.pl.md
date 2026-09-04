@@ -31,6 +31,18 @@ Tu Żyjemy jest oddolną inicjatywą mieszkańców, którzy chcą wspólnie dzia
 w sprawach publicznych. Legalizacja pobytu jest naszą pierwszą inicjatywą, ale nie
 definiuje całej platformy.
 
+## Kto nas wspiera
+
+Protest popierają:
+
+- **Transport i Logistyka Polska (TLP)** — organizacja pracodawców branży transportowej;
+- **PSPD-Gdynia** — Pomorskie Stowarzyszenie Przewoźników Drogowych;
+- **Obserwatorium Migracji** przy Centrum Zrównoważonego Rozwoju Uniwersytetu Gdańskiego.
+
+Dwie pierwsze to organizacje pracodawców. Opóźnienia w wydawaniu kart pobytu uderzają
+w ich członków bezpośrednio: kierowca bez aktualnego dokumentu nie pojedzie w trasę
+międzynarodową, a firma nie zaplanuje przewozów.
+
 ## Dlaczego protestujemy
 
 Protest dotyczy systemu i odpowiedzialności instytucji, a nie oceny poszczególnych

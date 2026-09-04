@@ -31,6 +31,18 @@ Tu Żyjemy is a grassroots initiative of residents who want to act together on p
 matters. Residence legalisation is our first campaign, but it does not define the whole
 platform.
 
+## Who supports us
+
+The protest is backed by:
+
+- **Transport i Logistyka Polska (TLP)** — an employers' organisation for the transport industry;
+- **PSPD-Gdynia** — the Pomeranian Association of Road Hauliers;
+- **Obserwatorium Migracji** — the Migration Observatory at the Centre for Sustainable Development, University of Gdańsk.
+
+The first two are employers' organisations. Delays in issuing residence cards hit their
+members directly: a driver without a valid document cannot take an international route,
+and the company cannot plan its haulage.
+
 ## Why we are protesting
 
 The protest concerns the system and institutional accountability, not the assessment of
