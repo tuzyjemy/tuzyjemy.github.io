@@ -14,8 +14,7 @@ Poniżej przedstawiamy w skrócie **11 żądań petycji do Wojewody przygotowane
 doprecyzowuje wcześniejsze żądania dotyczące statystyk, kadr i FAMI z petycji złożonej
 24 czerwca 2026 r. Zawiera też samodzielne żądania dotyczące planu likwidacji
 zaległości, spraw małoletnich dzieci, dalszych czynności po skardze do WSA oraz
-obsługi zaświadczeń i pism. Pełny dokument opublikujemy najpóźniej
-**6 września 2026 r.**, przed protestem.
+obsługi zaświadczeń i pism.
 
 [Materiały dla mediów](/dla-mediow/)
 {{< /notatka >}}
@@ -47,6 +46,8 @@ Poniżej: **11 wymagań wobec Wojewody i PUW oraz 4 postulaty ogólnopolskie**.
 ## Nasze wymagania wobec Wojewody Pomorskiej i Pomorskiego Urzędu Wojewódzkiego
 
 Poniższe 11 punktów to skrócone przedstawienie żądań petycji przygotowanej na **7 września 2026 r.** Dotyczą zezwoleń na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE. Chcemy wiedzieć, ile spraw pozostaje do załatwienia, jaki wynik urząd zamierza osiągnąć i do kiedy, co osiągnął oraz co poprawi, jeżeli nie wykona celu.
+
+Żądania obejmują także związane z tymi sprawami doręczanie decyzji, wydawanie kart pobytu i zaświadczeń. Dane statystyczne, informacje kadrowe i oceny zmian organizacyjnych mają dotyczyć obsługi tych spraw, niezależnie od podziału zadań między komórkami PUW. Zbiorcza statystyka całego urzędu nie zastępuje żądanych danych.
 
 ### 1. Publiczny plan likwidacji zaległości
 
@@ -85,6 +86,8 @@ Statystyka powinna oddzielać postępowanie o zezwolenie od doręczania decyzji 
 
 Urząd powinien określić, kiedy uznaje sprawę za zakończoną w statystyce, i **nie sumować kolejnych etapów jako jednej zaległości**. Należy także pokazywać liczbę niezakończonych spraw, w których nastąpiły wszystkie zdarzenia wymagane do rozpoczęcia terminu według art. 112a, 210 lub 222d [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl), oraz czas od ostatniego z tych zdarzeń. Dla decyzji z danego miesiąca — odsetek mieszczący się od tego momentu w standardzie z punktu 1. Pomiar organizacyjny i ocenę dochowania terminu prawnego należy przedstawiać oddzielnie. Jeżeli wymagane zdarzenia jeszcze nie nastąpiły, urząd powinien wskazać faktyczną przyczynę.
 
+Dla postępowań wszczętych przed **27 kwietnia 2026 r.** należy uwzględniać przepisy dotychczasowe zgodnie z [art. 12 ustawy z 21 listopada 2025 r.](https://eli.gov.pl/eli/DU/2025/1794/ogl), w tym art. 223 w związku z art. 210 w sprawach rezydenta długoterminowego UE.
+
 ### 4. Regularne pokazywanie wyników i działań naprawczych
 
 PUW powinien ogłosić stałe dni publikowania raportów:
@@ -94,6 +97,8 @@ PUW powinien ogłosić stałe dni publikowania raportów:
 - **przy niewykonaniu celu**: przyczynę, działanie naprawcze, odpowiedzialny podmiot i nowy termin.
 
 Wyniki powinny być zestawiane ze stanem wyjściowym, celami i terminami. Każdą zmianę definicji lub metody obliczania wskaźników należy wyjaśnić, aby nie tworzyła pozornej poprawy.
+
+Dane, raporty i plany objęte żądaniem publikacji powinny być dostępne **bez odrębnych wniosków, w jednym stałym miejscu na stronie PUW lub w BIP**, z archiwum wcześniejszych publikacji.
 
 ### 5. Kadry i zmiany organizacyjne od 2020 roku
 
@@ -211,6 +216,10 @@ Automatyczną wymianę danych, zasadę jednorazowego podania informacji, sprawdz
 ## Dlaczego protestujemy właśnie teraz
 
 Według [danych Pomorskiego Urzędu Wojewódzkiego za 2025 r.](https://www.gov.pl/web/uw-pomorski/wydzial-spraw-cudzoziemcow---stan-spraw-w-2025-roku) w kategorii zezwoleń na pobyt czasowy, w tym pobytu czasowego i pracy, przyjęto 41 206 wniosków, a zrealizowano 31 121 spraw. Różnica wynosi 10 085. Sama ta różnica nie pozwala jeszcze obliczyć całej kolejki, ponieważ część zakończonych spraw mogła pochodzić z wcześniejszych lat. Pokazuje jednak, dlaczego potrzebujemy pełnych danych o liczbie spraw pozostających w toku i ich wieku, a nie tylko dwóch zbiorczych liczb.
+
+W [odpowiedzi z 27 lipca 2026 r. na interpelację nr 18089](https://api.sejm.gov.pl/sejm/term10/interpellations/18089/reply/DWDJHZ/body) MSWiA podało **598 dni** jako średni czas postępowania o zezwolenie na pobyt czasowy u Wojewody Pomorskiego w 2026 r., według stanu na **6 lipca 2026 r.** To problematyczny bieżący wskaźnik; cele i zasady oceny skuteczności działań określają punkty 1 i 3.
+
+Według obserwacji społecznego projektu Pobytrack pod koniec lipca 2026 r. pełna droga od złożenia wniosku do odbioru karty w obserwowanych sprawach w Gdańsku trwała **26–28 miesięcy**. Są to obserwacje zgłoszonych spraw. Okres obejmuje całą drogę do odbioru karty.
 
 Problem ma skalę ogólnopolską. W oficjalnym [sprawozdaniu sejmowej komisji śledczej, druk nr 951](https://www.senat.gov.pl/download/gfx/senat/pl/senatposiedzeniatematy/5909/drukisejmowe/951.pdf) wskazano, że w 2023 r. złożono około 617,3 tys. wniosków o pobyt czasowy, stały i rezydenta długoterminowego UE, natomiast wydano około 411,9 tys. decyzji. Według stanu na koniec czerwca 2024 r. na rozpatrzenie przez wojewodów czekało około **460 tys. spraw**. Dokument stwierdza wprost, że liczba wniosków rosła szybciej niż liczba decyzji, przez co coraz więcej spraw przechodziło na kolejny rok.
 
