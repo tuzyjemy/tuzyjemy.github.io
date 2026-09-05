@@ -1,17 +1,21 @@
 ---
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
-description: "Cel i 16 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
+description: "Cel i 15 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
 date: 2026-08-25
-lastmod: 2026-08-31
+lastmod: 2026-09-05
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-Na podstawie postulatów protestu przygotowujemy **nową petycję uzupełniającą**. Będzie
-ona odrębna od pakietu trzech dokumentów złożonego 24 czerwca 2026 r. Opublikujemy ją
-najpóźniej **6 września 2026 r.**, przed rozpoczęciem protestu.
+Poniżej przedstawiamy w skrócie **11 żądań petycji do Wojewody przygotowanej na
+7 września 2026 r.** oraz osobny blok postulatów ogólnopolskich. Nowa petycja
+doprecyzowuje wcześniejsze żądania dotyczące statystyk, kadr i FAMI z petycji złożonej
+24 czerwca 2026 r. Zawiera też samodzielne żądania dotyczące planu likwidacji
+zaległości, spraw małoletnich dzieci, dalszych czynności po skardze do WSA oraz
+obsługi zaświadczeń i pism. Pełny dokument opublikujemy najpóźniej
+**6 września 2026 r.**, przed protestem.
 
 [Materiały dla mediów](/dla-mediow/)
 {{< /notatka >}}
@@ -33,134 +37,127 @@ Naszym celem jest:
 
 Oczekujemy:
 
-1. **oficjalnego i publicznie dostępnego planu redukcji zaległości oraz jawnych danych** — z terminami, miesięcznymi celami oraz regularną publikacją rzeczywistych czasów oczekiwania;
-2. **sprawnej organizacji postępowań** — odpowiedniej obsady, niezwłocznego wykonywania czynności administracyjnych po zarejestrowaniu wniosku, wskazywania realistycznego terminu załatwienia sprawy przy uzupełnianiu braków formalnych, koordynowania spraw członków jednej rodziny, kontynuowania pracy po skardze do WSA i terminowej obsługi formalnych pism;
+1. **publicznego planu likwidacji zaległości i porównywalnych danych** — z celami kwartalnymi, konkretnymi terminami, miesięczną statystyką oraz regularną oceną wyników i działaniami naprawczymi;
+2. **sprawnej organizacji i odpowiedzi na każde żądanie** — oceny kadr, rzeczywistego przepływu spraw, MOS i efektów FAMI; koordynacji spraw małoletnich dzieci, dalszej pracy po skardze do WSA, terminowej obsługi zaświadczeń i pism oraz harmonogramu i spotkania roboczego;
 3. **odpowiedzialności administracji i równych zasad** — uchylenia art. 100d oraz szybkich procedur opartych na obiektywnych cechach sprawy, a nie obywatelstwie;
 4. **jednego spójnego procesu cyfrowego** — integracji MOS 2 ze ST POBYT, EZD, systemami wojewódzkimi oraz rejestrami państwowymi, bez ręcznego przepisywania tych samych danych.
 
-Pełne 16 postulatów wraz z uzasadnieniem znajduje się poniżej.
+Poniżej: **11 wymagań wobec Wojewody i PUW oraz 4 postulaty ogólnopolskie**.
 
 ## Nasze wymagania wobec Wojewody Pomorskiej i Pomorskiego Urzędu Wojewódzkiego
 
-### 1. Oficjalny i publicznie dostępny plan redukcji zaległości
+Poniższe 11 punktów to skrócone przedstawienie żądań petycji przygotowanej na **7 września 2026 r.** Dotyczą zezwoleń na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE. Chcemy wiedzieć, ile spraw pozostaje do załatwienia, jaki wynik urząd zamierza osiągnąć i do kiedy, co osiągnął oraz co poprawi, jeżeli nie wykona celu.
 
-Oczekujemy przedstawienia przez Wojewodę Pomorską oficjalnego i publicznie dostępnego planu redukcji zaległości z konkretnymi terminami, odpowiedzialnymi osobami i mierzalnymi rezultatami. Nie wystarczy informacja, że urząd „pracuje nad problemem”. Chcemy wiedzieć, co zostanie zrobione, do jakiej daty oraz po jakich wskaźnikach społeczeństwo będzie mogło ocenić wynik.
+### 1. Publiczny plan likwidacji zaległości
 
-Plan powinien określać co najmniej:
+Oczekujemy planu ze stanem początkowym, **datami realizacji celów kwartalnych**, odpowiedzialnymi komórkami i działaniami na wypadek niewykonania celu. W okresie redukcji zaległości liczba zakończonych postępowań w okresach trzymiesięcznych powinna przewyższać liczbę nowych wniosków. Po usunięciu zaległości urząd powinien terminowo obsługiwać bieżący wpływ.
 
-- liczbę najstarszych spraw, które urząd zamierza zakończyć w każdym miesiącu;
-- docelowe ograniczenie liczby spraw starszych niż rok, dwa i trzy lata;
-- zakładany miesięczny bilans nowych i zakończonych spraw;
-- osoby lub komórki odpowiedzialne za realizację poszczególnych działań.
+Plan powinien wskazywać oddzielne terminy istotnego ograniczenia, a następnie usunięcia zaległości starszych niż **trzy, dwa i jeden rok** oraz datę osiągnięcia standardów organizacyjnych:
 
-### 2. Pełna i porównywalna statystyka za okres przed wojną i po jej rozpoczęciu
+- **60 dni** dla pobytu czasowego;
+- **6 miesięcy** dla pobytu stałego i rezydenta długoterminowego UE;
+- **30 dni** w sprawach, dla których ustawa przewiduje krótszy termin, w szczególności z art. 137d i art. 166b [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl).
 
-Oczekujemy opublikowania danych osobno za każdy pełny rok od 2019 do 2025 r. oraz osobno za 2026 r. według stanu na koniec ostatniego zamkniętego miesiąca. Dane powinny obejmować przynajmniej zezwolenia na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE oraz pokazywać:
+Niezależnie od początku biegu terminu ustawowego należy mierzyć i skracać **pełny czas od wpływu wniosku do wydania i doręczenia decyzji**. Standardy organizacyjne nie zastępują obowiązujących terminów prawnych. Dla Niebieskiej Karty UE należy osobno monitorować maksymalny okres **90 dni od kompletnego wniosku do decyzji i pisemnego powiadomienia**, wynikający z [art. 11 ust. 1 dyrektywy (UE) 2021/1883](https://eur-lex.europa.eu/eli/dir/2021/1883/oj/pol). Wskaźniki krajowe i unijne wymagają odrębnego obliczania, z właściwymi zasadami rozpoczęcia i wstrzymania biegu terminu.
 
-- liczbę złożonych wniosków;
-- liczbę zakończonych postępowań, z rozróżnieniem decyzji, umorzeń i innych sposobów zakończenia;
-- liczbę spraw niezakończonych na koniec każdego okresu;
-- liczbę spraw starszych niż rok, dwa i trzy lata;
-- liczbę pracowników rzeczywiście prowadzących postępowania oraz liczbę spraw przypadających na jednego pracownika.
+### 2. Porównywalne dane miesięczne od 2020 roku
 
-Chcemy zobaczyć oddzielnie sytuację sprzed 24 lutego 2022 r. i po tej dacie. Tylko takie zestawienie pozwoli sprawdzić, jaka część problemu wynika ze wzrostu liczby wniosków, a jaka z organizacji pracy, braków kadrowych i narastania dawnych zaległości.
+Oczekujemy danych za każdy miesiąc **od stycznia 2020 r. do sierpnia 2026 r.**, osobno dla trzech rodzajów zezwoleń, z uwzględnieniem wszystkich podstaw prawnych w każdej kategorii:
 
-### 3. Rozliczenie działań podjętych po 24 lutego 2022 r.
+- nowych wniosków i zakończonych postępowań, z rozróżnieniem decyzji pozytywnych, odmownych, umorzeń, pozostawienia bez rozpoznania i innych zakończeń;
+- niezakończonych spraw na koniec miesiąca, w tym starszych niż rok, dwa i trzy lata;
+- liczby osób i etatów w przeliczeniu na pełny wymiar czasu pracy pracowników prowadzących postępowania lub przygotowujących projekty rozstrzygnięć;
+- liczby wszystkich i aktywnych niezakończonych spraw, wydanych decyzji oraz wszystkich zakończonych postępowań **w przeliczeniu na taki etat**.
 
-Oczekujemy raportu wskazującego:
+Z aktywnych spraw wyłącza się sprawy formalnie zawieszone postanowieniem oraz te, w których nadal biegnie termin na usunięcie braków formalnych. Jeśli wspólnej obsady nie można wiarygodnie podzielić między kategorie, urząd powinien podać wynik łączny i metodę obliczenia, bez rankingów i danych osobowych pracowników. Jeżeli brakuje miesięcznych danych historycznych, powinien udostępnić najbardziej szczegółowe dostępne dane, wyjaśnić braki i wskazać miesiąc rozpoczęcia pełnej sprawozdawczości.
 
-- ilu dodatkowych pracowników zatrudniono;
-- ile etatów i naborów uruchomiono, ile wakatów obsadzono, a ile pozostało nieobsadzonych;
-- ilu pracowników czasowo skierowano z innych wydziałów;
-- jakie procedury zmieniono;
-- ile kosztowała każda istotna zmiana;
-- jaki mierzalny efekt przyniosła: ile dodatkowych spraw zakończono, o ile zmniejszyła się kolejka i o ile skrócił się czas oczekiwania.
+### 3. Rzeczywisty czas i etapy zaległości
 
-Raport powinien również zawierać porównanie z rozwiązaniami stosowanymi w Krakowie i Wrocławiu: obsadę, liczbę spraw na pracownika, sposób rozdzielania spraw, działania wobec najstarszych zaległości oraz wyniki przed i po zmianach. Oczekujemy wskazania, które dobre praktyki PUW wdroży, których nie wdroży i z jakiego powodu.
+Co miesiąc urząd powinien publikować dla spraw zakończonych decyzją **medianę pełnego czasu od wpływu wniosku do wydania decyzji oraz czas, w którym zakończyło się 90% takich spraw**. Spraw pozostawionych bez rozpoznania z powodu nieusuniętych braków nie należy łączyć z tym pomiarem.
 
-Nie oczekujemy katalogu spotkań i ogólnych deklaracji. Oczekujemy porównania: działanie, koszt, termin i wynik.
+Statystyka powinna oddzielać postępowanie o zezwolenie od doręczania decyzji i wydawania karty. Oczekujemy pokazania:
 
-### 4. Comiesięczne publikowanie rzeczywistych czasów oczekiwania
+- niezakończonych spraw ogółem, z wyodrębnieniem formalnie zawieszonych, oczekujących na uzupełnienie braków w nadal biegnącym terminie oraz pozostałych;
+- wydanych, lecz niedoręczonych decyzji, z podziałem na pozytywne i pozostałe;
+- pozytywnych decyzji ostatecznych, przy których urząd czeka jeszcze na opłatę lub czynność wnioskodawcy;
+- pozytywnych decyzji ostatecznych, dla których spełniono warunki wydania karty, ale nie zlecono jej produkcji;
+- kart zamówionych, lecz niegotowych oraz — informacyjnie — gotowych, ale nieodebranych.
 
-Urząd powinien co miesiąc publikować nie tylko liczbę przyjętych i zakończonych spraw, lecz także:
+Urząd powinien określić, kiedy uznaje sprawę za zakończoną w statystyce, i **nie sumować kolejnych etapów jako jednej zaległości**. Należy także pokazywać liczbę niezakończonych spraw, w których nastąpiły wszystkie zdarzenia wymagane do rozpoczęcia terminu według art. 112a, 210 lub 222d [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl), oraz czas od ostatniego z tych zdarzeń. Dla decyzji z danego miesiąca — odsetek mieszczący się od tego momentu w standardzie z punktu 1. Pomiar organizacyjny i ocenę dochowania terminu prawnego należy przedstawiać oddzielnie. Jeżeli wymagane zdarzenia jeszcze nie nastąpiły, urząd powinien wskazać faktyczną przyczynę.
 
-- medianę oraz 75. i 90. percentyl czasu od złożenia wniosku do decyzji;
-- osobne dane dla najważniejszych rodzajów zezwoleń;
-- liczbę spraw, w których przez 30, 60 i 90 dni nie wykonano żadnej czynności;
-- liczbę spraw na poszczególnych etapach postępowania;
-- etapy, na których powstają największe opóźnienia.
+### 4. Regularne pokazywanie wyników i działań naprawczych
 
-Średnia sama w sobie może ukrywać zarówno bardzo szybkie, jak i skrajnie stare sprawy. Dlatego potrzebujemy danych pokazujących rzeczywisty rozkład czasu oczekiwania.
+PUW powinien ogłosić stałe dni publikowania raportów:
 
-### 5. Kadrowy plan wzmocnienia Wydziału Spraw Cudzoziemców
+- **co miesiąc**: wpływ, zakończenia, bilans, wielkość i wiek zaległości, rzeczywisty czas rozpatrywania oraz główne etapy;
+- **co kwartał**: wykonanie planu, zmiany kadrowe, postęp i wyniki FAMI oraz usprawnienia przepływu spraw i lokalnej cyfryzacji;
+- **przy niewykonaniu celu**: przyczynę, działanie naprawcze, odpowiedzialny podmiot i nowy termin.
 
-Oczekujemy planu obejmującego obsadzenie istniejących wakatów, ograniczenie rotacji, czasowe skierowanie dodatkowych pracowników do najstarszych spraw oraz szkolenie nowych inspektorów. Jeżeli środki pozostające w dyspozycji Wojewody są niewystarczające, Wojewoda powinna oficjalnie wystąpić do MSWiA i innych właściwych organów o dodatkowe etaty i finansowanie oraz opublikować treść wystąpienia i otrzymaną odpowiedź.
+Wyniki powinny być zestawiane ze stanem wyjściowym, celami i terminami. Każdą zmianę definicji lub metody obliczania wskaźników należy wyjaśnić, aby nie tworzyła pozornej poprawy.
 
-### 6. Publiczne rozliczenie projektu FAMI o wartości prawie 12,9 mln zł
+### 5. Kadry i zmiany organizacyjne od 2020 roku
 
-Oczekujemy raportu z realizacji projektu [„Wzmocnienie zdolności Wojewody Pomorskiego w obszarze obsługi cudzoziemców w województwie pomorskim”](https://www.gov.pl/web/uw-pomorski/fundusz-azylu-migracji-i-integracji-2021--2029), którego wartość wynosi 12 885 333,33 zł.
+Oczekujemy rocznego zestawienia zmian od 2020 r.: naborów, wakatów, rotacji, delegowania pracowników, szkoleń, podziału zadań i działań wobec najstarszych spraw. Przy każdej istotnej zmianie urząd powinien podać **datę, oczekiwany efekt, sposób jego sprawdzenia i osiągnięty wynik**.
 
-Raport powinien pokazywać, jak wydatki wpłynęły na liczbę zakończonych spraw, wielkość kolejki i czas oczekiwania. Osobno należy opublikować wyniki przewidzianej w projekcie trzynastoosobowej infolinii: liczbę obsadzonych etatów, liczbę połączeń przychodzących, odebranych i nieodebranych, średni czas oczekiwania oraz liczbę udzielonych konsultacji e-mailowych i osobistych. Chcemy również wiedzieć, które stanowiska pracy, integracje systemów i pozostałe działania projektu już uruchomiono, a które są opóźnione lub niezrealizowane.
+Jeśli obsada jest niewystarczająca, plan powinien wskazywać działania Wojewody oraz wystąpienia do właściwych organów centralnych o dodatkowe środki lub etaty.
 
-### 7. Czynności bez zbędnej zwłoki na każdym etapie postępowania
+### 6. Przepływ sprawy i lokalna ocena MOS
 
-Po zarejestrowaniu wniosku w MOS lub innym właściwym systemie urzędu PUW powinien niezwłocznie wykonywać czynności administracyjne możliwe na danym etapie postępowania.
+Urząd powinien opisać rzeczywisty przebieg sprawy **od wpływu wniosku do doręczenia decyzji i zlecenia produkcji karty**: faktycznie używane systemy, automatyczną wymianę danych, ręczne przepisywanie i sprawdzanie oraz miejsca opóźnień. Nie zakładamy, że PUW korzysta ze wszystkich systemów używanych w innych województwach.
 
-Po osobistym stawiennictwie cudzoziemca, pobraniu odcisków linii papilarnych oraz uzupełnieniu braków formalnych i wymaganych dokumentów sprawa nie powinna trafiać do kolejnej wielomiesięcznej kolejki. Urząd powinien niezwłocznie rozpocząć rozpatrywanie merytoryczne, w tym dokonać wymaganych sprawdzeń i wystąpić do właściwych organów.
+Oczekujemy listy istotnych problemów, uporządkowanej według znaczenia, ze wskazaniem źródła problemu, odpowiedzialnego podmiotu, rozwiązania, terminu i miernika rezultatu. Ocena MOS powinna pokazać, co stało się prostsze, szybsze lub mniej pracochłonne, a co nadal utrudnia pracę.
 
-W wezwaniu do uzupełnienia braków formalnych urząd powinien wskazywać nie tylko termin na ich uzupełnienie, lecz także realistyczny termin załatwienia sprawy.
+Jeśli nie zaplanowano pomiaru lub brakuje danych sprzed wdrożenia, urząd powinien wyjaśnić przyczynę i wykorzystać dostępne daty w sprawach, odpowiednio dobraną próbę akt oraz udokumentowane zgłoszenia problemów technicznych. Analiza powinna opisywać metodę i ograniczenia. Problemy centralnego systemu należy przekazać Szefowi UdSC lub właściwemu ministrowi, podając datę wystąpienia.
 
-Urząd powinien co miesiąc publikować medianę czasu od wpływu wniosku do rejestracji, od rejestracji do osobistego stawiennictwa oraz — w sprawach o pobyt czasowy — od spełnienia warunków określonych w art. 112a ust. 2 do pierwszej czynności merytorycznej i do wydania decyzji.
+### 7. Jakie konkretne efekty przynosi projekt FAMI
 
-### 8. Koordynacja powiązanych spraw członków jednej rodziny
+Dla [projektu FAMI dotyczącego obsługi cudzoziemców w Pomorskiem](https://www.gov.pl/web/uw-pomorski/fundusz-azylu-migracji-i-integracji-2021--2029), o wartości **12 885 333,33 zł**, realizowanego od 29 kwietnia 2024 r. do 31 grudnia 2029 r., oczekujemy:
 
-Powiązane sprawy członków jednej rodziny powinny być prowadzone w sposób skoordynowany, nawet jeżeli opierają się na różnych podstawach prawnych lub są rozpatrywane przez różne komórki urzędu.
+- zatwierdzonych wskaźników produktu i rezultatu: wartości bazowych, docelowych i osiągniętych do dnia odpowiedzi;
+- liczby faktycznie obsadzonych stanowisk finansowanych lub wyposażonych w projekcie, z podziałem na zadania związane z postępowaniami, informacyjne i techniczne;
+- informacji o wyeliminowanych czynnościach ręcznych lub podwójnym wprowadzaniu danych i sposobie sprawdzenia efektu;
+- mierników pokazujących wpływ projektu na czas rozpatrywania, zaległość i liczbę zakończonych postępowań.
 
-Nie żądamy formalnego łączenia postępowań tam, gdzie prawo tego nie przewiduje. Oczekujemy natomiast, aby urząd — w granicach prawa — synchronizował uzupełnianie wniosków oraz umożliwiał odbiór decyzji i kart pobytu członków jednej rodziny w zbliżonym terminie. Wspólne dokumenty i przeprowadzone już sprawdzenia nie powinny być bez potrzeby dublowane.
+Urząd powinien wyjaśnić, jak rozpoznane ograniczenia procesu uzasadniały wybór działań i jaka była ich skuteczność. Nie kwestionujemy dopuszczalności poszczególnych wydatków. Jeśli wpływu na pracę urzędu nie mierzono, oczekujemy wyjaśnienia, dlaczego, jak oceniano realizację celu oraz **od jakiej daty, nie później niż przed końcem projektu, rozpocznie się taki pomiar**.
 
-### 9. Koniec z zamrażaniem spraw po wniesieniu skargi do WSA
+### 8. Powiązane sprawy małoletnich dzieci
 
-Pomorski Urząd Wojewódzki [informuje na swojej stronie](https://wsc.gdansk.uw.gov.pl/pl/komunikaty/informacja-ws-skarg-do-wsa-informacion-sobre-las-reclamaciones-ante-el-tribunal), że po wniesieniu skargi do WSA postępowanie będzie kontynuowane dopiero po zwrocie akt wraz z prawomocnym orzeczeniem sądu. W praktyce oznacza to, że osoba, która korzysta z prawa do zaskarżenia bezczynności albo przewlekłości, może czekać jeszcze dłużej właśnie dlatego, że złożyła skargę.
+Oczekujemy oznaczania powiązanych spraw rodzica lub opiekuna i małoletniego dziecka, kierowania ich w miarę możliwości do tej samej grupy pracowników oraz priorytetowej weryfikacji sprawy dziecka po rozstrzygnięciu sprawy rodzica.
 
-Oczekujemy zmiany tej praktyki i oficjalnego komunikatu. Przed przekazaniem papierowych akt do sądu urząd powinien utworzyć pełną, uporządkowaną kopię roboczą i nadal wykonywać wszystkie czynności, które nie wymagają oryginałów. Jeżeli urząd uważa, że konkretnych czynności nie wolno wykonać bez akt głównych, powinien wskazać ich podstawę prawną i wyjaśnić, dlaczego nie może korzystać z kopii lub elektronicznego obiegu dokumentów. Skarga do sądu nie może stawać się dodatkową karą za próbę obrony swoich praw.
+Jeżeli sprawa dziecka jest kompletna i nie ma indywidualnych przeszkód, celem powinno być jej zakończenie **w ciągu 30 dni od rozstrzygnięcia sprawy rodzica**. Gotowej sprawy rodzica nie należy opóźniać wyłącznie dla synchronizacji.
 
-### 10. Terminowe wydawanie zaświadczeń i skuteczne potwierdzenie legalności pobytu
+Co miesiąc urząd powinien pokazywać liczbę spraw dzieci nadal nierozstrzygniętych **30, 90 i 180 dni** po decyzji rodzica. W przypadkach objętych art. 168 ust. 5 [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl) należy uwzględniać obowiązek rozstrzygnięcia sprawy członka rodziny niezwłocznie po sprawie głównej.
 
-[Od 27 kwietnia 2026 r.](https://www.mos.cudzoziemcy.gov.pl/artyku-y/informacja-o-uruchomieniu-systemu-mos/) trzeba rozróżnić dwa dokumenty. Po prawidłowym złożeniu w MOS wniosku pobytowego podczas legalnego pobytu wojewoda wydaje z urzędu, bez opłaty, zaświadczenie na podstawie art. 108, 206 albo 222a ustawy o cudzoziemcach. Zastąpiło ono stempel w paszporcie i zawiera informację, że pobyt cudzoziemca uważa się za legalny do dnia, w którym decyzja stanie się ostateczna. Legalność wynika z ustawy, nie z samego dokumentu, ale zaświadczenie jest przeznaczonym do jej wykazania urzędowym potwierdzeniem dostępnym w MOS.
+### 9. Dalsze prowadzenie sprawy po wniesieniu skargi do WSA
 
-Innym dokumentem jest zaświadczenie wydawane na wniosek na podstawie art. 217 KPA, na przykład potwierdzające datę wpływu wniosku, sygnaturę albo pozostawanie postępowania w toku. W tym postępowaniu obowiązuje termin **7 dni**. Jeżeli urząd nie może wydać zaświadczenia o żądanej treści, powinien wydać postanowienie o odmowie, a nie milczeć przez tygodnie lub miesiące.
+Oczekujemy zmiany [informacji i praktyki PUW](https://wsc.gdansk.uw.gov.pl/pl/komunikaty/informacja-ws-skarg-do-wsa-informacion-sobre-las-reclamaciones-ante-el-tribunal) polegającej na oczekiwaniu na zwrot akt z prawomocnym orzeczeniem. [Art. 54 § 2–3 p.p.s.a.](https://eli.gov.pl/eli/DU/2026/143/ogl) przewiduje przekazanie dokumentacji sądowi i możliwość autokontroli, ale nie ustanawia ogólnego zakazu dalszego prowadzenia postępowania.
 
-To rozróżnienie ma praktyczne znaczenie. Osoba może przebywać w Polsce legalnie z mocy ustawy, a jednocześnie nie mieć dokumentu, którym potrafi to wykazać przed bankiem, ZUS, gminą albo inną instytucją. Gdy instytucja wyznacza krótki termin na uzupełnienie dokumentów, wielotygodniowe oczekiwanie na zaświadczenie może prowadzić do ograniczenia dostępu do rachunku lub usług bankowych, wstrzymania świadczenia albo problemów z prowadzeniem działalności. [Opisaliśmy już udokumentowany przypadek blokady rachunku](/skutki/blokada-konta-bankowego/).
+Przed przekazaniem akt urząd powinien przygotować **pełną kopię roboczą i kontynuować możliwe czynności**. Gdy czynność wymaga oryginału, powinien wskazać podstawę prawną i możliwość uzyskania potrzebnej kopii z sądu. W sprawie [III SAB/Gd 51/26](https://orzeczenia.nsa.gov.pl/doc/1D7C714112) Wojewoda wydał pozytywną decyzję już po wniesieniu skargi, przed wyrokiem WSA. Komunikat PUW powinien opisywać rzeczywisty sposób kontynuowania czynności zamiast automatycznego oczekiwania.
 
-Domagamy się:
+### 10. Terminowa obsługa zaświadczeń i pism
 
-- automatycznego doręczania w MOS zaświadczeń z art. 108, 206 i 222a niezwłocznie po spełnieniu ustawowych warunków, bez dodatkowego wniosku;
-- faktycznego przestrzegania 7-dniowego terminu w odrębnych postępowaniach zaświadczeniowych prowadzonych na podstawie KPA;
-- pilnej ścieżki obsługi, gdy wnioskodawca wykaże krótki termin wyznaczony przez bank, ZUS, gminę albo inną instytucję i ryzyko utraty dostępu do środków, świadczeń lub działalności;
-- pokazywania w MOS, czy warunki wydania zaświadczenia zostały zweryfikowane, a jeżeli nie — czego brakuje;
-- comiesięcznego publikowania liczby wydanych i niewydanych zaświadczeń obu rodzajów, mediany oraz 90. percentyla czasu oczekiwania, a dla zaświadczeń wydawanych na podstawie KPA także liczby spraw załatwionych w ciągu 7 dni i po przekroczeniu tego terminu.
+Oczekujemy monitorowania **wszystkich pism, dla których przepisy określają termin lub sposób załatwienia**, w szczególności:
 
-[Czym różnią się oba zaświadczenia i co zrobić po przekroczeniu terminu?](/poradniki/zaswiadczenie-w-sprawie-pobytowej/)
+- **ponagleń**: niezwłocznej rejestracji i — jeżeli podlegają rozpoznaniu — przekazania organowi wyższego stopnia wraz z wymaganymi dokumentami i stanowiskiem PUW **w ciągu 7 dni**, zgodnie z art. 37 § 4 KPA; jeżeli PUW uznaje ten tryb za wyłączony przepisem szczególnym, powinien jasno wyjaśnić sposób potraktowania pisma i podstawę prawną;
+- **zaświadczeń z art. 217 KPA**: wydawania bez zbędnej zwłoki, **nie później niż w ciągu 7 dni**, albo formalnego postanowienia o odmowie wydania zaświadczenia lub zaświadczenia żądanej treści, zgodnie z art. 219 KPA.
 
-### 11. MOS jako rzeczywiste narzędzie pracy, a nie tylko elektroniczny formularz
+Co kwartał urząd powinien publikować liczbę pism przekazanych lub załatwionych w terminie i po terminie, bez danych pozwalających zidentyfikować strony. [Podstawa prawna: Kodeks postępowania administracyjnego](https://eli.gov.pl/eli/DU/2025/1691/ogl).
 
-Oczekujemy opublikowania lokalnej oceny działania MOS i jego integracji z systemami PUW. MOS nie może być wyłącznie warstwą interfejsu, za którą pracownik nadal ręcznie przepisuje dane do kolejnych systemów. Powinien być jedną rzeczywistą bramą wejściową sprawy: dane i dokumenty przekazane przez wnioskodawcę muszą trafiać do narzędzi używanych przez pracowników bez ponownego wprowadzania tych samych informacji.
+### 11. Odpowiedź, harmonogram i spotkanie robocze
 
-Należy porównać okres przed i po wdrożeniu elektronicznej procedury, pokazując liczbę wniosków, liczbę wezwań do uzupełnienia braków, czas rejestracji, czas do biometrii, czas do pierwszej czynności merytorycznej, zakres ręcznego przepisywania danych, liczbę błędów integracji i czas do decyzji. PUW powinien ujawnić, które etapy po złożeniu wniosku są wykonywane automatycznie, a które nadal ręcznie.
+Oczekujemy jednoznacznej odpowiedzi na każde żądanie. Odmowa powinna wskazywać konkretną przyczynę prawną, organizacyjną, techniczną lub finansową oraz rozwiązanie alternatywne prowadzące do tego samego celu. Obowiązek uzasadnienia odpowiedzi wynika z [art. 13 ust. 1 ustawy o petycjach](https://eli.gov.pl/eli/DU/2018/870/ogl).
 
-Jeżeli system nie ograniczył liczby wezwań, ręcznego przepisywania danych i czasu rozpatrywania, urząd powinien wskazać przyczyny oraz przedstawić plan naprawczy. Zmiany wymagające ingerencji w centralny system MOS powinny zostać formalnie zgłoszone do UdSC i MSWiA, a treść zgłoszenia oraz odpowiedź opublikowane.
+Wraz z odpowiedzią urząd powinien przedstawić **tabelę żądań przyjętych, częściowo przyjętych i odrzuconych, terminów realizacji oraz odpowiedzialnych komórek**.
 
-### 12. Publiczna i merytoryczna odpowiedź na naszą petycję
+W ciągu **30 dni od odpowiedzi** powinno odbyć się spotkanie PUW z podmiotem wnoszącym petycję i przedstawicielami Tu Żyjemy. Podstawą mają być petycja, odpowiedź, dane bazowe, tabela rozpatrzenia żądań i projekt harmonogramu. Celem jest uzgodnienie definicji wskaźników, odpowiedzialnych komórek, terminów i pierwszego raportu, a nie omawianie indywidualnych spraw.
 
-24 czerwca 2026 r. oficjalnie złożyliśmy pakiet trzech dokumentów: petycję do Wojewody Pomorskiego, petycję do Komisji do Spraw Petycji Sejmu RP oraz pismo do Ministerstwa Cyfryzacji i Szefa UdSC. [Pakiet poparło już ponad 3 700 osób](https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow).
-
-Protest nie zastępuje petycji. Ma sprawić, aby nie zakończyła się ona ogólną odpowiedzią bez zobowiązań. Oczekujemy od Wojewody Pomorskiej publicznej, merytorycznej odpowiedzi na każdy postulat, wskazania postulatów przyjętych, odrzuconych i wymagających współpracy z organami centralnymi, a także harmonogramu realizacji przyjętych działań. Odpowiedź powinna zostać udzielona najpóźniej w terminie wynikającym z ustawy o petycjach. Oczekujemy także spotkania roboczego przedstawicieli urzędu z reprezentacją wnioskodawców.
+*Treść wymagań wobec Wojewody opracowano na podstawie petycji przygotowanej na 7 września 2026 r., według wersji z 5 września 2026 r. Odnośniki prowadzą do źródeł wskazanych w petycji.*
 
 ## Postulaty systemowe kierowane do rządu, Sejmu, MSWiA, Ministerstwa Cyfryzacji i UdSC
 
 Wojewoda nie może samodzielnie zmienić ustawy. Dlatego poniższe postulaty nie są formalnymi żądaniami wobec PUW. Mówimy o nich podczas protestu, ponieważ lokalna kolejka jest skutkiem zarówno organizacji urzędu, jak i przepisów oraz centralnych systemów. Oczekujemy od Wojewody publicznego stanowiska oraz przekazania tych postulatów właściwym ministrom i komisjom parlamentarnym.
 
-### 13. Uchylenie art. 100d i przywrócenie odpowiedzialności administracji za terminowe wydawanie decyzji
+### 12. Uchylenie art. 100d i przywrócenie odpowiedzialności administracji za terminowe wydawanie decyzji
 
 Art. 100d ustawy pomocowej zawiesza bieg terminów w prowadzonych przez wojewodów sprawach o pobyt czasowy, stały i rezydenta długoterminowego UE, wyłącza stosowanie przepisów o bezczynności oraz ogranicza skuteczne środki prawne wobec opóźnień. W 2026 r. jego obowiązywanie [przedłużono do 4 marca 2027 r.](https://eli.gov.pl/eli/DU/2026/203).
 
@@ -172,7 +169,7 @@ Także [Rzecznik Praw Obywatelskich](https://bip.brpo.gov.pl/sites/default/files
 
 Żądamy od rządu i Sejmu uchylenia art. 100d oraz przywrócenia rzeczywistych terminów, obowiązku informowania strony o opóźnieniu i skutecznej ochrony przed bezczynnością i przewlekłością. Jeżeli państwo potrzebuje okresu przejściowego, powinien mu towarzyszyć publiczny plan redukcji zaległości z kwartalnymi celami, a nie kolejne automatyczne przedłużenie wyjątku.
 
-### 14. UD408: szybka procedura pobytowa według ryzyka i kompletności sprawy
+### 13. UD408: szybka procedura pobytowa według ryzyka i kompletności sprawy
 
 {{< notatka typ="info" >}}
 Postulat dotyczy szybszej procedury pobytowej opartej na obiektywnych cechach sprawy,
@@ -191,7 +188,7 @@ Do szybkiej ścieżki powinny również kwalifikować się powiązane sprawy ma�
 
 Jeżeli rząd mimo wszystko zachowa listę państw, powinien publicznie wykazać proporcjonalność takiego rozwiązania, opublikować ocenę jego wpływu na pozostałe kolejki oraz zapewnić dodatkowe zasoby. Przyspieszenie jednej grupy nie może oznaczać jeszcze dłuższego oczekiwania wszystkich pozostałych.
 
-### 15. Realizacja postulatów ustawowych z naszej petycji do Sejmu
+### 14. Realizacja postulatów ustawowych z naszej petycji do Sejmu
 
 Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 
@@ -201,7 +198,7 @@ Oczekujemy dalszych prac nad rozwiązaniami opisanymi w złożonej petycji:
 - ustawowego powiązania spraw małoletnich dzieci ze sprawami rodziców lub opiekunów;
 - zapewnienia, aby osoba legalnie oczekująca na decyzję mogła skutecznie wykazać swój status wobec instytucji publicznych i — w granicach przepisów sektorowych — regulowanych podmiotów prywatnych.
 
-### 16. Integracja MOS 2 z innymi systemami państwowymi
+### 15. Integracja MOS 2 z innymi systemami państwowymi
 
 MOS 2 nie powinien być jedynie nową warstwą interfejsu ani elektroniczną teczką na dokumenty. Jego zadaniem jest zapewnienie automatycznej wymiany danych między ST POBYT, EZD, systemami wojewódzkimi oraz niezbędnymi rejestrami publicznymi, w szczególności ZUS, KAS, CEIDG i KRS.
 
