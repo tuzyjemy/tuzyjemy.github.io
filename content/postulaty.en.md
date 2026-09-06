@@ -2,14 +2,14 @@
 title: "We do not want to wait for years. The aim and demands of the residence-legalisation protest"
 description: "The aim and 15 demands of the 7 September protest in Gdańsk — addressed to the Pomeranian Voivode and to the government."
 date: 2026-08-25
-lastmod: 2026-09-05
+lastmod: 2026-09-06
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
-Below we summarise **11 demands from the petition to the Voivode prepared for 7 September 2026**, followed by a separate section of nationwide demands. The new petition clarifies the requests on statistics, staffing and FAMI in the petition submitted on 24 June 2026. It also contains distinct demands concerning a plan to clear the backlog, minor children's cases, continued proceedings after a complaint to WSA, and the handling of certificates and correspondence.
+Below we summarise **11 demands from the petition to the Voivode prepared for 7 September 2026**, followed by a separate section of nationwide demands. The new petition clarifies the requests on statistics, staffing and FAMI in the petition submitted on 24 June 2026. It also contains distinct demands concerning a plan to clear the backlog, related family cases, continued proceedings after a complaint to WSA, and the handling of certificates and correspondence.
 
 [Media materials](/dla-mediow/)
 {{< /notatka >}}
@@ -32,7 +32,7 @@ Our aim is:
 We expect:
 
 1. **a public plan to clear the backlog and comparable data** — with quarterly targets, specific deadlines, monthly statistics, regular assessment of results and corrective action;
-2. **effective organisation and a response to every demand** — assessment of staffing, actual case handling, MOS and FAMI results; coordination of minor children's cases, continued work after a complaint to WSA, timely handling of certificates and correspondence, an implementation schedule and a working meeting;
+2. **effective organisation and a response to every demand** — assessment of staffing, actual case handling, MOS and FAMI results; coordination of related family cases, continued work after a complaint to WSA, timely handling of certificates and correspondence, an implementation schedule and a working meeting;
 3. **accountability of the administration and equal rules** — repeal of art. 100d and fast procedures based on objective features of the case rather than nationality;
 4. **one coherent digital process** — integration of MOS 2 with ST POBYT, EZD, voivodeship systems and state registers, without re-keying the same data by hand.
 
@@ -43,6 +43,8 @@ Below: **11 demands to the Voivode and PUW, and 4 nationwide demands**.
 The following **11 points summarise the petition prepared for 7 September 2026**. They concern temporary residence permits, permanent residence permits and EU long-term resident permits. We want to know how many cases remain unresolved, what the office intends to achieve and by when, what it has achieved, and what it will change if it misses a target.
 
 The demands also cover related steps, including serving decisions and issuing residence cards and certificates. Statistics, staffing information and assessments of organisational changes must concern the handling of these cases, regardless of how tasks are divided between PUW units. Statistics for the office as a whole cannot replace the requested data.
+
+The requested data should show whether the backlog and waiting times are actually falling, whether the oldest cases are being resolved, and whether corrective measures are delivering the planned results.
 
 ### 1. A public plan to clear the backlog
 
@@ -56,16 +58,19 @@ The plan should set separate deadlines for substantially reducing and then clear
 
 The **full period from receipt of an application to issuing and serving the decision** must be measured and reduced, irrespective of when the statutory time limit starts. Organisational standards do not replace binding legal deadlines. For the Niebieska Karta UE, the maximum **90 days from a complete application to a decision and written notification** under [art. 11 ust. 1 of Directive (EU) 2021/1883](https://eur-lex.europa.eu/eli/dir/2021/1883/oj/pol) should be monitored separately. National and EU measures require separate calculations, applying the relevant rules on when time limits start and are suspended.
 
-### 2. Comparable monthly data from 2020 onwards
+### 2. Comparable data from 2020 onwards
 
 We call for data for every month **from January 2020 to August 2026**, separately for the three permit types and covering every legal basis within each category:
 
 - new applications and completed cases, distinguishing positive decisions, refusals, discontinuance, applications left unexamined and other outcomes;
-- cases still open at the end of the month, including those older than one, two and three years;
+- cases still open at the end of the month, including those older than one, two and three years.
+
+For the same period, we call for quarterly figures on:
+
 - the number of staff handling proceedings or preparing draft decisions, and their posts expressed as the equivalent number of full-time posts;
 - all open cases, active open cases, decisions issued and all completed cases **per such full-time post**.
 
-Active cases exclude proceedings formally suspended by an order and cases where the deadline to remedy formal deficiencies has not yet expired. If shared staffing cannot reliably be allocated between categories, the office should provide an aggregate result and explain its calculation, without staff rankings or personal data. Where historical monthly data is unavailable, it should provide the most detailed existing data, explain the gaps and state the month from which full reporting will begin.
+Active cases exclude proceedings formally suspended by an order and cases where the deadline to remedy formal deficiencies has not yet expired. If shared staffing cannot reliably be allocated between categories, the office should provide an aggregate result and explain its calculation, without staff rankings or personal data. Where historical data is unavailable at the required monthly or quarterly frequency, it should provide the most detailed existing data, explain the gaps and state the month or quarter from which full reporting will begin.
 
 ### 3. Actual waiting times and stages of the backlog
 
@@ -88,7 +93,7 @@ For proceedings initiated before **27 April 2026**, the previous provisions must
 PUW should announce fixed dates for publishing reports:
 
 - **monthly**: incoming applications, completed cases, their balance, the size and age of the backlog, actual processing times and the main stages;
-- **quarterly**: delivery of the plan, staffing changes, FAMI progress and results, and improvements to case handling and local digital processes;
+- **quarterly**: delivery of the plan, staffing levels, indicators per full-time post and staffing changes, data on related family cases, FAMI progress and results, and improvements to case handling and local digital processes;
 - **when a target is missed**: the reason, corrective action, responsible body and revised deadline.
 
 Results should be assessed against the starting position, targets and deadlines. Every change to definitions or calculation methods should be explained so that it does not create an appearance of improvement.
@@ -120,13 +125,17 @@ For the [FAMI project supporting services for foreigners in Pomorskie](https://w
 
 The office should explain how identified constraints in the process justified the choice of activities and how effective those activities proved. We do not question whether individual project expenses are eligible. If the operational impact has not been measured, we want to know why, how progress towards the objective was assessed and **from what date, no later than the end of the project, measurement will begin**.
 
-### 8. Linked cases involving minor children
+### 8. Coordination of related family cases
 
-We call for cases involving a parent or guardian and a minor child to be marked as linked, assigned to the same staff team where possible, and for the child's case to be reviewed as a priority once the parent's case has been decided.
+We call for coordination of cases involving parents or guardians and children, spouses, and partners in a stable unmarried relationship, **where the decision in one case affects the possibility of completing another**. Different legal grounds for applying for a permit do not exclude such coordination.
 
-If the child's application is complete and there are no individual obstacles, the organisational target should be to conclude the case **within 30 days of the decision in the parent's case**. A parent's case that is ready for a decision should not be delayed solely for synchronisation.
+Related cases should be marked in the system and, where possible, assigned to the same team, or supported by ongoing information exchange between the staff handling them. After deciding one case, the office should check without delay whether this allows another to be completed.
 
-Each month, the office should report the number of children's cases still unresolved **30, 90 and 180 days** after the parent's decision. Where art. 168 ust. 5 of the [ustawa o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl) applies, the obligation to decide the family member's case without delay after the main case must be taken into account.
+Where art. 168 ust. 5 of the [ustawa o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl) applies, the family member's case must be decided **without delay after the main case**. In other related cases, the organisational target is to complete a case with all required documents and no need for further fact-finding **within 30 days of the decision removing the obstacle to deciding it**. This target does not limit the duty to act without delay or to meet binding legal time limits.
+
+Minor children's cases require particular attention. A case ready for a decision must not be delayed solely to complete related cases at the same time.
+
+**Each quarter**, the office should publish, without personal data, the number of related cases still unresolved **30, 90 and 180 days** after the decision removing the obstacle to deciding them, reporting minor children's cases separately.
 
 ### 9. Continuing proceedings after a complaint to WSA
 

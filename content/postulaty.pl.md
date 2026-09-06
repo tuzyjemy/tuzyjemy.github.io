@@ -2,7 +2,7 @@
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
 description: "Cel i 15 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
 date: 2026-08-25
-lastmod: 2026-09-05
+lastmod: 2026-09-06
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -13,7 +13,7 @@ Poniżej przedstawiamy w skrócie **11 żądań petycji do Wojewody przygotowane
 7 września 2026 r.** oraz osobny blok postulatów ogólnopolskich. Nowa petycja
 doprecyzowuje wcześniejsze żądania dotyczące statystyk, kadr i FAMI z petycji złożonej
 24 czerwca 2026 r. Zawiera też samodzielne żądania dotyczące planu likwidacji
-zaległości, spraw małoletnich dzieci, dalszych czynności po skardze do WSA oraz
+zaległości, powiązanych spraw rodzinnych, dalszych czynności po skardze do WSA oraz
 obsługi zaświadczeń i pism.
 
 [Materiały dla mediów](/dla-mediow/)
@@ -37,7 +37,7 @@ Naszym celem jest:
 Oczekujemy:
 
 1. **publicznego planu likwidacji zaległości i porównywalnych danych** — z celami kwartalnymi, konkretnymi terminami, miesięczną statystyką oraz regularną oceną wyników i działaniami naprawczymi;
-2. **sprawnej organizacji i odpowiedzi na każde żądanie** — oceny kadr, rzeczywistego przepływu spraw, MOS i efektów FAMI; koordynacji spraw małoletnich dzieci, dalszej pracy po skardze do WSA, terminowej obsługi zaświadczeń i pism oraz harmonogramu i spotkania roboczego;
+2. **sprawnej organizacji i odpowiedzi na każde żądanie** — oceny kadr, rzeczywistego przepływu spraw, MOS i efektów FAMI; koordynacji powiązanych spraw rodzinnych, dalszej pracy po skardze do WSA, terminowej obsługi zaświadczeń i pism oraz harmonogramu i spotkania roboczego;
 3. **odpowiedzialności administracji i równych zasad** — uchylenia art. 100d oraz szybkich procedur opartych na obiektywnych cechach sprawy, a nie obywatelstwie;
 4. **jednego spójnego procesu cyfrowego** — integracji MOS 2 ze ST POBYT, EZD, systemami wojewódzkimi oraz rejestrami państwowymi, bez ręcznego przepisywania tych samych danych.
 
@@ -48,6 +48,8 @@ Poniżej: **11 wymagań wobec Wojewody i PUW oraz 4 postulaty ogólnopolskie**.
 Poniższe 11 punktów to skrócone przedstawienie żądań petycji przygotowanej na **7 września 2026 r.** Dotyczą zezwoleń na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE. Chcemy wiedzieć, ile spraw pozostaje do załatwienia, jaki wynik urząd zamierza osiągnąć i do kiedy, co osiągnął oraz co poprawi, jeżeli nie wykona celu.
 
 Żądania obejmują także związane z tymi sprawami doręczanie decyzji, wydawanie kart pobytu i zaświadczeń. Dane statystyczne, informacje kadrowe i oceny zmian organizacyjnych mają dotyczyć obsługi tych spraw, niezależnie od podziału zadań między komórkami PUW. Zbiorcza statystyka całego urzędu nie zastępuje żądanych danych.
+
+Żądane dane mają pokazać, czy kolejka i czas oczekiwania rzeczywiście się skracają, czy załatwiane są najstarsze sprawy i czy działania naprawcze przynoszą zakładane wyniki.
 
 ### 1. Publiczny plan likwidacji zaległości
 
@@ -61,16 +63,19 @@ Plan powinien wskazywać oddzielne terminy istotnego ograniczenia, a następnie 
 
 Niezależnie od początku biegu terminu ustawowego należy mierzyć i skracać **pełny czas od wpływu wniosku do wydania i doręczenia decyzji**. Standardy organizacyjne nie zastępują obowiązujących terminów prawnych. Dla Niebieskiej Karty UE należy osobno monitorować maksymalny okres **90 dni od kompletnego wniosku do decyzji i pisemnego powiadomienia**, wynikający z [art. 11 ust. 1 dyrektywy (UE) 2021/1883](https://eur-lex.europa.eu/eli/dir/2021/1883/oj/pol). Wskaźniki krajowe i unijne wymagają odrębnego obliczania, z właściwymi zasadami rozpoczęcia i wstrzymania biegu terminu.
 
-### 2. Porównywalne dane miesięczne od 2020 roku
+### 2. Porównywalne dane od 2020 roku
 
 Oczekujemy danych za każdy miesiąc **od stycznia 2020 r. do sierpnia 2026 r.**, osobno dla trzech rodzajów zezwoleń, z uwzględnieniem wszystkich podstaw prawnych w każdej kategorii:
 
 - nowych wniosków i zakończonych postępowań, z rozróżnieniem decyzji pozytywnych, odmownych, umorzeń, pozostawienia bez rozpoznania i innych zakończeń;
-- niezakończonych spraw na koniec miesiąca, w tym starszych niż rok, dwa i trzy lata;
+- niezakończonych spraw na koniec miesiąca, w tym starszych niż rok, dwa i trzy lata.
+
+Dla tego samego okresu oczekujemy w ujęciu kwartalnym:
+
 - liczby osób i etatów w przeliczeniu na pełny wymiar czasu pracy pracowników prowadzących postępowania lub przygotowujących projekty rozstrzygnięć;
 - liczby wszystkich i aktywnych niezakończonych spraw, wydanych decyzji oraz wszystkich zakończonych postępowań **w przeliczeniu na taki etat**.
 
-Z aktywnych spraw wyłącza się sprawy formalnie zawieszone postanowieniem oraz te, w których nadal biegnie termin na usunięcie braków formalnych. Jeśli wspólnej obsady nie można wiarygodnie podzielić między kategorie, urząd powinien podać wynik łączny i metodę obliczenia, bez rankingów i danych osobowych pracowników. Jeżeli brakuje miesięcznych danych historycznych, powinien udostępnić najbardziej szczegółowe dostępne dane, wyjaśnić braki i wskazać miesiąc rozpoczęcia pełnej sprawozdawczości.
+Z aktywnych spraw wyłącza się sprawy formalnie zawieszone postanowieniem oraz te, w których nadal biegnie termin na usunięcie braków formalnych. Jeśli wspólnej obsady nie można wiarygodnie podzielić między kategorie, urząd powinien podać wynik łączny i metodę obliczenia, bez rankingów i danych osobowych pracowników. Jeżeli brakuje danych historycznych w wymaganym ujęciu miesięcznym lub kwartalnym, powinien udostępnić najbardziej szczegółowe dostępne dane, wyjaśnić braki i wskazać miesiąc lub kwartał rozpoczęcia pełnej sprawozdawczości.
 
 ### 3. Rzeczywisty czas i etapy zaległości
 
@@ -93,7 +98,7 @@ Dla postępowań wszczętych przed **27 kwietnia 2026 r.** należy uwzględniać
 PUW powinien ogłosić stałe dni publikowania raportów:
 
 - **co miesiąc**: wpływ, zakończenia, bilans, wielkość i wiek zaległości, rzeczywisty czas rozpatrywania oraz główne etapy;
-- **co kwartał**: wykonanie planu, zmiany kadrowe, postęp i wyniki FAMI oraz usprawnienia przepływu spraw i lokalnej cyfryzacji;
+- **co kwartał**: wykonanie planu, stan zatrudnienia, wskaźniki na etat i zmiany kadrowe, dane o powiązanych sprawach rodzinnych, postęp i wyniki FAMI oraz usprawnienia przepływu spraw i lokalnej cyfryzacji;
 - **przy niewykonaniu celu**: przyczynę, działanie naprawcze, odpowiedzialny podmiot i nowy termin.
 
 Wyniki powinny być zestawiane ze stanem wyjściowym, celami i terminami. Każdą zmianę definicji lub metody obliczania wskaźników należy wyjaśnić, aby nie tworzyła pozornej poprawy.
@@ -125,13 +130,17 @@ Dla [projektu FAMI dotyczącego obsługi cudzoziemców w Pomorskiem](https://www
 
 Urząd powinien wyjaśnić, jak rozpoznane ograniczenia procesu uzasadniały wybór działań i jaka była ich skuteczność. Nie kwestionujemy dopuszczalności poszczególnych wydatków. Jeśli wpływu na pracę urzędu nie mierzono, oczekujemy wyjaśnienia, dlaczego, jak oceniano realizację celu oraz **od jakiej daty, nie później niż przed końcem projektu, rozpocznie się taki pomiar**.
 
-### 8. Powiązane sprawy małoletnich dzieci
+### 8. Koordynacja powiązanych spraw rodzinnych
 
-Oczekujemy oznaczania powiązanych spraw rodzica lub opiekuna i małoletniego dziecka, kierowania ich w miarę możliwości do tej samej grupy pracowników oraz priorytetowej weryfikacji sprawy dziecka po rozstrzygnięciu sprawy rodzica.
+Oczekujemy koordynacji spraw rodziców lub opiekunów i dzieci, małżonków oraz partnerów pozostających w trwałym związku nieformalnym, **jeżeli rozstrzygnięcie jednej sprawy ma znaczenie dla możliwości zakończenia drugiej**. Różne podstawy prawne ubiegania się o zezwolenie nie wykluczają takiej koordynacji.
 
-Jeżeli sprawa dziecka jest kompletna i nie ma indywidualnych przeszkód, celem powinno być jej zakończenie **w ciągu 30 dni od rozstrzygnięcia sprawy rodzica**. Gotowej sprawy rodzica nie należy opóźniać wyłącznie dla synchronizacji.
+Sprawy powinny być oznaczane jako powiązane i, w miarę możliwości, kierowane do tej samej grupy pracowników albo objęte bieżącą wymianą informacji. Po rozstrzygnięciu jednej sprawy urząd powinien niezwłocznie sprawdzić, czy pozwala to zakończyć drugą.
 
-Co miesiąc urząd powinien pokazywać liczbę spraw dzieci nadal nierozstrzygniętych **30, 90 i 180 dni** po decyzji rodzica. W przypadkach objętych art. 168 ust. 5 [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl) należy uwzględniać obowiązek rozstrzygnięcia sprawy członka rodziny niezwłocznie po sprawie głównej.
+W przypadkach objętych art. 168 ust. 5 [ustawy o cudzoziemcach](https://eli.gov.pl/eli/DU/2025/1079/ogl) obowiązuje rozstrzygnięcie sprawy członka rodziny **niezwłocznie po sprawie głównej**. W pozostałych sprawach powiązanych celem organizacyjnym jest zakończenie kompletnej sprawy niewymagającej dalszego postępowania wyjaśniającego **w ciągu 30 dni od decyzji usuwającej przeszkodę w jej rozstrzygnięciu**. Cel ten nie ogranicza obowiązku działania niezwłocznie ani dochowania obowiązujących terminów prawnych.
+
+Szczególnej koordynacji wymagają sprawy małoletnich dzieci. Gotowej sprawy nie należy opóźniać wyłącznie dla jednoczesnego zakończenia spraw powiązanych.
+
+**Co kwartał** urząd powinien publikować, bez danych osobowych, liczbę powiązanych spraw nierozstrzygniętych **30, 90 i 180 dni** po decyzji usuwającej przeszkodę w ich rozstrzygnięciu, z osobnymi danymi dotyczącymi małoletnich dzieci.
 
 ### 9. Dalsze prowadzenie sprawy po wniesieniu skargi do WSA
 
