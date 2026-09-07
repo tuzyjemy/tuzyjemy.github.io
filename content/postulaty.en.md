@@ -2,7 +2,7 @@
 title: "We do not want to wait for years. The aim and demands of the residence-legalisation protest"
 description: "The aim and 15 demands of the 7 September protest in Gdańsk — addressed to the Pomeranian Voivode and to the government."
 date: 2026-08-25
-lastmod: 2026-09-06
+lastmod: 2026-09-07
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -58,12 +58,16 @@ The plan should set separate deadlines for substantially reducing and then clear
 
 The **full period from receipt of an application to issuing and serving the decision** must be measured and reduced, irrespective of when the statutory time limit starts. Organisational standards do not replace binding legal deadlines. For the Niebieska Karta UE, the maximum **90 days from a complete application to a decision and written notification** under [art. 11 ust. 1 of Directive (EU) 2021/1883](https://eur-lex.europa.eu/eli/dir/2021/1883/oj/pol) should be monitored separately. National and EU measures require separate calculations, applying the relevant rules on when time limits start and are suspended.
 
+The starting point for measuring these organisational standards is defined below in section “3. Actual waiting times and stages of the backlog”. The full time from receipt of the application is measured separately.
+
 ### 2. Comparable data from 2020 onwards
 
 We call for data for every month **from January 2020 to August 2026**, separately for the three permit types and covering every legal basis within each category:
 
 - new applications and completed cases, distinguishing positive decisions, refusals, discontinuance, applications left unexamined and other outcomes;
 - cases still open at the end of the month, including those older than one, two and three years.
+
+The age of an open case should be measured from the date PUW received the application to the date of the reported case snapshot.
 
 For the same period, we call for quarterly figures on:
 
@@ -135,7 +139,7 @@ Where art. 168 ust. 5 of the [ustawa o cudzoziemcach](https://eli.gov.pl/eli/DU/
 
 Minor children's cases require particular attention. A case ready for a decision must not be delayed solely to complete related cases at the same time.
 
-**Each quarter**, the office should publish, without personal data, the number of related cases still unresolved **30, 90 and 180 days** after the decision removing the obstacle to deciding them, reporting minor children's cases separately.
+**Each quarter**, the office should publish, without personal data, the number of cases still unresolved **30 days after a decision in another, related case**, where that decision removed the obstacle to deciding them. Minor children's cases should be identified separately within that total.
 
 ### 9. Continuing proceedings after a complaint to WSA
 
@@ -150,7 +154,7 @@ We call for monitoring of **all correspondence for which the law specifies a dea
 - **ponaglenia**: prompt registration and, where they are subject to examination, forwarding to the higher authority with the necessary documents and PUW's position **within 7 days**, under art. 37 § 4 KPA; if PUW considers that a special provision excludes this procedure, it should clearly explain how it has handled the submission and on what legal basis;
 - **certificates under art. 217 KPA**: issue without undue delay and **no later than 7 days**, or a formal order refusing to issue the certificate or a certificate with the requested content, under art. 219 KPA.
 
-Each quarter, the office should publish the number of submissions forwarded or dealt with on time and late, without data that could identify the parties. [Legal basis: Kodeks postępowania administracyjnego](https://eli.gov.pl/eli/DU/2025/1691/ogl).
+Each quarter, the office should publish the number of submissions forwarded or dealt with on time and late, and the number still awaiting forwarding or handling at the end of the quarter despite expiry of the applicable deadline. The data must not identify the parties. [Legal basis: Kodeks postępowania administracyjnego](https://eli.gov.pl/eli/DU/2025/1691/ogl).
 
 ### 11. A response, implementation schedule and working meeting
 
@@ -158,9 +162,11 @@ We call for an unambiguous response to each demand. A refusal should identify a 
 
 The response should include a **table of accepted, partly accepted and rejected demands, implementation deadlines and responsible units**.
 
-A working meeting between PUW, the person submitting the petition and Tu Żyjemy representatives should take place **within 30 days of the response**. It should be based on the petition, the response, baseline data, the table of outcomes and a draft schedule. Its purpose is to agree indicator definitions, responsible units, deadlines and the first report, rather than discuss individual residence cases.
+A working meeting between PUW, the person submitting the petition and Tu Żyjemy representatives should take place **within 30 days of the response**. It should be based on the petition, the response, the table of outcomes, a draft action plan with a schedule, and data collected by the meeting date. For missing data, the office should identify the gaps, explain their causes and specify how and by when it expects to fill them. **Incomplete data should not delay the meeting.**
 
-*The demands to the Voivode are based on the petition prepared for 7 September 2026, in its version of 5 September 2026. Links lead to sources cited in the petition.*
+The main purpose is to **discuss the measures proposed by PUW to clear the backlog and shorten actual waiting times**, and agree concrete actions, measurable targets, deadlines, responsible units and public monitoring of results, including the scope and date of the first report. The meeting is not for discussing individual residence cases.
+
+*The demands to the Voivode are based on the petition prepared for 7 September 2026, in its version of 7 September 2026. Links lead to sources cited in the petition.*
 
 ## Systemic demands addressed to the government, the Sejm, the Ministry of the Interior and Administration, the Ministry of Digital Affairs and the Office for Foreigners
 

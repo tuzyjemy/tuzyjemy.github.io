@@ -2,7 +2,7 @@
 title: "Nie chcemy czekać latami. Cel i postulaty protestu w sprawie legalizacji pobytu"
 description: "Cel i 15 postulatów protestu 7 września w Gdańsku — wobec Wojewody Pomorskiej i wobec rządu."
 date: 2026-08-25
-lastmod: 2026-09-06
+lastmod: 2026-09-07
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Mobilizacja"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
@@ -63,12 +63,16 @@ Plan powinien wskazywać oddzielne terminy istotnego ograniczenia, a następnie 
 
 Niezależnie od początku biegu terminu ustawowego należy mierzyć i skracać **pełny czas od wpływu wniosku do wydania i doręczenia decyzji**. Standardy organizacyjne nie zastępują obowiązujących terminów prawnych. Dla Niebieskiej Karty UE należy osobno monitorować maksymalny okres **90 dni od kompletnego wniosku do decyzji i pisemnego powiadomienia**, wynikający z [art. 11 ust. 1 dyrektywy (UE) 2021/1883](https://eur-lex.europa.eu/eli/dir/2021/1883/oj/pol). Wskaźniki krajowe i unijne wymagają odrębnego obliczania, z właściwymi zasadami rozpoczęcia i wstrzymania biegu terminu.
 
+Początek pomiaru tych standardów organizacyjnych określono w części „3. Rzeczywisty czas i etapy zaległości” poniżej. Pełny czas od wpływu wniosku mierzy się odrębnie.
+
 ### 2. Porównywalne dane od 2020 roku
 
 Oczekujemy danych za każdy miesiąc **od stycznia 2020 r. do sierpnia 2026 r.**, osobno dla trzech rodzajów zezwoleń, z uwzględnieniem wszystkich podstaw prawnych w każdej kategorii:
 
 - nowych wniosków i zakończonych postępowań, z rozróżnieniem decyzji pozytywnych, odmownych, umorzeń, pozostawienia bez rozpoznania i innych zakończeń;
 - niezakończonych spraw na koniec miesiąca, w tym starszych niż rok, dwa i trzy lata.
+
+Wiek niezakończonej sprawy należy liczyć od dnia wpływu wniosku do PUW do dnia, na który przedstawiany jest stan spraw.
 
 Dla tego samego okresu oczekujemy w ujęciu kwartalnym:
 
@@ -140,7 +144,7 @@ W przypadkach objętych art. 168 ust. 5 [ustawy o cudzoziemcach](https://eli.gov
 
 Szczególnej koordynacji wymagają sprawy małoletnich dzieci. Gotowej sprawy nie należy opóźniać wyłącznie dla jednoczesnego zakończenia spraw powiązanych.
 
-**Co kwartał** urząd powinien publikować, bez danych osobowych, liczbę powiązanych spraw nierozstrzygniętych **30, 90 i 180 dni** po decyzji usuwającej przeszkodę w ich rozstrzygnięciu, z osobnymi danymi dotyczącymi małoletnich dzieci.
+**Co kwartał** urząd powinien publikować, bez danych osobowych, liczbę spraw nierozstrzygniętych mimo upływu **30 dni od decyzji w innej, powiązanej sprawie**, jeżeli decyzja ta usunęła przeszkodę w ich rozstrzygnięciu. W tej liczbie należy odrębnie wskazać sprawy małoletnich dzieci.
 
 ### 9. Dalsze prowadzenie sprawy po wniesieniu skargi do WSA
 
@@ -155,7 +159,7 @@ Oczekujemy monitorowania **wszystkich pism, dla których przepisy określają te
 - **ponagleń**: niezwłocznej rejestracji i — jeżeli podlegają rozpoznaniu — przekazania organowi wyższego stopnia wraz z wymaganymi dokumentami i stanowiskiem PUW **w ciągu 7 dni**, zgodnie z art. 37 § 4 KPA; jeżeli PUW uznaje ten tryb za wyłączony przepisem szczególnym, powinien jasno wyjaśnić sposób potraktowania pisma i podstawę prawną;
 - **zaświadczeń z art. 217 KPA**: wydawania bez zbędnej zwłoki, **nie później niż w ciągu 7 dni**, albo formalnego postanowienia o odmowie wydania zaświadczenia lub zaświadczenia żądanej treści, zgodnie z art. 219 KPA.
 
-Co kwartał urząd powinien publikować liczbę pism przekazanych lub załatwionych w terminie i po terminie, bez danych pozwalających zidentyfikować strony. [Podstawa prawna: Kodeks postępowania administracyjnego](https://eli.gov.pl/eli/DU/2025/1691/ogl).
+Co kwartał urząd powinien publikować liczbę pism przekazanych lub załatwionych w terminie i po terminie oraz liczbę pism nadal oczekujących na przekazanie lub załatwienie mimo upływu właściwego terminu, według stanu na koniec kwartału. Dane nie powinny pozwalać na identyfikację stron. [Podstawa prawna: Kodeks postępowania administracyjnego](https://eli.gov.pl/eli/DU/2025/1691/ogl).
 
 ### 11. Odpowiedź, harmonogram i spotkanie robocze
 
@@ -163,9 +167,11 @@ Oczekujemy jednoznacznej odpowiedzi na każde żądanie. Odmowa powinna wskazywa
 
 Wraz z odpowiedzią urząd powinien przedstawić **tabelę żądań przyjętych, częściowo przyjętych i odrzuconych, terminów realizacji oraz odpowiedzialnych komórek**.
 
-W ciągu **30 dni od odpowiedzi** powinno odbyć się spotkanie PUW z podmiotem wnoszącym petycję i przedstawicielami Tu Żyjemy. Podstawą mają być petycja, odpowiedź, dane bazowe, tabela rozpatrzenia żądań i projekt harmonogramu. Celem jest uzgodnienie definicji wskaźników, odpowiedzialnych komórek, terminów i pierwszego raportu, a nie omawianie indywidualnych spraw.
+W ciągu **30 dni od odpowiedzi** powinno odbyć się spotkanie PUW z podmiotem wnoszącym petycję i przedstawicielami Tu Żyjemy. Podstawą powinny być petycja, odpowiedź PUW, tabela rozpatrzenia żądań, projekt planu działań wraz z harmonogramem oraz dane zebrane do dnia spotkania. Jeżeli części danych brakuje, urząd powinien wskazać zakres braków, ich przyczyny oraz sposób i przewidywany termin uzupełnienia. **Brak pełnego zestawu danych nie powinien opóźniać spotkania.**
 
-*Treść wymagań wobec Wojewody opracowano na podstawie petycji przygotowanej na 7 września 2026 r., według wersji z 5 września 2026 r. Odnośniki prowadzą do źródeł wskazanych w petycji.*
+Głównym przedmiotem spotkania powinno być **omówienie działań proponowanych przez PUW w celu likwidacji zaległości i skrócenia rzeczywistego czasu oczekiwania** oraz uzgodnienie konkretnych działań, mierzalnych celów, terminów, odpowiedzialnych komórek i publicznego monitorowania wyników, w tym zakresu i terminu pierwszego raportu. Spotkanie nie służy omawianiu indywidualnych spraw pobytowych.
+
+*Treść wymagań wobec Wojewody opracowano na podstawie petycji przygotowanej na 7 września 2026 r., według wersji z 7 września 2026 r. Odnośniki prowadzą do źródeł wskazanych w petycji.*
 
 ## Postulaty systemowe kierowane do rządu, Sejmu, MSWiA, Ministerstwa Cyfryzacji i UdSC
 
