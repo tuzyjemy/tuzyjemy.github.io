@@ -3,12 +3,13 @@ name: Publikacja na GitHub Pages
 on:
   push:
     branches: [main]
-  # Co godzinę przebudowujemy stronę, żeby odświeżyć licznik zgłoszeń
-  # pobierany z Mobilizona przy budowaniu (patrz event-attendance.html).
-  # Strona jest statyczna, więc bez tego licznik zostałby zamrożony
-  # na chwili ostatniego wypchnięcia zmian.
-  schedule:
-    - cron: "0 * * * *"
+  # Budujemy tylko przy wypchnięciu zmian. Wcześniej stała tu przebudowa
+  # co godzinę — potrzebna, dopóki hero pokazywał licznik zgłoszeń pobierany
+  # z Mobilizona przy budowaniu (event-attendance.html): strona jest
+  # statyczna, więc bez tego licznik zamarzłby na ostatnim wypchnięciu.
+  # Po proteście 7 września 2026 r. panel nie ma już licznika, a treść zmienia
+  # się tylko wtedy, gdy sami coś zmienimy. Przy kolejnym wydarzeniu z zapisami
+  # wystarczy przywrócić blok `schedule` razem z `event:` w layout.yaml.
   # Pozwala uruchomić publikację ręcznie z zakładki Actions
   workflow_dispatch:
 
