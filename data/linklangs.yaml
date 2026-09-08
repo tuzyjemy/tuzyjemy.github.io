@@ -15,4 +15,14 @@ petycjeonline.com: pl
 bip.warszawa.wsa.gov.pl: pl
 naprawnik.contra-law.pl: pl
 trojmiasto.pl: pl
+
+# Redakcje, które pisały o proteście 7 września 2026 r. Domeny nadrzędne
+# (tvp.pl, gazetaprawna.pl) łapią też poddomeny — patrz dopasowanie po
+# domenie nadrzędnej w render-link.html.
+tvp.pl: pl
+dziennikbaltycki.pl: pl
+gazetaprawna.pl: pl
+pulsgdanska.pl: pl
 mostmedia.io: ru
+# Uwaga: vitrina.pl ma polską domenę, ale pisze po rosyjsku.
+vitrina.pl: ru

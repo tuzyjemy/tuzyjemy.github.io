@@ -1,27 +1,37 @@
 # Teksty kampanii — polski. Strukturę (wydarzenie, odnośniki) ustawia layout.yaml.
-kicker: "PROTEST 7 WRZEŚNIA · GDAŃSK"
+kicker: "PROTEST SIĘ ODBYŁ · CO DALEJ"
 heading: "Sprawna legalizacja pobytu — lepsza integracja"
 lead: "Postulujemy terminowe i zgodne z prawem wydawanie decyzji w sprawach zezwoleń na pobyt czasowy, pobyt stały i pobyt rezydenta długoterminowego UE."
 boundary: "Nie postulujemy zmian zasad nadawania polskiego obywatelstwa ani automatycznie pozytywnych decyzji."
 principle: "Państwo ma prawo dokładnie sprawdzać wnioski — powinno też rozstrzygać je w przewidywalnym terminie."
-body: "Nie chcemy czekać latami na decyzję pobytową. 7 września wychodzimy pod Pomorski Urząd Wojewódzki z 16 konkretnymi postulatami."
+body: |-
+  7 września pod Pomorski Urząd Wojewódzki przyszło ponad 200 osób. Petycja z 11 punktami trafiła do pierwszego wicewojewody, zapowiedziano nowe etaty w wydziale, ustalono spotkanie robocze.
+
+  Problem nie zniknął: ludzie nadal czekają na decyzję po dwa lata i dłużej. Pilnujemy realizacji zapowiedzi i działamy dalej.
 
 meta:
   - "● Gdańsk"
-  - "◷ 7 września, 16:30"
+  - "◷ 7 września 2026"
 
-linkTitle: "Przeczytaj postulaty"
+linkTitle: "Jak przebiegł protest"
 
-voteHeading: "Przyjdziesz?"
-voteBody: "Potwierdź obecność, żebyśmy wiedzieli, na ile osób liczyć."
+voteHeading: "Co dalej?"
+voteBody: "Działamy dalej. Dołącz, żeby nie przegapić kolejnych kroków."
+voteFacts:
+  - value: "200+"
+    label: "osób przyszło pod urząd 7 września"
+  - value: "11"
+    label: "punktów petycji przekazanych wicewojewodzie"
+  - value: "24"
+    label: "nowe etaty obiecane w wydziale"
 
 # Karty „Możesz pomóc już teraz" (klucze jak w layout.yaml → calls[].id)
 calls:
   share:
-    status: "Pilne · przed 7 września"
-    title: "Udostępnij informację o proteście"
-    body: "Przekaż znajomym krótką informację i link. Możesz też wydrukować ulotkę w swoim języku."
-    linkTitle: "Gotowy post i ulotki"
+    status: "Działanie"
+    title: "Napisz ponaglenie"
+    body: "Jeżeli ustawowy termin minął, ponaglenie to pierwszy formalny krok. Gotowy wzór z instrukcją."
+    linkTitle: "Otwórz wzór"
   organisation:
     status: "Współpraca"
     title: "Dołącz jako organizacja"

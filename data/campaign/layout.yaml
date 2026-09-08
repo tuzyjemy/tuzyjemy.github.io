@@ -12,11 +12,8 @@
 active: true
 
 # Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.
-link: "/postulaty/"
+link: "/aktualnosci/protest-7-09-2026-zakonczony/"
 
-# Zasady udziału w zgromadzeniu — pokazujemy je przy przycisku „Przyjdę",
-# czyli w miejscu, w którym ktoś decyduje, czy przyjść.
-rules: "/zasady/"
 
 # Wydarzenie w Mobilizon. Stąd bierze się przycisk „Przyjdę", a liczbę
 # zgłoszonych uczestników pobieramy z publicznego API przy budowaniu
@@ -30,24 +27,17 @@ rules: "/zasady/"
 #
 # Dzień tygodnia i nazwę miesiąca wyliczamy z daty osobno dla każdego
 # języka (data/dates.yaml) — nie trzeba ich tłumaczyć.
-event:
-  url: "https://mobilizon.fr/events/5e9e3d5d-90c4-409f-9e61-87de17584abe"
-  date: "2026-09-07"
-  timeStart: "16:30"
-  timeEnd: "18:00"
-  # Adres to nazwa własna — zostaje bez tłumaczenia we wszystkich językach.
-  place: "Wydział do spraw cudzoziemców Pomorskiego UW"
-  address: "ul. Chmielna 74/76, 80-748 Gdańsk"
-  # Wpis w wykazie zgromadzeń publicznych Urzędu Miejskiego w Gdańsku.
-  # Zgromadzenia się zgłasza, a nie „uzyskuje na nie zgodę" — miasto może
-  # je najwyżej zakazać. Dlatego mówimy „zgłoszone", nie „zatwierdzone".
-  registerUrl: "https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325"
+# Protest się odbył 7 września 2026 r. Panel zgłoszeń nie ma już sensu,
+# więc zamiast wydarzenia podajemy „następny krok" — kanał na Telegramie,
+# gdzie umawiamy kolejne działania. Gdy pojawi się nowe wydarzenie
+# z zapisami, wystarczy przywrócić tu blok `event:` — szablon obsługuje
+# oba warianty.
+followup:
+  url: "https://t.me/tu_zyjemy"
 
-# Karty „Możesz pomóc już teraz". Kolejność stąd decyduje o kolejności
-# na stronie; teksty biorą się z plików językowych po tym samym „id".
 calls:
   - id: share
-    link: "/aktualnosci/protest-7-wrzesnia/"
+    link: "/wzory/ponaglenie-bezczynnosc/"
     urgent: true
   - id: organisation
     link: "/dolacz/"

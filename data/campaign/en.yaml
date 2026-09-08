@@ -1,26 +1,36 @@
 # Campaign copy — English. Structure (dates, links) lives in layout.yaml.
-kicker: "PROTEST 7 SEPTEMBER · GDAŃSK"
+kicker: "THE PROTEST TOOK PLACE · WHAT NEXT"
 heading: "Efficient residence legalisation — better integration"
 lead: "We call for timely, lawful decisions on temporary residence, permanent residence and EU long-term resident permits."
 boundary: "We do not call for changes to the rules for granting Polish citizenship or automatically positive decisions."
 principle: "The state has the right to examine applications thoroughly — and should decide them within a predictable time."
-body: "We do not want to wait for years for a residence decision. On 7 September we gather outside the Pomeranian Voivodeship Office with 16 concrete demands."
+body: |-
+  On 7 September more than 200 people came to the Pomeranian Voivodeship Office. A petition with 11 points was handed to the first vice-voivode, new posts were promised for the department, and a working meeting was agreed.
+
+  The problem has not gone away: people still wait two years and longer for a decision. We are holding the office to its promises and carrying on.
 
 meta:
   - "● Gdańsk"
-  - "◷ 7 September, 16:30"
+  - "◷ 7 September 2026"
 
-linkTitle: "Read the demands"
+linkTitle: "How the protest went"
 
-voteHeading: "Are you coming?"
-voteBody: "Confirm your attendance so we know how many people to expect."
+voteHeading: "What next?"
+voteBody: "We are carrying on. Join us so you do not miss the next steps."
+voteFacts:
+  - value: "200+"
+    label: "people came to the office on 7 September"
+  - value: "11"
+    label: "petition points handed to the vice-voivode"
+  - value: "24"
+    label: "new posts promised in the department"
 
 calls:
   share:
-    status: "Urgent · before 7 September"
-    title: "Share the protest announcement"
-    body: "Send friends a short message and the link. You can also print a leaflet in your language."
-    linkTitle: "Ready-made post and leaflets"
+    status: "Action"
+    title: "Write a reminder"
+    body: "If the statutory deadline has passed, a reminder is the first formal step. A ready template with instructions."
+    linkTitle: "Open the template"
   organisation:
     status: "Cooperation"
     title: "Join as an organisation"

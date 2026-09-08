@@ -36,10 +36,9 @@ definiuje całej platformy.
 Protest popierają:
 
 - **Transport i Logistyka Polska (TLP)** — organizacja pracodawców branży transportowej;
-- **PSPD-Gdynia** — Pomorskie Stowarzyszenie Przewoźników Drogowych;
-- **Obserwatorium Migracji** przy Centrum Zrównoważonego Rozwoju Uniwersytetu Gdańskiego.
+- **PSPD-Gdynia** — Pomorskie Stowarzyszenie Przewoźników Drogowych.
 
-Dwie pierwsze to organizacje pracodawców. Opóźnienia w wydawaniu kart pobytu uderzają
+Obie to organizacje pracodawców. Opóźnienia w wydawaniu kart pobytu uderzają
 w ich członków bezpośrednio: kierowca bez aktualnego dokumentu nie pojedzie w trasę
 międzynarodową, a firma nie zaplanuje przewozów.
 
@@ -195,7 +194,7 @@ decyzji, szybkie procedury oparte na obiektywnych cechach sprawy zamiast obywate
 uproszczenia dla spraw powtarzalnych i rodzinnych oraz integracja MOS 2 ze ST POBYT, EZD,
 systemami wojewódzkimi i rejestrami państwowymi.
 
-[Przeczytaj pełne 16 postulatów wraz z uzasadnieniem](/postulaty/)
+[Przeczytaj pełne 15 postulatów wraz z uzasadnieniem](/postulaty/)
 
 ## Co zrobiliśmy przed protestem
 
@@ -221,7 +220,7 @@ o wydanie zaświadczenia.
 ## Materiały i źródła
 
 - [Informacje dla uczestników protestu](/aktualnosci/protest-7-wrzesnia/)
-- [Pełne 16 postulatów](/postulaty/)
+- [Pełne 15 postulatów](/postulaty/)
 - [Zasady udziału w zgromadzeniu](/zasady/)
 - [Ulotki do druku w pięciu językach](/ulotki/)
 - [Statystyki](/statystyki/)

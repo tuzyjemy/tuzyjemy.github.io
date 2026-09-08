@@ -9,6 +9,18 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
+Petycja przygotowana na podstawie tych postulatów została **przekazana pierwszemu
+wicewojewodzie 7 września 2026 r.** podczas protestu. Weszło do niej 11 punktów — te,
+które należą do kompetencji Pomorskiego Urzędu Wojewódzkiego; pozostałe 4 dotyczą spraw
+ogólnopolskich i są adresowane do rządu i Sejmu.
+
+[Jak przebiegł protest i co dalej](/aktualnosci/protest-7-09-2026-zakonczony/)
+
+[Materiały dla mediów](/dla-mediow/)
+{{< /notatka >}}
+
+
+{{< notatka typ="info" >}}
 Poniżej przedstawiamy w skrócie **11 żądań petycji do Wojewody przygotowanej na
 7 września 2026 r.** oraz osobny blok postulatów ogólnopolskich. Nowa petycja
 doprecyzowuje wcześniejsze żądania dotyczące statystyk, kadr i FAMI z petycji złożonej

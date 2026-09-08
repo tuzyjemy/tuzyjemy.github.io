@@ -36,10 +36,9 @@ platform.
 The protest is backed by:
 
 - **Transport i Logistyka Polska (TLP)** — an employers' organisation for the transport industry;
-- **PSPD-Gdynia** — the Pomeranian Association of Road Hauliers;
-- **Obserwatorium Migracji** — the Migration Observatory at the Centre for Sustainable Development, University of Gdańsk.
+- **PSPD-Gdynia** — the Pomeranian Association of Road Hauliers.
 
-The first two are employers' organisations. Delays in issuing residence cards hit their
+Both are employers' organisations. Delays in issuing residence cards hit their
 members directly: a driver without a valid document cannot take an international route,
 and the company cannot plan its haulage.
 
@@ -190,7 +189,7 @@ decisions on time, fast procedures based on objective features of the case rathe
 nationality, simplifications for recurring and family cases, and integration of MOS 2 with
 ST POBYT, EZD, voivodeship systems and state registers.
 
-[Read the full 16 demands, with reasoning](/postulaty/)
+[Read the full 15 demands, with reasoning](/postulaty/)
 
 ## What we did before the protest
 
@@ -216,7 +215,7 @@ court and applications for a certificate.
 ## Materials and sources
 
 - [Information for protest participants](/aktualnosci/protest-7-wrzesnia/)
-- [The full 16 demands](/postulaty/)
+- [The full 15 demands](/postulaty/)
 - [Rules for taking part in the assembly](/zasady/)
 - [Printable leaflets in five languages](/ulotki/)
 - [Statistics](/statystyki/)

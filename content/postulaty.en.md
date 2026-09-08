@@ -9,6 +9,17 @@ autor: "Zespół Tu Żyjemy"
 ---
 
 {{< notatka typ="info" >}}
+The petition prepared on the basis of these demands was **handed to the first
+vice-voivode on 7 September 2026** during the protest. It contained 11 points — those
+falling within the competence of the Pomeranian Voivodeship Office; the remaining 4
+concern nationwide matters and are addressed to the government and the Sejm.
+
+[How the protest went and what comes next](/aktualnosci/protest-7-09-2026-zakonczony/)
+
+[Media materials](/dla-mediow/)
+{{< /notatka >}}
+
+{{< notatka typ="info" >}}
 Below we summarise **11 demands from the petition to the Voivode prepared for 7 September 2026**, followed by a separate section of nationwide demands. The new petition clarifies the requests on statistics, staffing and FAMI in the petition submitted on 24 June 2026. It also contains distinct demands concerning a plan to clear the backlog, related family cases, continued proceedings after a complaint to WSA, and the handling of certificates and correspondence.
 
 [Media materials](/dla-mediow/)

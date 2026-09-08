@@ -6,6 +6,12 @@ tematy: ["Mobilizacja"]
 lata: ["2026"]
 ---
 
+{{< notatka typ="info" >}}
+**Protest odbył się 7 września 2026 r.** Poniżej ogłoszenie w wersji sprzed
+wydarzenia. Podsumowanie, odzew mediów i dalsze kroki:
+[jak przebiegł protest](/aktualnosci/protest-7-09-2026-zakonczony/).
+{{< /notatka >}}
+
 Termin jest ustalony. Spotykamy się **w poniedziałek 7 września o 16:30** pod Wydziałem
 do spraw cudzoziemców Pomorskiego Urzędu Wojewódzkiego, ul. Chmielna 74/76 w Gdańsku.
 Protest potrwa do 18:00.

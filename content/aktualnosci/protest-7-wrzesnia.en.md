@@ -6,6 +6,12 @@ tematy: ["Mobilizacja"]
 lata: ["2026"]
 ---
 
+{{< notatka typ="info" >}}
+**The protest took place on 7 September 2026.** Below is the announcement as it
+stood before the event. The outcome, media coverage and next steps:
+[how the protest went](/aktualnosci/protest-7-09-2026-zakonczony/).
+{{< /notatka >}}
+
 The date is set. We meet on **Monday 7 September at 16:30** outside the Office for
 Foreigners of the Pomeranian Voivodeship Office, ul. Chmielna 74/76 in Gdańsk.
 The protest runs until 18:00.

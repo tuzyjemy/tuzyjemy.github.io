@@ -45,6 +45,26 @@
       <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
     {{ end }}
   {{ else }}
-    <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
+    {{- /* Po zakończonym wydarzeniu zamiast zapisów pokazujemy następny krok
+           (patrz `followup` w data/campaign/layout.yaml). Gdy nie ma ani
+           wydarzenia, ani followupu, zostaje kontakt mailowy. */ -}}
+    {{- /* Panel bez wydarzenia byłby niemal pusty — samotny przycisk na dużej
+           płaszczyźnie. Wypełniamy go wynikami protestu (voteFacts w pliku
+           językowym); gdy ich nie ma, zostaje sam przycisk. */ -}}
+    {{ with $u.fakty }}
+      <dl class="vote-facts">
+        {{ range . }}
+          <div><dt>{{ .value }}</dt><dd>{{ .label }}</dd></div>
+        {{ end }}
+      </dl>
+    {{ end }}
+    {{ with $u.followup }}
+      {{ if .url }}
+        <a class="vote-submit" href="{{ .url }}" target="_blank" rel="noopener">{{ $u.linkTytul | default (i18n "attend_followup_button") }}</a>
+        <div class="vote-note">{{ i18n "attend_followup_note" }}</div>
+      {{ end }}
+    {{ else }}
+      <div class="vote-note">{{ i18n "attend_no_event" }} <a href="mailto:{{ $ctx.Site.Params.email }}">{{ $ctx.Site.Params.email }}</a></div>
+    {{ end }}
   {{ end }}
 </div>
