@@ -26,3 +26,13 @@ pulsgdanska.pl: pl
 mostmedia.io: ru
 # Uwaga: vitrina.pl ma polską domenę, ale pisze po rosyjsku.
 vitrina.pl: ru
+
+# Pojedyncze dokumenty, nie cały host. Pod docs.google.com leżą pliki
+# w różnych językach, więc oznaczamy tylko te, o których wiemy na pewno —
+# trzy pisma z pakietu złożonego 24 czerwca 2026 r. Klucz to pełny adres,
+# dokładnie taki, jaki stoi w treści; hook sprawdza go przed nazwą hosta.
+# Nieoznaczony dokument po prostu nie dostaje plakietki — i dobrze, lepiej
+# nie zgadywać języka za czytelnika.
+"https://docs.google.com/document/d/14KQVI8lg0ep01cJMPDG7UaixNoM9KaE5/edit": pl
+"https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit": pl
+"https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit": pl

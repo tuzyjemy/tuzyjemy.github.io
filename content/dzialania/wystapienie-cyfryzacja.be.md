@@ -7,7 +7,7 @@ tematy: ["Cyfryzacja", "Legalizacja pobytu"]
 statusy: ["Wysłane"]
 lata: ["2026"]
 data_wyslania: "24.06.2026"
-zrodlo: "https://t.me/tu_zyjemy/513/516"
+zrodlo: "https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit"
 ---
 
 Зварот **о цыфравізацыі і інтэграцыі сістэм**, накіраванае Міністру цыфравізацыі
@@ -21,9 +21,9 @@ Cudzoziemców).
 
 
 {{< notatka typ="info" >}}
-Гэта адзін з **трох дакументаў, пададзеных 24 чэрвеня 2026 г.** адным пакетам дзеянняў па паляпшэнні працэсу легалізацыі знаходжання. Ініцыятыве папярэднічаў публічны збор подпісаў. [Агляд пакета](https://t.me/tu_zyjemy/513/516)
+Гэта адзін з **трох дакументаў, пададзеных 24 чэрвеня 2026 г.** адным пакетам дзеянняў па паляпшэнні працэсу легалізацыі знаходжання. Ініцыятыве папярэднічаў публічны збор подпісаў. Астатнія два дакументы: [петыцыя Паморскаму ваяводзе](/dzialania/petycja-wojewoda-pomorski/) і [петыцыя ў Сейм](/dzialania/petycja-sejm-legalizacja/).
 {{< /notatka >}}
 
 ## Дакументы
 
-- [Агляд пакета ў Telegram](https://t.me/tu_zyjemy/513/516)
+- [Поўны тэкст звароту (Google Docs)](https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit)

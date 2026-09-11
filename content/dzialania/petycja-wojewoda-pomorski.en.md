@@ -24,10 +24,10 @@ the petition remains ongoing - no response yet.
 
 
 {{< notatka typ="info" >}}
-This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. [Package Summary](https://t.me/tu_zyjemy/513/516)
+This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. The other two documents: [the petition to the Sejm](/dzialania/petycja-sejm-legalizacja/) and [the letter on digitalisation](/dzialania/wystapienie-cyfryzacja/).
 {{< /notatka >}}
 
 ## Documents
 
 - [List of petitions from the Pomeranian Voivodeship Office](https://www.gov.pl/web/uw-pomorski/wykaz-petycji) - item WSC-IV.142.1.2026.DK
-- [Our Documents on Telegram](https://t.me/tu_zyjemy/513/516)
+- [Full text of the petition (Google Docs)](https://docs.google.com/document/d/14KQVI8lg0ep01cJMPDG7UaixNoM9KaE5/edit)

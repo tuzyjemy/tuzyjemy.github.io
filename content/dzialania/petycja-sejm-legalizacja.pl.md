@@ -26,7 +26,7 @@ Dalszy bieg sprawy zależy od porządku obrad Komisji.
 
 
 {{< notatka typ="info" >}}
-To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. [Zestawienie pakietu](https://t.me/tu_zyjemy/513/516)
+To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. Pozostałe dwa dokumenty: [petycja do Wojewody Pomorskiego](/dzialania/petycja-wojewoda-pomorski/) i [wystąpienie w sprawie cyfryzacji](/dzialania/wystapienie-cyfryzacja/).
 {{< /notatka >}}
 
 Czego dokładnie dotyczy problem — [poradnik o art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
@@ -34,4 +34,4 @@ Czego dokładnie dotyczy problem — [poradnik o art. 100d](/poradniki/art-100d-
 ## Dokumenty
 
 - [Karta petycji w Systemie Informacyjnym Sejmu](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) — tam też pełny tekst w PDF
-- [Nasze dokumenty na Telegramie](https://t.me/tu_zyjemy/513/516)
+- [Pełny tekst petycji (Google Docs)](https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit)

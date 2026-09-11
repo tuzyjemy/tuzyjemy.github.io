@@ -26,7 +26,7 @@ zrodlo: "https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=B
 
 
 {{< notatka typ="info" >}}
-Это один из **трёх документов, поданных 24 июня 2026 г.** в составе единого пакета предложений по улучшению легализации пребывания. Перед подачей документов проводился публичный сбор подписей. [Обзор пакета](https://t.me/tu_zyjemy/513/516)
+Это один из **трёх документов, поданных 24 июня 2026 г.** в составе единого пакета предложений по улучшению легализации пребывания. Перед подачей документов проводился публичный сбор подписей. Остальные два документа: [петиция Поморскому воеводе](/dzialania/petycja-wojewoda-pomorski/) и [обращение по вопросам цифровизации](/dzialania/wystapienie-cyfryzacja/).
 {{< /notatka >}}
 
 В чём именно состоит проблема — [инструкция о ст. 100d](/poradniki/art-100d-zawieszenie-terminow/).
@@ -34,4 +34,4 @@ zrodlo: "https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=B
 ## Документы
 
 - [Карточка петиции в информационной системе Сейма](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) — там же полный текст в PDF
-- [Наши документы в Telegram](https://t.me/tu_zyjemy/513/516)
+- [Полный текст петиции (Google Docs)](https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit)

@@ -9,7 +9,7 @@ lata: ["2026"]
 zrodlo: "https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow"
 ---
 
-Перед подачей [пакета из трёх документов](/dzialania/) мы проводили публичный сбор
+Перед подачей пакета из трёх документов мы проводили публичный сбор
 подписей онлайн. Подписи собирали до **23 июня 2026 г.**, после чего приложили их к
 документам, переданным адресатам.
 
@@ -23,4 +23,6 @@ zrodlo: "https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzec
 ## Источник
 
 - [Петиция на Petycjeonline.com](https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow) — полный текст и актуальный счётчик подписей
-- [Обзор пакета в Telegram](https://t.me/tu_zyjemy/513/516)
+- [Петиция Поморскому воеводе — полный текст](https://docs.google.com/document/d/14KQVI8lg0ep01cJMPDG7UaixNoM9KaE5/edit)
+- [Петиция в Сейм — полный текст](https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit)
+- [Обращение по вопросам цифровизации — полный текст](https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit)

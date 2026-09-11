@@ -24,10 +24,10 @@ petycja pozostaje w toku — odpowiedzi jeszcze nie ma.
 
 
 {{< notatka typ="info" >}}
-To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. [Zestawienie pakietu](https://t.me/tu_zyjemy/513/516)
+To jeden z **trzech dokumentów złożonych 24 czerwca 2026 r.** jako wspólny pakiet działań na rzecz usprawnienia legalizacji pobytu. Inicjatywę poprzedziła publiczna zbiórka podpisów. Pozostałe dwa dokumenty: [petycja do Sejmu](/dzialania/petycja-sejm-legalizacja/) i [wystąpienie w sprawie cyfryzacji](/dzialania/wystapienie-cyfryzacja/).
 {{< /notatka >}}
 
 ## Dokumenty
 
 - [Wykaz petycji Pomorskiego Urzędu Wojewódzkiego](https://www.gov.pl/web/uw-pomorski/wykaz-petycji) — pozycja WSC-IV.142.1.2026.DK
-- [Nasze dokumenty na Telegramie](https://t.me/tu_zyjemy/513/516)
+- [Pełny tekst petycji (Google Docs)](https://docs.google.com/document/d/14KQVI8lg0ep01cJMPDG7UaixNoM9KaE5/edit)

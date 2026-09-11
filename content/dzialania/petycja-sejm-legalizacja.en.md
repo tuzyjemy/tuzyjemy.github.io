@@ -26,7 +26,7 @@ The further course of the matter depends on the agenda of the Commission.
 
 
 {{< notatka typ="info" >}}
-This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. [Package Summary](https://t.me/tu_zyjemy/513/516)
+This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. The other two documents: [the petition to the Pomeranian Voivode](/dzialania/petycja-wojewoda-pomorski/) and [the letter on digitalisation](/dzialania/wystapienie-cyfryzacja/).
 {{< /notatka >}}
 
 What exactly is the problem - [guide about art. 100d](/poradniki/art-100d-zawieszenie-terminow/).
@@ -34,4 +34,4 @@ What exactly is the problem - [guide about art. 100d](/poradniki/art-100d-zawies
 ## Documents
 
 - [Petition card in the Sejm Information System](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) - there is also the full text in PDF
-- [Our Documents on Telegram](https://t.me/tu_zyjemy/513/516)
+- [Full text of the petition (Google Docs)](https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit)

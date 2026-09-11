@@ -7,7 +7,7 @@ tematy: ["Cyfryzacja", "Legalizacja pobytu"]
 statusy: ["Wysłane"]
 lata: ["2026"]
 data_wyslania: "24.06.2026"
-zrodlo: "https://t.me/tu_zyjemy/513/516"
+zrodlo: "https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit"
 ---
 
 Speech **on digitization and integration of systems**, addressed to the Minister
@@ -20,9 +20,9 @@ from two petitions from the same package that were entered into the registers an
 
 
 {{< notatka typ="info" >}}
-This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. [Package Summary](https://t.me/tu_zyjemy/513/516)
+This is one of **three documents submitted on June 24, 2026.** as a common package of actions to improve the legalization of stay. The initiative was preceded by a public collection of signatures. The other two documents: [the petition to the Pomeranian Voivode](/dzialania/petycja-wojewoda-pomorski/) and [the petition to the Sejm](/dzialania/petycja-sejm-legalizacja/).
 {{< /notatka >}}
 
 ## Documents
 
-- [Telegram Bundle Summary](https://t.me/tu_zyjemy/513/516)
+- [Full text of the letter (Google Docs)](https://docs.google.com/document/d/1MsmlZ93r7A5SQvh8wMK-K6Pq8ZlbqUbo/edit)

@@ -45,17 +45,26 @@
   {{- end -}}
 {{- end -}}
 
-{{- /* Język strony docelowej — po nazwie hosta, z pominięciem „www.". */ -}}
+{{- /* Język strony docelowej. Szukamy po kolei: najpierw pełny adres,
+       potem nazwa hosta (bez „www."), na końcu domena nadrzędna. Pełny adres
+       jest pierwszy, bo na niektórych serwisach język zależy od konkretnej
+       strony, a nie od hosta — tak jest z naszymi dokumentami w Google Docs,
+       gdzie pod tym samym hostem leżą pliki w różnych językach. */ -}}
 {{- $tl := .Page.Site.Language.Lang -}}
 {{- $sl := "" -}}
+{{- $host := "" -}}
 {{- if and $external (hasPrefix $d "http") -}}
-  {{- $host := strings.TrimPrefix "www." (urls.Parse $d).Host -}}
-  {{- with index hugo.Data.linklangs $host -}}
+  {{- $host = strings.TrimPrefix "www." (urls.Parse $d).Host -}}
+  {{- with index hugo.Data.linklangs $d -}}
     {{- $sl = . -}}
   {{- else -}}
-    {{- /* dopasowanie po domenie nadrzędnej, np. migrant.wsc.gov.pl → gov.pl */ -}}
-    {{- range $dom, $lang := hugo.Data.linklangs -}}
-      {{- if and (not $sl) (hasSuffix $host (printf ".%s" $dom)) -}}{{- $sl = $lang -}}{{- end -}}
+    {{- with index hugo.Data.linklangs $host -}}
+      {{- $sl = . -}}
+    {{- else -}}
+      {{- /* dopasowanie po domenie nadrzędnej, np. migrant.wsc.gov.pl → gov.pl */ -}}
+      {{- range $dom, $lang := hugo.Data.linklangs -}}
+        {{- if and (not $sl) (hasSuffix $host (printf ".%s" $dom)) -}}{{- $sl = $lang -}}{{- end -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
@@ -66,11 +75,17 @@
 <a href="{{ if hasPrefix $d "tel:" }}{{ $href | safeURL }}{{ else }}{{ $href }}{{ end }}"
    {{- with .Title }} title="{{ . }}"{{ end }}
    {{- if $external }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* Przy części adresów tłumacz nie ma czego pokazać (patrz
+       data/linknotranslate.yaml) — zostawiamy wtedy samą plakietkę języka,
+       żeby odnośnik nie prowadził do pustej strony. */ -}}
+{{- $translatable := true -}}
+{{- with hugo.Data.linknotranslate -}}
+  {{- if in . $host -}}{{- $translatable = false -}}{{- end -}}
+{{- end -}}
 {{- if and $sl (ne $sl $tl) -}}
-  {{- $u := printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($d | urlquery) -}}
   <span class="link-lang"
     ><span class="tag tag-plain" title="{{ i18n "link_in_language" }} {{ upper $sl }}">{{ upper $sl }}</span
-    ><a class="tag tag-plain" href="{{ $u }}" target="_blank" rel="noopener"
+    >{{ if $translatable }}{{ $u := printf "https://translate.google.com/translate?sl=%s&tl=%s&u=%s" $sl $tl ($d | urlquery) }}<a class="tag tag-plain" href="{{ $u }}" target="_blank" rel="noopener"
        >&#127760; {{ i18n "translate_page" }}</a
-  ></span>
+    >{{ end }}</span>
 {{- end -}}

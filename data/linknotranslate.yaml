@@ -1,0 +1,9 @@
+# Hosty, przy których pokazujemy samą plakietkę języka, bez odnośnika do
+# Tłumacza Google. Tłumacz działa na zwykłych stronach HTML; Google Docs
+# wymaga zalogowania i buduje treść skryptami, więc przepuszczony przez
+# tłumacza pokazywał pustą stronę albo ekran logowania.
+#
+# Klucz to nazwa hosta bez „www." — tak samo jak w linklangs.yaml.
+# Język strony nadal bierzemy z linklangs.yaml; ten plik wyłącza wyłącznie
+# sam odnośnik do tłumaczenia.
+- docs.google.com
