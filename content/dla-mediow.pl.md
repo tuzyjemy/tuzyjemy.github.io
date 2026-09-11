@@ -230,8 +230,6 @@ o wydanie zaświadczenia.
 
 ## Kontakt dla mediów
 
-**Walentyn Kariejew** — organizator inicjatywy
-
 E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
 Telefon: [+48 730 927 292](tel:+48730927292)

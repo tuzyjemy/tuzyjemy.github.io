@@ -77,7 +77,6 @@ summaryLength = 30
     title = "Tu Żyjemy"
     [languages.pl.params]
       opis = "Baza wiedzy i wspólne działania na rzecz praw migrantek i migrantów."
-      contactName = "Walentyn Kariejew"
     [languages.pl.permalinks.page]
       statystyki = "/statystyki/:contentbasename/"
       dzialania = "/dzialania/:contentbasename/"
@@ -104,7 +103,6 @@ summaryLength = 30
     title = "Tu Żyjemy"
     [languages.en.params]
       opis = "A knowledge base and shared actions for migrants' rights."
-      contactName = "Valentine Kareev"
     [languages.en.permalinks.page]
       statystyki = "/statistics/:contentbasename/"
       dzialania = "/actions/:contentbasename/"
@@ -131,7 +129,6 @@ summaryLength = 30
     title = "Tu Żyjemy"
     [languages.ru.params]
       opis = "База знаний и совместные действия в защиту прав мигрантов."
-      contactName = "Валентин Кареев"
     [languages.ru.permalinks.page]
       statystyki = "/statistika/:contentbasename/"
       dzialania = "/deystviya/:contentbasename/"
@@ -158,7 +155,6 @@ summaryLength = 30
     title = "Tu Żyjemy"
     [languages.uk.params]
       opis = "База знань і спільні дії на захист прав мігрантів."
-      contactName = "Valentine Kareev"
     [languages.uk.permalinks.page]
       statystyki = "/statystyka/:contentbasename/"
       dzialania = "/diyi/:contentbasename/"
@@ -185,7 +181,6 @@ summaryLength = 30
     title = "Tu Żyjemy"
     [languages.be.params]
       opis = "База ведаў і сумесныя дзеянні ў абарону правоў мігрантаў."
-      contactName = "Валянцін Карэеў"
     [languages.be.permalinks.page]
       statystyki = "/statystyka/:contentbasename/"
       dzialania = "/dzejanni/:contentbasename/"

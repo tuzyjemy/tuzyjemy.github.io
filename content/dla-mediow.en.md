@@ -225,8 +225,6 @@ court and applications for a certificate.
 
 ## Media contact
 
-**Valentine Kareev** — organiser of the initiative
-
 E-mail: [contact@tuzyjemy.pl](mailto:contact@tuzyjemy.pl)
 
 Phone: [+48 730 927 292](tel:+48730927292)
