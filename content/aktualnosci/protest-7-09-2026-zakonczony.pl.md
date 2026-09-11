@@ -57,9 +57,8 @@ wiele osób, mają ogromne znaczenie.
 - **Domagaj się zaświadczenia w terminie** — ma osobny, siedmiodniowy termin: [jak to zrobić](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
 - **Śledź nasze działania** i dołączaj do nich.
 
-Warto wesprzeć też inne inicjatywy:
+Warto wesprzeć też inną inicjatywę:
 
-- **Głos migranta** planuje akcję w Katowicach 22 września. Oficjalnego ogłoszenia jeszcze nie było — dodamy szczegóły, gdy się pojawi.
 - **[Pobytrack](https://t.me/pobytrack)** zbiera dane o rzeczywistych terminach rozpatrywania spraw. To właśnie takie dane pozwalają nam i innym inicjatywom rozmawiać z urzędnikami konkretnie o skali problemu — liczby z tego projektu przytaczamy też w [materiałach dla mediów](/dla-mediow/).
 
 ## Media o proteście

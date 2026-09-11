@@ -58,9 +58,8 @@ people, matter enormously.
 - **Insist on a certificate on time** — it has its own seven-day deadline: [how to do it](/poradniki/zaswiadczenie-w-sprawie-pobytowej/).
 - **Follow our actions** and join them.
 
-Other initiatives worth supporting:
+Another initiative worth supporting:
 
-- **Głos migranta** is planning an action in Katowice on 22 September. There has been no official announcement yet — we will add the details once there is one.
 - **[Pobytrack](https://t.me/pobytrack)** collects data on how long proceedings really take. It is exactly this kind of data that lets us and other initiatives talk to officials concretely about the scale of the problem — we cite figures from the project in our [media materials](/dla-mediow/) too.
 
 ## Media on the protest
