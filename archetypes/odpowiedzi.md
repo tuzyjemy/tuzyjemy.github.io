@@ -13,6 +13,7 @@ data_wyslania: ""
 data_odpowiedzi: ""
 dni:
 sygnatura: ""
+linked_action: "" # Canonical action path, e.g. /dzialania/petycja-sejm-legalizacja/
 ---
 
 ## Co napisał urząd

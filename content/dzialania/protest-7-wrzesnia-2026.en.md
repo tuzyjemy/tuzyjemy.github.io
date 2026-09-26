@@ -2,6 +2,7 @@
 title: "Protest outside the Pomeranian Voivodeship Office in Gdańsk"
 description: "The assembly of 7 September 2026. Between 200 and 300 people; a petition with 11 points handed to the first vice-voivode."
 date: 2026-09-07
+feed_duplicate: true
 instytucje: ["Pomorski Urząd Wojewódzki"]
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 statusy: ["Zakończone"]

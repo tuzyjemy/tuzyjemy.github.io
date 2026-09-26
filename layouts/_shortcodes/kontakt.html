@@ -1,7 +1,7 @@
 {{/*  Dane kontaktowe — bierzemy je z hugo.toml,
       żeby nie powtarzać ich w treści pięciu wersji językowych.
       Użycie w treści:  {{< kontakt >}}                                    */}}
-<ul class="contact-list">
+<ul class="contact-list" id="contact">
   {{ with .Site.Params.contactName }}
     <li><span>{{ i18n "contact_person" }}</span>{{ . }}</li>
   {{ end }}

@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["petition", "delay"]
 title: "Петиція про відновлення захисту від хронізації"
 description: "Sample of a collective appeal to the Seimas or administrative body. Причина: Закон про петиції."
 date: 2026-06-10

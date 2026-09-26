@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["petition", "delay"]
 title: "Petition to restore chronicity protection"
 description: "Sample of a collective petition to the Sejm or an administrative body. Basis: Petitions Act."
 date: 2026-06-10

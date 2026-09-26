@@ -1,10 +1,14 @@
 <nav class="breadcrumb" aria-label="breadcrumb">
   <a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
-  {{ with .Parent }}
-    {{ if not .IsHome }}
-      <span aria-hidden="true">/</span>
-      <a href="{{ .RelPermalink }}">{{ i18n (printf "menu_%s" .Section) | default .Title }}</a>
+  {{ $collection := partial "collection-for.html" . }}
+  {{ if $collection }}
+    {{ with .Site.GetPage (printf "/%s" $collection) }}
+      <span aria-hidden="true">/</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>
     {{ end }}
+  {{ else }}
+    {{ with .Parent }}{{ if not .IsHome }}
+      <span aria-hidden="true">/</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}{{ end }}
   {{ end }}
   <span aria-hidden="true">/</span>
   <span>{{ .Title }}</span>

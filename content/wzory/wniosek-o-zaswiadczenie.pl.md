@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["certificate"]
 title: "Wniosek o wydanie zaświadczenia o toczącym się postępowaniu"
 description: "Wzór wniosku o zaświadczenie potwierdzające datę złożenia wniosku, sygnaturę sprawy i to, że postępowanie jest w toku. Termin: 7 dni."
 date: 2026-08-28

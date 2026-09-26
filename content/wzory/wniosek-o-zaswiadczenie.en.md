@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["certificate"]
 title: "Application for a certificate of pending proceedings"
 description: "Template application for a certificate confirming the filing date, the case number and that proceedings are pending. Deadline: 7 days."
 date: 2026-08-28

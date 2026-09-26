@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["certificate"]
 title: "Zaświadczenia w sprawie pobytowej: dokument z MOS i zaświadczenie na wniosek"
 description: "Dwa różne dokumenty: bezpłatne zaświadczenie z MOS potwierdzające skuteczne złożenie wniosku i legalność pobytu oraz zaświadczenie wydawane na wniosek w terminie 7 dni."
 date: 2026-08-28

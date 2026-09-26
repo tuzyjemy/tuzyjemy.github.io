@@ -1,0 +1,11 @@
+{{- /* Collect translated articles without moving their permanent URLs. */ -}}
+{{- $pages := slice -}}
+{{- $ctx := .ctx -}}
+{{- range index hugo.Data.navigation.collections .collection -}}
+  {{- range partial "section-pages.html" (dict "section" . "ctx" $ctx) -}}
+    {{- if and (not .Params.ukryte) (not .Params.feed_duplicate) -}}
+      {{- $pages = $pages | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (sort $pages "Date" "desc") -}}

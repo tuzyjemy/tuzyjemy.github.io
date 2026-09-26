@@ -201,47 +201,17 @@ summaryLength = 30
       skutki = "/nastupstvy/"
 
 # ---------------------------------------------------------------------------
-# Menu — te same identyfikatory sekcji we wszystkich językach.
-# Tytuły pochodzą z plików i18n/*.toml
-# ---------------------------------------------------------------------------
-#
-# Kolejność (wagi) odzwierciedla grupowanie z data/menugroups.yaml:
-# najpierw sekcje dla każdego (10-30), potem te dla przygotowujących
-# się do działania (40-50), na końcu dokumentacja/orzecznictwo (60-70).
+# Primary navigation; labels are translated in i18n.
 [menus]
   [[menus.main]]
-    identifier = "aktualnosci"
-    pageRef = "/aktualnosci"
+    identifier = "publikacje"
+    pageRef = "/publikacje"
     weight = 10
-  [[menus.main]]
-    identifier = "skutki"
-    pageRef = "/skutki"
-    weight = 15
-  [[menus.main]]
-    identifier = "statystyki"
-    pageRef = "/statystyki"
-    weight = 20
-  [[menus.main]]
-    identifier = "dzialania"
-    pageRef = "/dzialania"
-    weight = 30
-  [[menus.main]]
-    identifier = "dla-mediow"
-    pageRef = "/dla-mediow"
-    weight = 35
-  [[menus.main]]
-    identifier = "wzory"
-    pageRef = "/wzory"
-    weight = 40
-  [[menus.main]]
-    identifier = "poradniki"
-    pageRef = "/poradniki"
-    weight = 50
   [[menus.main]]
     identifier = "orzeczenia"
     pageRef = "/orzeczenia"
-    weight = 60
+    weight = 20
   [[menus.main]]
-    identifier = "odpowiedzi"
-    pageRef = "/odpowiedzi"
-    weight = 70
+    identifier = "pomoc"
+    pageRef = "/pomoc"
+    weight = 30

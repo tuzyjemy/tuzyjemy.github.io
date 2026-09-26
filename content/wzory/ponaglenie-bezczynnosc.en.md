@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["delay", "court"]
 title: "Reminder (ponaglenie) for an authority's inaction"
 description: "The letter you file when an office has not decided your case within the statutory deadline. Legal basis: art. 37 of the Code of Administrative Procedure."
 date: 2026-05-12

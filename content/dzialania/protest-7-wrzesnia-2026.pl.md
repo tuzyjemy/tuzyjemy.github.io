@@ -2,6 +2,7 @@
 title: "Protest pod Pomorskim Urzędem Wojewódzkim w Gdańsku"
 description: "Zgromadzenie 7 września 2026 r. Od 200 do 300 osób, petycja z 11 punktami przekazana pierwszemu wicewojewodzie."
 date: 2026-09-07
+feed_duplicate: true
 instytucje: ["Pomorski Urząd Wojewódzki"]
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 statusy: ["Zakończone"]

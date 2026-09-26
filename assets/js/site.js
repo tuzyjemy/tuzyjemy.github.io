@@ -16,6 +16,14 @@
     });
   }
 
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && header && navToggle && header.getAttribute("data-nav") === "open") {
+      header.setAttribute("data-nav", "closed");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.focus();
+    }
+  });
+
   /* ------------------------------------------------- przełącznik języka */
   var lang = document.querySelector(".lang");
   if (lang) {
