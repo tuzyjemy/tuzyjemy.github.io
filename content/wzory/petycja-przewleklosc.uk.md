@@ -1,13 +1,14 @@
 ---
-resource_tasks: ["petition", "delay"]
 title: "Петиція про відновлення захисту від хронізації"
 description: "Sample of a collective appeal to the Seimas or administrative body. Причина: Закон про петиції."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
+- Petycje
 ---
 
 Anyone can submit a petition: an individual, an informal group, an organization.

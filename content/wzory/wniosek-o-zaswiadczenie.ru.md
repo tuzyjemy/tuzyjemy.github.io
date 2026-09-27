@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Заявление о выдаче справки о рассматриваемом деле"
 description: "Образец заявления о справке, подтверждающей дату подачи заявления, номер дела и то, что его рассмотрение продолжается. Срок: 7 дней."
 date: 2026-08-28
@@ -9,6 +8,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

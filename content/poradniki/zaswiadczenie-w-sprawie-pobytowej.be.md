@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Даведка паводле KPA па справе аб знаходжанні: як падаць заяву і што рабіць праз 7 дзён"
 description: "Інструкцыя пра даведку паводле art. 217 KPA з тэрмінам 7 дзён. Гэта не новая даведка, якая выдаецца праз MOS."
 date: 2026-08-28
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 {{< notatka typ="info" >}}

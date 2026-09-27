@@ -5,7 +5,7 @@ date: {{ .Date }}
 draft: true
 
 instytucje: []
-tematy: []
+tematy: ["Wzory pism"]
 lata: ["{{ now.Format "2006" }}"]
 uwaga_prawna: true      # wyświetla ostrzeżenie „to nie jest porada prawna”
 wzor: true

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Заява про видачу довідки про виробництво"
 description: "Зразок заяви про довідку, що підтверджує дату подання заяви, номер справи та те, що провадження триває. Термін: 7 днів."
 date: 2026-08-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

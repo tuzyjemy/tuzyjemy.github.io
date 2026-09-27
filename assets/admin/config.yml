@@ -328,7 +328,7 @@ collections:
         multiple: true
         required: false
         i18n: duplicate
-        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
+        options: {{ hugo.Data.navigation.topics.publikacje | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi
@@ -357,17 +357,6 @@ collections:
     i18n: true
     slug: '{{ $SLUG }}'
     fields:
-      - name: resource_tasks
-        label: Zadania
-        widget: select
-        multiple: true
-        required: false
-        i18n: duplicate
-        options:
-          - { label: Uzyskać zaświadczenie, value: certificate }
-          - { label: Zareagować na przewlekłość, value: delay }
-          - { label: Złożyć skargę do sądu, value: court }
-          - { label: Złożyć petycję, value: petition }
       - name: title
         label: Tytuł
         widget: string
@@ -381,7 +370,7 @@ collections:
         multiple: true
         required: false
         i18n: duplicate
-        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
+        options: {{ hugo.Data.navigation.topics.pomoc | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi
@@ -408,17 +397,6 @@ collections:
     i18n: true
     slug: '{{ $SLUG }}'
     fields:
-      - name: resource_tasks
-        label: Zadania
-        widget: select
-        multiple: true
-        required: false
-        i18n: duplicate
-        options:
-          - { label: Uzyskać zaświadczenie, value: certificate }
-          - { label: Zareagować na przewlekłość, value: delay }
-          - { label: Złożyć skargę do sądu, value: court }
-          - { label: Złożyć petycję, value: petition }
       - name: title
         label: Tytuł
         widget: string
@@ -431,7 +409,7 @@ collections:
         multiple: true
         required: false
         i18n: duplicate
-        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
+        options: {{ hugo.Data.navigation.topics.pomoc | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi

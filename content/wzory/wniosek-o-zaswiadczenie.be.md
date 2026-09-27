@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Заява аб выдачы даведкі аб вядучай вытворчасці"
 description: "Узор заявы аб даведцы, якая пацвярджае дату падачы заявы, нумар справы і тое, што вытворчасць працягваецца. Тэрмін: 7 дзён."
 date: 2026-08-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

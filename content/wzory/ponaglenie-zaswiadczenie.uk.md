@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Нагнічення у справі про видачу довідки"
 description: "Лист, який подають, коли 7-денний термін на видачу довідки минув, а вженд мовчить. Підстава: art. 37 § 1 pkt 1 KPA."
 date: 2026-08-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

@@ -1,13 +1,14 @@
 ---
-resource_tasks: ["petition", "delay"]
 title: "Петиция о восстановлении защиты от затягивания рассмотрения дел"
 description: "Образец коллективной петиции в Сейм или административный орган. Правовая основа: Закон о петициях."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
+- Petycje
 ---
 
 Подать петицию может любой человек, неформальная группа или организация, в том числе

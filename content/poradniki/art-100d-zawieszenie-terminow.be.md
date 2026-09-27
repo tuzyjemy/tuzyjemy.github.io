@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["delay", "court"]
 title: "Art. 100d: чаму тэрміны па справах аб знаходжанні \"не ідуць\""
 description: "Што менавіта прыпыняе гэтая норма, каго ахоплівае, да якога чысла дзейнічае і што ўсё яшчэ можна зрабіць."
 date: 2026-08-24
@@ -7,6 +6,8 @@ instytucje: ["Urząd do Spraw Cudzoziemców", "Wojewoda"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 Калі вы чакаеце рашэнні даўжэй, чым прадугледжана, і не разумееце, чаму ў кіравання

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Падагнанне па справе аб выдачы даведкі"
 description: "Ліст, які падаюць, калі 7-дзённы тэрмін на выдачу даведкі скончыўся, а ўжонд маўчыць. Падстава: art. 37 § 1 pkt 1 KPA."
 date: 2026-08-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["court"]
 title: "Скарга на номер WSA на затягування розгляду"
 description: "Крок після нагадування: скарга до провінційного адміністративного суду. Постійний вхід 100 злотих."
 date: 2026-05-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

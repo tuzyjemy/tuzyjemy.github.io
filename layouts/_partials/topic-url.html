@@ -1,0 +1,15 @@
+{{- /* A topic link opens its parent collection with the filter selected. */ -}}
+{{- $page := .page -}}
+{{- $topic := .topic -}}
+{{- $collection := partial "collection-for.html" $page -}}
+{{- if not $collection -}}
+  {{- $collection = "publikacje" -}}
+  {{- if and (in hugo.Data.navigation.topics.pomoc $topic) (not (in hugo.Data.navigation.topics.publikacje $topic)) -}}
+    {{- $collection = "pomoc" -}}
+  {{- end -}}
+{{- end -}}
+{{- $url := $page.Site.Home.RelPermalink -}}
+{{- with $page.Site.GetPage (printf "/%s" $collection) -}}
+  {{- $url = printf "%s?temat=%s" .RelPermalink ($topic | urlquery) -}}
+{{- end -}}
+{{- return $url -}}

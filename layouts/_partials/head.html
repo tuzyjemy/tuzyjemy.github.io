@@ -37,7 +37,14 @@
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.opis }}{{ end }}">
 <meta name="twitter:image" content="{{ $og | absURL }}">
 
-<link rel="canonical" href="{{ .Permalink }}">
+{{ if eq .Kind "term" }}
+  {{ $target := partial "topic-url.html" (dict "page" . "topic" .Title) }}
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{{ $target | absURL }}">
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
 {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
 {{ end }}

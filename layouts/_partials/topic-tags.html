@@ -1,5 +1,6 @@
 {{- /* Render the same complete set of topics on cards and article pages. */ -}}
 {{- $lang := .Language.Lang -}}
+{{- $page := . -}}
 {{- range .GetTerms "tematy" -}}
-  <a class="tag {{ partial "topic-class.html" .LinkTitle }}" href="{{ .RelPermalink }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $lang) }}</a>
+  <a class="tag {{ partial "topic-class.html" .LinkTitle }}" href="{{ partial "topic-url.html" (dict "page" $page "topic" .LinkTitle) }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $lang) }}</a>
 {{- end -}}

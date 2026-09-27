@@ -51,11 +51,35 @@
     var items = Array.prototype.slice.call(root.querySelectorAll("[data-item]"));
     var chips = Array.prototype.slice.call(root.querySelectorAll(".chip[data-facet]"));
     var dependentFilters = root.hasAttribute("data-dependent-filters");
+    var urlFilters = root.hasAttribute("data-url-filters");
     var search = root.querySelector(".search-input");
     var summary = root.querySelector("[data-count]");
     var empty = root.querySelector("[data-empty]");
     var clear = root.querySelector("[data-clear]");
     var active = {};
+
+    function readUrl() {
+      if (!urlFilters) return;
+      var params = new URLSearchParams(window.location.search);
+      var topic = params.get("temat");
+      active = {};
+      chips.forEach(function (chip) {
+        var selected = chip.getAttribute("data-facet") === "tematy" && chip.getAttribute("data-value") === topic;
+        chip.setAttribute("aria-pressed", String(selected));
+        if (selected) active.tematy = topic;
+      });
+      if (search) search.value = params.get("q") || "";
+    }
+
+    function writeUrl(method) {
+      if (!urlFilters) return;
+      var url = new URL(window.location.href);
+      if (active.tematy) url.searchParams.set("temat", active.tematy);
+      else url.searchParams.delete("temat");
+      if (search && search.value.trim()) url.searchParams.set("q", search.value.trim());
+      else url.searchParams.delete("q");
+      if (url.href !== window.location.href) window.history[method](null, "", url);
+    }
 
     function matches(item, ignoredFacet) {
       for (var facet in active) {
@@ -111,6 +135,7 @@
           chip.setAttribute("aria-pressed", "true");
         }
         apply();
+        writeUrl("pushState");
       });
     });
 
@@ -120,7 +145,10 @@
       var t = null;
       search.addEventListener("input", function () {
         clearTimeout(t);
-        t = setTimeout(apply, items.length > 500 ? 160 : 0);
+        t = setTimeout(function () {
+          apply();
+          writeUrl("replaceState");
+        }, items.length > 500 ? 160 : 0);
       });
     }
     if (clear) {
@@ -129,7 +157,15 @@
         chips.forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
         if (search) search.value = "";
         apply();
+        writeUrl("pushState");
       });
+    }
+    if (urlFilters) {
+      window.addEventListener("popstate", function () {
+        readUrl();
+        apply();
+      });
+      readUrl();
     }
     apply();
   });

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Reminder (ponaglenie) about issuing a certificate"
 description: "A letter filed when the 7-day deadline for issuing a certificate has passed and the office is silent. Basis: art. 37 § 1 pkt 1 of the Code of Administrative Procedure."
 date: 2026-08-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

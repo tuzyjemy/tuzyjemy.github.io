@@ -1,4 +1,6 @@
-# Consistent colors for the four public topics.
+# Consistent colors for public topics in both collections.
+Poradniki: green
+Wzory pism: purple
 Analizy: purple
 Petycje: blue
 Wydarzenia: orange

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["court"]
 title: "Скарга на нумар WSA на зацяжку разбору"
 description: "Крок пасля напамінку: скарга ў правінцыйны адміністрацыйны суд. Пастаянны ўваход 100 злотых."
 date: 2026-05-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

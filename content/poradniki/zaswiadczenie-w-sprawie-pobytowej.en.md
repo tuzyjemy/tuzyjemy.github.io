@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "A KPA certificate in a residence case: how to apply and what to do after 7 days"
 description: "Guidance on a certificate requested under Article 217 KPA, which has a statutory 7-day deadline. It is not the new certificate delivered through MOS."
 date: 2026-08-28
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 {{< notatka typ="info" >}}

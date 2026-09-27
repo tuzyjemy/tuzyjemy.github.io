@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Ponaglenie w sprawie wydania zaświadczenia"
 description: "Pismo składane, gdy minął 7-dniowy termin na wydanie zaświadczenia, a urząd milczy. Podstawa: art. 37 § 1 pkt 1 KPA."
 date: 2026-08-28
@@ -9,6 +8,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

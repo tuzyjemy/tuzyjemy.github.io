@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["court"]
 title: "Skarga do WSA na przewlekłe prowadzenie postępowania"
 description: "Krok po ponagleniu: skarga do wojewódzkiego sądu administracyjnego. Wpis stały 100 zł."
 date: 2026-05-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

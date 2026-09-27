@@ -1,4 +1,16 @@
 # Public topic identities and their labels in each site language.
+Poradniki:
+  pl: Poradniki
+  ru: Инструкции
+  en: Guides
+  uk: Інструкції
+  be: Інструкцыі
+Wzory pism:
+  pl: Wzory pism
+  ru: Образцы обращений
+  en: Letter templates
+  uk: Зразки звернень
+  be: Узоры зваротаў
 Petycje:
   pl: Petycje
   ru: Петиции

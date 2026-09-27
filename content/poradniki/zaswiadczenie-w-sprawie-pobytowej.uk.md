@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Довідка за KPA у справі про перебування: як подати заяву та що робити через 7 днів"
 description: "Інструкція щодо довідки за art. 217 KPA зі строком 7 днів. Це не нова довідка, яка надається через MOS."
 date: 2026-08-28
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 {{< notatka typ="info" >}}

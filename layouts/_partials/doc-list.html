@@ -2,10 +2,9 @@
 {{ $pages := .pages }}
 {{ $ctx := .ctx }}
 {{ $lang := $ctx.Language.Lang }}
-{{ $showKinds := .showKinds | default false }}
-{{ $compactCards := or (eq $ctx.Section "publikacje") (eq $ctx.Kind "term") }}
+{{ $compactCards := or (isset hugo.Data.navigation.collections $ctx.Section) (eq $ctx.Kind "term") }}
 {{ $facets := slice "tematy" }}
-{{ if or (eq $ctx.Section "pomoc") (eq $ctx.Kind "term") }}{{ $facets = slice }}{{ end }}
+{{ if eq $ctx.Kind "term" }}{{ $facets = slice }}{{ end }}
 {{ $labels := dict "tematy" "meta_temat" }}
 
 {{/* zbierz dostępne wartości fasetów */}}
@@ -23,7 +22,7 @@
 
 {{ $id := $ctx.RelPermalink | anchorize }}
 
-<div data-filterable{{ if $compactCards }} data-dependent-filters{{ end }}>
+<div data-filterable{{ if $compactCards }} data-dependent-filters="true"{{ end }}{{ if isset hugo.Data.navigation.collections $ctx.Section }} data-url-filters="true"{{ end }}>
   <div class="filters">
     <div class="filter-row">
       <label class="visually-hidden" for="q-{{ $id }}">{{ i18n "search_placeholder" }}</label>
@@ -31,27 +30,14 @@
              placeholder="{{ i18n "search_placeholder" }}">
       <button class="chip" type="button" data-clear>{{ i18n "clear_filters" }}</button>
     </div>
-    {{ if and $showKinds (not $compactCards) }}
-      <div class="filter-row">
-        <span>{{ i18n "material_type" }}</span>
-        {{ $kinds := slice }}
-        {{ range $pages }}{{ $kinds = $kinds | append (.Params.material_kind | default .Section) }}{{ end }}
-        {{ range uniq $kinds }}
-          <button class="chip" type="button" aria-pressed="false" data-facet="kind" data-value="{{ . }}">{{ if $compactCards }}<span class="filter-check" aria-hidden="true">✓</span>{{ end }}{{ partial "kind-label.html" . }}</button>
-        {{ end }}
-      </div>
-      {{ if eq $ctx.Section "pomoc" }}
-        <div class="filter-row">
-          <span>{{ i18n "resource_task" }}</span>
-          {{ range slice "certificate" "delay" "court" "petition" }}
-            <button class="chip" type="button" aria-pressed="false" data-facet="task" data-value="{{ . }}">{{ i18n (printf "task_%s" .) }}</button>
-          {{ end }}
-        </div>
-      {{ end }}
-    {{ end }}
     {{ range $facets }}
       {{ $facet := . }}
       {{ $values := index $available $facet }}
+      {{ with index hugo.Data.navigation.topics $ctx.Section }}
+        {{ $ordered := slice }}
+        {{ range . }}{{ if in $values . }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}
+        {{ $values = $ordered }}
+      {{ end }}
       {{ if $values }}
         <div class="filter-row">
           <label>{{ i18n (index $labels $facet) }}</label>
@@ -81,8 +67,6 @@
         {{ end }}
       {{ end }}
       <article class="doc" data-item
-        data-kind="{{ .Params.material_kind | default .Section }}"
-        data-task="{{ delimit (.Params.resource_tasks | default slice) "|" }}"
         data-tematy="{{ delimit (.Params.tematy | default slice) "|" }}"
         data-search="{{ delimit $search " " }}">
         <div class="doc-top">
@@ -91,7 +75,6 @@
         </div>
         {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 200 }}</p>{{ end }}
         <div class="doc-tags">
-          {{ if and $showKinds (not $compactCards) }}<span class="tag tag-plain">{{ partial "kind-label.html" (.Params.material_kind | default .Section) }}</span>{{ end }}
           {{ if ne $p.Language.Lang $ctx.Language.Lang }}
             <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
             <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>

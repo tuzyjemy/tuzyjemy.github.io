@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["court"]
 title: "Жалоба в WSA на затягивание рассмотрения дела"
 description: "Обращение в воеводский административный суд после понагления. Фиксированный судебный сбор — 100 злотых."
 date: 2026-05-28
@@ -8,6 +7,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

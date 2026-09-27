@@ -7,3 +7,6 @@ main:
 collections:
   publikacje: [publikacje]
   pomoc: [poradniki, wzory]
+topics:
+  publikacje: [Analizy, Petycje, Współpraca, Wydarzenia]
+  pomoc: [Poradniki, Wzory pism, Petycje]

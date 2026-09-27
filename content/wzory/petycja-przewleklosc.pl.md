@@ -1,13 +1,14 @@
 ---
-resource_tasks: ["petition", "delay"]
 title: "Petycja o przywrócenie ochrony przed przewlekłością"
 description: "Wzór petycji zbiorowej do Sejmu lub organu administracji. Podstawa: ustawa o petycjach."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
+- Petycje
 ---
 
 Petycję może złożyć każdy — osoba fizyczna, grupa nieformalna, organizacja — także

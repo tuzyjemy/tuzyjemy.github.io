@@ -4,7 +4,7 @@ description: "Jedno zdanie: jaką procedurę opisuje ten poradnik."
 date: {{ .Date }}
 draft: true
 
-tematy: []
+tematy: ["Poradniki"]
 autor: "Zespół Tu Żyjemy"
 ---
 

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["delay", "court"]
 title: "Панагленне (ponaglenie) на бяздзейнасць органа"
 description: "Зварот, які падаюць, калі ведамства не вырашыла справу ва ўстаноўлены тэрмін. Падстава: ст. 37 КаАП Польшчы."
 date: 2026-05-12
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

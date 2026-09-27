@@ -6,6 +6,6 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
   {{ $pages := partial "collection-pages.html" (dict "collection" .Section "ctx" .) }}
-  {{ partial "doc-list.html" (dict "pages" $pages "ctx" . "showKinds" true) }}
+  {{ partial "doc-list.html" (dict "pages" $pages "ctx" .) }}
 </div>
 {{ end }}

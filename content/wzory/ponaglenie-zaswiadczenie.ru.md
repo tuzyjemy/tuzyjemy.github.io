@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Понагление по делу о выдаче справки"
 description: "Письмо, которое подают, когда 7-дневный срок выдачи справки истёк, а ужонд молчит. Основание: ст. 37 § 1 п. 1 KPA."
 date: 2026-08-28
@@ -9,6 +8,8 @@ lata: ["2026"]
 uwaga_prawna: true
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

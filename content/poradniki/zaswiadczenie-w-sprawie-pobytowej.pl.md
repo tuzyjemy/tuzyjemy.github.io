@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Zaświadczenia w sprawie pobytowej: dokument z MOS i zaświadczenie na wniosek"
 description: "Dwa różne dokumenty: bezpłatne zaświadczenie z MOS potwierdzające skuteczne złożenie wniosku i legalność pobytu oraz zaświadczenie wydawane na wniosek w terminie 7 dni."
 date: 2026-08-28
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 {{< notatka typ="info" >}}

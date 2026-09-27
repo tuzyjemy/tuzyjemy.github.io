@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["delay", "court"]
 title: "Reminder (ponaglenie) for an authority's inaction"
 description: "The letter you file when an office has not decided your case within the statutory deadline. Legal basis: art. 37 of the Code of Administrative Procedure."
 date: 2026-05-12
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["certificate"]
 title: "Справки по делу о пребывании: документ из MOS и справка по заявлению"
 description: "Два разных документа: бесплатная справка из MOS о правильной подаче заявления и легальности пребывания и справка по заявлению со сроком выдачи 7 дней."
 date: 2026-08-28
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Poradniki
 ---
 
 {{< notatka typ="info" >}}

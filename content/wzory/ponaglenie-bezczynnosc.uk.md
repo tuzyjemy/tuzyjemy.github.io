@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["delay", "court"]
 title: "Понаглення (ponaglenie) на бездіяльність органу"
 description: "Звернення, яке подають, коли відомство не вирішило справу у встановлений термін. Підстава: ст. 37 КпАП Польщі."
 date: 2026-05-12
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}

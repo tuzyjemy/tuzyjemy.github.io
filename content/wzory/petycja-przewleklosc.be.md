@@ -1,13 +1,14 @@
 ---
-resource_tasks: ["petition", "delay"]
 title: "Хадайніцтва аб аднаўленні абароны ад хранізацыі"
 description: "Узор калектыўнага звароту ў Сойм ці адміністрацыйны орган. Падстава: Закон аб петыцыях."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"
+tematy:
+- Wzory pism
+- Petycje
 ---
 
 Падаць петыцыю можа кожны: прыватная асоба, нефармальная група, арганізацыя.

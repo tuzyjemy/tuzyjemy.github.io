@@ -1,5 +1,4 @@
 ---
-resource_tasks: ["delay", "court"]
 title: "Понагление (ponaglenie) на бездействие органа"
 description: "Обращение, которое подают, когда ужонд не рассмотрел дело в установленный срок. Основание: ст. 37 Кодекса административного производства Польши (KPA)."
 date: 2026-05-12
@@ -8,6 +7,8 @@ instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true
+tematy:
+- Wzory pism
 ---
 
 {{< notatka typ="info" >}}
