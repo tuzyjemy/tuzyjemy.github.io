@@ -4,7 +4,6 @@ title: "Падагнанне па справе аб выдачы даведкі"
 description: "Ліст, які падаюць, калі 7-дзённы тэрмін на выдачу даведкі скончыўся, а ўжонд маўчыць. Падстава: art. 37 § 1 pkt 1 KPA."
 date: 2026-08-28
 instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

@@ -5,8 +5,6 @@ date: 2026-06-23
 instytucje: []
 tematy:
 - Petycje
-statusy:
-- Zakończone
 lata:
 - '2026'
 zrodlo: https://www.petycjeonline.com/trzy_dokumenty_jeden_pakiet_dziaa_na_rzecz_usprawnienia_procesu_legalizacji_pobytu_cudzoziemcow

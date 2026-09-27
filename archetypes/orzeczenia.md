@@ -11,7 +11,6 @@ zrodlo: "https://orzeczenia.nsa.gov.pl/"
 
 instytucje: []
 tematy: []
-statusy: []
 lata: ["{{ now.Format "2006" }}"]
 ---
 

@@ -9,15 +9,11 @@ enableGitInfo = false
 timeZone = "Europe/Warsaw"
 summaryLength = 30
 
-# Wyłącz sekcję taksonomii, jeśli nie jest potrzebna. Na razie wszystko włączone.
 [pagination]
   pagerSize = 12
 
 [taxonomies]
-  instytucja = "instytucje"
   temat = "tematy"
-  status = "statusy"
-  rok = "lata"
 
 [markup]
   [markup.goldmark.renderer]

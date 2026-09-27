@@ -4,7 +4,6 @@ title: "Art. 100d: чому терміни у справах перебуван�
 description: "Що саме зупиняє ця норма, кого охоплює, до якого числа діє і що ще можна зробити."
 date: 2026-08-24
 instytucje: ["Urząd do Spraw Cudzoziemców", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"

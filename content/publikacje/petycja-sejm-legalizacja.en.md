@@ -7,8 +7,6 @@ instytucje:
 - Sejm RP
 tematy:
 - Petycje
-statusy:
-- Oczekuje na odpowiedź
 lata:
 - '2026'
 data_wyslania: 24.06.2026

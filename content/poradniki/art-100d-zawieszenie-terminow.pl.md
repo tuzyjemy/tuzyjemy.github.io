@@ -4,7 +4,6 @@ title: "Art. 100d: dlaczego terminy w sprawach pobytowych „nie biegną\""
 description: "Co dokładnie zawiesza ten przepis, kogo obejmuje, do kiedy obowiązuje i co nadal można zrobić."
 date: 2026-08-24
 instytucje: ["Urząd do Spraw Cudzoziemców", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"

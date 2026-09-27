@@ -4,7 +4,6 @@ title: "Скарга на нумар WSA на зацяжку разбору"
 description: "Крок пасля напамінку: скарга ў правінцыйны адміністрацыйны суд. Пастаянны ўваход 100 злотых."
 date: 2026-05-28
 instytucje: ["Wojewódzki Sąd Administracyjny"]
-tematy: ["Przewlekłość postępowań", "Droga sądowa"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

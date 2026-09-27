@@ -3,10 +3,6 @@ resource_tasks: ["delay", "court"]
 title: "Ст. 100d: почему сроки по делам о пребывании «не идут»"
 description: "Что именно приостанавливает эта норма, кого она касается, до какого числа действует и что всё ещё можно сделать."
 date: 2026-08-24
-tematy:
-  - Przewlekłość postępowań
-  - Legalizacja pobytu
-  - Terminy
 instytucje:
   - Urząd do Spraw Cudzoziemców
   - Wojewoda

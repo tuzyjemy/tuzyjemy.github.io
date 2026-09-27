@@ -4,7 +4,6 @@ title: "Skarga do WSA na przewlekłe prowadzenie postępowania"
 description: "Krok po ponagleniu: skarga do wojewódzkiego sądu administracyjnego. Wpis stały 100 zł."
 date: 2026-05-28
 instytucje: ["Wojewódzki Sąd Administracyjny"]
-tematy: ["Przewlekłość postępowań", "Droga sądowa"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

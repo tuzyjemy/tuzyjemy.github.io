@@ -4,7 +4,6 @@ title: "Заява про видачу довідки про виробницт�
 description: "Зразок заяви про довідку, що підтверджує дату подання заяви, номер справи та те, що провадження триває. Термін: 7 днів."
 date: 2026-08-28
 instytucje: ["Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

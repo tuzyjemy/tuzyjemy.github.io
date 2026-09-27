@@ -324,10 +324,11 @@ collections:
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
         label: Tematy
-        widget: tagi
+        widget: select
+        multiple: true
         required: false
         i18n: duplicate
-        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi
@@ -340,12 +341,6 @@ collections:
         required: false
         i18n: duplicate
         options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.lata }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
-      - name: statusy
-        label: Statusy
-        widget: tagi
-        required: false
-        i18n: duplicate
-        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.statusy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
       - { name: data_wyslania, label: Data wysłania, widget: string, required: false, i18n: duplicate }
       - { name: sygnatura, label: Sygnatura, widget: string, required: false, i18n: duplicate }
       - { name: termin, label: Termin, widget: string, required: false, i18n: duplicate }
@@ -382,10 +377,11 @@ collections:
       - { name: lastmod, label: Data aktualizacji, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
         label: Tematy
-        widget: tagi
+        widget: select
+        multiple: true
         required: false
         i18n: duplicate
-        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi
@@ -431,10 +427,11 @@ collections:
       - { name: date, label: Data publikacji, widget: datetime, date_format: YYYY-MM-DD, time_format: false, i18n: duplicate }
       - name: tematy
         label: Tematy
-        widget: tagi
+        widget: select
+        multiple: true
         required: false
         i18n: duplicate
-        options: [{{ $t := slice }}{{ range hugo.Sites }}{{ range .RegularPages }}{{ range .Params.tematy }}{{ $t = $t | append . }}{{ end }}{{ end }}{{ end }}{{ $t = uniq (sort $t) }}{{ range $i, $v := $t }}{{ if $i }}, {{ end }}{{ $v | jsonify }}{{ end }}]
+        options: {{ $topics := slice }}{{ range $key, $labels := hugo.Data.topiclabels }}{{ $topics = $topics | append $key }}{{ end }}{{ sort $topics | jsonify }}
       - name: instytucje
         label: Instytucje
         widget: tagi

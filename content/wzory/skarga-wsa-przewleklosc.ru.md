@@ -4,7 +4,6 @@ title: "Жалоба в WSA на затягивание рассмотрения
 description: "Обращение в воеводский административный суд после понагления. Фиксированный судебный сбор — 100 злотых."
 date: 2026-05-28
 instytucje: ["Wojewódzki Sąd Administracyjny"]
-tematy: ["Przewlekłość postępowań", "Droga sądowa"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

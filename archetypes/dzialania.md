@@ -6,10 +6,7 @@ draft: true
 material_kind: dzialania
 
 instytucje: []          # np. ["Pomorski Urząd Wojewódzki"]
-tematy: []              # np. ["Przewlekłość postępowań"]
-statusy: ["W toku"]     # Planowane | W toku | Wysłane | Oczekuje na odpowiedź |
-                        # Odpowiedź otrzymana | Częściowo uwzględnione |
-                        # Uwzględnione | Odrzucone | Bez odpowiedzi | Zakończone
+tematy: []              # Petycje | Wydarzenia | Współpraca | Analizy
 lata: ["{{ now.Format "2006" }}"]
 
 data_wyslania: ""       # 24.06.2026

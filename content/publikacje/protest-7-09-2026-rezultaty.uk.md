@@ -15,8 +15,6 @@ material_kind: aktualnosci
 lastmod: '2026-09-27'
 instytucje:
 - Pomorski Urząd Wojewódzki
-statusy:
-- Zakończone
 zrodlo: https://bip.gdansk.pl/urzad-miejski/zgromadzenia-publiczne/Data-07-09-2026r-Czas-trwania-16-30-18-00,a,317325
 ---
 

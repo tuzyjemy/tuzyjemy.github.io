@@ -1,9 +1,7 @@
 {{- /*  Publikuje /admin/config.yml.
 
-    Konfiguracja panelu jest pobierana z serwera WWW (a nie z repozytorium),
-    więc Hugo może ją wygenerować przy budowaniu. Dzięki temu listy używanych
-    tematów, instytucji, statusów i lat w podpowiedziach pól powstają z
-    rzeczywistej treści i nie da się ich zostawić nieaktualnych.
+    Public topics come from data/topiclabels.yaml. Institution and year
+    suggestions come from document metadata and do not create tag pages.
 
     Źródło: assets/admin/config.yml (zwykły YAML z kilkoma wstawkami szablonu).
     Wywoływane raz, ze strony głównej w języku domyślnym.                 */ -}}

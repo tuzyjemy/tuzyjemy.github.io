@@ -4,7 +4,6 @@ title: "Complaint to WSA about the lengthy conduct of the proceedings"
 description: "Step after reminder: complaint to the provincial administrative court. Permanent entry PLN 100."
 date: 2026-05-28
 instytucje: ["Wojewódzki Sąd Administracyjny"]
-tematy: ["Przewlekłość postępowań", "Droga sądowa"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

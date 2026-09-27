@@ -4,7 +4,6 @@ title: "Art. 100d: чаму тэрміны па справах аб знаход
 description: "Што менавіта прыпыняе гэтая норма, каго ахоплівае, да якога чысла дзейнічае і што ўсё яшчэ можна зрабіць."
 date: 2026-08-24
 instytucje: ["Urząd do Spraw Cudzoziemców", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"

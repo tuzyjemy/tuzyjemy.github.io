@@ -6,8 +6,6 @@ instytucje:
 - Pomorski Urząd Wojewódzki
 tematy:
 - Petycje
-statusy:
-- Oczekuje na odpowiedź
 lata:
 - '2026'
 data_wyslania: 07.09.2026

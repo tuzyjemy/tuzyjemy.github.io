@@ -1,26 +1,12 @@
-{{/*  Uniwersalna, filtrowalna lista wpisów.
-      Wywołanie:  {{ partial "doc-list.html" (dict "pages" $pages "ctx" . ) }}
-
-      Fasety (statusy / instytucje / tematy / lata) pojawiają się automatycznie,
-      jeśli wpisy w tej sekcji mają odpowiednie wartości. Nazwy w liczbie mnogiej,
-      bo tak Hugo czyta taksonomie z front matter.
-
-      Statusy i tematy są zawsze zapisywane po polsku — etykiety (nie dane)
-      tłumaczymy na język bieżącej strony przez facet-label.html. Nazwy
-      instytucji celowo zostają w oryginale (to nazwy własne).             */}}
+{{/* Shared topic navigation for publications, articles and topic archives. */}}
 {{ $pages := .pages }}
 {{ $ctx := .ctx }}
 {{ $lang := $ctx.Language.Lang }}
 {{ $showKinds := .showKinds | default false }}
-{{ $compactCards := eq $ctx.Section "publikacje" }}
-{{ $facets := slice "statusy" "instytucje" "tematy" "lata" }}
-{{ if $showKinds }}{{ $facets = slice "tematy" }}{{ end }}
-{{ if eq $ctx.Section "pomoc" }}{{ $facets = slice }}{{ end }}
-{{ $labels := dict
-    "statusy" "meta_status"
-    "instytucje" "meta_instytucja"
-    "tematy" "meta_temat"
-    "lata" "meta_rok" }}
+{{ $compactCards := or (eq $ctx.Section "publikacje") (eq $ctx.Kind "term") }}
+{{ $facets := slice "tematy" }}
+{{ if or (eq $ctx.Section "pomoc") (eq $ctx.Kind "term") }}{{ $facets = slice }}{{ end }}
+{{ $labels := dict "tematy" "meta_temat" }}
 
 {{/* zbierz dostępne wartości fasetów */}}
 {{ $available := dict }}
@@ -97,10 +83,7 @@
       <article class="doc" data-item
         data-kind="{{ .Params.material_kind | default .Section }}"
         data-task="{{ delimit (.Params.resource_tasks | default slice) "|" }}"
-        data-statusy="{{ delimit (.Params.statusy | default slice) "|" }}"
-        data-instytucje="{{ delimit (.Params.instytucje | default slice) "|" }}"
         data-tematy="{{ delimit (.Params.tematy | default slice) "|" }}"
-        data-lata="{{ delimit (.Params.lata | default slice) "|" }}"
         data-search="{{ delimit $search " " }}">
         <div class="doc-top">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -113,19 +96,7 @@
             <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
             <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>
           {{ end }}
-          {{ if not $compactCards }}
-          {{ range .GetTerms "statusy" }}
-            {{ partial "status-badge.html" . }}
-          {{ end }}
-          {{ range .GetTerms "instytucje" }}
-            <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          {{ end }}
-          {{ end }}
-          {{ $topics := .GetTerms "tematy" }}
-          {{ if $compactCards }}{{ $topics = partial "card-topics.html" . }}{{ end }}
-          {{ range $topics }}
-            <a class="tag {{ partial "topic-class.html" .LinkTitle }}" href="{{ .RelPermalink }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $lang) }}</a>
-          {{ end }}
+          {{ partial "topic-tags.html" . }}
           {{ if not $compactCards }}
             {{ with .Params.sygnatura }}<span class="tag tag-plain">{{ . }}</span>{{ end }}
             {{ with .Params.dni }}<span class="tag tag-plain">{{ . }} {{ i18n "meta_dni" }}</span>{{ end }}

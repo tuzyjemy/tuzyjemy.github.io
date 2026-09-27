@@ -7,8 +7,6 @@ instytucje:
 - Urząd do Spraw Cudzoziemców
 tematy:
 - Petycje
-statusy:
-- Wysłane
 lata:
 - '2026'
 data_wyslania: 24.06.2026

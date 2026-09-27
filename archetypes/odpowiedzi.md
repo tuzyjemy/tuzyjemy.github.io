@@ -7,7 +7,6 @@ material_kind: odpowiedzi
 
 instytucje: []
 tematy: []
-statusy: []
 lata: ["{{ now.Format "2006" }}"]
 
 data_wyslania: ""

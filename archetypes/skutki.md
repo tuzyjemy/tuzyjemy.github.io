@@ -6,7 +6,7 @@ draft: true
 material_kind: skutki
 
 instytucje: []
-tematy: ["Przewlekłość postępowań"]
+tematy: ["Analizy"]
 lata: ["{{ now.Format "2006" }}"]
 
 # WYMAGANE. Bez możliwego do sprawdzenia źródła nie publikujemy wpisu

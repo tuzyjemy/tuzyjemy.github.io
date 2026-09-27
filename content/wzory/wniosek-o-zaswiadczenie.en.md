@@ -4,7 +4,6 @@ title: "Application for a certificate of pending proceedings"
 description: "Template application for a certificate confirming the filing date, the case number and that proceedings are pending. Deadline: 7 days."
 date: 2026-08-28
 instytucje: ["Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

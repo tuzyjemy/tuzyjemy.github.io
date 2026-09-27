@@ -7,8 +7,6 @@ tematy:
 - Współpraca
 instytucje:
 - Pomorski Urząd Wojewódzki
-statusy:
-- Planowane
 lata:
 - '2026'
 autor: Tu Żyjemy

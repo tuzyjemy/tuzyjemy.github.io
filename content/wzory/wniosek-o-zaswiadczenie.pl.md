@@ -5,7 +5,6 @@ description: "Wzór wniosku o zaświadczenie potwierdzające datę złożenia wn
 date: 2026-08-28
 lastmod: 2026-08-31
 instytucje: ["Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

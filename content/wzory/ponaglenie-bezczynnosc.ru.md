@@ -5,7 +5,6 @@ description: "Обращение, которое подают, когда ужо
 date: 2026-05-12
 lastmod: 2026-08-02
 instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

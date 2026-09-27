@@ -4,7 +4,6 @@ title: "Заява аб выдачы даведкі аб вядучай вытв
 description: "Узор заявы аб даведцы, якая пацвярджае дату падачы заявы, нумар справы і тое, што вытворчасць працягваецца. Тэрмін: 7 дзён."
 date: 2026-08-28
 instytucje: ["Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 wzor: true

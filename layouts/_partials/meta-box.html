@@ -25,9 +25,9 @@
     {{ with .Params.wynik }}
       <div><dt>{{ i18n "meta_wynik" }}</dt><dd>{{ . }}</dd></div>
     {{ end }}
-    {{ with .GetTerms "instytucje" }}
+    {{ with .Params.instytucje }}
       <div><dt>{{ i18n "meta_instytucja" }}</dt><dd>
-        {{ range . }}<a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> {{ end }}
+        {{ delimit . ", " }}
       </dd></div>
     {{ end }}
     {{ with .Params.lata }}

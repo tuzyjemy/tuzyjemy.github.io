@@ -5,7 +5,6 @@ description: "Інструкція щодо довідки за art. 217 KPA з�
 date: 2026-08-28
 lastmod: 2026-08-31
 instytucje: ["Wojewoda", "Urząd do Spraw Cudzoziemców"]
-tematy: ["Przewlekłość postępowań", "Legalizacja pobytu", "Terminy"]
 lata: ["2026"]
 uwaga_prawna: true
 autor: "Zespół Tu Żyjemy"
