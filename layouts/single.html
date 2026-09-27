@@ -42,6 +42,7 @@
 
       <div class="prose">
         {{ .Content }}
+        {{ partial "correspondence.html" . }}
       </div>
 
       {{ with .Params.pliki }}

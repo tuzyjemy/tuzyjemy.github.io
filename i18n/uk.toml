@@ -1,3 +1,22 @@
+# Shared collections and navigation
+menu_publikacje = "Публікації"
+menu_pomoc = "Інструкції та зразки"
+latest_publications = "Останні публікації"
+all_publications = "Усі публікації"
+useful_resources = "Корисні матеріали"
+material_type = "Тип матеріалу"
+about = "Про проєкт"
+contact = "Контакти"
+publications_desc = "Новини, наші дії, відповіді установ, дослідження та документовані наслідки."
+help_desc = "Покрокові інструкції та готові звернення для вирішення вашого питання."
+kind_dzialania = "Наші дії"
+resource_task = "Завдання"
+task_certificate = "Отримати довідку"
+task_delay = "Відреагувати на затягування справи"
+task_court = "Подати скаргу до суду"
+task_petition = "Подати петицію"
+correspondence = "Пов’язане листування"
+
 # Інтерфейс — українська
 skip_to_content = "Перейти до змісту"
 topbar_slogan = "Разом змінюємо те, що стосується всіх нас."

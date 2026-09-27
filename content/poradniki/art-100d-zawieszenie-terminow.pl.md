@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["delay", "court"]
 title: "Art. 100d: dlaczego terminy w sprawach pobytowych „nie biegną\""
 description: "Co dokładnie zawiesza ten przepis, kogo obejmuje, do kiedy obowiązuje i co nadal można zrobić."
 date: 2026-08-24

@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["court"]
 title: "Skarga do WSA na przewlekłe prowadzenie postępowania"
 description: "Krok po ponagleniu: skarga do wojewódzkiego sądu administracyjnego. Wpis stały 100 zł."
 date: 2026-05-28

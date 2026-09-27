@@ -1,3 +1,22 @@
+# Shared collections and navigation
+menu_publikacje = "Publikacje"
+menu_pomoc = "Poradniki i wzory"
+latest_publications = "Najnowsze publikacje"
+all_publications = "Wszystkie publikacje"
+useful_resources = "Praktyczne materiały"
+material_type = "Typ materiału"
+about = "O projekcie"
+contact = "Kontakt"
+publications_desc = "Aktualności, nasze działania, odpowiedzi instytucji, analizy i udokumentowane skutki."
+help_desc = "Instrukcje krok po kroku i gotowe pisma do wykorzystania w swojej sprawie."
+kind_dzialania = "Działania"
+resource_task = "Zadanie"
+task_certificate = "Uzyskać zaświadczenie"
+task_delay = "Zareagować na przewlekłość"
+task_court = "Złożyć skargę do sądu"
+task_petition = "Złożyć petycję"
+correspondence = "Powiązana korespondencja"
+
 # Interfejs — polski
 skip_to_content = "Przejdź do treści"
 topbar_slogan = "Razem zmieniamy to, co dotyczy nas wszystkich."

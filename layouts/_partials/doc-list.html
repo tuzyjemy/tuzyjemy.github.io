@@ -11,7 +11,10 @@
 {{ $pages := .pages }}
 {{ $ctx := .ctx }}
 {{ $lang := $ctx.Language.Lang }}
+{{ $showKinds := .showKinds | default false }}
 {{ $facets := slice "statusy" "instytucje" "tematy" "lata" }}
+{{ if $showKinds }}{{ $facets = slice "tematy" }}{{ end }}
+{{ if eq $ctx.Section "pomoc" }}{{ $facets = slice }}{{ end }}
 {{ $labels := dict
     "statusy" "meta_status"
     "instytucje" "meta_instytucja"
@@ -41,6 +44,24 @@
              placeholder="{{ i18n "search_placeholder" }}">
       <button class="chip" type="button" data-clear>{{ i18n "clear_filters" }}</button>
     </div>
+    {{ if $showKinds }}
+      <div class="filter-row">
+        <span>{{ i18n "material_type" }}</span>
+        {{ $kinds := slice }}
+        {{ range $pages }}{{ $kinds = $kinds | append .Section }}{{ end }}
+        {{ range uniq $kinds }}
+          <button class="chip" type="button" aria-pressed="false" data-facet="kind" data-value="{{ . }}">{{ partial "kind-label.html" . }}</button>
+        {{ end }}
+      </div>
+      {{ if eq $ctx.Section "pomoc" }}
+        <div class="filter-row">
+          <span>{{ i18n "resource_task" }}</span>
+          {{ range slice "certificate" "delay" "court" "petition" }}
+            <button class="chip" type="button" aria-pressed="false" data-facet="task" data-value="{{ . }}">{{ i18n (printf "task_%s" .) }}</button>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
     {{ range $facets }}
       {{ $facet := . }}
       {{ $values := index $available $facet }}
@@ -67,6 +88,8 @@
         {{ $search = $search | append (delimit (index $p.Params . | default slice) " ") }}
       {{ end }}
       <article class="doc" data-item
+        data-kind="{{ .Section }}"
+        data-task="{{ delimit (.Params.resource_tasks | default slice) "|" }}"
         data-statusy="{{ delimit (.Params.statusy | default slice) "|" }}"
         data-instytucje="{{ delimit (.Params.instytucje | default slice) "|" }}"
         data-tematy="{{ delimit (.Params.tematy | default slice) "|" }}"
@@ -78,6 +101,7 @@
         </div>
         {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 200 }}</p>{{ end }}
         <div class="doc-tags">
+          {{ if $showKinds }}<span class="tag tag-plain">{{ partial "kind-label.html" .Section }}</span>{{ end }}
           {{ if ne $p.Language.Lang $ctx.Language.Lang }}
             <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
             <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>

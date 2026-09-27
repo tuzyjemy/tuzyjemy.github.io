@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["delay", "court"]
 title: "Ponaglenie w sprawie bezczynności organu"
 description: "Pismo składane, gdy urząd nie załatwił sprawy w terminie ustawowym. Podstawa: art. 37 KPA."
 date: 2026-05-12

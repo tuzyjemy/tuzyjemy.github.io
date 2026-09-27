@@ -1,0 +1,8 @@
+{{- $collection := "" -}}
+{{- $section := .Section -}}
+{{- range $name, $sections := hugo.Data.navigation.collections -}}
+  {{- if or (eq $section $name) (in $sections $section) -}}
+    {{- $collection = $name -}}
+  {{- end -}}
+{{- end -}}
+{{- return $collection -}}

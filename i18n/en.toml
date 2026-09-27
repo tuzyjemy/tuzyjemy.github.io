@@ -1,3 +1,22 @@
+# Shared collections and navigation
+menu_publikacje = "Publications"
+menu_pomoc = "Guides and templates"
+latest_publications = "Latest publications"
+all_publications = "All publications"
+useful_resources = "Useful resources"
+material_type = "Material type"
+about = "About"
+contact = "Contact"
+publications_desc = "News, our actions, institutional responses, research and documented consequences."
+help_desc = "Step-by-step guides and ready-to-use letters for your case."
+kind_dzialania = "Our actions"
+resource_task = "Task"
+task_certificate = "Obtain a certificate"
+task_delay = "Respond to delays"
+task_court = "File a court complaint"
+task_petition = "Submit a petition"
+correspondence = "Related correspondence"
+
 # Interface — English
 skip_to_content = "Skip to content"
 topbar_slogan = "Together we change what concerns us all."

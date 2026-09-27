@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["petition", "delay"]
 title: "Petycja o przywrócenie ochrony przed przewlekłością"
 description: "Wzór petycji zbiorowej do Sejmu lub organu administracji. Podstawa: ustawa o petycjach."
 date: 2026-06-10

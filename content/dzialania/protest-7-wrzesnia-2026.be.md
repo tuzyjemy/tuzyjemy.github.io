@@ -2,6 +2,7 @@
 title: "Пратэст каля Паморскага ваяводскага ўпраўлення ў Гданьску"
 description: "Сход 7 верасня 2026 г. Ад 200 да 300 чалавек, петыцыя з 11 пунктаў перададзена першаму віцэваяводзе."
 date: 2026-09-07
+feed_duplicate: true
 instytucje: ["Pomorski Urząd Wojewódzki"]
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 statusy: ["Zakończone"]

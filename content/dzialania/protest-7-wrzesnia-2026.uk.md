@@ -2,6 +2,7 @@
 title: "Протест біля Поморського воєводського управління у Ґданську"
 description: "Зібрання 7 вересня 2026 р. Від 200 до 300 осіб, петицію з 11 пунктів передано першому віцевоєводі."
 date: 2026-09-07
+feed_duplicate: true
 instytucje: ["Pomorski Urząd Wojewódzki"]
 tematy: ["Mobilizacja", "Przewlekłość postępowań"]
 statusy: ["Zakończone"]

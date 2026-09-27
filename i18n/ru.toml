@@ -1,3 +1,22 @@
+# Shared collections and navigation
+menu_publikacje = "Публикации"
+menu_pomoc = "Инструкции и образцы"
+latest_publications = "Последние публикации"
+all_publications = "Все публикации"
+useful_resources = "Полезные материалы"
+material_type = "Тип материала"
+about = "О проекте"
+contact = "Контакты"
+publications_desc = "Новости, наши действия, ответы учреждений, исследования и документированные последствия."
+help_desc = "Пошаговые инструкции и готовые обращения для решения вашей задачи."
+kind_dzialania = "Наши действия"
+resource_task = "Задача"
+task_certificate = "Получить справку"
+task_delay = "Отреагировать на затягивание дела"
+task_court = "Подать жалобу в суд"
+task_petition = "Подать петицию"
+correspondence = "Связанная переписка"
+
 # Интерфейс — русский
 skip_to_content = "Перейти к содержанию"
 topbar_slogan = "Вместе меняем то, что касается каждого из нас."

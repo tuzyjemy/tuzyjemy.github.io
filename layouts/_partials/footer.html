@@ -1,38 +1,15 @@
 <footer class="site-footer">
   <div class="shell">
     <nav class="footer-sitemap" aria-label="{{ i18n "footer_sitemap" }}">
-      {{ $current := . }}
-      {{/* Ta sama grupa co w nagłówku i na stronie głównej — patrz
-           data/menugroups.yaml. Pełna mapa strony w stopce, żeby było
-           widać, że serwis ma więcej niż siedem linków w górnym menu. */}}
-      {{ range hugo.Data.menugroups }}
-        {{ $group := . }}
-        <div class="footer-col">
-          <h3>{{ i18n $group.labelKey }}</h3>
-          <ul>
-            {{ range $group.sections }}
-              {{ $ident := . }}
-              <li><a href="{{ partial "href.html" (printf "/%s/" $ident) }}">{{ i18n (printf "menu_%s" $ident) }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      {{ end }}
       <div class="footer-col">
-        <h3>{{ i18n "footer_browse" }}</h3>
         <ul>
-          {{ range (slice "tematy" "instytucje" "statusy" "lata") }}
-            <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "taxo_%s" .) }}</a></li>
+          {{ range hugo.Data.navigation.main }}
+            <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "menu_%s" .) }}</a></li>
           {{ end }}
-          <li><a href="{{ partial "href.html" "/postulaty/" }}">{{ i18n "menu_postulaty" }}</a></li>
-          {{/* Zasady udziału i ulotki dotyczyły protestu 7 września 2026 r.
-               Po jego zakończeniu nie ma ich w stopce: ulotki zapraszają na
-               konkretną, minioną datę, a zasady dotyczą zgromadzenia, którego
-               już nie ma. Same strony zostają — linkują do nich relacja
-               i zapowiedź protestu. Przy kolejnej akcji wystarczy przywrócić
-               te dwa wiersze, najlepiej znów pod przełącznikiem kampanii. */}}
           <li><a href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a></li>
         </ul>
       </div>
+      <div class="footer-col footer-utilities">{{ partial "utility-links.html" . }}</div>
     </nav>
 
     <div class="footer-inner">

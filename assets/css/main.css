@@ -118,10 +118,8 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .topbar a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------------------------------------------------------------- header */
-/*  Nagłówek dostaje szerszy kontener niż treść: osiem pozycji menu nie
-    mieści się w 1180 px. Pełny wariant pokazujemy dopiero na bardzo szerokich
-    ekranach, ale zostawiamy mu też bezpieczny zapas na dłuższe tłumaczenia. */
-.site-header .shell { max-width: 1600px; }
+/* The primary navigation contains three links. */
+.site-header .shell { max-width: 1280px; }
 
 .site-header {
   background: color-mix(in srgb, var(--surface) 94%, transparent);
@@ -174,9 +172,6 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .nav a:hover { color: var(--ink); text-decoration: none; }
 .nav a[aria-current="page"], .nav a.is-active { color: var(--accent); }
 
-.nav-group { display: flex; align-items: center; gap: 14px; }
-.nav-group + .nav-group { padding-left: 14px; border-left: 1px solid var(--line); }
-.nav-group-label { display: none; }
 
 .header-tools { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; }
 
@@ -731,92 +726,34 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   .aside { position: static; }
 }
 
-/*  Nawigacja zwija się do przycisku „Menu" wcześniej niż reszta układu:
-    pozycji w menu jest osiem, a w rosyjskim i ukraińskim ich nazwy są
-    długie — przy ~1400 px nachodzą na przełącznik języka.             */
-@media (max-width: 1540px) {
-  .nav {
-    display: none;
-    position: absolute;
-    left: 0; right: 0; top: 100%;
-    background: var(--surface);
-    border-bottom: 1px solid var(--line);
-    flex-direction: column;
-    align-items: stretch;
-    flex-wrap: wrap;
-    overflow: visible;
-    gap: 0;
-    padding: 8px var(--pad) 16px;
-    box-shadow: var(--shadow-lg);
-  }
+.utility-nav { display: flex; align-items: center; gap: 22px; }
+.topbar { position: relative; z-index: 60; }
+.topbar .lang-toggle { background: transparent; color: var(--on-deep); border-color: transparent; }
+.topbar .lang-menu a { color: var(--ink); text-decoration: none; }
+.nav { justify-content: center; gap: 24px; }
+.mobile-utilities, .nav .mobile-join { display: none; }
+.resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.footer-utilities { display: flex; flex-direction: column; gap: 12px; }
+#contact { scroll-margin-top: 100px; }
+@media (max-width: 560px) { .resource-grid { grid-template-columns: 1fr; } }
+
+/* A single menu mode on small screens; no category headings. */
+@media (max-width: 1000px) {
+  .nav { display: none; position: absolute; left: 0; right: 0; top: 100%;
+    background: var(--surface); border-bottom: 1px solid var(--line);
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 8px var(--pad) 16px; box-shadow: var(--shadow-lg); }
   .site-header[data-nav="open"] .nav { display: flex; }
-  .nav a { padding: 11px 0; font-size: 16px; border-bottom: 1px solid var(--line); }
-  .nav a:last-child { border-bottom: 0; }
-  .nav-group { flex-direction: column; align-items: stretch; gap: 0; }
-  .nav-group + .nav-group { padding-left: 0; border-left: 0; }
-  .nav-group-label {
-    display: block;
-    font-size: 11px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--muted);
-    padding: 14px 0 4px;
-  }
+  .nav a { padding: 11px 0; font-size: 16px; white-space: normal; }
   .header-inner { justify-content: space-between; position: relative; }
-  .nav-toggle {
-    display: inline-flex;
-    border: 1px solid var(--line-strong);
-    background: transparent;
-    color: var(--ink);
-    border-radius: 9px;
-    padding: 9px 12px;
-    font-weight: 700;
-    font-size: 14px;
-  }
-}
-
-/*  Stan pośredni między pełną nawigacją a samym przyciskiem „Menu".
-    Grupy w data/menugroups.yaml są ułożone od najczęściej odwiedzanych
-    do najrzadszych, więc przy średniej szerokości zostawiamy w pasku
-    pierwszą grupę, a resztę chowamy pod przyciskiem. Po jego kliknięciu
-    rozwija się pełne menu ze wszystkimi grupami.                      */
-@media (min-width: 1101px) and (max-width: 1540px) {
-  .nav {
-    display: flex;
-    position: static;
-    flex-direction: row;
-    align-items: center;
-    background: none;
-    border-bottom: 0;
-    box-shadow: none;
-    padding: 0;
-    gap: 14px;
-  }
-  .nav a { padding: 0; font-size: 13.5px; border-bottom: 0; }
-  .nav-group { flex-direction: row; align-items: center; gap: 14px; }
-  .nav-group-label { display: none; }
-  /* w pasku zostaje tylko pierwsza grupa */
-  .nav-group + .nav-group { display: none; }
-
-  /* po otwarciu — pełne menu, tak jak na wąskich ekranach */
-  .site-header[data-nav="open"] .nav {
-    position: absolute;
-    left: 0; right: 0; top: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    background: var(--surface);
-    border-bottom: 1px solid var(--line);
-    box-shadow: var(--shadow-lg);
-    padding: 8px var(--pad) 16px;
-  }
-  .site-header[data-nav="open"] .nav a { padding: 11px 0; font-size: 16px;
-    border-bottom: 1px solid var(--line); }
-  .site-header[data-nav="open"] .nav a:last-child { border-bottom: 0; }
-  .site-header[data-nav="open"] .nav-group { display: flex; flex-direction: column;
-    align-items: stretch; gap: 0; padding-left: 0; border-left: 0; }
-  .site-header[data-nav="open"] .nav-group-label { display: block; }
+  .nav-toggle { display: inline-flex; border: 1px solid var(--line-strong);
+    background: transparent; color: var(--ink); border-radius: 9px;
+    padding: 9px 12px; font-weight: 700; font-size: 14px; }
+  .mobile-utilities { display: flex; flex-direction: column;
+    border-top: 1px solid var(--line); margin-top: 8px; padding-top: 8px; }
+  .nav .mobile-join { display: block; color: var(--accent); font-weight: 800; }
+  .utility-nav { display: none; }
+  .topbar-inner { justify-content: flex-end; }
 }
 
 @media (max-width: 1199px) {
@@ -830,8 +767,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 
 @media (max-width: 560px) {
   :root { --pad: 16px; }
-  .topbar-inner { min-height: 0; justify-content: flex-start; }
-  .topbar-inner span:last-child { display: none; }
+  .topbar-inner { min-height: 0; justify-content: flex-end; }
   .header-inner { min-height: 70px; }
   .brand-name { font-size: 21px; }
   .brand-symbol { width: 56px; height: 36px; }

@@ -1,0 +1,8 @@
+# Public navigation and collection membership share one source of truth.
+main:
+  - publikacje
+  - orzeczenia
+  - pomoc
+collections:
+  publikacje: [aktualnosci, dzialania, odpowiedzi, statystyki, skutki]
+  pomoc: [poradniki, wzory]

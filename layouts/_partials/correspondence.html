@@ -1,0 +1,28 @@
+{{- /* A response points to its original action; the action lists all responses. */ -}}
+{{ $ctx := . }}
+{{ $related := slice }}
+{{ if eq .Section "odpowiedzi" }}
+  {{ with .Params.linked_action }}
+    {{ $reference := . }}
+    {{ range partial "section-pages.html" (dict "section" "dzialania" "ctx" $ctx) }}
+      {{ if eq $reference (printf "/dzialania/%s/" .File.TranslationBaseName) }}
+        {{ $related = $related | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else if eq .Section "dzialania" }}
+  {{ $reference := printf "/dzialania/%s/" .File.TranslationBaseName }}
+  {{ range partial "section-pages.html" (dict "section" "odpowiedzi" "ctx" $ctx) }}
+    {{ if eq .Params.linked_action $reference }}{{ $related = $related | append . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ with $related }}
+  <section class="correspondence">
+    <h2>{{ i18n "correspondence" }}</h2>
+    <ul>
+      {{ range sort . "Date" "asc" }}
+        <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time> — <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}

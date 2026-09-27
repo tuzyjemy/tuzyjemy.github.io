@@ -1,4 +1,5 @@
 ---
+resource_tasks: ["delay", "court"]
 title: "Art. 100d: why deadlines in residence cases \"do not run\""
 description: "What exactly this provision suspends, who it covers, how long it lasts, and what you can still do."
 date: 2026-08-24
