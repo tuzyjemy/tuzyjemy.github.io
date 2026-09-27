@@ -158,4 +158,4 @@ systemami wojewódzkimi i rejestrami państwowymi.
 
 ## Źródła i dalsza lektura
 
-Jednym z podjętych działań był [protest w Gdańsku 7 września 2026 r.](/publikacje/protest-7-09-2026-zakonczony/). Informacje o inicjatywie znajdziesz na stronie [O nas](/o-nas/), a kolejne działania w [Publikacjach](/publikacje/).
+Jednym z podjętych działań był [protest w Gdańsku 7 września 2026 r.](/publikacje/protest-7-09-2026-rezultaty/). Informacje o inicjatywie znajdziesz na stronie [O nas](/o-nas/), a kolejne działania w [Publikacjach](/publikacje/).

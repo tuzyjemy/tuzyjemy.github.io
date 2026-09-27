@@ -19,7 +19,7 @@ aliases:
 ---
 
 Petycję przekazaliśmy na ręce pierwszego wicewojewody Emila Rojka 7 września 2026 r.,
-podczas [protestu pod Pomorskim Urzędem Wojewódzkim](/publikacje/protest-7-09-2026-zakonczony/).
+podczas [protestu pod Pomorskim Urzędem Wojewódzkim](/publikacje/protest-7-09-2026-rezultaty/).
 
 ## Co zawiera
 
@@ -46,6 +46,6 @@ i zaktualizujemy ten wpis.
 
 ## Powiązane
 
-- [Jak przebiegł protest](/publikacje/protest-7-09-2026-zakonczony/)
+- [Jak przebiegł protest](/publikacje/protest-7-09-2026-rezultaty/)
 - [Pełne 15 postulatów](/publikacje/postulaty-protestu-7-wrzesnia-2026/)
 - [Wcześniejsza petycja do Wojewody z 24 czerwca 2026 r.](/publikacje/petycja-wojewoda-pomorski/)

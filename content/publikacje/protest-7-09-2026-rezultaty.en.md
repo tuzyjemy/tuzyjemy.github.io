@@ -9,6 +9,7 @@ lata:
 - '2026'
 autor: Zespół Tu Żyjemy
 aliases:
+- /publications/protest-7-09-2026-zakonczony/
 - /actions/protest-7-wrzesnia-2026/
 - /news/protest-7-09-2026-zakonczony/
 material_kind: aktualnosci
@@ -47,7 +48,7 @@ are addressed to the government and the Sejm, not to the Voivode.
 ## First results
 
 - The vice-voivode promised **24 new posts** in the department for foreigners, to speed up the handling of cases.
-- A **working meeting** with the office has been agreed, to discuss the matters we raised.
+- **[A working meeting with the office is scheduled for 28 September 2026.](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/)** We will meet the deputy voivode and the director of the Department for Foreigners to discuss improvements to the office’s work and timely processing of residence cases. Our petition’s demands will form the basis of the discussion.
 
 A promise of staffing changes nothing by itself. What matters is what kind of posts these
 will be — people who conduct cases and issue decisions, or front-desk service — when they

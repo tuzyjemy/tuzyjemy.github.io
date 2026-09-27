@@ -120,6 +120,7 @@ collections:
             required: false
             fields:
               - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
+              - { name: link, label: Publikacja o spotkaniu (ścieżka), widget: string, required: false }
           - name: event
             label: Wydarzenie
             widget: object

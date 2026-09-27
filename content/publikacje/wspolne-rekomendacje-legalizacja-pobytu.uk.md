@@ -1,7 +1,7 @@
 ---
 title: Спільні рекомендації щодо вдосконалення системи легалізації перебування
 description: Tu Żyjemy долучилося до роботи разом із Polskie Forum Migracyjne та широким колом організацій, експертів і мігрантських спільнот.
-date: 2026-09-27
+date: 2026-09-21
 instytucje:
 - Fundacja Polskie Forum Migracyjne
 tematy:

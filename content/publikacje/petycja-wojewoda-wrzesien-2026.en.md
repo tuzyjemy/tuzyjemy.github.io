@@ -19,7 +19,7 @@ aliases:
 ---
 
 We handed the petition to the first vice-voivode, Emil Rojek, on 7 September 2026, during
-the [protest outside the Pomeranian Voivodeship Office](/publikacje/protest-7-09-2026-zakonczony/).
+the [protest outside the Pomeranian Voivodeship Office](/publikacje/protest-7-09-2026-rezultaty/).
 
 ## What it contains
 
@@ -47,6 +47,6 @@ update this entry.
 
 ## Related
 
-- [How the protest went](/publikacje/protest-7-09-2026-zakonczony/)
+- [How the protest went](/publikacje/protest-7-09-2026-rezultaty/)
 - [The full 15 demands](/publikacje/postulaty-protestu-7-wrzesnia-2026/)
 - [The earlier petition to the Voivode of 24 June 2026](/publikacje/petycja-wojewoda-pomorski/)

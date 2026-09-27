@@ -9,6 +9,7 @@ lata:
 - '2026'
 autor: Zespół Tu Żyjemy
 aliases:
+- /publikacje/protest-7-09-2026-zakonczony/
 - /dzialania/protest-7-wrzesnia-2026/
 - /aktualnosci/protest-7-09-2026-zakonczony/
 material_kind: aktualnosci
@@ -46,7 +47,7 @@ rząd i Sejm, a nie wojewoda.
 ## Pierwsze rezultaty
 
 - Wicewojewoda obiecał **24 nowe etaty** w wydziale do spraw cudzoziemców, żeby przyspieszyć rozpatrywanie spraw.
-- Ustalono **spotkanie robocze** z urzędem, na którym omówimy poruszone sprawy.
+- Ustalono **[spotkanie robocze z urzędem na 28 września 2026 r.](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/)** Spotkamy się z wicewojewodą i dyrektor Wydziału Spraw Cudzoziemców, aby omówić usprawnienie pracy urzędu i terminowe rozpatrywanie spraw pobytowych. Punktem wyjścia będą postulaty naszej petycji.
 
 Sama obietnica etatów jeszcze niczego nie zmienia: ważne, co to będą za stanowiska —
 osoby prowadzące sprawy i wydające decyzje czy obsługa wnioskodawców — od kiedy zaczną

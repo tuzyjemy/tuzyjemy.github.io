@@ -21,7 +21,7 @@ wicewojewodzie 7 września 2026 r.** podczas protestu. Weszło do niej 11 punkt�
 które należą do kompetencji Pomorskiego Urzędu Wojewódzkiego; pozostałe 4 dotyczą spraw
 ogólnopolskich i są adresowane do rządu i Sejmu.
 
-[Jak przebiegł protest i co dalej](/publikacje/protest-7-09-2026-zakonczony/)
+[Jak przebiegł protest i co dalej](/publikacje/protest-7-09-2026-rezultaty/)
 
 [Przewlekłość postępowań pobytowych: problem, skutki i potrzebne zmiany](/publikacje/przewleklosc-postepowan-pobytowych/)
 {{< /notatka >}}

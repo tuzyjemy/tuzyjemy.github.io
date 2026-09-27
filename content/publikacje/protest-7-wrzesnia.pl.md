@@ -15,7 +15,7 @@ lastmod: '2026-09-27'
 {{< notatka typ="info" >}}
 **Protest odbył się 7 września 2026 r.** Poniżej ogłoszenie w wersji sprzed
 wydarzenia. Podsumowanie, odzew mediów i dalsze kroki:
-[jak przebiegł protest](/publikacje/protest-7-09-2026-zakonczony/).
+[jak przebiegł protest](/publikacje/protest-7-09-2026-rezultaty/).
 {{< /notatka >}}
 
 Termin jest ustalony. Spotykamy się **w poniedziałek 7 września o 16:30** pod Wydziałem

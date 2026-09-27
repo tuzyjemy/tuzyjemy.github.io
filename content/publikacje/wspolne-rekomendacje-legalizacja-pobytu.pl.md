@@ -1,7 +1,7 @@
 ---
 title: Wspólne rekomendacje na rzecz sprawnej legalizacji pobytu
 description: Tu Żyjemy uczestniczyło w pracach razem z Polskim Forum Migracyjnym i szerokim gronem organizacji, ekspertów oraz środowisk migranckich.
-date: 2026-09-27
+date: 2026-09-21
 instytucje:
 - Fundacja Polskie Forum Migracyjne
 tematy:

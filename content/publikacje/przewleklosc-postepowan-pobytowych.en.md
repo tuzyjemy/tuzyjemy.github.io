@@ -159,4 +159,4 @@ ST POBYT, EZD, voivodeship systems and state registers.
 
 ## Sources and further reading
 
-One step we took was the [Gdańsk protest on 7 September 2026](/publikacje/protest-7-09-2026-zakonczony/). Learn about the initiative on the [About us](/o-nas/) page and follow subsequent actions in [Publications](/publikacje/).
+One step we took was the [Gdańsk protest on 7 September 2026](/publikacje/protest-7-09-2026-rezultaty/). Learn about the initiative on the [About us](/o-nas/) page and follow subsequent actions in [Publications](/publikacje/).

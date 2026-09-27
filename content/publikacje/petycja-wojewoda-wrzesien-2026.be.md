@@ -19,7 +19,7 @@ aliases:
 ---
 
 Петыцыю мы перадалі першаму віцэваяводзе Эмілю Роеку 7 верасня 2026 г., падчас
-[пратэсту каля Паморскага ваяводскага ўпраўлення](/publikacje/protest-7-09-2026-zakonczony/).
+[пратэсту каля Паморскага ваяводскага ўпраўлення](/publikacje/protest-7-09-2026-rezultaty/).
 
 ## Што ў ёй
 
@@ -46,6 +46,6 @@ aliases:
 
 ## Звязанае
 
-- [Як прайшоў пратэст](/publikacje/protest-7-09-2026-zakonczony/)
+- [Як прайшоў пратэст](/publikacje/protest-7-09-2026-rezultaty/)
 - [Поўныя 15 патрабаванняў](/publikacje/postulaty-protestu-7-wrzesnia-2026/)
 - [Папярэдняя петыцыя да ваяводы ад 24 чэрвеня 2026 г.](/publikacje/petycja-wojewoda-pomorski/)

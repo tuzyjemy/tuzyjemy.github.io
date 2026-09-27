@@ -21,7 +21,7 @@ vice-voivode on 7 September 2026** during the protest. It contained 11 points â€
 falling within the competence of the Pomeranian Voivodeship Office; the remaining 4
 concern nationwide matters and are addressed to the government and the Sejm.
 
-[How the protest went and what comes next](/publikacje/protest-7-09-2026-zakonczony/)
+[How the protest went and what comes next](/publikacje/protest-7-09-2026-rezultaty/)
 
 [Delays in residence proceedings: the problem, its impact and the changes needed](/publikacje/przewleklosc-postepowan-pobytowych/)
 {{< /notatka >}}

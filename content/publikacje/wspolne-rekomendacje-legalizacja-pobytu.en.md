@@ -1,7 +1,7 @@
 ---
 title: Joint recommendations for efficient residence legalisation
 description: Tu Żyjemy contributed alongside the Polish Migration Forum and a broad group of organisations, experts and migrant communities.
-date: 2026-09-27
+date: 2026-09-21
 instytucje:
 - Fundacja Polskie Forum Migracyjne
 tematy:

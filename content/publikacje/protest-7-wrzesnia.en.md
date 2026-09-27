@@ -15,7 +15,7 @@ lastmod: '2026-09-27'
 {{< notatka typ="info" >}}
 **The protest took place on 7 September 2026.** Below is the announcement as it
 stood before the event. The outcome, media coverage and next steps:
-[how the protest went](/publikacje/protest-7-09-2026-zakonczony/).
+[how the protest went](/publikacje/protest-7-09-2026-rezultaty/).
 {{< /notatka >}}
 
 The date is set. We meet on **Monday 7 September at 16:30** outside the Office for
