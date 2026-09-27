@@ -114,9 +114,16 @@ collections:
           - { name: active, label: Kampania aktywna, widget: boolean, default: true }
           - { name: link, label: Dokument kampanii (ścieżka), widget: string }
           - { name: rules, label: Zasady udziału (ścieżka), widget: string, required: false }
+          - name: meeting
+            label: Spotkanie robocze (bez zapisów)
+            widget: object
+            required: false
+            fields:
+              - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
           - name: event
             label: Wydarzenie
             widget: object
+            required: false
             fields:
               - { name: url, label: Adres w Mobilizonie, widget: string }
               - { name: date, label: Data, widget: datetime, date_format: YYYY-MM-DD, time_format: false }
@@ -140,6 +147,11 @@ collections:
         fields:
           - { name: kicker, label: Nadtytuł, widget: string, required: false, i18n: true }
           - { name: heading, label: Nagłówek, widget: string, i18n: true }
+          - { name: intro, label: Krótkie wprowadzenie, widget: text, required: false, i18n: true }
+          - { name: meetingLabel, label: Spotkanie — etykieta, widget: string, required: false, i18n: true }
+          - { name: meetingTitle, label: Spotkanie — tytuł, widget: string, required: false, i18n: true }
+          - { name: meetingBody, label: Spotkanie — opis, widget: text, required: false, i18n: true }
+          - { name: historySummary, label: Krótkie podsumowanie protestu, widget: text, required: false, i18n: true }
           - { name: body, label: Opis (pusty wiersz dzieli akapity), widget: text, i18n: true }
           - { name: linkTitle, label: Napis na przycisku, widget: string, required: false, i18n: true }
           - { name: meta, label: Wiersz z terminem i miejscem, widget: list, required: false, i18n: true }

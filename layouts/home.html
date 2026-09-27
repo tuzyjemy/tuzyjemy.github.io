@@ -7,6 +7,31 @@
   {{ with $k }}
   <div class="eyebrow"><span class="dot"></span> {{ i18n "featured_now" }}</div>
 
+  {{ if .meeting }}
+  <section class="campaign-compact" aria-labelledby="hero-heading">
+    <div class="campaign-intro">
+      <h1 id="hero-heading">{{ .naglowek }}</h1>
+      <p>{{ .intro }}</p>
+    </div>
+    {{ with .meeting }}
+      <section class="campaign-meeting" aria-labelledby="meeting-heading">
+        <div class="meeting-date">
+          <time datetime="{{ .date }}">{{ .displayDate }}</time>
+          <span>{{ .weekday }} · {{ .year }}</span>
+        </div>
+        <div>
+          <div class="kicker">{{ .label }}</div>
+          <h2 id="meeting-heading">{{ .title }}</h2>
+          <p>{{ .body }}</p>
+        </div>
+      </section>
+    {{ end }}
+    <div class="campaign-history">
+      <span>{{ .historySummary }}</span>
+      <a href="{{ partial "href.html" .link }}">{{ .linkTytul }} &rarr;</a>
+    </div>
+  </section>
+  {{ else }}
   <section class="hero" aria-labelledby="hero-heading">
     <div class="hero-copy">
       {{ with .kicker }}<div class="kicker">{{ . }}</div>{{ end }}
@@ -58,6 +83,26 @@
     {{ end }}
   </section>
   {{ end }}
+  {{ end }}
+
+  {{ $publications := partial "collection-pages.html" (dict "collection" "publikacje" "ctx" .) }}
+  {{ if $publications }}
+    <div class="section-head">
+      <h2>{{ i18n "latest_publications" }}</h2>
+      <a href="{{ partial "href.html" "/publikacje/" }}">{{ i18n "all_publications" }} &rarr;</a>
+    </div>
+    <section class="cards" aria-label="{{ i18n "latest_publications" }}">
+      {{ range first 3 $publications }}
+        <article class="card">
+          <div class="card-status">{{ .Date.Format "02.01.2006" }} · {{ partial "kind-label.html" .Section }}</div>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
+          {{ if ne .Language.Lang $.Language.Lang }}<span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>{{ end }}
+          <a class="card-link" href="{{ .RelPermalink }}">{{ i18n "read_more" }} &rarr;</a>
+        </article>
+      {{ end }}
+    </section>
+  {{ end }}
 
   {{ with $k.wezwania }}
   <div class="section-head">
@@ -78,23 +123,13 @@
   </section>
   {{ end }}
 
-  {{ $publications := partial "collection-pages.html" (dict "collection" "publikacje" "ctx" .) }}
-  {{ if $publications }}
-    <div class="section-head">
-      <h2>{{ i18n "latest_publications" }}</h2>
-      <a href="{{ partial "href.html" "/publikacje/" }}">{{ i18n "all_publications" }} &rarr;</a>
-    </div>
-    <section class="cards" aria-label="{{ i18n "latest_publications" }}">
-      {{ range first 3 $publications }}
-        <article class="card">
-          <div class="card-status">{{ .Date.Format "02.01.2006" }} · {{ partial "kind-label.html" .Section }}</div>
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p>{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
-          {{ if ne .Language.Lang $.Language.Lang }}<span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>{{ end }}
-          <a class="card-link" href="{{ .RelPermalink }}">{{ i18n "read_more" }} &rarr;</a>
-        </article>
-      {{ end }}
-    </section>
+  {{ if $k.meeting }}
+    {{ with .Site.Params.telegram }}
+      <div class="campaign-followup">
+        <p>{{ i18n "attend_followup_note" }}</p>
+        <a class="btn" href="{{ . }}" rel="noopener">{{ i18n "attend_followup_button" }} &rarr;</a>
+      </div>
+    {{ end }}
   {{ end }}
 
   <div class="section-head"><h2>{{ i18n "useful_resources" }}</h2></div>

@@ -63,7 +63,24 @@
         ) -}}
     {{- end -}}
 
+    {{- $meeting := dict -}}
+    {{- with $layout.meeting -}}
+      {{- $parts := partial "date-parts.html" (dict "date" .date "lang" $lang) -}}
+      {{- $meeting = dict
+          "date" .date
+          "displayDate" ((time.AsTime .date).Format "02.01")
+          "year" ((time.AsTime .date).Format "2006")
+          "weekday" $parts.weekday
+          "label" $text.meetingLabel
+          "title" $text.meetingTitle
+          "body" $text.meetingBody
+      -}}
+    {{- end -}}
+
     {{- $out = dict
+        "meeting" $meeting
+        "intro" $text.intro
+        "historySummary" $text.historySummary
         "kicker"   $text.kicker
         "naglowek" $text.heading
         "wstep"    $text.lead
