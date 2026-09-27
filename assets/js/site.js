@@ -49,16 +49,17 @@
   /* ------------------------------------------------- filtrowanie list */
   document.querySelectorAll("[data-filterable]").forEach(function (root) {
     var items = Array.prototype.slice.call(root.querySelectorAll("[data-item]"));
-    var chips = Array.prototype.slice.call(root.querySelectorAll(".chip"));
+    var chips = Array.prototype.slice.call(root.querySelectorAll(".chip[data-facet]"));
+    var dependentFilters = root.hasAttribute("data-dependent-filters");
     var search = root.querySelector(".search-input");
     var summary = root.querySelector("[data-count]");
     var empty = root.querySelector("[data-empty]");
     var clear = root.querySelector("[data-clear]");
     var active = {};
 
-    function matches(item) {
+    function matches(item, ignoredFacet) {
       for (var facet in active) {
-        if (!active[facet]) continue;
+        if (!active[facet] || facet === ignoredFacet) continue;
         var values = (item.getAttribute("data-" + facet) || "").split("|");
         if (values.indexOf(active[facet]) === -1) return false;
       }
@@ -80,6 +81,19 @@
       });
       if (summary) summary.textContent = String(shown);
       if (empty) empty.hidden = shown !== 0;
+      if (dependentFilters) {
+        chips.forEach(function (chip) {
+          var facet = chip.getAttribute("data-facet");
+          var value = chip.getAttribute("data-value");
+          // Keep the current choice operable, even when search yields no results.
+          // Alternatives ignore their own facet so switching remains possible.
+          var available = active[facet] === value || items.some(function (item) {
+            var values = (item.getAttribute("data-" + facet) || "").split("|");
+            return values.indexOf(value) !== -1 && matches(item, facet);
+          });
+          chip.disabled = !available;
+        });
+      }
     }
 
     chips.forEach(function (chip) {

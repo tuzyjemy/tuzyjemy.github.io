@@ -7,7 +7,7 @@
   {{ with .Content }}<div class="prose" style="margin-bottom:24px">{{ . }}</div>{{ end }}
   <div class="doc-tags" style="gap:10px">
     {{ range .Pages.ByTitle }}
-      <a class="tag" href="{{ .RelPermalink }}">{{ partial "display-title.html" . }} <b>{{ len .Pages }}</b></a>
+      <a class="tag{{ if eq $.Data.Plural "tematy" }} {{ partial "topic-class.html" .Title }}{{ end }}" href="{{ .RelPermalink }}">{{ partial "display-title.html" . }} <b>{{ len .Pages }}</b></a>
     {{ end }}
   </div>
 </div>

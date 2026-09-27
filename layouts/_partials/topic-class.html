@@ -1,0 +1,2 @@
+{{- $color := index hugo.Data.topiccolors . | default "neutral" -}}
+{{- return (printf "topic-tag topic-%s" $color) -}}
