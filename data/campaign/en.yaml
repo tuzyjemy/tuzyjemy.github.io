@@ -33,18 +33,18 @@ voteFacts:
     label: "new posts promised in the department"
 
 calls:
-  share:
-    status: "Action"
-    title: "Write a reminder"
-    body: "If the statutory deadline has passed, a reminder is the first formal step. A ready template with instructions."
-    linkTitle: "Open the template"
+  volunteer:
+    status: "For volunteers"
+    title: "Volunteer with us"
+    body: "Help with translations, preparing materials or organising meetings and other joint activities."
+    linkTitle: "Let’s talk"
   organisation:
-    status: "Cooperation"
-    title: "Join as an organisation"
-    body: "We are looking for partners, experts and migrant groups ready to act together."
-    linkTitle: "Register your organisation"
+    status: "For organisations"
+    title: "Join forces with us"
+    body: "Represent a company, organisation or group? Help spread the word, express public support or take action with us."
+    linkTitle: "Let’s discuss working together"
   story:
-    status: "5 minutes"
+    status: "Community experiences"
     title: "Tell us about your case"
     body: "Your data helps show the real scale of the problem."
     linkTitle: "Add your case"

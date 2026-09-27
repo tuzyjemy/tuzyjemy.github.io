@@ -1,0 +1,25 @@
+{{ with hugo.Data.supporters.items }}
+  <section class="supporters" id="supporters" aria-labelledby="supporters-heading">
+    <div class="supporters-heading">
+      <div>
+        <h2 id="supporters-heading">{{ i18n "supporters_title" }}</h2>
+        <p>{{ i18n "supporters_intro" }}</p>
+      </div>
+      <a class="card-link" href="{{ partial "href.html" "/dolacz/#organizations" }}">{{ i18n "supporters_join" }} &rarr;</a>
+    </div>
+    <ul class="supporters-logos">
+      {{ range . }}
+        <li>
+          <a class="supporter-logo" href="{{ .url }}" rel="noopener">
+            <img src="{{ .logo | relURL }}" alt="{{ .name }}" width="180" height="90" loading="lazy" decoding="async">
+          </a>
+          <p class="supporter-name"><a href="{{ .url }}" rel="noopener">{{ .name }}</a></p>
+          {{ if eq .scope "protest_2026_09_07" }}
+            <a class="supporter-scope" href="{{ partial "href.html" "/publikacje/protest-7-09-2026-rezultaty/" }}">{{ i18n "supporters_protest_2026" }}</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+    <p class="supporters-note">{{ i18n "supporters_note" }}</p>
+  </section>
+{{ end }}

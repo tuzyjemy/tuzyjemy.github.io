@@ -1,3 +1,10 @@
+supporters_protest_2026 = "Supported the protest on 7 September 2026"
+# Homepage supporters
+supporters_title = "Our supporters"
+supporters_intro = "Companies and organisations supporting our efforts to improve the residence legalisation process."
+supporters_join = "Express your support"
+supporters_note = "We welcome public endorsements, help spreading the word and joint action. We are not asking for financial support."
+
 # Shared collections and navigation
 menu_publikacje = "Publications"
 menu_pomoc = "Guides and templates"
@@ -21,7 +28,7 @@ correspondence = "Related correspondence"
 # Interface — English
 skip_to_content = "Skip to content"
 topbar_slogan = "Together we change what concerns us all."
-join = "Join us"
+join = "Take action with us"
 menu_label = "Main navigation"
 menu_toggle = "Menu"
 lang_label = "Language"
@@ -41,7 +48,7 @@ menu_ulotki = "Leaflets"
 
 featured_now = "Featured event"
 campaign_telegram = "Live updates:"
-help_now = "You can help right now"
+help_now = "Together we can do more"
 all_actions = "All actions"
 what_we_did = "What we have done"
 full_history = "Full history"

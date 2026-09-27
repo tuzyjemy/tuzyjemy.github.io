@@ -1,3 +1,10 @@
+supporters_protest_2026 = "Poparcie dla protestu 7.09.2026"
+# Homepage supporters
+supporters_title = "Popierają nas"
+supporters_intro = "Firmy i organizacje wspierające nasze dążenia do usprawnienia procesu legalizacji pobytu."
+supporters_join = "Wyraźcie poparcie"
+supporters_note = "Szukamy publicznego poparcia, wsparcia informacyjnego i wspólnych działań. Nie prosimy o wsparcie finansowe."
+
 # Shared collections and navigation
 menu_publikacje = "Publikacje"
 menu_pomoc = "Poradniki i wzory"
@@ -21,7 +28,7 @@ correspondence = "Powiązana korespondencja"
 # Interfejs — polski
 skip_to_content = "Przejdź do treści"
 topbar_slogan = "Razem zmieniamy to, co dotyczy nas wszystkich."
-join = "Dołącz do nas"
+join = "Działaj z nami"
 menu_label = "Główna nawigacja"
 menu_toggle = "Menu"
 lang_label = "Język"
@@ -41,7 +48,7 @@ menu_ulotki = "Ulotki"
 
 featured_now = "Najważniejsze wydarzenie"
 campaign_telegram = "Bieżące informacje:"
-help_now = "Możesz pomóc już teraz"
+help_now = "Wspólnie możemy więcej"
 all_actions = "Wszystkie działania"
 what_we_did = "Co już zrobiliśmy"
 full_history = "Pełna historia"

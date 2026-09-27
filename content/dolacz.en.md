@@ -1,30 +1,45 @@
 ---
-title: Join us
+title: Take action with us
 description: How to take part in Tu Żyjemy — as an individual, an informal group or an organisation.
 date: 2026-08-01
+lastmod: 2026-09-27
 ---
 
-We work through concrete tasks, without membership fees or membership lists: someone writes a letter,
-someone translates, someone gathers data, someone stands with a banner.
+We bring people and organisations together around a shared goal. Participation is welcome in any of the areas outlined below, at a level suited to each participant’s circumstances, capacity and skills.
 
-## What you can do
+## For organisations and informal groups {#organizations}
 
-- **Collect data about your own case.** Application date, decision date, authority —
-  add them on the [@pobytrack](https://t.me/pobytrack) channel. The more reports there
-  are, the clearer the [real waiting times](#pobytrack) become.
-- **Translate.** The site runs in Polish, Russian, English, Ukrainian and Belarusian.
-  Each new translation means dozens more people who will understand their rights.
-- **Write and send letters.** Use our [templates](/wzory/) — they are ready to go.
-- **Document responses.** Got a reply from an office? Send it to us and it will join the
-  [response archive](/publikacje/).
+We are looking for organisations and groups willing to help spread the word about
+our initiatives and take action together. **We are not seeking financial support.**
+We want to bring together our reach, experience and effort around a shared goal.
 
+- **Express public support.** Publish a statement supporting Tu Żyjemy or one of our initiatives. You can support us this way without helping organise activities.
+- **Help us reach people.** Share materials, spread the word about initiatives
+  and invite your community to take part.
+- **Take action together.** Help organise meetings, awareness campaigns
+  and public events.
+- **Share knowledge and experience.** Help review materials, develop proposals
+  for change and connect with other communities.
+
+[Let’s discuss working together](#contact). Tell us what your organisation or group
+works on and which activities you would like to join.
+
+## What you can do {#volunteers}
+
+- **Raise awareness of shared concerns.** Share our materials and invitations to take
+  action. Help reach people affected by the issue and those who can support change.
+- **Translate and prepare materials.** Help with translation, editing or graphics
+  to make information clear and accessible to more people.
+- **Help with collective action.** Help organise meetings and other joint activities.
+- **Share waiting-time data.** You can send information about the timeline of your
+  residence case to the independent [Kalendarz pobytu](#pobytrack) project.
+
+[Write to us](#contact) about what you would like to do and how much time you can offer.
+We will work out where to start together.
 
 ## Waiting times: Kalendarz pobytu {#pobytrack}
 
-We do not run waiting-time statistics. Rather than duplicate someone else's work, we point
-you to **Kalendarz pobytu** ("Residence calendar"), a project that collects data on real
-waiting times in residence cases — from fingerprints through the decision to collecting
-the card — broken down by voivodeship.
+**Kalendarz pobytu** ("Residence calendar") collects information on waiting times in residence cases, broken down by voivodeship.
 
 [Check waiting times on the @pobytrack channel](https://t.me/pobytrack)
 
@@ -32,12 +47,12 @@ You will find how long people are currently waiting in your voivodeship. You can
 **add information about your own case** — the more reports, the more accurate the picture.
 
 {{< notatka >}}
-The channel is run in Russian and is not part of Tu Żyjemy. The data comes from people
+The channel is not part of Tu Żyjemy. The data comes from people
 handling their own cases, not from official government statistics — treat it as indicative.
 {{< /notatka >}}
 
-## Contact
+## Contact {#contact-heading}
 
-Write to us on Telegram or by email. We reply in Polish, Russian and English.
+Write to us on Telegram or by email in any language — we will reply in your language.
 
 {{< kontakt >}}

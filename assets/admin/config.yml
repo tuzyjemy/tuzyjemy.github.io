@@ -74,6 +74,30 @@ publish_mode: editorial_workflow
 
 collections:
 
+  # A single logo list serves every language version of the homepage.
+  - name: supporters
+    label: Popierają nas — logotypy
+    publish: false
+    i18n: false
+    files:
+      - name: supporters
+        label: Firmy i organizacje
+        file: data/supporters.yaml
+        fields:
+          - name: items
+            label: Popierające firmy i organizacje
+            widget: list
+            fields:
+              - { name: name, label: Pełna nazwa, widget: string }
+              - { name: url, label: Strona internetowa, widget: string }
+              - { name: logo, label: Logotyp, widget: image }
+              - name: scope
+                label: Zakres poparcia
+                widget: select
+                required: false
+                options:
+                  - { label: Protest 7.09.2026, value: protest_2026_09_07 }
+
   # =========================================================== PIASKOWNICA
   # Sekcja do ćwiczenia obiegu redakcyjnego. Nie trafia do menu, list, RSS-a
   # ani mapy strony (patrz `cascade` w content/piaskownica/_index.pl.md).
@@ -134,7 +158,7 @@ collections:
               - { name: address, label: Adres, widget: string }
               - { name: registerUrl, label: Wpis w wykazie zgromadzeń (BIP), widget: string, required: false }
           - name: calls
-            label: Karty „Możesz pomóc już teraz”
+            label: Karty „Wspólnie możemy więcej”
             widget: list
             fields:
               - { name: id, label: Identyfikator (łączy z tekstami), widget: string }
@@ -164,8 +188,8 @@ collections:
             i18n: true
             fields:
 
-              - name: share
-                label: Karta „udostępnij”
+              - name: volunteer
+                label: Karta dla wolontariuszy
                 widget: object
                 i18n: true
                 fields:
@@ -175,7 +199,7 @@ collections:
                   - { name: linkTitle, label: Napis na odnośniku, widget: string, required: false, i18n: true }
 
               - name: organisation
-                label: Karta „dołącz”
+                label: Karta dla organizacji
                 widget: object
                 i18n: true
                 fields:
@@ -223,7 +247,7 @@ collections:
           - { name: body, label: Treść, widget: markdown, i18n: true }
 
       - name: dolacz
-        label: Dołącz do nas
+        label: Działaj z nami
         file: content/dolacz.{{ $L }}.md
         i18n: true
         fields:

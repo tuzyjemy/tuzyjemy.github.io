@@ -130,6 +130,8 @@
   </section>
   {{ end }}
 
+  {{ partial "supporters.html" . }}
+
   <div class="section-head"><h2>{{ i18n "useful_resources" }}</h2></div>
   <section class="resource-grid" aria-label="{{ i18n "useful_resources" }}">
     {{ range slice "orzeczenia" "pomoc" }}

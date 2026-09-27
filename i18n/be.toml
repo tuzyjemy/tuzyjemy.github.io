@@ -1,3 +1,10 @@
+supporters_protest_2026 = "Падтрымалі пратэст 7.09.2026"
+# Homepage supporters
+supporters_title = "Нас падтрымліваюць"
+supporters_intro = "Кампаніі і арганізацыі, якія падтрымліваюць наша імкненне палепшыць працэс легалізацыі побыту."
+supporters_join = "Выкажыце падтрымку"
+supporters_note = "Мы шукаем публічную і інфармацыйную падтрымку ды магчымасць дзейнічаць разам. Фінансавай дапамогі мы не просім."
+
 # Shared collections and navigation
 menu_publikacje = "Публікацыі"
 menu_pomoc = "Інструкцыі і ўзоры"
@@ -21,7 +28,7 @@ correspondence = "Звязанае ліставанне"
 # Інтэрфейс — беларуская
 skip_to_content = "Перайсці да зместу"
 topbar_slogan = "Разам мяняем тое, што датычыцца ўсіх нас."
-join = "Далучыцца"
+join = "Дзейнічайце разам з намі"
 menu_label = "Галоўная навігацыя"
 menu_toggle = "Меню"
 lang_label = "Мова"
@@ -41,7 +48,7 @@ menu_ulotki = "Улёткі"
 
 featured_now = "Галоўная падзея"
 campaign_telegram = "Актуальная інфармацыя:"
-help_now = "Дапамагчы можна ўжо зараз"
+help_now = "Разам мы можам больш"
 all_actions = "Усе дзеянні"
 what_we_did = "Што мы ўжо зрабілі"
 full_history = "Уся гісторыя"

@@ -1,3 +1,10 @@
+supporters_protest_2026 = "Підтримали протест 7.09.2026"
+# Homepage supporters
+supporters_title = "Нас підтримують"
+supporters_intro = "Компанії та організації, які підтримують наше прагнення покращити процес легалізації перебування."
+supporters_join = "Висловіть підтримку"
+supporters_note = "Ми шукаємо публічну й інформаційну підтримку та можливість діяти разом. Фінансової допомоги ми не просимо."
+
 # Shared collections and navigation
 menu_publikacje = "Публікації"
 menu_pomoc = "Інструкції та зразки"
@@ -21,7 +28,7 @@ correspondence = "Пов’язане листування"
 # Інтерфейс — українська
 skip_to_content = "Перейти до змісту"
 topbar_slogan = "Разом змінюємо те, що стосується всіх нас."
-join = "Долучитися"
+join = "Дійте разом із нами"
 menu_label = "Головна навігація"
 menu_toggle = "Меню"
 lang_label = "Мова"
@@ -41,7 +48,7 @@ menu_ulotki = "Листівки"
 
 featured_now = "Головна подія"
 campaign_telegram = "Актуальна інформація:"
-help_now = "Допомогти можна вже зараз"
+help_now = "Разом ми можемо більше"
 all_actions = "Усі дії"
 what_we_did = "Що ми вже зробили"
 full_history = "Уся історія"

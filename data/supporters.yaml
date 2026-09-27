@@ -1,0 +1,21 @@
+# Shared across languages. Add only supporters whose listing has been agreed.
+items:
+  - name: Fundacja Polskie Forum Migracyjne
+    url: https://forummigracyjne.org/
+    logo: /img/supporters/polskie-forum-migracyjne.svg
+    # Official logo retrieved on 2026-09-27; listing confirmed by the site owner.
+    # Source: https://forummigracyjne.org/wp-content/themes/forummigracyjne.org/img/logo.svg
+  - name: Transport i Logistyka Polska
+    url: https://tlp.org.pl/
+    logo: /img/supporters/transport-i-logistyka-polska.png
+    scope: protest_2026_09_07
+    # Support confirmed by the site owner and recorded in the protest results article.
+    # Official logo retrieved on 2026-09-27 from:
+    # https://tlp.org.pl/wp-content/uploads/2026/03/tlp-logo.png
+  - name: Pomorskie Stowarzyszenie Przewoźników Drogowych
+    url: https://pspdgdynia.pl/
+    logo: /img/supporters/pomorskie-stowarzyszenie-przewoznikow-drogowych.jpg
+    scope: protest_2026_09_07
+    # Support confirmed by the site owner and recorded in the protest results article.
+    # Official logo retrieved on 2026-09-27 from:
+    # https://pspdgdynia.pl/templates/mka-template/images/logo-kolor.jpg

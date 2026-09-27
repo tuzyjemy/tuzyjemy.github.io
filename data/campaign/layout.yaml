@@ -41,10 +41,9 @@ followup:
   url: "https://t.me/tu_zyjemy"
 
 calls:
-  - id: share
-    link: "/wzory/ponaglenie-bezczynnosc/"
-    urgent: true
   - id: organisation
-    link: "/dolacz/"
+    link: "/dolacz/#organizations"
+  - id: volunteer
+    link: "/dolacz/#volunteers"
   - id: story
     link: "/dolacz/#pobytrack"

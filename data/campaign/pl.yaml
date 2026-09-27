@@ -32,20 +32,20 @@ voteFacts:
   - value: "24"
     label: "nowe etaty obiecane w wydziale"
 
-# Karty „Możesz pomóc już teraz" (klucze jak w layout.yaml → calls[].id)
+# Participation cards; keys match layout.yaml calls[].id.
 calls:
-  share:
-    status: "Działanie"
-    title: "Napisz ponaglenie"
-    body: "Jeżeli ustawowy termin minął, ponaglenie to pierwszy formalny krok. Gotowy wzór z instrukcją."
-    linkTitle: "Otwórz wzór"
+  volunteer:
+    status: "Dla wolontariuszy"
+    title: "Działaj jako wolontariusz"
+    body: "Pomóż w tłumaczeniach, przygotowaniu materiałów lub organizacji spotkań i innych wspólnych działań."
+    linkTitle: "Porozmawiajmy"
   organisation:
-    status: "Współpraca"
-    title: "Dołącz jako organizacja"
-    body: "Szukamy partnerów, ekspertów i grup migranckich gotowych działać wspólnie."
-    linkTitle: "Zgłoś organizację"
+    status: "Dla organizacji"
+    title: "Połączmy siły"
+    body: "Reprezentujesz firmę, organizację lub grupę? Wesprzyj nas informacyjnie, wyraź publiczne poparcie lub włącz się we wspólne działania."
+    linkTitle: "Porozmawiajmy o współpracy"
   story:
-    status: "5 minut"
+    status: "Wasze doświadczenia"
     title: "Opowiedz o swojej sprawie"
     body: "Twoje dane pomagają pokazać rzeczywistą skalę problemu."
     linkTitle: "Dodaj swoją sprawę"
