@@ -4,7 +4,6 @@ description: Дзякуем усім, хто прыйшоў. Што ўжо ўд�
 date: 2026-09-08
 tematy:
 - Protesty
-- Przewlekłość postępowań
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

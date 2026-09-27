@@ -3,9 +3,7 @@ title: 'Pomorskie na tle Małopolski i Dolnego Śląska: krótsze terminy i efek
 description: Oficjalne terminy MSWiA, skala migracji i obserwowany czas oczekiwania w trzech województwach — oraz to, co zmieniło się we Wrocławiu.
 date: 2026-08-27
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 instytucje:
 - MSWiA
 - Wojewoda

@@ -3,9 +3,7 @@ title: 'Поморское воеводство в сравнении с Мал�
 description: Официальные сроки MSWiA, масштабы миграции и наблюдаемое время ожидания в трёх воеводствах, а также результаты изменений во Вроцлаве.
 date: 2026-08-27
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 instytucje:
 - MSWiA
 - Wojewoda

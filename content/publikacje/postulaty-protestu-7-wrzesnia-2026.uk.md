@@ -4,9 +4,7 @@ description: Мета та 15 вимог протесту 7 вересня у Г
 date: 2026-08-25
 lastmod: 2026-09-07
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Mobilizacja
+- Protesty
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

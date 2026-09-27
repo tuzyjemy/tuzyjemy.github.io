@@ -7,9 +7,7 @@ aliases:
 - /dla-mediow/
 - /statystyki/przewleklosc-postepowan-pobytowych/
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 lata:
 - '2026'
 autor: Tu Żyjemy

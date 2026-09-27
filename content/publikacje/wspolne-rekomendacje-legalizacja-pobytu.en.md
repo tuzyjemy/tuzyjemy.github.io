@@ -6,8 +6,6 @@ instytucje:
 - Fundacja Polskie Forum Migracyjne
 tematy:
 - Współpraca
-- Legalizacja pobytu
-- Przewlekłość postępowań
 lata:
 - '2026'
 autor: Tu Żyjemy team

@@ -3,8 +3,7 @@ title: База данных и анализ судебных решений WSA
 description: Публичная база решений по делам о бездействии и затягивании рассмотрения заявлений на пребывание — более 4 000 проанализированных решений WSA и NSA.
 date: 2026-08-25
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Analizy
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

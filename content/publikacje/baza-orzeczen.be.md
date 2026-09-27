@@ -3,8 +3,7 @@ title: База даных і аналіз судовых рашэнняў WSA �
 description: Публічная база дадзеных рашэнняў па справах аб бяздзейнасці і пратэрміноўцы пражывання – больш за 4000 прааналізаваных рашэнняў WSA і NSA.
 date: 2026-08-25
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Analizy
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

@@ -4,7 +4,7 @@ title: "Petition to restore chronicity protection"
 description: "Sample of a collective petition to the Sejm or an administrative body. Basis: Petitions Act."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Zmiana prawa"]
+tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"

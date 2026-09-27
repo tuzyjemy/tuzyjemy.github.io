@@ -6,8 +6,7 @@ instytucje:
 - Ministerstwo Cyfryzacji
 - Urząd do Spraw Cudzoziemców
 tematy:
-- Cyfryzacja
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Wysłane
 lata:

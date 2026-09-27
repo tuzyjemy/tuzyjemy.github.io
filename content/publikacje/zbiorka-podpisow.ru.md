@@ -4,8 +4,7 @@ description: Публичный сбор подписей перед подач�
 date: 2026-06-23
 instytucje: []
 tematy:
-- Mobilizacja
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Zakończone
 lata:

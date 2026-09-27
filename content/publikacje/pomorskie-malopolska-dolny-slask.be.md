@@ -3,9 +3,7 @@ title: 'Памеранні ў параўнанні з Малой Польшча�
 description: Афіцыйныя даты MSWiA, маштабы міграцыі і назіраны час чакання ў трох ваяводствах - і што змянілася ва Ўроцлаве.
 date: 2026-08-27
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 instytucje:
 - MSWiA
 - Wojewoda

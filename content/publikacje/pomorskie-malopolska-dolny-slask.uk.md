@@ -3,9 +3,7 @@ title: 'Поморське воєводство на тлі Малопольсь
 description: Офіційні дати MSWiA, масштаби міграції та час очікування у трьох воєводствах – і що змінилося у Вроцлаві.
 date: 2026-08-27
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 instytucje:
 - MSWiA
 - Wojewoda

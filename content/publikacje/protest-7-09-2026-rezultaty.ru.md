@@ -4,7 +4,6 @@ description: Спасибо всем, кто пришёл. Что уже уда�
 date: 2026-09-08
 tematy:
 - Protesty
-- Przewlekłość postępowań
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

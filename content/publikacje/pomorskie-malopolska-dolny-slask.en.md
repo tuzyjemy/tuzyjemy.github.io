@@ -3,9 +3,7 @@ title: 'Pomerania compared to Lesser Poland and Lower Silesia: shorter deadlines
 description: Official dates MSWiA, the scale of migration and observed waiting times in three voivodeships - and what has changed in Wrocław.
 date: 2026-08-27
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
-- Terminy
+- Analizy
 instytucje:
 - MSWiA
 - Wojewoda

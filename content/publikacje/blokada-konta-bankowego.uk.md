@@ -5,8 +5,7 @@ date: 2026-07-16
 lastmod: 2026-08-31
 instytucje: []
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Analizy
 lata:
 - '2026'
 zrodlo: https://mostmedia.io/2026/07/16/belarus-vojuet-polskim-bankom/

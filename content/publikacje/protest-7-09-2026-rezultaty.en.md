@@ -4,7 +4,6 @@ description: Thank you to everyone who came. What has already been achieved, wha
 date: 2026-09-08
 tematy:
 - Protesty
-- Przewlekłość postępowań
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

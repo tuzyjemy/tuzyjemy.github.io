@@ -6,9 +6,7 @@ lastmod: 2026-07-15
 instytucje:
 - Sejm RP
 tematy:
-- Przewlekłość postępowań
-- Zmiana prawa
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Oczekuje na odpowiedź
 lata:

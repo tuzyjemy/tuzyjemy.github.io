@@ -4,7 +4,7 @@ title: "Хадайніцтва аб аднаўленні абароны ад х�
 description: "Узор калектыўнага звароту ў Сойм ці адміністрацыйны орган. Падстава: Закон аб петыцыях."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Zmiana prawa"]
+tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"

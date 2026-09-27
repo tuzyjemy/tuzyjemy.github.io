@@ -4,6 +4,7 @@ description: Навіны, нашы дзеянні, адказы ўстаноў,
 url: /be/publikatsyi/
 type: collection
 aliases:
+- /tematy/mobilizacja/
 - /navisy/
 - /dzejanni/
 - /adkazy/

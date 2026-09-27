@@ -4,7 +4,7 @@ title: "Петиція про відновлення захисту від хр�
 description: "Sample of a collective appeal to the Seimas or administrative body. Причина: Закон про петиції."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Zmiana prawa"]
+tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"

@@ -4,8 +4,7 @@ description: Public collection of signatures preceding the submission of the pac
 date: 2026-06-23
 instytucje: []
 tematy:
-- Mobilizacja
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Zakończone
 lata:

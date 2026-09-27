@@ -4,6 +4,7 @@ description: News, our actions, institutional responses, research and documented
 url: /en/publications/
 type: collection
 aliases:
+- /tematy/mobilizacja/
 - /news/
 - /actions/
 - /responses/

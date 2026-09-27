@@ -45,7 +45,7 @@
              placeholder="{{ i18n "search_placeholder" }}">
       <button class="chip" type="button" data-clear>{{ i18n "clear_filters" }}</button>
     </div>
-    {{ if $showKinds }}
+    {{ if and $showKinds (not $compactCards) }}
       <div class="filter-row">
         <span>{{ i18n "material_type" }}</span>
         {{ $kinds := slice }}

@@ -4,6 +4,7 @@ description: Aktualności, nasze działania, odpowiedzi instytucji, analizy i ud
 url: /publikacje/
 type: collection
 aliases:
+- /tematy/mobilizacja/
 - /aktualnosci/
 - /dzialania/
 - /odpowiedzi/

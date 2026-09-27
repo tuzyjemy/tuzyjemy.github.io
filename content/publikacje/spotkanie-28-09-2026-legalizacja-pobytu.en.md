@@ -4,8 +4,7 @@ description: A meeting is scheduled with the deputy voivode and the director of 
 date: 2026-09-22
 material_kind: aktualnosci
 tematy:
-- Legalizacja pobytu
-- Przewlekłość postępowań
+- Współpraca
 instytucje:
 - Pomorski Urząd Wojewódzki
 statusy:

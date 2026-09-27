@@ -5,8 +5,7 @@ date: 2026-06-24
 instytucje:
 - Pomorski Urząd Wojewódzki
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Oczekuje na odpowiedź
 lata:

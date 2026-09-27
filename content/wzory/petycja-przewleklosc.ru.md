@@ -4,7 +4,7 @@ title: "Петиция о восстановлении защиты от зат�
 description: "Образец коллективной петиции в Сейм или административный орган. Правовая основа: Закон о петициях."
 date: 2026-06-10
 instytucje: ["Sejm RP", "Wojewoda"]
-tematy: ["Przewlekłość postępowań", "Zmiana prawa"]
+tematy: ["Petycje"]
 lata: ["2026"]
 wzor: true
 autor: "Zespół Tu Żyjemy"

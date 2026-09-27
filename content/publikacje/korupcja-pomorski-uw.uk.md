@@ -5,8 +5,7 @@ date: 2025-06-11
 instytucje:
 - Pomorski Urząd Wojewódzki
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Analizy
 lata:
 - '2024'
 - '2025'

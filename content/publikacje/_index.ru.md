@@ -4,6 +4,7 @@ description: Новости, наши действия, ответы учреж�
 url: /ru/publikatsii/
 type: collection
 aliases:
+- /tematy/mobilizacja/
 - /novosti/
 - /deystviya/
 - /otvety/

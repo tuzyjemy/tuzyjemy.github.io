@@ -4,8 +4,7 @@ description: Заплановано зустріч із віцевоєводою
 date: 2026-09-22
 material_kind: aktualnosci
 tematy:
-- Legalizacja pobytu
-- Przewlekłość postępowań
+- Współpraca
 instytucje:
 - Pomorski Urząd Wojewódzki
 statusy:

@@ -4,8 +4,7 @@ description: Publiczna zbiórka podpisów poprzedzająca złożenie pakietu. Pon
 date: 2026-06-23
 instytucje: []
 tematy:
-- Mobilizacja
-- Legalizacja pobytu
+- Petycje
 statusy:
 - Zakończone
 lata:

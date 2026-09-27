@@ -3,8 +3,7 @@ title: Baza i analiza orzeczeń WSA i NSA
 description: Publiczna baza orzeczeń o bezczynności i przewlekłości w sprawach pobytowych — ponad 4 000 przeanalizowanych orzeczeń WSA i NSA.
 date: 2026-08-25
 tematy:
-- Przewlekłość postępowań
-- Legalizacja pobytu
+- Analizy
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy
