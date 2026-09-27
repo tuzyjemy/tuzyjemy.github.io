@@ -4,7 +4,7 @@ description: Запланавана сустрэча з віцэваяводам
 date: 2026-09-22
 material_kind: aktualnosci
 tematy:
-- Współpraca
+- Wydarzenia
 instytucje:
 - Pomorski Urząd Wojewódzki
 lata:
