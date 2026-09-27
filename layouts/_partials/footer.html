@@ -1,38 +1,23 @@
 <footer class="site-footer">
   <div class="shell">
-    <nav class="footer-sitemap" aria-label="{{ i18n "footer_sitemap" }}">
-      <div class="footer-col">
-        <ul>
-          {{ range hugo.Data.navigation.main }}
-            <li><a href="{{ partial "href.html" (printf "/%s/" .) }}">{{ i18n (printf "menu_%s" .) }}</a></li>
-          {{ end }}
-          <li><a href="{{ partial "href.html" "/dolacz/" }}">{{ i18n "join" }}</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="footer-inner">
-      <strong>{{ i18n "footer_tagline" }}</strong>
-      <span>{{ i18n "footer_values" }}</span>
-      <div class="footer-meta">
-        {{ i18n "footer_license" }}
-        {{ with .Site.Params.contactName }}
-          &middot; {{ i18n "contact_person" }}: {{ . }}
-        {{ end }}
-        {{ with .Site.Params.email }}
-          &middot; {{ i18n "contact_email" }}: <a href="mailto:{{ . }}">{{ . }}</a>
-        {{ end }}
-        {{ with .Site.Params.phone }}
-          {{ $phoneLink := printf "tel:%s" (replaceRE "[^0-9+]" "" .) }}
-          &middot; {{ i18n "contact_phone" }}: <a href="{{ $phoneLink | safeURL }}">{{ . }}</a>
-        {{ end }}
-        {{ with .Site.Params.telegram }}
-          &middot; Telegram: <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a>
-        {{ end }}
-        {{ if and .Site.Params.repoEdycji .File }}
-          &middot; <a href="{{ .Site.Params.repoEdycji }}/edit/main/content/{{ .Site.Language.Lang }}/{{ .File.Path }}" rel="noopener">{{ i18n "footer_edit" }}</a>
-        {{ end }}
-      </div>
+    <div class="footer-meta">
+      {{ i18n "footer_license" }}
+      {{ with .Site.Params.contactName }}
+        &middot; {{ i18n "contact_person" }}: {{ . }}
+      {{ end }}
+      {{ with .Site.Params.email }}
+        &middot; {{ i18n "contact_email" }}: <a href="mailto:{{ . }}">{{ . }}</a>
+      {{ end }}
+      {{ with .Site.Params.phone }}
+        {{ $phoneLink := printf "tel:%s" (replaceRE "[^0-9+]" "" .) }}
+        &middot; {{ i18n "contact_phone" }}: <a href="{{ $phoneLink | safeURL }}">{{ . }}</a>
+      {{ end }}
+      {{ with .Site.Params.telegram }}
+        &middot; Telegram: <a href="{{ . }}" rel="noopener">@{{ path.Base . }}</a>
+      {{ end }}
+      {{ if and .Site.Params.repoEdycji .File }}
+        &middot; <a href="{{ .Site.Params.repoEdycji }}/edit/main/content/{{ .Site.Language.Lang }}/{{ .File.Path }}" rel="noopener">{{ i18n "footer_edit" }}</a>
+      {{ end }}
     </div>
   </div>
 </footer>

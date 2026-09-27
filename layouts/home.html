@@ -5,7 +5,6 @@
 <div class="shell">
 
   {{ with $k }}
-  <div class="eyebrow"><span class="dot"></span> {{ i18n "featured_now" }}</div>
 
   {{ if .meeting }}
   <section class="campaign-compact" aria-labelledby="hero-heading">
@@ -121,15 +120,6 @@
       </article>
     {{ end }}
   </section>
-  {{ end }}
-
-  {{ if $k.meeting }}
-    {{ with .Site.Params.telegram }}
-      <div class="campaign-followup">
-        <p>{{ i18n "attend_followup_note" }}</p>
-        <a class="btn" href="{{ . }}" rel="noopener">{{ i18n "attend_followup_button" }} &rarr;</a>
-      </div>
-    {{ end }}
   {{ end }}
 
   <div class="section-head"><h2>{{ i18n "useful_resources" }}</h2></div>
