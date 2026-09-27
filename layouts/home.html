@@ -94,7 +94,7 @@
     <section class="cards" aria-label="{{ i18n "latest_publications" }}">
       {{ range first 3 $publications }}
         <article class="card">
-          <div class="card-status">{{ .Date.Format "02.01.2006" }} · {{ partial "kind-label.html" .Section }}</div>
+          <div class="card-status">{{ .Date.Format "02.01.2006" }}</div>
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p>{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
           {{ if ne .Language.Lang $.Language.Lang }}<span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>{{ end }}

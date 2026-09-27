@@ -3,7 +3,7 @@ title: "Warsaw: protest against the suspension of deadlines in residence cases"
 description: "Around 300 people outside the Masovian Voivodeship Office. The Głos Migranta initiative demands the repeal of art. 100d."
 date: 2026-08-24
 instytucje: []
-tematy: ["Mobilizacja", "Przewlekłość postępowań", "Legalizacja pobytu"]
+tematy: ["Protesty", "Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 zrodlo: "https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/"
 ---

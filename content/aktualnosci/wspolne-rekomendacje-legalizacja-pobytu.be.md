@@ -3,7 +3,7 @@ title: "Сумесныя рэкамендацыі па паляпшэнні сі
 description: "Tu Żyjemy ўдзельнічала ў працы разам з Polskie Forum Migracyjne і шырокім колам арганізацый, экспертаў і мігранцкіх супольнасцяў."
 date: 2026-09-27
 instytucje: ["Fundacja Polskie Forum Migracyjne"]
-tematy: ["Legalizacja pobytu", "Przewlekłość postępowań"]
+tematy: ["Współpraca", "Legalizacja pobytu", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Каманда Tu Żyjemy"
 ---

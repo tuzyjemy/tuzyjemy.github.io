@@ -2,7 +2,7 @@
 title: "The protest took place: over 200 participants, petition handed to the vice-voivode"
 description: "Thank you to everyone who came. What has already been achieved, what comes next and what you can do right now."
 date: 2026-09-08
-tematy: ["Mobilizacja", "Przewlekłość postępowań"]
+tematy: ["Protesty", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---

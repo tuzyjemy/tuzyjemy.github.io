@@ -3,7 +3,7 @@ title: "Warszawa: protest przeciwko zawieszeniu terminów w sprawach pobytowych"
 description: "Około 300 osób przed Mazowieckim Urzędem Wojewódzkim. Inicjatywa Głos Migranta domaga się uchylenia art. 100d."
 date: 2026-08-24
 instytucje: []
-tematy: ["Mobilizacja", "Przewlekłość postępowań", "Legalizacja pobytu"]
+tematy: ["Protesty", "Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 zrodlo: "https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/"
 ---

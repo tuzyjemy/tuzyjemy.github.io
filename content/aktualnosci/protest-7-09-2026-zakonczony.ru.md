@@ -2,7 +2,7 @@
 title: "Протест состоялся: более 200 участников, петиция передана вицевоеводе"
 description: "Спасибо всем, кто пришёл. Что уже удалось, что будет дальше и что можно сделать прямо сейчас."
 date: 2026-09-08
-tematy: ["Mobilizacja", "Przewlekłość postępowań"]
+tematy: ["Protesty", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---

@@ -3,8 +3,7 @@
 {{/* Strony taksonomii (np. /tematy/) mają z automatu tytuł = nazwa
      klucza w liczbie mnogiej ("tematy"); podmieniamy go na ładny,
      przetłumaczony odpowiednik z i18n. */}}
-{{ $displayTitle := .Title }}
-{{ if eq .Kind "taxonomy" }}{{ $displayTitle = i18n (printf "taxo_%s" .Data.Plural) | default .Title }}{{ end }}
+{{ $displayTitle := partial "display-title.html" . }}
 <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.opis }}{{ else }}{{ $displayTitle }} · {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.opis }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}{{ end }}">
 <meta name="theme-color" content="#f2eadf" media="(prefers-color-scheme: light)">

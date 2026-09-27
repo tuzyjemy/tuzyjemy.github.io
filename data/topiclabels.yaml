@@ -9,10 +9,10 @@
 # wszystkich językach.
 Mobilizacja:
   pl: Mobilizacja
-  ru: Мобилизация
-  en: Mobilisation
-  uk: Мобілізація
-  be: Мабілізацыя
+  ru: Гражданская активность
+  en: Civic engagement
+  uk: Громадська активність
+  be: Грамадская актыўнасць
 Cyfryzacja:
   pl: Cyfryzacja
   ru: Цифровизация
@@ -27,16 +27,16 @@ Dostępność:
   be: Даступнасць
 "Droga sądowa":
   pl: Droga sądowa
-  ru: Судебный путь
-  en: Judicial route
-  uk: Судовий шлях
-  be: Судовы шлях
+  ru: Судебная защита
+  en: Court proceedings
+  uk: Судовий захист
+  be: Судовая абарона
 Jawność:
   pl: Jawność
-  ru: Прозрачность
+  ru: Открытость
   en: Transparency
-  uk: Прозорість
-  be: Празрыстасць
+  uk: Відкритість
+  be: Адкрытасць
 "Legalizacja pobytu":
   pl: Legalizacja pobytu
   ru: Легализация пребывания
@@ -45,10 +45,10 @@ Jawność:
   be: Легалізацыя знаходжання
 "Przewlekłość postępowań":
   pl: Przewlekłość postępowań
-  ru: Волокита
-  en: Excessive delay
-  uk: Тяганина
-  be: Валакіта
+  ru: Затягивание рассмотрения дел
+  en: Delays in proceedings
+  uk: Затягування розгляду справ
+  be: Зацягванне разгляду спраў
 Terminy:
   pl: Terminy
   ru: Сроки
@@ -61,3 +61,15 @@ Terminy:
   en: Legal change
   uk: Зміна законодавства
   be: Змена заканадаўства
+Protesty:
+  pl: Protesty
+  ru: Протесты
+  en: Protests
+  uk: Протести
+  be: Пратэсты
+Współpraca:
+  pl: Współpraca
+  ru: Сотрудничество
+  en: Cooperation
+  uk: Співпраця
+  be: Супраца

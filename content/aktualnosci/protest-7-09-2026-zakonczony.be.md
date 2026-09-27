@@ -2,7 +2,7 @@
 title: "Пратэст адбыўся: больш за 200 удзельнікаў, петыцыя перададзена віцэваяводзе"
 description: "Дзякуем усім, хто прыйшоў. Што ўжо ўдалося, што будзе далей і што можна зрабіць проста зараз."
 date: 2026-09-08
-tematy: ["Mobilizacja", "Przewlekłość postępowań"]
+tematy: ["Protesty", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---

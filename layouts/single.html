@@ -10,7 +10,7 @@
         <div class="doc-tags" style="margin-top:16px">
           {{ range .GetTerms "statusy" }}{{ partial "status-badge.html" . }}{{ end }}
           {{ range .GetTerms "tematy" }}
-            <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            <a class="tag" href="{{ .RelPermalink }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $.Language.Lang) }}</a>
           {{ end }}
         </div>
       </header>

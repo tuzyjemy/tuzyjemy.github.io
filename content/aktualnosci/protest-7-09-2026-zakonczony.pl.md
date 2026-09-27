@@ -2,7 +2,7 @@
 title: "Protest się odbył: ponad 200 uczestników, petycja przekazana wicewojewodzie"
 description: "Dziękujemy wszystkim, którzy przyszli. Co już udało się osiągnąć, co dalej i co można zrobić już teraz."
 date: 2026-09-08
-tematy: ["Mobilizacja", "Przewlekłość postępowań"]
+tematy: ["Protesty", "Przewlekłość postępowań"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---

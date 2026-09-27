@@ -12,6 +12,7 @@
 {{ $ctx := .ctx }}
 {{ $lang := $ctx.Language.Lang }}
 {{ $showKinds := .showKinds | default false }}
+{{ $compactCards := eq $ctx.Section "publikacje" }}
 {{ $facets := slice "statusy" "instytucje" "tematy" "lata" }}
 {{ if $showKinds }}{{ $facets = slice "tematy" }}{{ end }}
 {{ if eq $ctx.Section "pomoc" }}{{ $facets = slice }}{{ end }}
@@ -86,6 +87,10 @@
       {{ $search := slice .Title (.Description | default "") (.Summary | plainify) }}
       {{ range $facets }}
         {{ $search = $search | append (delimit (index $p.Params . | default slice) " ") }}
+        {{ $facet := . }}
+        {{ range index $p.Params $facet | default slice }}
+          {{ $search = $search | append (partial "facet-label.html" (dict "facet" $facet "value" . "lang" $lang)) }}
+        {{ end }}
       {{ end }}
       <article class="doc" data-item
         data-kind="{{ .Section }}"
@@ -101,22 +106,28 @@
         </div>
         {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 200 }}</p>{{ end }}
         <div class="doc-tags">
-          {{ if $showKinds }}<span class="tag tag-plain">{{ partial "kind-label.html" .Section }}</span>{{ end }}
+          {{ if and $showKinds (not $compactCards) }}<span class="tag tag-plain">{{ partial "kind-label.html" .Section }}</span>{{ end }}
           {{ if ne $p.Language.Lang $ctx.Language.Lang }}
             <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
             <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>
           {{ end }}
+          {{ if not $compactCards }}
           {{ range .GetTerms "statusy" }}
             {{ partial "status-badge.html" . }}
           {{ end }}
           {{ range .GetTerms "instytucje" }}
             <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
           {{ end }}
-          {{ range .GetTerms "tematy" }}
+          {{ end }}
+          {{ $topics := .GetTerms "tematy" }}
+          {{ if $compactCards }}{{ $topics = partial "card-topics.html" . }}{{ end }}
+          {{ range $topics }}
             <a class="tag tag-plain" href="{{ .RelPermalink }}">{{ partial "facet-label.html" (dict "facet" "tematy" "value" .LinkTitle "lang" $lang) }}</a>
           {{ end }}
-          {{ with .Params.sygnatura }}<span class="tag tag-plain">{{ . }}</span>{{ end }}
-          {{ with .Params.dni }}<span class="tag tag-plain">{{ . }} {{ i18n "meta_dni" }}</span>{{ end }}
+          {{ if not $compactCards }}
+            {{ with .Params.sygnatura }}<span class="tag tag-plain">{{ . }}</span>{{ end }}
+            {{ with .Params.dni }}<span class="tag tag-plain">{{ . }} {{ i18n "meta_dni" }}</span>{{ end }}
+          {{ end }}
         </div>
       </article>
     {{ end }}

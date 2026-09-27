@@ -3,7 +3,6 @@ title: "Database and analysis of judgments WSA and NSA"
 description: "Public database of judgments on inactivity and delay in residence matters - over 4,000 analyzed judgments WSA and NSA."
 date: 2026-08-25
 tematy: ["Przewlekłość postępowań", "Legalizacja pobytu"]
-statusy: ["Zakończone"]
 lata: ["2026"]
 autor: "Zespół Tu Żyjemy"
 ---

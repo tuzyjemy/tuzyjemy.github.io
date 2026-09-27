@@ -1,0 +1,8 @@
+{{- /* Keep taxonomy keys and URLs stable while translating visible titles. */ -}}
+{{- $title := .Title -}}
+{{- if eq .Kind "taxonomy" -}}
+  {{- $title = i18n (printf "taxo_%s" .Data.Plural) | default $title -}}
+{{- else if eq .Kind "term" -}}
+  {{- $title = partial "facet-label.html" (dict "facet" .Data.Plural "value" .Title "lang" .Language.Lang) -}}
+{{- end -}}
+{{- return $title -}}

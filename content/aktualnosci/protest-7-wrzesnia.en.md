@@ -2,7 +2,7 @@
 title: "Protest in Gdańsk — 7 September"
 description: "We meet at 16:30 outside the Office for Foreigners. Confirm you're coming."
 date: 2026-08-24
-tematy: ["Mobilizacja"]
+tematy: ["Protesty"]
 lata: ["2026"]
 ---
 

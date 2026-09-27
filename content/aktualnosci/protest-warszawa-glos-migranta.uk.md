@@ -3,7 +3,7 @@ title: "Варшава: протест проти припинення терм�
 description: "Близько 300 чоловік біля Мазовецького воєводського управління. Ініціатива Głos Migranta вимагає відміни art. 100d."
 date: 2026-08-24
 instytucje: []
-tematy: ["Mobilizacja", "Przewlekłość postępowań", "Legalizacja pobytu"]
+tematy: ["Protesty", "Przewlekłość postępowań", "Legalizacja pobytu"]
 lata: ["2026"]
 zrodlo: "https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/"
 ---
