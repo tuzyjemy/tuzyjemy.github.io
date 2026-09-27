@@ -182,7 +182,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .btn-sun { background: var(--sun); border-color: var(--sun); color: var(--on-sun); }
 /* Nieprzezroczyste tło: przycisk sąsiaduje z nawigacją i przy ciasnocie
    prześwitywałby przez niego tekst pozycji menu. */
-.btn-join { background: var(--surface); }
+.btn-join { background: var(--surface); padding: 8px 13px; font-size: 13px; }
 .btn-join:hover { background: var(--accent-soft); }
 .btn-sm { padding: 7px 12px; font-size: 13px; }
 
@@ -202,6 +202,10 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
+}
+.header-tools .btn-join, .header-tools .lang-toggle {
+  min-height: 40px;
+  line-height: 1.6;
 }
 .lang-menu {
   position: absolute;

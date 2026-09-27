@@ -6,14 +6,14 @@
     <article>
       <header class="page-head">
         <h1>{{ .Title }}</h1>
-        {{ with .Params.material_kind }}
-          <p class="article-meta"><time datetime="{{ $.Date.Format "2006-01-02" }}">{{ $.Date.Format "02.01.2006" }}</time><span aria-hidden="true"> · </span>{{ partial "kind-label.html" . }}</p>
-        {{ end }}
         {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
         {{ with .GetTerms "tematy" }}
           <div class="doc-tags" style="margin-top:16px">
             {{ partial "topic-tags.html" $ }}
           </div>
+        {{ end }}
+        {{ if not .Date.IsZero }}
+          <p class="article-meta">{{ i18n "published" }} <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time></p>
         {{ end }}
       </header>
 
@@ -72,7 +72,6 @@
     </article>
 
     <aside class="aside">
-      {{ partial "meta-box.html" . }}
       {{ if and .TableOfContents (gt (len .TableOfContents) 40) }}
         <div class="aside-box toc">
           <h2>{{ i18n "toc" }}</h2>
