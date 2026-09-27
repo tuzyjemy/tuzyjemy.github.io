@@ -1,0 +1,46 @@
+---
+title: Петиция в Сейм об изменении правил легализации пребывания
+description: Петиция о законодательной инициативе в сфере легализации пребывания иностранцев. Направлена в Комиссию по петициям.
+date: 2026-06-24
+lastmod: 2026-07-15
+instytucje:
+- Sejm RP
+tematy:
+- Przewlekłość postępowań
+- Zmiana prawa
+- Legalizacja pobytu
+statusy:
+- Oczekuje na odpowiedź
+lata:
+- '2026'
+data_wyslania: 24.06.2026
+sygnatura: BKSP-153-X-1098/26
+zrodlo: https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26
+material_kind: dzialania
+aliases:
+- /deystviya/petycja-sejm-legalizacja/
+---
+
+Петиция **о принятии законодательной инициативы в сфере легализации пребывания
+иностранцев** подана в Сейм 24 июня 2026 г.
+
+## Ход дела
+
+| Дата | Что произошло |
+| --- | --- |
+| 24.06.2026 | Петиция подана в Сейм |
+| 15.07.2026 | Направлена в Комиссию по петициям |
+
+Дальнейший ход зависит от повестки заседаний Комиссии.
+
+
+{{< notatka typ="info" >}}
+Это один из **трёх документов, поданных 24 июня 2026 г.** в составе единого пакета предложений по улучшению легализации пребывания. Перед подачей документов проводился публичный сбор подписей. Остальные два документа: [петиция Поморскому воеводе](/publikacje/petycja-wojewoda-pomorski/) и [обращение по вопросам цифровизации](/publikacje/wystapienie-cyfryzacja/).
+{{< /notatka >}}
+
+В чём именно состоит проблема — [инструкция о ст. 100d](/poradniki/art-100d-zawieszenie-terminow/).
+
+## Документы
+
+- [Карточка петиции в информационной системе Сейма](https://www.sejm.gov.pl/sejm10.nsf/agent.xsp?symbol=PETYCJA&NrPetycji=BKSP-153-X-1098%2F26) — там же полный текст в PDF
+- [Полный текст петиции (Google Docs)](https://docs.google.com/document/d/1O8zeiE06pPdtiWbEQZr7_zSW-xCb2Eto/edit)

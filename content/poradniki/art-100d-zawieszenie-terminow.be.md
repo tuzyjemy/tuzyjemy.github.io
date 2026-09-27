@@ -104,5 +104,5 @@ Dz.U. 2024 poz. 854), як супярэчную **арт. 45 ч. 1 ва ўзае
 
 ## Што мы спрабуем змяніць
 
-Art. 100d - прадмет [нашай петыцыі ў Сойм](/dzialania/petycja-sejm-legalizacja/). Таму ж
-быў прысвечаны [пратэст у Варшаве 24 жніўня](/aktualnosci/protest-warszawa-glos-migranta/).
+Art. 100d - прадмет [нашай петыцыі ў Сойм](/publikacje/petycja-sejm-legalizacja/). Таму ж
+быў прысвечаны [пратэст у Варшаве 24 жніўня](/publikacje/protest-warszawa-glos-migranta/).

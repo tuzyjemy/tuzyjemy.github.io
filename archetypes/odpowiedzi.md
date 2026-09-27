@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 description: "Kto odpowiedział, na co i z jakim skutkiem."
 date: {{ .Date }}
 draft: true
+material_kind: odpowiedzi
 
 instytucje: []
 tematy: []
@@ -13,7 +14,7 @@ data_wyslania: ""
 data_odpowiedzi: ""
 dni:
 sygnatura: ""
-linked_action: "" # Canonical action path, e.g. /dzialania/petycja-sejm-legalizacja/
+linked_action: "" # Canonical action path, e.g. /publikacje/petycja-sejm-legalizacja/
 ---
 
 ## Co napisał urząd

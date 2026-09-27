@@ -10,7 +10,11 @@
 {{- if or (hasPrefix $d "http://") (hasPrefix $d "https://") (hasPrefix $d "mailto:") -}}
   {{- $out = $d -}}
 {{- else if hasPrefix $d "/" -}}
-  {{- $lookup := strings.TrimSuffix "/" $d -}}
+  {{- $parts := split $d "#" -}}
+  {{- $path := index $parts 0 -}}
+  {{- $fragment := "" -}}
+  {{- if gt (len $parts) 1 -}}{{- $fragment = printf "#%s" (index $parts 1) -}}{{- end -}}
+  {{- $lookup := strings.TrimSuffix "/" $path -}}
   {{- with site.GetPage $lookup -}}
     {{- $out = .RelPermalink -}}
   {{- else -}}
@@ -27,8 +31,9 @@
       {{- end -}}
     {{- end -}}
     {{- if not $found -}}
-      {{- $out = $d | relLangURL -}}
+      {{- $out = $path | relLangURL -}}
     {{- end -}}
   {{- end -}}
+  {{- $out = printf "%s%s" $out $fragment -}}
 {{- end -}}
 {{- return $out -}}

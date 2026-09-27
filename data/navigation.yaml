@@ -3,6 +3,7 @@ main:
   - publikacje
   - orzeczenia
   - pomoc
+  - o-nas
 collections:
-  publikacje: [aktualnosci, dzialania, odpowiedzi, statystyki, skutki]
+  publikacje: [publikacje]
   pomoc: [poradniki, wzory]

@@ -1,4 +1,4 @@
-{{- /* Collect translated articles without moving their permanent URLs. */ -}}
+{{- /* Collect each translated publication once, with language fallback. */ -}}
 {{- $pages := slice -}}
 {{- $ctx := .ctx -}}
 {{- range index hugo.Data.navigation.collections .collection -}}

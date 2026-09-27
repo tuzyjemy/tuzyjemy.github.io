@@ -49,7 +49,7 @@
       <div class="filter-row">
         <span>{{ i18n "material_type" }}</span>
         {{ $kinds := slice }}
-        {{ range $pages }}{{ $kinds = $kinds | append .Section }}{{ end }}
+        {{ range $pages }}{{ $kinds = $kinds | append (.Params.material_kind | default .Section) }}{{ end }}
         {{ range uniq $kinds }}
           <button class="chip" type="button" aria-pressed="false" data-facet="kind" data-value="{{ . }}">{{ partial "kind-label.html" . }}</button>
         {{ end }}
@@ -93,7 +93,7 @@
         {{ end }}
       {{ end }}
       <article class="doc" data-item
-        data-kind="{{ .Section }}"
+        data-kind="{{ .Params.material_kind | default .Section }}"
         data-task="{{ delimit (.Params.resource_tasks | default slice) "|" }}"
         data-statusy="{{ delimit (.Params.statusy | default slice) "|" }}"
         data-instytucje="{{ delimit (.Params.instytucje | default slice) "|" }}"
@@ -106,7 +106,7 @@
         </div>
         {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary | plainify | truncate 200 }}</p>{{ end }}
         <div class="doc-tags">
-          {{ if and $showKinds (not $compactCards) }}<span class="tag tag-plain">{{ partial "kind-label.html" .Section }}</span>{{ end }}
+          {{ if and $showKinds (not $compactCards) }}<span class="tag tag-plain">{{ partial "kind-label.html" (.Params.material_kind | default .Section) }}</span>{{ end }}
           {{ if ne $p.Language.Lang $ctx.Language.Lang }}
             <span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper $p.Language.Lang }}</span>
             <a class="tag tag-plain" href="{{ partial "gtranslate-url.html" (dict "page" $p "tl" $ctx.Language.Lang) }}" target="_blank" rel="noopener">🌐 {{ i18n "translate_page" }}</a>

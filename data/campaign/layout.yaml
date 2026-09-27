@@ -16,7 +16,7 @@ meeting:
   date: "2026-09-28"
 
 # Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.
-link: "/aktualnosci/protest-7-09-2026-zakonczony/"
+link: "/publikacje/protest-7-09-2026-zakonczony/"
 
 
 # Wydarzenie w Mobilizon. Stąd bierze się przycisk „Przyjdę", a liczbę
@@ -46,4 +46,4 @@ calls:
   - id: organisation
     link: "/dolacz/"
   - id: story
-    link: "/statystyki/"
+    link: "/dolacz/#pobytrack"

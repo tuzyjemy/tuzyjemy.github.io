@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 description: "Jedno zdanie: czego dotyczy sprawa i jaki ma związek z przewlekłością."
 date: {{ .Date }}
 draft: true
+material_kind: skutki
 
 instytucje: []
 tematy: ["Przewlekłość postępowań"]

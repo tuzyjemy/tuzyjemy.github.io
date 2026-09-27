@@ -106,5 +106,5 @@ in 2026 reach nearly **97%**: see [Court rulings](/orzeczenia/).
 ## What we are trying to change
 
 Art. 100d is the subject of [our petition to the
-Sejm](/dzialania/petycja-sejm-legalizacja/). It was also the focus of [the Warsaw protest
-on 24 August](/aktualnosci/protest-warszawa-glos-migranta/).
+Sejm](/publikacje/petycja-sejm-legalizacja/). It was also the focus of [the Warsaw protest
+on 24 August](/publikacje/protest-warszawa-glos-migranta/).

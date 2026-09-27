@@ -1,19 +1,19 @@
 {{- /* A response points to its original action; the action lists all responses. */ -}}
 {{ $ctx := . }}
 {{ $related := slice }}
-{{ if eq .Section "odpowiedzi" }}
+{{ if eq .Params.material_kind "odpowiedzi" }}
   {{ with .Params.linked_action }}
     {{ $reference := . }}
-    {{ range partial "section-pages.html" (dict "section" "dzialania" "ctx" $ctx) }}
-      {{ if eq $reference (printf "/dzialania/%s/" .File.TranslationBaseName) }}
+    {{ range partial "section-pages.html" (dict "section" "publikacje" "ctx" $ctx) }}
+      {{ if and (eq .Params.material_kind "dzialania") (eq $reference (printf "/publikacje/%s/" .File.TranslationBaseName)) }}
         {{ $related = $related | append . }}
       {{ end }}
     {{ end }}
   {{ end }}
-{{ else if eq .Section "dzialania" }}
-  {{ $reference := printf "/dzialania/%s/" .File.TranslationBaseName }}
-  {{ range partial "section-pages.html" (dict "section" "odpowiedzi" "ctx" $ctx) }}
-    {{ if eq .Params.linked_action $reference }}{{ $related = $related | append . }}{{ end }}
+{{ else if eq .Params.material_kind "dzialania" }}
+  {{ $reference := printf "/publikacje/%s/" .File.TranslationBaseName }}
+  {{ range partial "section-pages.html" (dict "section" "publikacje" "ctx" $ctx) }}
+    {{ if and (eq .Params.material_kind "odpowiedzi") (eq .Params.linked_action $reference) }}{{ $related = $related | append . }}{{ end }}
   {{ end }}
 {{ end }}
 {{ with $related }}

@@ -78,23 +78,15 @@ summaryLength = 30
     [languages.pl.params]
       opis = "Baza wiedzy i wspólne działania na rzecz praw migrantek i migrantów."
     [languages.pl.permalinks.page]
-      statystyki = "/statystyki/:contentbasename/"
-      dzialania = "/dzialania/:contentbasename/"
+      publikacje = "/publikacje/:contentbasename/"
       wzory = "/wzory/:contentbasename/"
       orzeczenia = "/orzeczenia/:contentbasename/"
-      odpowiedzi = "/odpowiedzi/:contentbasename/"
-      aktualnosci = "/aktualnosci/:contentbasename/"
       poradniki = "/poradniki/:contentbasename/"
-      skutki = "/skutki/:contentbasename/"
     [languages.pl.permalinks.section]
-      dzialania = "/dzialania/"
+      publikacje = "/publikacje/"
       wzory = "/wzory/"
       orzeczenia = "/orzeczenia/"
-      odpowiedzi = "/odpowiedzi/"
-      statystyki = "/statystyki/"
-      aktualnosci = "/aktualnosci/"
       poradniki = "/poradniki/"
-      skutki = "/skutki/"
 
   [languages.en]
     languageCode = "en-GB"
@@ -104,23 +96,15 @@ summaryLength = 30
     [languages.en.params]
       opis = "A knowledge base and shared actions for migrants' rights."
     [languages.en.permalinks.page]
-      statystyki = "/statistics/:contentbasename/"
-      dzialania = "/actions/:contentbasename/"
+      publikacje = "/publications/:contentbasename/"
       wzory = "/templates/:contentbasename/"
       orzeczenia = "/court-decisions/:contentbasename/"
-      odpowiedzi = "/responses/:contentbasename/"
-      aktualnosci = "/news/:contentbasename/"
       poradniki = "/guides/:contentbasename/"
-      skutki = "/consequences/:contentbasename/"
     [languages.en.permalinks.section]
-      dzialania = "/actions/"
+      publikacje = "/publications/"
       wzory = "/templates/"
       orzeczenia = "/court-decisions/"
-      odpowiedzi = "/responses/"
-      statystyki = "/statistics/"
-      aktualnosci = "/news/"
       poradniki = "/guides/"
-      skutki = "/consequences/"
 
   [languages.ru]
     languageCode = "ru-RU"
@@ -130,23 +114,15 @@ summaryLength = 30
     [languages.ru.params]
       opis = "База знаний и совместные действия в защиту прав мигрантов."
     [languages.ru.permalinks.page]
-      statystyki = "/statistika/:contentbasename/"
-      dzialania = "/deystviya/:contentbasename/"
+      publikacje = "/publikatsii/:contentbasename/"
       wzory = "/obraztsy/:contentbasename/"
       orzeczenia = "/resheniya-sudov/:contentbasename/"
-      odpowiedzi = "/otvety/:contentbasename/"
-      aktualnosci = "/novosti/:contentbasename/"
       poradniki = "/instruktsii/:contentbasename/"
-      skutki = "/posledstviya/:contentbasename/"
     [languages.ru.permalinks.section]
-      dzialania = "/deystviya/"
+      publikacje = "/publikatsii/"
       wzory = "/obraztsy/"
       orzeczenia = "/resheniya-sudov/"
-      odpowiedzi = "/otvety/"
-      statystyki = "/statistika/"
-      aktualnosci = "/novosti/"
       poradniki = "/instruktsii/"
-      skutki = "/posledstviya/"
 
   [languages.uk]
     languageCode = "uk-UA"
@@ -156,23 +132,15 @@ summaryLength = 30
     [languages.uk.params]
       opis = "База знань і спільні дії на захист прав мігрантів."
     [languages.uk.permalinks.page]
-      statystyki = "/statystyka/:contentbasename/"
-      dzialania = "/diyi/:contentbasename/"
+      publikacje = "/publikatsii/:contentbasename/"
       wzory = "/zrazky/:contentbasename/"
       orzeczenia = "/rishennya-sudiv/:contentbasename/"
-      odpowiedzi = "/vidpovidi/:contentbasename/"
-      aktualnosci = "/novyny/:contentbasename/"
       poradniki = "/instruktsii/:contentbasename/"
-      skutki = "/naslidky/:contentbasename/"
     [languages.uk.permalinks.section]
-      dzialania = "/diyi/"
+      publikacje = "/publikatsii/"
       wzory = "/zrazky/"
       orzeczenia = "/rishennya-sudiv/"
-      odpowiedzi = "/vidpovidi/"
-      statystyki = "/statystyka/"
-      aktualnosci = "/novyny/"
       poradniki = "/instruktsii/"
-      skutki = "/naslidky/"
 
   [languages.be]
     languageCode = "be-BY"
@@ -182,23 +150,15 @@ summaryLength = 30
     [languages.be.params]
       opis = "База ведаў і сумесныя дзеянні ў абарону правоў мігрантаў."
     [languages.be.permalinks.page]
-      statystyki = "/statystyka/:contentbasename/"
-      dzialania = "/dzejanni/:contentbasename/"
+      publikacje = "/publikatsyi/:contentbasename/"
       wzory = "/uzory/:contentbasename/"
       orzeczenia = "/rashenni-sudou/:contentbasename/"
-      odpowiedzi = "/adkazy/:contentbasename/"
-      aktualnosci = "/navisy/:contentbasename/"
       poradniki = "/instruktsyi/:contentbasename/"
-      skutki = "/nastupstvy/:contentbasename/"
     [languages.be.permalinks.section]
-      dzialania = "/dzejanni/"
+      publikacje = "/publikatsyi/"
       wzory = "/uzory/"
       orzeczenia = "/rashenni-sudou/"
-      odpowiedzi = "/adkazy/"
-      statystyki = "/statystyka/"
-      aktualnosci = "/navisy/"
       poradniki = "/instruktsyi/"
-      skutki = "/nastupstvy/"
 
 # ---------------------------------------------------------------------------
 # Primary navigation; labels are translated in i18n.

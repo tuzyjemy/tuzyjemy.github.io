@@ -1,0 +1,13 @@
+{{- $target := partial "href.html" .Params.redirect_target -}}
+{{- with .Params.redirect_fragment -}}{{- $target = printf "%s#%s" $target . -}}{{- end -}}
+<!doctype html>
+<html lang="{{ .Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{{ $target | absURL }}">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+  <title>{{ .Title }}</title>
+</head>
+<body><a href="{{ $target }}">{{ .Title }}</a></body>
+</html>

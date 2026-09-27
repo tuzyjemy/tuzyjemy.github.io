@@ -114,5 +114,5 @@ Dz.U. 2024 poz. 854), как противоречащую **ст. 45, ч. 1 во
 
 ## Что мы пытаемся изменить
 
-Ст. 100d — предмет [нашей петиции в Сейм](/dzialania/petycja-sejm-legalizacja/). Тому же
-был посвящён [протест в Варшаве 24 августа](/aktualnosci/protest-warszawa-glos-migranta/).
+Ст. 100d — предмет [нашей петиции в Сейм](/publikacje/petycja-sejm-legalizacja/). Тому же
+был посвящён [протест в Варшаве 24 августа](/publikacje/protest-warszawa-glos-migranta/).

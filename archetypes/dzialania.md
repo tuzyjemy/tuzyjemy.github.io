@@ -3,6 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 description: "Jedno zdanie: co zrobiliśmy i wobec kogo."
 date: {{ .Date }}
 draft: true
+material_kind: dzialania
 
 instytucje: []          # np. ["Pomorski Urząd Wojewódzki"]
 tematy: []              # np. ["Przewlekłość postępowań"]

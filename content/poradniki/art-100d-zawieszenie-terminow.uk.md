@@ -104,5 +104,5 @@ Dz.U. 2024 poz. 854), як суперечить **ст. 45 ч. 1 у зв'язк�
 
 ## Що ми намагаємося змінити
 
-Art. 100d — предмет [нашої петиції до Сейму](/dzialania/petycja-sejm-legalizacja/). Тому ж
-був присвячений [протест у Варшаві 24 серпня](/aktualnosci/protest-warszawa-glos-migranta/).
+Art. 100d — предмет [нашої петиції до Сейму](/publikacje/petycja-sejm-legalizacja/). Тому ж
+був присвячений [протест у Варшаві 24 серпня](/publikacje/protest-warszawa-glos-migranta/).

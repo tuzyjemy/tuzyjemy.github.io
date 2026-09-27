@@ -78,22 +78,22 @@ i błędy szablonów pojawiają się na wyjściu — brak komunikatów oznacza, 
 
 ## 3. Jak dodać treść
 
-### Nowe działanie („Co zrobiliśmy")
+### New publications
+
+Use the **Publikacje** collection in the editor, or create a file with Hugo:
 
 ```bash
-hugo new content/pl/dzialania/skarga-do-wsa-marzec-2027.md
+hugo new content publikacje/spotkanie-otwarte.pl.md
+hugo new content --kind dzialania publikacje/skarga-do-wsa-marzec-2027.pl.md
+hugo new content --kind odpowiedzi publikacje/udsc-odpowiedz-2027.pl.md
+hugo new content wzory/wniosek-o-przyspieszenie.pl.md
 ```
 
-Powstanie plik z gotowym szkieletem. Usuń `draft: true`, gdy wpis jest gotowy.
-
-Analogicznie dla pozostałych sekcji:
-
-```bash
-hugo new content/pl/wzory/wniosek-o-przyspieszenie.md
-hugo new content/pl/orzeczenia/wsa-krakow-2027.md
-hugo new content/pl/odpowiedzi/udsc-odpowiedz-2027.md
-hugo new content/pl/aktualnosci/spotkanie-otwarte.md
-```
+Remove `draft: true` when ready. Publications use `material_kind` to distinguish
+`aktualnosci`, `dzialania`, `odpowiedzi`, `statystyki`, and `skutki`; the type does
+not change the URL. For an institutional response, set `linked_action` to the
+original action's content path, such as `/publikacje/petycja-sejm-legalizacja/`.
+Keep old page paths in `aliases` when moving an existing publication.
 
 ### Pola front matter
 
@@ -141,52 +141,50 @@ Przycisk pobierania (plik wrzuć do `static/pliki/`):
 
 ---
 
-## 4. Statystyki
+## 4. Statistics and source data
 
-Nie prowadzimy własnych statystyk. Strona `/statystyki/` odsyła do projektu
-**Kalendarz pobytu** ([@pobytrack](https://t.me/pobytrack)), który zbiera dane
-o realnych terminach w sprawach pobytowych. Treść tej strony to zwykły tekst
-w `content/<język>/statystyki/_index.md` — nic się nie przelicza.
-
-Docelowo chcemy zrobić to wspólnie z pobytrack; wtedy rozwiązanie będzie
-wyglądało inaczej niż dawne wykresy liczone z pliku CSV.
+Analyses are publications in `content/publikacje/` with `material_kind: statystyki`.
+The regional comparison uses datasets under `data/statystyki/`; these data paths
+are independent of public URLs. The court database remains at `/orzeczenia/`.
+Information about the independent Kalendarz pobytu / Pobytrack project is in
+`content/dolacz.<language>.md`, at the `#pobytrack` anchor.
 
 ---
 
-## 5. Tłumaczenia
+## 5. Translations and URLs
 
-Każdy język ma własny katalog w `content/`:
+Language codes are filename suffixes, not content directories:
 
+```text
+content/publikacje/example.pl.md
+content/publikacje/example.en.md
+content/publikacje/example.ru.md
+content/publikacje/example.uk.md
+content/publikacje/example.be.md
 ```
-content/pl/   ← polski (domyślny, adresy bez prefiksu)
-content/en/   ← /en/…
-content/ru/   ← /ru/…
-content/uk/   ← /uk/…
-content/be/   ← /be/…
-```
 
-Aby przetłumaczyć wpis, skopiuj plik pod **tą samą ścieżką i nazwą** do katalogu
-innego języka. Hugo automatycznie połączy wersje i przełącznik języka pokaże
-tłumaczenie zamiast strony głównej.
+Keep the same basename across translations. Hugo connects them automatically.
+For example:
 
 ```bash
-cp content/pl/wzory/ponaglenie-bezczynnosc.md content/uk/wzory/ponaglenie-bezczynnosc.md
+cp content/wzory/ponaglenie-bezczynnosc.pl.md content/wzory/ponaglenie-bezczynnosc.uk.md
 ```
 
-Nazwy katalogów sekcji zostają polskie (`wzory`, `dzialania`…), ale **adresy URL
-są tłumaczone** — konfiguracja w `hugo.toml`, sekcja `permalinks`:
+Public section paths are configured in `hugo.toml`:
 
-| Sekcja | PL | EN | RU | UK | BE |
+| Section | PL | EN | RU | UK | BE |
 | --- | --- | --- | --- | --- | --- |
-| działania | `/dzialania/` | `/en/actions/` | `/ru/deystviya/` | `/uk/diyi/` | `/be/dzejanni/` |
-| wzory | `/wzory/` | `/en/templates/` | `/ru/obraztsy/` | `/uk/zrazky/` | `/be/uzory/` |
-| orzeczenia | `/orzeczenia/` | `/en/court-decisions/` | `/ru/resheniya-sudov/` | `/uk/rishennya-sudiv/` | `/be/rashenni-sudou/` |
-| odpowiedzi | `/odpowiedzi/` | `/en/responses/` | `/ru/otvety/` | `/uk/vidpovidi/` | `/be/adkazy/` |
-| statystyki | `/statystyki/` | `/en/statistics/` | `/ru/statistika/` | `/uk/statystyka/` | `/be/statystyka/` |
-| aktualności | `/aktualnosci/` | `/en/news/` | `/ru/novosti/` | `/uk/novyny/` | `/be/navisy/` |
+| Publications | `/publikacje/` | `/en/publications/` | `/ru/publikatsii/` | `/uk/publikatsii/` | `/be/publikatsyi/` |
+| Templates | `/wzory/` | `/en/templates/` | `/ru/obraztsy/` | `/uk/zrazky/` | `/be/uzory/` |
+| Guides | `/poradniki/` | `/en/guides/` | `/ru/instruktsii/` | `/uk/instruktsii/` | `/be/instruktsyi/` |
+| Court decisions | `/orzeczenia/` | `/en/court-decisions/` | `/ru/resheniya-sudov/` | `/uk/rishennya-sudiv/` | `/be/rashenni-sudou/` |
 
-Napisy interfejsu (przyciski, nagłówki, etykiety) są w `i18n/pl.toml`, `i18n/en.toml` itd.
-Klucze muszą być identyczne we wszystkich plikach.
+Publication aliases preserve old article and section links. Old section RSS
+feeds are also published for existing subscribers. The redirect-only pages in
+`content/redirects/` send leaflets and participation rules to the archive
+announcement's anchors; they are excluded from listings and sitemaps.
+
+UI translations remain in `i18n/<language>.toml`.
 
 ---
 

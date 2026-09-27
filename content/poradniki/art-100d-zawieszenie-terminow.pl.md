@@ -108,5 +108,5 @@ wygrane merytoryczne w 2026 r. sięgają blisko **97%**: zobacz [Orzeczenia](/or
 ## Co próbujemy zmienić
 
 Art. 100d jest przedmiotem [naszej petycji do
-Sejmu](/dzialania/petycja-sejm-legalizacja/). Tego samego dotyczył [protest w Warszawie
-24 sierpnia](/aktualnosci/protest-warszawa-glos-migranta/).
+Sejmu](/publikacje/petycja-sejm-legalizacja/). Tego samego dotyczył [protest w Warszawie
+24 sierpnia](/publikacje/protest-warszawa-glos-migranta/).

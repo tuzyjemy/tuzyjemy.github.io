@@ -1,9 +1,10 @@
 {{ if gt (len .Sites) 1 }}
 {{ $page := . }}
 <div class="lang" data-open="false">
-  <button class="lang-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+  <button class="lang-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-label="{{ i18n "lang_label" }}: {{ .Site.Language.LanguageName }}">
     <span aria-hidden="true">&#127760;</span>
-    <span>{{ .Site.Language.LanguageName }}</span>
+    <span class="lang-name">{{ .Site.Language.LanguageName }}</span>
+    <span class="lang-code" aria-hidden="true">{{ upper .Site.Language.Lang }}</span>
   </button>
   <div class="lang-menu" role="menu" aria-label="{{ i18n "lang_label" }}">
     {{ range .Sites }}
