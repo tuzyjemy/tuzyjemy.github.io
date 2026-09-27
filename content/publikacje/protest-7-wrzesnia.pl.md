@@ -3,7 +3,7 @@ title: Protest w Gdańsku — 7 września
 description: Spotykamy się o 16:30 pod Wydziałem do spraw cudzoziemców. Potwierdź obecność.
 date: 2026-08-24
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 material_kind: aktualnosci

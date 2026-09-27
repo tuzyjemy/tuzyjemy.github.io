@@ -4,7 +4,7 @@ description: Około 300 osób przed Mazowieckim Urzędem Wojewódzkim. Inicjatyw
 date: 2026-08-24
 instytucje: []
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 zrodlo: https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/

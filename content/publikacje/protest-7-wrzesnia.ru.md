@@ -3,7 +3,7 @@ title: Протест в Гданьске — 7 сентября
 description: Встречаемся в 16:30 у отдела по делам иностранцев. Подтвердите участие.
 date: 2026-08-24
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 material_kind: aktualnosci

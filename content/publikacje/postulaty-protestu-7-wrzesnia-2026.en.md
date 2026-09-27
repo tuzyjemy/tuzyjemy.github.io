@@ -4,7 +4,7 @@ description: The aim and 15 demands of the 7 September protest in Gdańsk — ad
 date: 2026-08-25
 lastmod: 2026-09-07
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

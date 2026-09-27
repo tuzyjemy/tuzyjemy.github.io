@@ -3,7 +3,7 @@ title: Пратэст у Гданьску — 7 верасня
 description: Сустракаемся а 16:30 каля аддзела ў справах замежнікаў. Пацвердзіце ўдзел.
 date: 2026-08-24
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 material_kind: aktualnosci

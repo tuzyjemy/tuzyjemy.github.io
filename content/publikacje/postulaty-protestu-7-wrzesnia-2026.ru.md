@@ -4,7 +4,7 @@ description: Цель и 15 требований протеста 7 сентяб
 date: 2026-08-25
 lastmod: 2026-09-07
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

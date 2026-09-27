@@ -4,7 +4,7 @@ description: Мэта і 15 патрабаванняў пратэсту 7 вер
 date: 2026-08-25
 lastmod: 2026-09-07
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

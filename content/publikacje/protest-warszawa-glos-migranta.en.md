@@ -4,7 +4,7 @@ description: Around 300 people outside the Masovian Voivodeship Office. The Gło
 date: 2026-08-24
 instytucje: []
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 zrodlo: https://mostmedia.io/2026/08/24/platim-nalogi-a-zhdem-godami/

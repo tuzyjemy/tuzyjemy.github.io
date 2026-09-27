@@ -3,7 +3,7 @@ title: Протест у Ґданську — 7 вересня
 description: Зустрічаємось о 16:30 біля відділу у справах іноземців. Підтвердьте участь.
 date: 2026-08-24
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 material_kind: aktualnosci

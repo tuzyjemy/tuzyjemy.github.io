@@ -3,7 +3,7 @@ title: 'Protest się odbył: ponad 200 uczestników, petycja przekazana wicewoje
 description: Dziękujemy wszystkim, którzy przyszli. Co już udało się osiągnąć, co dalej i co można zrobić już teraz.
 date: 2026-09-08
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy

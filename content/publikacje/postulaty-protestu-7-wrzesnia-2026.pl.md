@@ -4,7 +4,7 @@ description: Cel i 15 postulatów protestu 7 września w Gdańsku — wobec Woje
 date: 2026-08-25
 lastmod: 2026-09-07
 tematy:
-- Protesty
+- Wydarzenia
 lata:
 - '2026'
 autor: Zespół Tu Żyjemy
