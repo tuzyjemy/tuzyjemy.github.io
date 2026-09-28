@@ -22,13 +22,13 @@ Otrzymaliśmy odpowiedzi na czerwcową petycję do Wojewody Pomorskiego i wystą
 
 W odpowiedzi z **24 września** wicewojewoda Emil Rojek uznaje niepokój wnoszących petycję za uzasadniony. Według pisma w Wydziale Spraw Cudzoziemców obsadzonych jest **124,5 etatu**, bez wakatów. Główną przyczyną opóźnień jest zdaniem urzędu niewystarczająca liczba etatów. Liczba ta dotyczy całego wydziału, nie tylko inspektorów wydających decyzje pobytowe.
 
-Urząd informuje też o braku narzędzi do automatycznej publikacji żądanych statystyk oraz dostępu przez używane systemy do danych ZUS i urzędu skarbowego. Pismo nie zawiera konkretnego planu skrócenia czasu postępowań.
+Urząd informuje też o braku narzędzi do automatycznej publikacji żądanych statystyk oraz dostępu do danych ZUS i urzędu skarbowego za pośrednictwem używanych systemów. Pismo nie zawiera konkretnego planu skrócenia czasu postępowań.
 
 **Ta pisemna odpowiedź pomoże podczas spotkania z wicewojewodą i administracją:** pozwoli odnieść się do stanowiska urzędu, omówić przyczyny opóźnień i zaproponować rozwiązania uwzględniające wskazane ograniczenia. [Więcej o spotkaniu](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/). [Czego żądaliśmy w czerwcowej petycji i jak odpowiedział urząd](/publikacje/petycja-wojewoda-pomorski/).
 
-## Druga petycja: konkretne cele i sprawdzalne wyniki
+## Druga petycja: konkretne cele i mierzalne rezultaty
 
-**7 września**, podczas protestu, przekazaliśmy wicewojewodzie drugą petycję. Rozwija wcześniejsze żądania: publiczny plan likwidacji zaległości, mierzalne cele, terminy, odpowiedzialne komórki i regularne raportowanie. Obejmuje też koordynację spraw rodzinnych, kontynuowanie czynności po skardze do WSA oraz terminową obsługę zaświadczeń i korespondencji.
+**7 września**, podczas protestu, przekazaliśmy wicewojewodzie drugą petycję. Rozwija ona wcześniejsze postulaty: domagamy się publicznego planu likwidacji zaległości, mierzalnych celów, terminów, wskazania komórek odpowiedzialnych za realizację oraz regularnego raportowania postępów. Obejmuje też koordynację spraw rodzinnych, kontynuowanie czynności po skardze do WSA oraz terminową obsługę zaświadczeń i korespondencji.
 
 Odpowiedź z 24 września odnosi się wprost do petycji czerwcowej. **Na odpowiedź na żądania wrześniowej petycji nadal czekamy.** [Treść i status drugiej petycji](/publikacje/petycja-wojewoda-wrzesien-2026/).
 
@@ -38,9 +38,9 @@ Odpowiedź z 24 września odnosi się wprost do petycji czerwcowej. **Na odpowie
 
 UdSC uznaje za zasadne rozwijanie spójnych rozwiązań cyfrowych, ograniczanie wielokrotnego przekazywania danych i automatyzację ich weryfikacji w rejestrach publicznych. Nie wskazuje jednak terminów wdrożenia, powołując się na warunki prawne, finansowe i organizacyjne.
 
-Ministerstwo Cyfryzacji przypisuje cyfryzację obsługi cudzoziemców MSWiA i UdSC, a swoją rolę opisuje jako integrację MOS z państwowymi usługami identyfikacji elektronicznej.
+Ministerstwo Cyfryzacji wskazuje, że cyfryzacja obsługi cudzoziemców należy do kompetencji MSWiA i UdSC. Swoją rolę opisuje jako integrację MOS z państwowymi usługami identyfikacji elektronicznej.
 
-Odpowiedzi pozwalają precyzyjniej kierować żądania dotyczące kolejnych kroków. Poparcie kierunku przez UdSC nie oznacza jeszcze przyjęcia całego pakietu propozycji. **W najbliższym czasie określimy konkretne kolejne działania dotyczące cyfryzacji i poinformujemy o nich.** [Szczegółowo o propozycjach i obu odpowiedziach](/publikacje/wystapienie-cyfryzacja/).
+Dzięki odpowiedziom możemy dokładniej określić, jakich działań oczekujemy i od których instytucji. Poparcie UdSC dla proponowanego kierunku zmian nie oznacza jeszcze przyjęcia całego pakietu propozycji. **W najbliższym czasie ustalimy, jakie dalsze działania podejmiemy w sprawie cyfryzacji, i poinformujemy o nich.** [Szczegółowo o propozycjach i obu odpowiedziach](/publikacje/wystapienie-cyfryzacja/).
 
 ## Sejm: przedłużenie terminu rozpatrzenia
 
@@ -48,9 +48,9 @@ W [karcie petycji BKSP-153-X-1098/26](https://www.sejm.gov.pl/sejm10.nsf/agent.x
 
 ## Działamy dalej na kilku poziomach
 
-Petycje, społeczne poparcie i spotkania robocze są częściami naszej wspólnej strategii. Odpowiedzi pokazują, które kwestie należy omawiać z województwem, a które z organami centralnymi: finansowanie dodatkowych etatów, dostęp do danych i wymianę informacji między instytucjami. Stanowiska urzędów są już zapisane, co pozwala konkretniej rozmawiać o żądaniach.
+Działamy na różnych szczeblach i współpracujemy z organizacjami społecznymi, przedsiębiorcami i ekspertami, aby usprawnić proces legalizacji pobytu. Odpowiedzi pokazują, które kwestie należy omawiać z urzędem wojewódzkim, a które z organami centralnymi: finansowanie dodatkowych etatów, dostęp do danych i wymianę informacji między instytucjami. Mamy teraz pisemne stanowiska urzędów, do których możemy się odwołać w dalszych rozmowach o naszych postulatach.
 
-**28 września zaplanowano [spotkanie robocze z wicewojewodą i dyrektor Wydziału Spraw Cudzoziemców](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/).** Przedstawimy własne propozycje wyjścia z obecnego kryzysu i będziemy dążyć do ustalenia, jakie działania są możliwe, kto odpowiada za decyzje, w jakich terminach mogą zapaść i jak sprawdzić wynik. O rezultatach poinformujemy osobno.
+**28 września zaplanowano [spotkanie robocze z wicewojewodą i dyrektor Wydziału Spraw Cudzoziemców](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/).** Przedstawimy własne propozycje wyjścia z obecnego kryzysu i będziemy dążyć do ustalenia, jakie działania są możliwe, kto odpowiada za decyzje, w jakich terminach mogą zostać podjęte i jak ocenić ich efekty. O rezultatach poinformujemy osobno.
 
 Dziękujemy wszystkim, którzy poparli inicjatywę. Wasze wsparcie pomaga nam dalej działać w tej sprawie.
 

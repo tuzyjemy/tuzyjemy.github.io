@@ -22,17 +22,17 @@ Cyfryzacji oraz Szefa Urzędu do Spraw Cudzoziemców.
 
 ## Co zaproponowaliśmy
 
-Wystąpienie z 24 czerwca 2026 r. dotyczy ograniczenia pracy ręcznej i powtarzanych żądań dokumentów dzięki cyfryzacji. Proponujemy cztery kierunki: wymianę danych między systemami, automatyczne sprawdzanie rejestrów, pomocnicze narzędzia AI i cyfrową weryfikację aktualnego statusu pobytowego. Poprosiliśmy też o stanowiska i ewentualne plany działań.
+Wystąpienie z 24 czerwca 2026 r. dotyczy ograniczenia ręcznego przetwarzania danych i wielokrotnego żądania tych samych dokumentów dzięki cyfryzacji. Proponujemy cztery kierunki: wymianę danych między systemami, automatyczne sprawdzanie rejestrów, pomocnicze narzędzia AI i cyfrową weryfikację aktualnego statusu pobytowego. Poprosiliśmy też o stanowiska i ewentualne plany działań.
 
 ## Co odpowiedział UdSC
 
-Pismo ma numer BSZ.WKiN.052.5.2026/HT i widnieje na nim data 20 lipca 2026 r. Urząd odnosi się kolejno do czterech kierunków wystąpienia.
+Pismo ma numer BSZ.WKiN.052.5.2026/HT i widnieje na nim data 20 lipca 2026 r. Urząd odnosi się kolejno do czterech obszarów wskazanych w naszym wystąpieniu.
 
 ### 1. Przepływ danych i wspólny standard obsługi
 
-**Nasza propozycja:** dane z elektronicznego wniosku powinny przechodzić do dalszej obsługi bez ręcznego przepisywania, a rozwój MOS zapewniać spójny obieg sprawy.
+**Nasza propozycja:** dane z elektronicznego wniosku powinny być wykorzystywane na kolejnych etapach postępowania bez ręcznego przepisywania. Rozwój MOS powinien zapewniać spójny przepływ danych przez cały proces obsługi sprawy.
 
-**Odpowiedź:** UdSC uznaje ten kierunek za zasadny i popiera ograniczenie wielokrotnego przekazywania tych samych danych. Wskazuje jednak na konieczność podstaw prawnych, współpracy instytucji, stabilnego finansowania i kadr. Wymiana musi zapewniać poprawność, bezpieczeństwo i nadzór nad przetwarzaniem informacji.
+**Odpowiedź:** UdSC uznaje ten kierunek za zasadny i popiera ograniczenie wielokrotnego przekazywania tych samych danych. Wskazuje jednak, że potrzebne są odpowiednie podstawy prawne, współpraca instytucji, stabilne finansowanie i zasoby kadrowe. Wymiana danych wymaga zapewnienia ich poprawności i bezpieczeństwa oraz nadzoru nad przetwarzaniem.
 
 ### 2. Automatyczne sprawdzanie rejestrów
 
@@ -42,13 +42,13 @@ Pismo ma numer BSZ.WKiN.052.5.2026/HT i widnieje na nim data 20 lipca 2026 r. Ur
 
 ### 3. AI jako wsparcie pracownika
 
-**Nasza propozycja:** analiza narzędzia przygotowującego roboczą kartę sprawy, wskazującego braki i niespójności oraz proponującego ścieżkę obsługi do zatwierdzenia przez pracownika. Decyzje pozostają po stronie człowieka. Zapytaliśmy również o kwalifikację takiego rozwiązania na gruncie AI Act.
+**Nasza propozycja:** rozważenie zastosowania narzędzia przygotowującego roboczą kartę sprawy, wskazującego braki i niespójności oraz proponującego ścieżkę obsługi do zatwierdzenia przez pracownika. Decyzje pozostają po stronie człowieka. Zapytaliśmy również o kwalifikację takiego rozwiązania na gruncie AI Act.
 
 **Odpowiedź:** UdSC dostrzega potencjał AI, podkreślając jakość danych, zgodność z prawem i indywidualną ocenę okoliczności. AI nie powinno zastępować merytorycznej oceny organu. Pismo nie zawiera decyzji o pilotażu ani konkretnej kwalifikacji proponowanego narzędzia według AI Act.
 
 ### 4. Cyfrowa weryfikacja statusu pobytowego
 
-**Nasza propozycja:** możliwość potwierdzenia aktualnego statusu przez uprawnionego odbiorcę na podstawie istniejących danych. Sprawdzenie autentyczności wystawionego wcześniej zaświadczenia i aktualnego statusu to różne zadania.
+**Nasza propozycja:** możliwość potwierdzenia aktualnego statusu przez uprawnionego odbiorcę na podstawie istniejących danych. Sprawdzenie autentyczności wcześniej wydanego zaświadczenia nie jest tym samym co potwierdzenie aktualnego statusu pobytowego.
 
 **Odpowiedź:** UdSC dopuszcza dalsze analizy, ale wskazuje, że sytuacja cudzoziemca nie zawsze daje się sprowadzić do jednoznacznego wyniku automatycznej weryfikacji. Potrzebne byłyby analizy prawne, organizacyjne i techniczne oraz ochrona danych. Pismo nie zobowiązuje do wdrożenia mechanizmu.
 
@@ -56,15 +56,15 @@ Na zakończenie UdSC zapowiada dalszy rozwój MOS i systemów powiązanych. **Ni
 
 ## Co odpowiedziało Ministerstwo Cyfryzacji
 
-Pismo ministerstwa ma datę 29 czerwca 2026 r. i numer BBKN.WN.055.548.2026. Ministerstwo przypisuje cyfryzację obsługi cudzoziemców MSWiA i UdSC, a lokalną obsługę wniosków wojewodom. Własną rolę opisuje jako integrację MOS z państwowymi usługami identyfikacji elektronicznej umożliwiającymi podpisywanie pism przez login.gov.pl / Profil Zaufany.
+Pismo ministerstwa ma datę 29 czerwca 2026 r. i numer BBKN.WN.055.548.2026. Ministerstwo wskazuje, że cyfryzacja obsługi cudzoziemców należy do kompetencji MSWiA i UdSC, a obsługa wniosków na poziomie województw — do wojewodów. Własną rolę opisuje jako integrację MOS z państwowymi usługami identyfikacji elektronicznej umożliwiającymi podpisywanie pism przez login.gov.pl / Profil Zaufany.
 
-Ministerstwo określa proces jako w pełni zdigitalizowany, powołując się na składanie dokumentów przez MOS. **Nasze wystąpienie obejmowało również dalszą pracę nad sprawą:** przekazywanie danych między systemami, weryfikację, analizę dokumentów i potwierdzanie statusu. Samo wskazanie elektronicznego składania wniosków nie odpowiada na te pytania. Ministerstwo nie przedstawiło rozwiniętego stanowiska wobec czterech propozycji ani żądanej oceny AI Act; po dalsze informacje odesłało do UdSC.
+Ministerstwo określa proces jako w pełni zdigitalizowany, powołując się na składanie dokumentów przez MOS. **Nasze wystąpienie obejmowało również dalszą pracę nad sprawą:** przekazywanie danych między systemami, weryfikację, analizę dokumentów i potwierdzanie statusu. Samo wskazanie elektronicznego składania wniosków nie odpowiada na te pytania. Ministerstwo nie odniosło się szczegółowo do czterech propozycji ani nie przedstawiło oceny proponowanego narzędzia na gruncie AI Act, o którą prosiliśmy; po dalsze informacje odesłało do UdSC.
 
-## Co to daje dla dalszych działań
+## Jak wykorzystamy otrzymane odpowiedzi
 
-Mamy pisemne poparcie UdSC dla kierunku wymiany danych i automatycznych sprawdzeń oraz jego stanowisko o ograniczeniach AI i cyfrowej weryfikacji statusu. To użyteczna podstawa do rozmowy o konkretnych rozwiązaniach, odpowiedzialności i terminach. Odróżniamy poparcie kierunku od zobowiązania do wdrożenia całego pakietu.
+Mamy pisemne poparcie UdSC dla rozwoju wymiany danych i automatycznej weryfikacji w rejestrach. Znamy też stanowisko urzędu dotyczące ograniczeń wykorzystania AI i cyfrowej weryfikacji statusu pobytowego. To użyteczna podstawa do rozmowy o konkretnych rozwiązaniach, odpowiedzialności i terminach. Poparcie dla kierunku zmian nie oznacza jednak zobowiązania do wdrożenia całego pakietu propozycji.
 
-**W najbliższym czasie określimy konkretne kolejne działania dotyczące cyfryzacji i poinformujemy o nich.** Oprzemy je na otrzymanych odpowiedziach i kwestiach, które nadal nie mają konkretnego rozstrzygnięcia.
+**W najbliższym czasie ustalimy, jakie dalsze działania podejmiemy w sprawie cyfryzacji, i poinformujemy o nich.** Uwzględnimy treść otrzymanych odpowiedzi oraz kwestie, które nadal wymagają wyjaśnienia.
 
 Obie odpowiedzi publikujemy wraz ze [wspólnym podsumowaniem wystąpień](/publikacje/odpowiedzi-na-petycje-wrzesien-2026/).
 

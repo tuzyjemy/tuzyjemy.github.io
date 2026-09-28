@@ -23,8 +23,8 @@ podczas [protestu pod Pomorskim Urzędem Wojewódzkim](/publikacje/protest-7-09-
 ## Co zawiera
 
 **11 punktów** z [postulatów protestu](/publikacje/postulaty-protestu-7-wrzesnia-2026/) — te, które należą do kompetencji
-Wojewody i urzędu: plan likwidacji zaległości wraz z danymi, organizacja postępowań,
-powiązane sprawy rodzinne, dalsze czynności po skardze do WSA oraz terminowe wydawanie
+Wojewody i urzędu: plan likwidacji zaległości oparty na danych, organizacja postępowań,
+koordynacja powiązanych spraw rodzinnych, kontynuowanie czynności po wniesieniu skargi do WSA oraz terminowe wydawanie
 zaświadczeń i obsługa korespondencji.
 
 Pozostałych **4 postulatów** petycja nie obejmuje — dotyczą uchylenia art. 100d, zmian
@@ -32,7 +32,7 @@ ustawowych i cyfryzacji, a ich adresatem jest rząd i Sejm, nie wojewoda.
 
 ## Status
 
-Podczas [spotkania roboczego 28 września z wicewojewodą i dyrektor WSC](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/) będziemy rozmawiać o konkretnych działaniach i sprawdzaniu ich wyników.
+Podczas [spotkania roboczego 28 września z wicewojewodą i dyrektor WSC](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/) będziemy rozmawiać o konkretnych działaniach i sposobach oceny ich efektów.
 
 [Wspólne podsumowanie wystąpień i kolejnych kroków](/publikacje/odpowiedzi-na-petycje-wrzesien-2026/).
 

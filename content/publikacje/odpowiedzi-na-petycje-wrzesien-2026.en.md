@@ -48,7 +48,7 @@ On **24 September**, the [record for petition BKSP-153-X-1098/26](https://www.se
 
 ## Continuing work at several levels
 
-Petitions, public support and working meetings are parts of our shared strategy. The responses help distinguish issues to discuss with the regional office from those for central authorities: funding additional posts, access to data and information exchange between institutions. The authorities’ positions are now on record, allowing more specific discussions of our demands.
+We continue working at different levels and joining forces with civil society organisations, businesses and experts to improve the residence legalisation process. The responses help distinguish issues to discuss with the regional office from those for central authorities: funding additional posts, access to data and information exchange between institutions. The authorities’ positions are now on record, allowing more specific discussions of our demands.
 
 **A [working meeting with the Deputy Voivode and the director of the Department for Foreigners](/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/) is planned for 28 September.** We will put forward our own proposals for addressing the current crisis and seek clarity on possible measures, responsibility for decisions, timelines and how results can be checked. We will report on the meeting separately.
 
