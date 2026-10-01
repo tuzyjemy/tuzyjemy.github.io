@@ -86,7 +86,7 @@
   {{ end }}
 
   {{ $publications := partial "collection-pages.html" (dict "collection" "publikacje" "ctx" .) }}
-  {{/* The meeting already has a prominent card above; keep it in the full archive. */}}
+  {{/* Exclude only the currently featured publication from the latest three. */}}
   {{ with $k.meeting }}
     {{ with .link }}
       {{ $featuredURL := partial "href.html" . }}

@@ -12,6 +12,10 @@ lata:
 autor: Tu Żyjemy
 ---
 
+{{< notatka typ="info" >}}
+Spotkanie już się odbyło. [Przeczytaj podsumowanie rozmowy i poznaj kolejne kroki Tu Żyjemy.](/publikacje/spotkanie-28-09-2026-rezultaty/)
+{{< /notatka >}}
+
 **28 września 2026 r. odbędzie się spotkanie robocze z wicewojewodą i dyrektor Wydziału Spraw Cudzoziemców.** Rozmowa będzie dotyczyć usprawnienia pracy urzędu oraz zapewnienia terminowego rozpatrywania spraw pobytowych.
 
 ## Od protestu do rozmowy

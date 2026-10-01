@@ -12,6 +12,10 @@ lata:
 autor: Tu Żyjemy
 ---
 
+{{< notatka typ="info" >}}
+The meeting has taken place. [Read the summary and find out about Tu Żyjemy’s next steps.](/publikacje/spotkanie-28-09-2026-rezultaty/)
+{{< /notatka >}}
+
 **A working meeting with the deputy voivode and the director of the Department for Foreigners will take place on 28 September 2026.** The discussion will focus on improving the office’s work and ensuring timely processing of residence cases.
 
 ## From protest to discussion

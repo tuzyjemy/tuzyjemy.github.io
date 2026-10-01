@@ -11,10 +11,10 @@
 # ---------------------------------------------------------------------------
 active: true
 
-# Informational working meeting; no registration or attendance counter.
+# Meeting recap; no registration or attendance counter.
 meeting:
   date: "2026-09-28"
-  link: "/publikacje/spotkanie-28-09-2026-legalizacja-pobytu/"
+  link: "/publikacje/spotkanie-28-09-2026-rezultaty/"
 
 # Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.
 link: "/publikacje/protest-7-09-2026-rezultaty/"

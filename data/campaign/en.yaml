@@ -1,9 +1,9 @@
 
 # Compact homepage copy; the original campaign details remain available below.
 intro: "We are a grassroots civic initiative of people living in Poland. We combine residents’ experiences with data analysis, propose changes and share knowledge that helps people take action."
-meetingLabel: "Upcoming meeting"
-meetingTitle: "Talks on improving residence legalisation"
-meetingBody: "A working meeting with the vice-voivode and the director of the Department for Foreigners to discuss improvements to the office’s work and ensure timely processing of residence cases. The proposals in our petition will form the basis for the discussion."
+meetingLabel: "Meeting outcomes"
+meetingTitle: "Residence legalisation: outcomes of the meeting with the deputy voivode"
+meetingBody: "We are starting work with the administration on an app to make document preparation easier. From October, the team issuing certificates confirming ongoing proceedings will also be strengthened. Read about the meeting outcomes and next steps."
 historySummary: "7 September: a protest in Gdańsk and a petition with 11 demands delivered to the vice-voivode."
 # Campaign copy — English. Structure (dates, links) lives in layout.yaml.
 kicker: "THE PROTEST TOOK PLACE · WHAT NEXT"
