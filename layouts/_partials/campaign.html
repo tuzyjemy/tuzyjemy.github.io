@@ -64,7 +64,11 @@
     {{- end -}}
 
     {{- $meeting := dict -}}
-    {{- with $layout.meeting -}}
+    {{- $meetingConfig := $layout.meeting -}}
+    {{- with $layout.meetingByLanguage -}}
+      {{- with index . $lang -}}{{- $meetingConfig = . -}}{{- end -}}
+    {{- end -}}
+    {{- with $meetingConfig -}}
       {{- $parts := partial "date-parts.html" (dict "date" .date "lang" $lang) -}}
       {{- $meeting = dict
           "date" .date

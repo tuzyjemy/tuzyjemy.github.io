@@ -79,6 +79,7 @@
        data/linknotranslate.yaml) — zostawiamy wtedy samą plakietkę języka,
        żeby odnośnik nie prowadził do pustej strony. */ -}}
 {{- $translatable := true -}}
+{{- if .Page.Params.hide_link_translations -}}{{- $translatable = false -}}{{- end -}}
 {{- with hugo.Data.linknotranslate -}}
   {{- if in . $host -}}{{- $translatable = false -}}{{- end -}}
 {{- end -}}
