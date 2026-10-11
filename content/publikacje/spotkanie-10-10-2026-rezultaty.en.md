@@ -2,7 +2,7 @@
 title: 'Meeting with the management of the Pomeranian Voivodeship Office’s Department for Foreigners — outcomes of 10 October'
 description: 'Queues, digitalisation and court proceedings: what we discussed with the Director on 10 October and what we are bringing to the meeting on 19 October.'
 hide_link_translations: true
-date: 2026-10-10
+date: 2026-10-11
 material_kind: aktualnosci
 tematy:
 - Wydarzenia

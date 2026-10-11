@@ -2,7 +2,7 @@
 title: 'Podsumowanie spotkania z kierownictwem Wydziału do Spraw Cudzoziemców Pomorskiego Urzędu Wojewódzkiego — 10 października'
 description: 'Kolejki, cyfryzacja i sprawy sądowe: o czym rozmawialiśmy z Panią Dyrektor 10 października i z czym idziemy na spotkanie 19 października.'
 hide_link_translations: true
-date: 2026-10-10
+date: 2026-10-11
 material_kind: aktualnosci
 tematy:
 - Wydarzenia
