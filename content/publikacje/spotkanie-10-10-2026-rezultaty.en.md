@@ -1,6 +1,6 @@
 ---
 title: 'Meeting with the management of the Pomeranian Voivodeship Office’s Department for Foreigners — outcomes of 10 October'
-description: 'Queues, digitalisation and court proceedings: what we discussed with the Director on 10 October and what we are bringing to the meeting on 19 October.'
+description: 'Queues, digitalisation and court proceedings: what we discussed with the Director on 10 October and what we are bringing to the meeting in early November.'
 hide_link_translations: true
 date: 2026-10-11
 material_kind: aktualnosci
@@ -29,7 +29,7 @@ When an applicant receives a wezwanie do uzupełnienia braków merytorycznych, t
 
 At this stage, applicants need to provide a complete, up-to-date set of documents from the list they receive. According to the Director, once all the requested documents have been submitted, a decision should follow relatively quickly — approximately within a month. This was an estimate given at the meeting, not a guaranteed deadline for every case.
 
-A separate question concerns significant changes in circumstances, such as the grounds for residence. At the meeting on 19 October, we will clarify what to do in these situations: when to report changes and how to submit the documents.
+A separate question concerns significant changes in circumstances, such as the grounds for residence. At the meeting in early November, we will clarify what to do in these situations: when to report changes and how to submit the documents.
 
 {{< figure src="/img/spotkanie-10-10-2026/WSC_case_workflow_PL.svg" link="/img/spotkanie-10-10-2026/WSC_case_workflow_PL.svg" alt="From application to decision: after a request for documents at the substantive assessment stage, the case stays in a separate queue. Diagram in Polish." caption="From application to decision." >}}
 
@@ -101,11 +101,11 @@ The Director reviewed the proposed process and expressed a willingness to see a 
 
 We were also told at the meeting that MSWiA is awaiting the results of our work. We hope this experience will help build effective cooperation between the administration and residents of the Pomeranian Voivodeship.
 
-## Cooperation and the meeting on 19 October {#meeting-19-october}
+## Cooperation and the meeting in early November {#meeting-19-october}
 
 The Director noted that specialists with the relevant skills could consider participating in public procurement procedures. We offered to help the contractor carrying out the current upgrade with the office’s digitalisation, free of charge. The Director said she would pass our offer on to the contractor. It is not yet known whether the contractor will accept our help.
 
-A working meeting lasting several hours is scheduled for 19 October with the management and case officers of the Pomeranian Voivodeship Office’s Department for Foreigners. The main topics will be the requirements for the app and a detailed discussion of how cases move through each stage within the office.
+A working meeting lasting several hours is scheduled for early November with the management and case officers of the Pomeranian Voivodeship Office’s Department for Foreigners. The main topics will be the requirements for the app and a detailed discussion of how cases move through each stage within the office.
 
 We will also prepare other proposals based on what we have learned. In particular, we want to understand what prevents coordinated assessment of applications from an entire family and what changes could help avoid children receiving their residence cards much later than their parents.
 

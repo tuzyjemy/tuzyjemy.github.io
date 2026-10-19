@@ -1,6 +1,6 @@
 ---
 title: 'Podsumowanie spotkania z kierownictwem Wydziału do Spraw Cudzoziemców Pomorskiego Urzędu Wojewódzkiego — 10 października'
-description: 'Kolejki, cyfryzacja i sprawy sądowe: o czym rozmawialiśmy z Panią Dyrektor 10 października i z czym idziemy na spotkanie 19 października.'
+description: 'Kolejki, cyfryzacja i sprawy sądowe: o czym rozmawialiśmy z Panią Dyrektor 10 października i z czym idziemy na spotkanie w pierwszych dniach listopada.'
 hide_link_translations: true
 date: 2026-10-11
 material_kind: aktualnosci
@@ -29,7 +29,7 @@ Gdy wnioskodawca otrzymuje wezwanie do uzupełnienia braków merytorycznych, spr
 
 Na tym etapie należy przedłożyć pełny i aktualny komplet dokumentów zgodnie z otrzymaną listą. Według Pani Dyrektor po uzupełnieniu wszystkich wskazanych braków decyzja powinna zostać wydana stosunkowo szybko — orientacyjnie w ciągu miesiąca. To podany podczas spotkania szacunkowy termin, a nie gwarancja dla każdej sprawy.
 
-Osobną kwestią pozostaje istotna zmiana okoliczności, na przykład podstawy pobytu. Na spotkaniu 19 października doprecyzujemy, jak postępować w takich sytuacjach: kiedy informować o zmianach i w jaki sposób przekazywać dokumenty.
+Osobną kwestią pozostaje istotna zmiana okoliczności, na przykład podstawy pobytu. Na spotkaniu w pierwszych dniach listopada doprecyzujemy, jak postępować w takich sytuacjach: kiedy informować o zmianach i w jaki sposób przekazywać dokumenty.
 
 {{< figure src="/img/spotkanie-10-10-2026/WSC_case_workflow_PL.svg" link="/img/spotkanie-10-10-2026/WSC_case_workflow_PL.svg" alt="Od wniosku do decyzji: po wezwaniu do uzupełnienia braków merytorycznych sprawa pozostaje w odrębnej kolejce." caption="Od wniosku do decyzji." >}}
 
@@ -101,11 +101,11 @@ Pani Dyrektor zapoznała się z proponowanym schematem i wyraziła gotowość ob
 
 Z informacji przekazanych podczas spotkania wynika, że na wyniki naszych prac czeka również MSWiA. Mamy nadzieję, że te doświadczenia pomogą zbudować skuteczną współpracę między administracją a mieszkańcami województwa pomorskiego.
 
-## Współpraca i spotkanie 19 października {#meeting-19-october}
+## Współpraca i spotkanie w pierwszych dniach listopada {#meeting-19-october}
 
 Pani Dyrektor zaznaczyła, że specjaliści posiadający odpowiednie kompetencje mogą rozważyć udział w postępowaniach o udzielenie zamówienia publicznego. Zaproponowaliśmy nieodpłatną pomoc wykonawcy obecnej modernizacji w pracach nad cyfryzacją urzędu. Pani Dyrektor poinformowała, że przekaże mu naszą propozycję. Nie wiadomo jeszcze, czy wykonawca skorzysta z tej pomocy.
 
-Na 19 października zaplanowano kilkugodzinne spotkanie robocze z kierownictwem i inspektorami Wydziału do Spraw Cudzoziemców Pomorskiego Urzędu Wojewódzkiego. Główne tematy to wymagania dotyczące aplikacji i szczegółowe omówienie kolejnych etapów obsługi sprawy w urzędzie.
+Na pierwsze dni listopada zaplanowano kilkugodzinne spotkanie robocze z kierownictwem i inspektorami Wydziału do Spraw Cudzoziemców Pomorskiego Urzędu Wojewódzkiego. Główne tematy to wymagania dotyczące aplikacji i szczegółowe omówienie kolejnych etapów obsługi sprawy w urzędzie.
 
 Na podstawie uzyskanych informacji przygotujemy także inne propozycje. Chcemy osobno przyjrzeć się temu, co utrudnia skoordynowane rozpatrywanie spraw całej rodziny i jakie zmiany pomogłyby uniknąć sytuacji, w których dzieci otrzymują karty pobytu znacznie później niż rodzice.
 
