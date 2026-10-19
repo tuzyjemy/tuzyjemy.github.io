@@ -69,17 +69,25 @@
       {{- with index . $lang -}}{{- $meetingConfig = . -}}{{- end -}}
     {{- end -}}
     {{- with $meetingConfig -}}
-      {{- $parts := partial "date-parts.html" (dict "date" .date "lang" $lang) -}}
       {{- $meeting = dict
-          "date" .date
-          "displayDate" ((time.AsTime .date).Format "02.01")
-          "year" ((time.AsTime .date).Format "2006")
-          "weekday" $parts.weekday
+          "date" ""
+          "displayDate" $text.meetingDateLabel
+          "year" .year
+          "weekday" $text.meetingDateDetail
           "label" $text.meetingLabel
           "title" $text.meetingTitle
           "body" $text.meetingBody
           "link" (default "" .link)
       -}}
+      {{- with .date -}}
+        {{- $parts := partial "date-parts.html" (dict "date" . "lang" $lang) -}}
+        {{- $meeting = merge $meeting (dict
+            "date" .
+            "displayDate" ((time.AsTime .).Format "02.01")
+            "year" ((time.AsTime .).Format "2006")
+            "weekday" $parts.weekday
+        ) -}}
+      {{- end -}}
     {{- end -}}
 
     {{- $out = dict

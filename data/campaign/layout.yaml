@@ -13,13 +13,13 @@ active: true
 
 # Upcoming working meeting; no registration or attendance counter.
 meeting:
-  date: "2026-10-19"
+  year: "2026"
   link: "/publikacje/spotkanie-10-10-2026-rezultaty/#meeting-19-october"
 
 # Preserve the existing anchor in the Russian article.
 meetingByLanguage:
   ru:
-    date: "2026-10-19"
+    year: "2026"
     link: "/publikacje/spotkanie-10-10-2026-rezultaty/#vstrecha-19-oktyabrya"
 
 # Dokument kampanii, na który prowadzi przycisk w bloku na górze strony.

@@ -927,6 +927,7 @@ h1, h2, h3, h4 { letter-spacing: -0.03em; line-height: 1.18; margin: 0; }
 .campaign-meeting { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: center; padding: 23px 28px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--r-md); }
 .meeting-date { display: flex; flex-direction: column; gap: 4px; }
 .meeting-date time { font-size: 32px; font-weight: 750; line-height: 1.15; }
+.meeting-date strong { font-size: 26px; font-weight: 750; line-height: 1.15; }
 .meeting-date span { color: var(--muted); font-size: 13px; }
 .campaign-meeting .kicker { font-size: 11px; }
 .campaign-meeting h2 { font-size: 23px; margin: 5px 0 9px; }

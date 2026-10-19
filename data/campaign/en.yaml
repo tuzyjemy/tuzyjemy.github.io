@@ -2,7 +2,9 @@
 # Compact homepage copy; the original campaign details remain available below.
 intro: "We are a grassroots civic initiative of people living in Poland. We combine residents’ experiences with data analysis, propose changes and share knowledge that helps people take action."
 meetingLabel: "Next step · working meeting"
-meetingTitle: "19 October — working meeting with the management and case officers of the Pomeranian Voivodeship Office’s Department for Foreigners"
+meetingDateLabel: "November"
+meetingDateDetail: "Early in the month"
+meetingTitle: "Early November — working meeting with the management and case officers of the Pomeranian Voivodeship Office’s Department for Foreigners"
 meetingBody: "The Tu Żyjemy team will discuss the app’s requirements with case officers and clarify how the office works at each stage of an application. We will prepare proposals for improvements, from coordinating a family’s applications to reassigning some staff working on CUKR to other cases."
 historySummary: "7 September: a protest in Gdańsk and a petition with 11 demands delivered to the vice-voivode."
 # Campaign copy — English. Structure (dates, links) lives in layout.yaml.

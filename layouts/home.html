@@ -15,7 +15,11 @@
     {{ with .meeting }}
       <section class="campaign-meeting" aria-labelledby="meeting-heading">
         <div class="meeting-date">
-          <time datetime="{{ .date }}">{{ .displayDate }}</time>
+          {{ if .date }}
+            <time datetime="{{ .date }}">{{ .displayDate }}</time>
+          {{ else }}
+            <strong>{{ .displayDate }}</strong>
+          {{ end }}
           <span>{{ .weekday }} · {{ .year }}</span>
         </div>
         <div>
