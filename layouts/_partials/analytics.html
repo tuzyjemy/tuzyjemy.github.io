@@ -1,0 +1,27 @@
+{{- /* Statystyki odwiedzin — GoatCounter (bez ciasteczek, bez danych
+       osobowych, więc bez banera zgody). Włącza się dopiero po wpisaniu
+       kodu strony w hugo.toml (params.goatcounter) i tylko w wersji
+       produkcyjnej: `hugo server` niczego nie liczy.
+
+       Poza odsłonami liczymy też kliknięcia w pliki (PDF, DOCX…) i linki
+       zewnętrzne (Telegram, formularze, mailto:, tel:). Skrypt rozpoznaje
+       je po adresie w chwili kliknięcia, więc obejmuje każdy link — także
+       dodany później w treści — bez ręcznego oznaczania. */ -}}
+{{ with site.Params.goatcounter }}{{ if hugo.IsProduction }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href]');
+  if (!a || !window.goatcounter || !window.goatcounter.count) return;
+  var url = new URL(a.href, location.href);
+  var isFile = /\.(pdf|docx?|odt|xlsx?|ods|zip)$/i.test(url.pathname);
+  var isExternal = url.host !== location.host;
+  if (!isFile && !isExternal) return;
+  window.goatcounter.count({
+    path: (isFile ? 'file: ' : 'out: ') + (isExternal ? url.href : url.pathname),
+    title: a.textContent.trim().slice(0, 100),
+    event: true
+  });
+});
+</script>
+{{ end }}{{ end }}
