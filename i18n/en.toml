@@ -129,6 +129,7 @@ contact_person = "Contact person"
 contact_email = "Email"
 contact_phone = "Phone"
 footer_edit = "Edit this page"
+footer_privacy = "Privacy"
 footer_sitemap = "Site map"
 footer_browse = "Browse by"
 

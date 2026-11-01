@@ -58,6 +58,9 @@ summaryLength = 30
   liczbaWydarzen = 4
   liczbaDzialan = 3
   liczbaAktualnosci = 3
+  # Kod strony w GoatCounter (np. "tuzyjemy" dla tuzyjemy.goatcounter.com).
+  # Puste = statystyki wyłączone. Zob. layouts/_partials/analytics.html.
+  goatcounter = "tuzyjemy"
   # Włącz, gdy repozytorium jest publiczne — dodaje link "edytuj tę stronę"
   repoEdycji = ""
 

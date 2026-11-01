@@ -2,6 +2,7 @@
   <div class="shell">
     <div class="footer-meta">
       {{ i18n "footer_license" }}
+      &middot; <a href="{{ partial "href.html" "/prywatnosc/" }}">{{ i18n "footer_privacy" }}</a>
       {{ with .Site.Params.contactName }}
         &middot; {{ i18n "contact_person" }}: {{ . }}
       {{ end }}

@@ -129,6 +129,7 @@ contact_person = "Контактное лицо"
 contact_email = "E-mail"
 contact_phone = "Телефон"
 footer_edit = "Редактировать страницу"
+footer_privacy = "Конфиденциальность"
 footer_sitemap = "Карта сайта"
 footer_browse = "Смотреть по"
 

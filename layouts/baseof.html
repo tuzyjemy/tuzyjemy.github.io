@@ -13,5 +13,6 @@
   {{ with resources.Get "js/site.js" | js.Build (dict "minify" true) | fingerprint }}
     <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
   {{ end }}
+  {{ partial "analytics.html" . }}
 </body>
 </html>

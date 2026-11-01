@@ -131,6 +131,7 @@ contact_person = "Osoba kontaktowa"
 contact_email = "E-mail"
 contact_phone = "Telefon"
 footer_edit = "Edytuj tę stronę"
+footer_privacy = "Prywatność"
 footer_sitemap = "Mapa strony"
 footer_browse = "Przeglądaj wg"
 
