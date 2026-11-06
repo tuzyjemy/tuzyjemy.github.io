@@ -29,9 +29,9 @@
 {{ $og := "/img/og-default.png" }}
 {{ with .Params.obrazek }}{{ $og = . }}{{ end }}
 <meta property="og:image" content="{{ $og | absURL }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="{{ .Site.Title }} — {{ i18n "topbar_slogan" }}">
+<meta property="og:image:width" content="{{ .Params.obrazek_width | default 1200 }}">
+<meta property="og:image:height" content="{{ .Params.obrazek_height | default 630 }}">
+<meta property="og:image:alt" content="{{ .Params.obrazek_alt | default (printf "%s — %s" .Site.Title (i18n "topbar_slogan")) }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $displayTitle }}{{ end }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.opis }}{{ end }}">
