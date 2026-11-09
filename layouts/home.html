@@ -2,31 +2,34 @@
 {{- /* Kampania: struktura z data/campaign/layout.yaml, teksty z pliku
        językowego obok. Patrz partial „campaign.html". */ -}}
 {{ $k := partial "campaign.html" . }}
+{{ $publications := partial "collection-pages.html" (dict "collection" "publikacje" "ctx" .) }}
+{{ $featured := false }}
+{{ if and $k $publications }}
+  {{ $featured = index $publications 0 }}
+{{ end }}
 <div class="shell">
 
   {{ with $k }}
 
-  {{ if .meeting }}
+  {{ if $featured }}
   <section class="campaign-compact" aria-labelledby="hero-heading">
     <div class="campaign-intro">
       <h1 id="hero-heading">{{ .naglowek }}</h1>
       <p>{{ .intro }}</p>
     </div>
-    {{ with .meeting }}
+    {{ with $featured }}
+      {{ $dateParts := partial "date-parts.html" (dict "date" .Date "lang" $.Language.Lang) }}
       <section class="campaign-meeting" aria-labelledby="meeting-heading">
         <div class="meeting-date">
-          {{ if .date }}
-            <time datetime="{{ .date }}">{{ .displayDate }}</time>
-          {{ else }}
-            <strong>{{ .displayDate }}</strong>
-          {{ end }}
-          <span>{{ .weekday }} · {{ .year }}</span>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01" }}</time>
+          <span>{{ $dateParts.weekday }} · {{ .Date.Format "2006" }}</span>
         </div>
         <div>
-          <div class="kicker">{{ .label }}</div>
-          <h2 id="meeting-heading">{{ .title }}</h2>
-          <p>{{ .body }}</p>
-          {{ with .link }}<a class="card-link" href="{{ partial "href.html" . }}">{{ i18n "read_more" }} &rarr;</a>{{ end }}
+          <div class="kicker">{{ i18n "latest_publications" }}</div>
+          <h2 id="meeting-heading">{{ .Title }}</h2>
+          <p>{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
+          {{ if ne .Language.Lang $.Language.Lang }}<span class="tag tag-plain" title="{{ i18n "translations_missing" }}">{{ upper .Language.Lang }}</span>{{ end }}
+          <a class="card-link" href="{{ .RelPermalink }}">{{ i18n "read_more" }} &rarr;</a>
         </div>
       </section>
     {{ end }}
@@ -89,13 +92,9 @@
   {{ end }}
   {{ end }}
 
-  {{ $publications := partial "collection-pages.html" (dict "collection" "publikacje" "ctx" .) }}
-  {{/* Exclude only the currently featured publication from the latest three. */}}
-  {{ with $k.meeting }}
-    {{ with .link }}
-      {{ $featuredURL := partial "href.html" . }}
-      {{ $publications = where $publications "RelPermalink" "ne" $featuredURL }}
-    {{ end }}
+  {{/* Keep the remaining publications in date order without repeating the lead. */}}
+  {{ with $featured }}
+    {{ $publications = where $publications "RelPermalink" "ne" .RelPermalink }}
   {{ end }}
   {{ if $publications }}
     <div class="section-head">
